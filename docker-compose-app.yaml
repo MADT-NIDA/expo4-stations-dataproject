@@ -1,0 +1,46 @@
+version: '3'
+
+services:
+
+  nginx-proxy:
+    image: nginxproxy/nginx-proxy:alpine
+    container_name: nginx-proxy
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - /etc/nginx/certs
+      - /etc/nginx/vhost.d
+      - /usr/share/nginx/html
+      - /var/run/docker.sock:/tmp/docker.sock:ro
+    networks:
+      - web
+
+  letsencrypt:
+    image: nginxproxy/acme-companion
+    container_name: nginx-letsencrypt
+    environment:
+      - DEFAULT_EMAIL=your@email.com
+    volumes_from:
+      - nginx-proxy
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+      - /etc/acme.sh
+    networks:
+      - web
+
+  myapp:
+    image: your-app-image:latest  # or build from Dockerfile
+    container_name: myapp
+    environment:
+      - VIRTUAL_HOST=expo4.madt.pro
+      - LETSENCRYPT_HOST=expo4.madt.pro
+      - LETSENCRYPT_EMAIL=your@email.com
+    expose:
+      - "8000"
+    networks:
+      - web
+
+networks:
+  web:
+    driver: bridge

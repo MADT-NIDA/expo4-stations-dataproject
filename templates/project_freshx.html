@@ -1,0 +1,120 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block header %}
+
+{% endblock %}
+{% block content %}
+
+<div class="col-12">
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/WeMnV-XJOQ8?si=jwxEgPWCG69kTA3V" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+<button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#pdfCollapse">
+  📄 แสดง ​Pitching Slide
+</button>
+
+<div id="pdfCollapse" class="collapse mt-3">
+  <embed src="/static/project/lift/MADT7204_Lift.pdf" type="application/pdf" width="100%" height="800px" />
+</div>
+
+
+    <button id="chat-widget-button">💬</button>
+
+    <!-- Chat Widget -->
+    <div id="chat-widget-container">
+        <div id="chat-widget-header">
+            <span>Chat</span>
+            <button onclick="closeChatWidget()">✖</button>
+        </div>
+        <div id="chat-widget-body">
+            <p style="margin-bottom: 20px;"><strong>Hi 👋, how can we help?</strong></p>
+        </div>
+        <div id="chat-widget-footer">
+            <input type="text" id="chat-widget-input" placeholder="Type your message here...">
+            <button id="chat-widget-send">Send</button>
+        </div>
+    </div>
+
+{% endblock %}
+
+{% block footer %}
+    <script>
+        window.ChatWidgetConfig = {
+            webhook: {
+                url: 'http://localhost:5678/webhook/c5a85c4f-175b-471d-b658-cb159c4ff490/chat',
+                route: 'general'
+            },
+            style: {
+                primaryColor: '#854fff',
+                secondaryColor: '#6b3fd4',
+                position: 'right',
+                backgroundColor: '#ffffff',
+                fontColor: '#333333'
+            }
+        };
+
+        // Function to generate or retrieve a unique chat ID
+        function getsessionId() {
+            let sessionId = sessionStorage.getItem("sessionId");
+            if (!sessionId) {
+                sessionId = "chat_" + Math.random().toString(36).substr(2, 9); // Unique ID
+                sessionStorage.setItem("sessionId", sessionId);
+            }
+            return sessionId;
+        }
+
+        // Show chat widget and hide bubble
+        document.getElementById("chat-widget-button").addEventListener("click", function() {
+            document.getElementById("chat-widget-container").style.display = "flex";
+            document.getElementById("chat-widget-button").style.display = "none";
+        });
+
+        // Close chat widget and show bubble
+        function closeChatWidget() {
+            document.getElementById("chat-widget-container").style.display = "none";
+            document.getElementById("chat-widget-button").style.display = "flex";
+        }
+
+        // Send message to n8n webhook
+        document.getElementById("chat-widget-send").addEventListener("click", function() {
+            let message = document.getElementById("chat-widget-input").value;
+            if (message.trim() === "") return;
+
+            let chatBody = document.getElementById("chat-widget-body");
+            let newMessage = document.createElement("p");
+            newMessage.textContent = message;
+            newMessage.style.color = "#333";
+            newMessage.style.background = "#f1f1f1";
+            chatBody.appendChild(newMessage);
+
+            let sessionId = getsessionId(); // Retrieve the session chat ID
+
+            fetch(window.ChatWidgetConfig.webhook.url, {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({
+                    sessionId: sessionId,  // Attach chat ID for memory tracking
+                    chatInput: message,
+                    route: window.ChatWidgetConfig.webhook.route
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                let botMessage = document.createElement("p");
+                botMessage.innerHTML = data.output || "Sorry, I couldn't understand that.";
+                botMessage.style.color = "#fff";
+                botMessage.style.background = "#854fff";
+                botMessage.style.marginTop = "10px";
+                chatBody.appendChild(botMessage);
+            })
+            .catch(error => console.error("Error:", error));
+
+            document.getElementById("chat-widget-input").value = "";
+        });
+    </script>
+
+
+
+{% endblock %}
