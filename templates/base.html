@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- =======================================================
+    * Template Name: BizLand
+    * Template URL: https://bootstrapmade.com/bizland-bootstrap-business-template/
+    * Updated: Aug 07 2024 with Bootstrap v5.3.3
+    * Author: BootstrapMade.com
+    * License: https://bootstrapmade.com/license/
+    ======================================================== -->
+
+    <title>{% block title %}My App{% endblock %}</title>
+    {% include 'partials/header.html' %}
+</head>
+<body>
+    <header>
+        {% include 'partials/body_header.html' %}
+    </header>
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+
+    <footer>
+        {% include 'partials/footer.html' %}
+    </footer>
+</body>
+</html>
