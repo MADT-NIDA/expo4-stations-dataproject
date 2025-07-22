@@ -43,7 +43,7 @@
     <script>
         window.ChatWidgetConfig = {
             webhook: {
-                url: 'http://34.143.247.40:5678/webhook/{{ chat_id }}/chat',
+                url: 'https://n8n.madt.pro/webhook/{{ chat_id }}/chat',
                 route: 'general'
             },
             style: {
@@ -95,7 +95,7 @@
                 method: "POST",
                   headers: {
                     "Content-Type": "application/json",
-                    "Authorization": "Basic " + btoa("admin:asdfasdf")
+                    "Authorization": "Basic " + btoa("chat:asdf")
                 },
                 body: JSON.stringify({
                     sessionId: sessionId,  // Attach chat ID for memory tracking
