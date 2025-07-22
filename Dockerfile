@@ -8,14 +8,10 @@ ENV PYTHONUNBUFFERED=1
 # Set working directory
 WORKDIR /app
 
-run pip install uv 
-run uv pip install --upgrade pip --system
-
-
 # Install dependencies
 COPY requirements.txt .
 
-RUN uv pip install --upgrade pip && pip install --system  -r requirements.txt 
+RUN pip install --upgrade pip && pip install  -r requirements.txt 
 
 # Copy the rest of the app
 COPY . .
