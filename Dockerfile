@@ -9,7 +9,7 @@ ENV PYTHONUNBUFFERED=1
 WORKDIR /app
 
 run pip install uv 
-run uv pip install --upgrade pip
+run uv pip install --upgrade pip --system
 
 
 # Install dependencies
