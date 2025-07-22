@@ -165,7 +165,7 @@
     <script>
         window.ChatWidgetConfig = {
             webhook: {
-                url: 'http://localhost:5678/webhook/c5a85c4f-175b-471d-b658-cb159c4ff490/chat',
+                url: 'http://34.143.247.40:5678/webhook/68282fbb-afad-437d-88ed-2c1476bb457b/chat',
                 route: 'general'
             },
             style: {
@@ -215,7 +215,10 @@
 
             fetch(window.ChatWidgetConfig.webhook.url, {
                 method: "POST",
-                headers: { "Content-Type": "application/json" },
+                headers: {
+                    "Content-Type": "application/json",
+                    "Authorization": "Basic " + btoa("chat:asdf")
+                },
                 body: JSON.stringify({
                     sessionId: sessionId,  // Attach chat ID for memory tracking
                     chatInput: message,
