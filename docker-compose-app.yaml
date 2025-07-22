@@ -1,45 +1,105 @@
-version: '3'
-
 services:
 
   nginx-proxy:
     image: nginxproxy/nginx-proxy:alpine
     container_name: nginx-proxy
+    restart: always
     ports:
       - "80:80"
       - "443:443"
     volumes:
-      - /etc/nginx/certs
-      - /etc/nginx/vhost.d
-      - /usr/share/nginx/html
+      - nginx_certs:/etc/nginx/certs
+      - nginx_vhost:/etc/nginx/vhost.d
+      - nginx_html:/usr/share/nginx/html
       - /var/run/docker.sock:/tmp/docker.sock:ro
     networks:
       - web
 
-  letsencrypt:
+  nginx-letsencrypt:
     image: nginxproxy/acme-companion
     container_name: nginx-letsencrypt
+    restart: always
     environment:
       - DEFAULT_EMAIL=your@email.com
     volumes_from:
       - nginx-proxy
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock:ro
-      - /etc/acme.sh
+      - nginx_acme:/etc/acme.sh
     networks:
       - web
 
-  myapp:
-    image: your-app-image:latest  # or build from Dockerfile
-    container_name: myapp
+  fastapi-app:
+    build: ./app
+    container_name: fastapi-app
+    restart: always
+    expose:
+      - "8000"
     environment:
       - VIRTUAL_HOST=expo4.madt.pro
       - LETSENCRYPT_HOST=expo4.madt.pro
       - LETSENCRYPT_EMAIL=your@email.com
-    expose:
-      - "8000"
     networks:
       - web
+
+  postgres:
+    image: postgres:15
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: n8n
+      POSTGRES_PASSWORD: n8npass
+      POSTGRES_DB: n8ndb
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    networks:
+      - web
+      
+  n8n:
+    image: n8nio/n8n:latest
+    restart: unless-stopped
+    ports:
+      - "5678:5678"
+    depends_on:
+      - postgres
+    environment:
+      - DB_TYPE=postgresdb
+      - DB_POSTGRESDB_HOST=postgres
+      - DB_POSTGRESDB_PORT=5432
+      - DB_POSTGRESDB_DATABASE=n8ndb
+      - DB_POSTGRESDB_USER=n8n
+      - DB_POSTGRESDB_PASSWORD=n8npass
+      - N8N_BASIC_AUTH_ACTIVE=true
+      - N8N_BASIC_AUTH_USER=admin
+      - N8N_BASIC_AUTH_PASSWORD=asdfasdf
+      - N8N_HOST=http://expo4.madt.pro:5678
+      - N8N_PORT=5678
+      - TZ=Asia/Bangkok
+      - N8N_SECURE_COOKIE=false
+    volumes:
+      - n8ndata:/home/node/.n8n
+    networks:
+      - web
+      
+  redis:
+    image: redis:7
+    container_name: redis
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+    command: [ "redis-server", "--requirepass", "Tiamaskma1!q" ]
+    volumes:
+      - redisdata:/data
+    networks:
+      - web
+      
+volumes:
+  nginx_certs:
+  nginx_vhost:
+  nginx_html:
+  nginx_acme:
+  pgdata:
+  n8ndata:
+  redisdata:
 
 networks:
   web:
