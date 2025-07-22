@@ -30,7 +30,7 @@ services:
       - web
 
   fastapi-app:
-    build: ./app
+    build: .
     container_name: fastapi-app
     restart: always
     expose:
