@@ -66,3 +66,4 @@ async def read_projects(request: Request, project_slug: str):
         payload['slide_path'] = "/static/project/carbonix/Carbon Xchange Pitch Deck Presentation.pdf"
         payload['chat_id'] = chat_id
 
+    return templates.TemplateResponse("project_templates.html", payload)
