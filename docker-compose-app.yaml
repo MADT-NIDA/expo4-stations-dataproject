@@ -75,6 +75,7 @@ services:
       - N8N_PORT=5678
       - TZ=Asia/Bangkok
       # - N8N_SECURE_COOKIE=false
+      - VIRTUAL_HOST=n8n.madt.pro
       - LETSENCRYPT_HOST=n8n.madt.pro
       - LETSENCRYPT_EMAIL=madt@madt.pro
     volumes:
