@@ -52,9 +52,9 @@ async def read_projects(request: Request, project_slug: str):
         payload['chat_id'] = '324dde45-e851-47c1-b9f1-3ef5f9f77ab0'
 
     if project_slug == 'finsure':
-        payload['yt_link'] = "https://www.youtube.com/embed/PSU_pTzm08g?si=K60ZM_6gTYdOa6k8"
+        payload['yt_link'] = "https://www.youtube.com/embed/PSU_pTzm08g?si=JdZJL0yPjOucQ5MH"
         payload['slide_path'] = "/static/project/carbonix/Carbon Xchange Pitch Deck Presentation.pdf"
-        payload['chat_id'] = chat_id
+        payload['chat_id'] = "3a65bd43-2760-4335-8a2d-5fa8526e51e2"
 
     if project_slug == 'freshx':
         payload['yt_link'] = "https://www.youtube.com/embed/WeMnV-XJOQ8?si=jwxEgPWCG69kTA3V"
@@ -65,5 +65,10 @@ async def read_projects(request: Request, project_slug: str):
         payload['yt_link'] = "https://www.youtube.com/embed/Kl6C-xaRCqo?si=LIBeQPDxvY_yfDOg"
         payload['slide_path'] = "/static/project/carbonix/Carbon Xchange Pitch Deck Presentation.pdf"
         payload['chat_id'] = chat_id
+
+    if project_slug == 'airsniff':
+        payload['yt_link'] = "https://www.youtube.com/embed/ZVnXIAjEXYU?si=j1lIljm_vRT69Ck0"
+        payload['slide_path'] = "/static/project/carbonix/Carbon Xchange Pitch Deck Presentation.pdf"
+        payload['chat_id'] = "2e4f9549-0f8c-43d9-bf37-ec1427086cb2"
 
     return templates.TemplateResponse("project_templates.html", payload)
