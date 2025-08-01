@@ -1,0 +1,607 @@
+id,patient_id,organization_id,department_id,encounter_class,reason,start_date,end_date,status
+Patient-001-Enc-01,Patient-001,Organization-001,Organization-001-Dept-02,inpatient,emergency visit,2023-07-11T18:11:36,2024-10-05T18:29:11,in-progress
+Patient-001-Enc-02,Patient-001,Organization-001,Organization-001-Dept-02,inpatient,emergency visit,2025-05-29T06:06:13,2024-11-11T06:48:34,cancelled
+Patient-002-Enc-01,Patient-002,Organization-007,Organization-007-Dept-01,inpatient,treatment,2023-12-31T13:47:10,2025-03-04T08:49:13,planned
+Patient-002-Enc-02,Patient-002,Organization-007,Organization-007-Dept-01,emergency,follow-up,2024-12-27T00:34:20,2025-05-19T17:05:20,planned
+Patient-002-Enc-03,Patient-002,Organization-007,Organization-007-Dept-01,outpatient,therapy,2023-08-06T06:25:56,2024-09-01T23:52:34,finished
+Patient-003-Enc-01,Patient-003,Organization-001,Organization-001-Dept-03,emergency,diagnostic test,2024-05-10T18:15:17,2024-07-29T20:24:39,planned
+Patient-004-Enc-01,Patient-004,Organization-008,Organization-008-Dept-01,emergency,vaccination,2023-07-07T12:59:15,2025-01-08T02:04:22,cancelled
+Patient-004-Enc-02,Patient-004,Organization-008,Organization-008-Dept-01,inpatient,consultation,2025-02-13T05:14:21,2025-03-09T06:59:39,planned
+Patient-004-Enc-03,Patient-004,Organization-008,Organization-008-Dept-01,inpatient,referral,2023-08-27T16:33:32,2025-05-13T17:54:40,in-progress
+Patient-004-Enc-04,Patient-004,Organization-008,Organization-008-Dept-01,emergency,diagnostic test,2024-06-19T13:15:21,2025-04-07T20:53:02,finished
+Patient-004-Enc-05,Patient-004,Organization-008,Organization-008-Dept-01,outpatient,follow-up,2024-01-27T05:33:37,2025-05-03T00:56:19,planned
+Patient-005-Enc-01,Patient-005,Organization-002,Organization-002-Dept-02,outpatient,treatment,2024-05-23T08:45:00,2025-06-09T03:23:47,planned
+Patient-005-Enc-02,Patient-005,Organization-002,Organization-002-Dept-02,emergency,consultation,2023-06-21T08:14:12,2024-07-17T08:36:06,planned
+Patient-005-Enc-03,Patient-005,Organization-002,Organization-002-Dept-01,outpatient,referral,2025-03-11T05:53:48,2024-12-15T17:04:16,in-progress
+Patient-006-Enc-01,Patient-006,Organization-003,Organization-003-Dept-01,emergency,routine check-up,2023-12-01T14:50:03,2025-04-10T03:02:07,in-progress
+Patient-007-Enc-01,Patient-007,Organization-004,Organization-004-Dept-01,emergency,diagnostic test,2025-02-18T07:11:02,2024-09-14T12:01:45,cancelled
+Patient-007-Enc-02,Patient-007,Organization-004,Organization-004-Dept-01,emergency,routine check-up,2024-06-10T03:33:42,2025-04-13T15:06:37,finished
+Patient-007-Enc-03,Patient-007,Organization-004,Organization-004-Dept-01,inpatient,rehabilitation,2023-08-05T12:29:40,2024-10-02T00:22:17,planned
+Patient-007-Enc-04,Patient-007,Organization-004,Organization-004-Dept-01,outpatient,follow-up,2025-03-26T13:12:57,2024-11-04T08:05:55,in-progress
+Patient-007-Enc-05,Patient-007,Organization-004,Organization-004-Dept-02,outpatient,consultation,2025-03-18T09:28:33,2025-01-11T04:31:34,in-progress
+Patient-008-Enc-01,Patient-008,Organization-002,Organization-002-Dept-01,inpatient,emergency visit,2024-06-01T22:46:05,2025-04-20T09:27:56,cancelled
+Patient-008-Enc-02,Patient-008,Organization-002,Organization-002-Dept-02,inpatient,diagnostic test,2023-12-25T20:58:37,2025-04-06T17:34:31,finished
+Patient-008-Enc-03,Patient-008,Organization-002,Organization-002-Dept-01,emergency,routine check-up,2023-11-28T05:53:35,2025-04-09T22:43:38,finished
+Patient-008-Enc-04,Patient-008,Organization-002,Organization-002-Dept-01,emergency,emergency visit,2024-11-23T13:13:13,2025-01-06T14:38:09,finished
+Patient-009-Enc-01,Patient-009,Organization-007,Organization-007-Dept-02,inpatient,routine check-up,2024-11-09T20:07:39,2025-02-26T04:16:44,cancelled
+Patient-009-Enc-02,Patient-009,Organization-007,Organization-007-Dept-02,outpatient,emergency visit,2024-07-04T17:32:37,2025-06-06T00:47:10,finished
+Patient-009-Enc-03,Patient-009,Organization-007,Organization-007-Dept-01,emergency,diagnostic test,2024-05-18T14:50:51,2025-04-09T17:08:04,in-progress
+Patient-010-Enc-01,Patient-010,Organization-008,Organization-008-Dept-01,inpatient,referral,2023-12-05T20:27:05,2024-08-31T16:37:26,in-progress
+Patient-010-Enc-02,Patient-010,Organization-008,Organization-008-Dept-01,emergency,vaccination,2023-12-30T19:38:35,2024-09-17T02:02:20,finished
+Patient-010-Enc-03,Patient-010,Organization-008,Organization-008-Dept-01,inpatient,therapy,2024-12-21T22:14:28,2024-08-14T07:54:04,in-progress
+Patient-010-Enc-04,Patient-010,Organization-008,Organization-008-Dept-01,inpatient,vaccination,2024-10-03T04:06:45,2024-08-16T03:35:14,finished
+Patient-011-Enc-01,Patient-011,Organization-009,Organization-009-Dept-03,outpatient,referral,2024-12-06T19:21:29,2024-07-09T01:28:20,in-progress
+Patient-011-Enc-02,Patient-011,Organization-009,Organization-009-Dept-03,inpatient,therapy,2025-06-13T13:48:02,2025-04-09T14:12:00,in-progress
+Patient-011-Enc-03,Patient-011,Organization-009,Organization-009-Dept-01,inpatient,emergency visit,2025-02-11T04:21:23,2024-06-26T00:00:42,cancelled
+Patient-011-Enc-04,Patient-011,Organization-009,Organization-009-Dept-01,emergency,referral,2023-10-28T08:26:55,2025-03-11T21:02:35,cancelled
+Patient-011-Enc-05,Patient-011,Organization-009,Organization-009-Dept-03,inpatient,referral,2023-07-24T11:14:12,2024-07-10T22:20:00,cancelled
+Patient-012-Enc-01,Patient-012,Organization-001,Organization-001-Dept-03,emergency,rehabilitation,2025-04-07T00:29:50,2024-09-20T11:55:05,in-progress
+Patient-012-Enc-02,Patient-012,Organization-001,Organization-001-Dept-06,inpatient,rehabilitation,2024-09-26T13:13:05,2024-08-11T07:22:54,finished
+Patient-012-Enc-03,Patient-012,Organization-001,Organization-001-Dept-01,outpatient,referral,2024-09-06T16:58:16,2024-12-14T04:39:39,cancelled
+Patient-013-Enc-01,Patient-013,Organization-008,Organization-008-Dept-01,inpatient,treatment,2023-12-30T19:08:17,2024-07-12T07:51:27,planned
+Patient-014-Enc-01,Patient-014,Organization-006,Organization-006-Dept-02,inpatient,consultation,2023-11-19T20:38:16,2024-12-02T02:22:02,cancelled
+Patient-014-Enc-02,Patient-014,Organization-006,Organization-006-Dept-01,inpatient,referral,2023-09-11T19:27:10,2025-06-15T09:36:16,in-progress
+Patient-015-Enc-01,Patient-015,Organization-001,Organization-001-Dept-05,outpatient,emergency visit,2025-02-28T12:39:08,2024-07-16T02:47:04,planned
+Patient-015-Enc-02,Patient-015,Organization-001,Organization-001-Dept-01,outpatient,consultation,2024-06-27T18:28:04,2024-07-15T12:14:25,cancelled
+Patient-015-Enc-03,Patient-015,Organization-001,Organization-001-Dept-04,emergency,diagnostic test,2023-12-24T22:34:38,2024-08-31T10:05:25,cancelled
+Patient-016-Enc-01,Patient-016,Organization-002,Organization-002-Dept-01,inpatient,rehabilitation,2025-04-30T00:34:48,2024-09-23T02:11:15,in-progress
+Patient-016-Enc-02,Patient-016,Organization-002,Organization-002-Dept-02,inpatient,consultation,2023-08-30T06:37:49,2024-08-18T03:53:39,in-progress
+Patient-016-Enc-03,Patient-016,Organization-002,Organization-002-Dept-02,outpatient,routine check-up,2024-03-27T17:54:14,2024-07-13T16:59:57,planned
+Patient-016-Enc-04,Patient-016,Organization-002,Organization-002-Dept-01,emergency,vaccination,2023-10-03T07:07:37,2024-07-03T19:42:19,finished
+Patient-017-Enc-01,Patient-017,Organization-004,Organization-004-Dept-02,emergency,treatment,2024-11-16T12:01:51,2025-02-15T03:16:49,planned
+Patient-017-Enc-02,Patient-017,Organization-004,Organization-004-Dept-01,outpatient,consultation,2024-05-15T08:11:03,2024-10-15T02:16:54,planned
+Patient-018-Enc-01,Patient-018,Organization-004,Organization-004-Dept-02,emergency,emergency visit,2025-06-05T02:28:23,2025-05-11T17:08:51,finished
+Patient-019-Enc-01,Patient-019,Organization-008,Organization-008-Dept-01,inpatient,rehabilitation,2025-03-02T20:06:20,2024-07-08T06:27:15,finished
+Patient-019-Enc-02,Patient-019,Organization-008,Organization-008-Dept-01,inpatient,referral,2023-07-06T01:40:00,2024-12-29T22:43:00,planned
+Patient-019-Enc-03,Patient-019,Organization-008,Organization-008-Dept-01,outpatient,diagnostic test,2024-06-14T09:20:24,2025-05-16T22:56:07,in-progress
+Patient-019-Enc-04,Patient-019,Organization-008,Organization-008-Dept-01,emergency,referral,2025-04-21T08:20:27,2024-07-06T19:24:12,cancelled
+Patient-019-Enc-05,Patient-019,Organization-008,Organization-008-Dept-01,outpatient,routine check-up,2025-02-02T01:35:07,2024-08-26T19:54:21,planned
+Patient-020-Enc-01,Patient-020,Organization-002,Organization-002-Dept-02,outpatient,vaccination,2024-04-08T01:39:26,2024-08-16T11:33:43,in-progress
+Patient-020-Enc-02,Patient-020,Organization-002,Organization-002-Dept-01,outpatient,diagnostic test,2024-11-02T21:32:53,2024-09-30T15:03:40,planned
+Patient-020-Enc-03,Patient-020,Organization-002,Organization-002-Dept-02,emergency,follow-up,2023-10-06T10:43:40,2024-08-20T16:46:49,in-progress
+Patient-021-Enc-01,Patient-021,Organization-008,Organization-008-Dept-01,outpatient,therapy,2025-05-09T17:40:16,2024-07-14T14:54:05,finished
+Patient-021-Enc-02,Patient-021,Organization-008,Organization-008-Dept-01,outpatient,routine check-up,2024-01-07T01:06:29,2024-09-15T09:53:30,in-progress
+Patient-022-Enc-01,Patient-022,Organization-002,Organization-002-Dept-01,inpatient,therapy,2024-10-01T21:24:50,2025-01-27T11:33:30,planned
+Patient-022-Enc-02,Patient-022,Organization-002,Organization-002-Dept-01,outpatient,referral,2025-01-15T17:15:16,2025-05-25T14:58:34,finished
+Patient-022-Enc-03,Patient-022,Organization-002,Organization-002-Dept-02,emergency,consultation,2025-04-26T01:26:27,2024-09-16T09:50:09,planned
+Patient-023-Enc-01,Patient-023,Organization-005,Organization-005-Dept-01,emergency,vaccination,2024-12-06T19:27:55,2025-01-16T09:38:13,in-progress
+Patient-023-Enc-02,Patient-023,Organization-005,Organization-005-Dept-01,inpatient,rehabilitation,2024-08-06T10:08:18,2024-09-30T21:44:04,finished
+Patient-023-Enc-03,Patient-023,Organization-005,Organization-005-Dept-01,outpatient,routine check-up,2024-11-27T01:43:07,2024-07-15T02:05:26,finished
+Patient-023-Enc-04,Patient-023,Organization-005,Organization-005-Dept-01,emergency,routine check-up,2023-12-18T17:26:46,2025-04-22T16:58:22,planned
+Patient-023-Enc-05,Patient-023,Organization-005,Organization-005-Dept-01,emergency,diagnostic test,2023-08-13T08:02:46,2024-12-16T22:30:39,finished
+Patient-024-Enc-01,Patient-024,Organization-007,Organization-007-Dept-02,inpatient,referral,2024-09-15T08:25:25,2024-07-19T02:19:36,cancelled
+Patient-024-Enc-02,Patient-024,Organization-007,Organization-007-Dept-02,inpatient,treatment,2024-08-23T15:36:20,2025-01-30T15:14:46,planned
+Patient-024-Enc-03,Patient-024,Organization-007,Organization-007-Dept-02,emergency,follow-up,2025-03-13T12:08:50,2025-04-30T07:53:46,in-progress
+Patient-025-Enc-01,Patient-025,Organization-008,Organization-008-Dept-01,outpatient,referral,2024-02-10T20:13:30,2024-10-31T06:13:12,in-progress
+Patient-026-Enc-01,Patient-026,Organization-003,Organization-003-Dept-01,outpatient,referral,2024-03-12T10:56:10,2024-12-20T05:34:00,planned
+Patient-026-Enc-02,Patient-026,Organization-003,Organization-003-Dept-01,outpatient,rehabilitation,2025-03-02T19:54:50,2025-06-02T14:34:47,finished
+Patient-026-Enc-03,Patient-026,Organization-003,Organization-003-Dept-01,emergency,diagnostic test,2023-07-21T20:54:47,2025-06-04T15:23:12,cancelled
+Patient-027-Enc-01,Patient-027,Organization-009,Organization-009-Dept-03,inpatient,routine check-up,2024-04-17T04:35:14,2025-05-19T01:16:58,finished
+Patient-027-Enc-02,Patient-027,Organization-009,Organization-009-Dept-01,inpatient,vaccination,2024-11-25T13:25:38,2025-05-25T13:33:04,cancelled
+Patient-027-Enc-03,Patient-027,Organization-009,Organization-009-Dept-01,inpatient,routine check-up,2023-10-29T14:47:39,2024-11-30T18:53:22,cancelled
+Patient-027-Enc-04,Patient-027,Organization-009,Organization-009-Dept-01,outpatient,emergency visit,2024-11-28T09:40:42,2025-01-17T02:02:53,planned
+Patient-028-Enc-01,Patient-028,Organization-001,Organization-001-Dept-04,inpatient,vaccination,2024-03-08T15:19:22,2024-07-23T07:49:29,in-progress
+Patient-029-Enc-01,Patient-029,Organization-004,Organization-004-Dept-02,inpatient,vaccination,2023-07-14T07:34:28,2024-07-02T03:16:43,in-progress
+Patient-029-Enc-02,Patient-029,Organization-004,Organization-004-Dept-02,outpatient,therapy,2024-03-06T23:45:04,2025-04-12T11:56:50,finished
+Patient-029-Enc-03,Patient-029,Organization-004,Organization-004-Dept-02,inpatient,rehabilitation,2024-08-07T14:03:53,2025-02-15T21:40:26,in-progress
+Patient-029-Enc-04,Patient-029,Organization-004,Organization-004-Dept-01,outpatient,rehabilitation,2023-10-28T00:48:22,2025-04-04T08:06:56,finished
+Patient-029-Enc-05,Patient-029,Organization-004,Organization-004-Dept-02,inpatient,vaccination,2024-03-04T07:50:00,2024-08-02T06:38:56,cancelled
+Patient-030-Enc-01,Patient-030,Organization-005,Organization-005-Dept-01,inpatient,follow-up,2024-03-11T03:05:21,2025-04-27T02:33:54,planned
+Patient-030-Enc-02,Patient-030,Organization-005,Organization-005-Dept-01,emergency,emergency visit,2024-01-14T08:19:48,2025-05-28T02:21:28,planned
+Patient-031-Enc-01,Patient-031,Organization-008,Organization-008-Dept-01,inpatient,emergency visit,2025-02-16T05:40:56,2025-05-08T08:47:49,finished
+Patient-031-Enc-02,Patient-031,Organization-008,Organization-008-Dept-01,inpatient,routine check-up,2024-09-02T02:18:01,2024-07-24T07:54:08,in-progress
+Patient-032-Enc-01,Patient-032,Organization-004,Organization-004-Dept-02,inpatient,emergency visit,2024-03-10T23:18:03,2025-04-01T08:13:35,cancelled
+Patient-032-Enc-02,Patient-032,Organization-004,Organization-004-Dept-02,emergency,emergency visit,2024-07-03T13:05:28,2025-04-27T07:44:44,cancelled
+Patient-032-Enc-03,Patient-032,Organization-004,Organization-004-Dept-01,emergency,referral,2025-02-02T07:51:58,2025-05-19T12:20:17,in-progress
+Patient-033-Enc-01,Patient-033,Organization-006,Organization-006-Dept-02,emergency,treatment,2025-06-11T17:10:23,2025-01-19T12:25:11,in-progress
+Patient-033-Enc-02,Patient-033,Organization-006,Organization-006-Dept-02,emergency,diagnostic test,2025-06-14T23:15:03,2025-05-12T18:17:21,in-progress
+Patient-034-Enc-01,Patient-034,Organization-008,Organization-008-Dept-01,inpatient,treatment,2024-02-18T00:26:32,2025-02-20T03:07:57,planned
+Patient-034-Enc-02,Patient-034,Organization-008,Organization-008-Dept-01,outpatient,emergency visit,2023-09-03T04:54:15,2025-06-10T16:54:00,cancelled
+Patient-035-Enc-01,Patient-035,Organization-002,Organization-002-Dept-02,emergency,consultation,2025-05-29T21:09:34,2025-01-03T17:38:52,cancelled
+Patient-035-Enc-02,Patient-035,Organization-002,Organization-002-Dept-02,outpatient,routine check-up,2023-07-01T12:04:16,2024-09-19T05:47:49,finished
+Patient-035-Enc-03,Patient-035,Organization-002,Organization-002-Dept-02,outpatient,therapy,2025-05-07T15:16:25,2024-10-01T06:47:13,finished
+Patient-036-Enc-01,Patient-036,Organization-006,Organization-006-Dept-02,inpatient,consultation,2024-12-14T03:24:42,2025-01-06T03:23:35,finished
+Patient-036-Enc-02,Patient-036,Organization-006,Organization-006-Dept-01,emergency,follow-up,2023-12-18T05:05:19,2025-05-28T02:07:51,in-progress
+Patient-036-Enc-03,Patient-036,Organization-006,Organization-006-Dept-02,emergency,diagnostic test,2025-06-18T23:01:39,2024-11-07T04:06:49,cancelled
+Patient-037-Enc-01,Patient-037,Organization-010,Organization-010-Dept-04,outpatient,referral,2024-06-10T06:07:27,2025-04-02T07:50:26,planned
+Patient-037-Enc-02,Patient-037,Organization-010,Organization-010-Dept-02,emergency,routine check-up,2024-07-13T00:53:29,2024-10-03T01:35:17,cancelled
+Patient-037-Enc-03,Patient-037,Organization-010,Organization-010-Dept-05,inpatient,treatment,2024-06-29T03:00:33,2024-09-17T09:25:54,in-progress
+Patient-037-Enc-04,Patient-037,Organization-010,Organization-010-Dept-01,inpatient,emergency visit,2024-11-24T11:33:24,2025-03-02T16:51:12,cancelled
+Patient-037-Enc-05,Patient-037,Organization-010,Organization-010-Dept-02,inpatient,referral,2024-07-10T17:26:46,2025-05-17T04:15:05,cancelled
+Patient-038-Enc-01,Patient-038,Organization-007,Organization-007-Dept-01,inpatient,vaccination,2025-05-25T21:58:16,2025-04-16T16:47:47,finished
+Patient-038-Enc-02,Patient-038,Organization-007,Organization-007-Dept-01,outpatient,therapy,2024-05-31T02:44:43,2025-01-01T08:05:36,cancelled
+Patient-038-Enc-03,Patient-038,Organization-007,Organization-007-Dept-02,inpatient,diagnostic test,2025-05-07T17:01:27,2024-10-03T14:15:31,in-progress
+Patient-038-Enc-04,Patient-038,Organization-007,Organization-007-Dept-01,outpatient,treatment,2024-05-11T07:23:15,2024-10-29T06:32:10,planned
+Patient-039-Enc-01,Patient-039,Organization-007,Organization-007-Dept-02,emergency,referral,2025-01-08T10:55:52,2024-10-28T23:43:08,planned
+Patient-039-Enc-02,Patient-039,Organization-007,Organization-007-Dept-02,inpatient,treatment,2024-12-22T18:25:00,2024-12-08T21:01:06,cancelled
+Patient-039-Enc-03,Patient-039,Organization-007,Organization-007-Dept-01,inpatient,referral,2024-09-23T17:05:58,2024-07-24T13:18:41,in-progress
+Patient-039-Enc-04,Patient-039,Organization-007,Organization-007-Dept-01,outpatient,emergency visit,2023-08-24T02:19:37,2025-05-23T07:48:38,in-progress
+Patient-039-Enc-05,Patient-039,Organization-007,Organization-007-Dept-01,outpatient,routine check-up,2025-06-13T14:58:09,2024-07-21T08:20:46,finished
+Patient-040-Enc-01,Patient-040,Organization-006,Organization-006-Dept-02,inpatient,referral,2023-07-23T15:16:44,2024-08-17T15:17:53,in-progress
+Patient-040-Enc-02,Patient-040,Organization-006,Organization-006-Dept-01,inpatient,vaccination,2024-07-08T19:15:10,2025-06-14T17:16:33,planned
+Patient-040-Enc-03,Patient-040,Organization-006,Organization-006-Dept-02,outpatient,therapy,2025-01-18T21:29:37,2025-04-23T08:00:21,planned
+Patient-041-Enc-01,Patient-041,Organization-005,Organization-005-Dept-01,inpatient,therapy,2023-07-27T08:56:55,2024-09-02T11:00:41,in-progress
+Patient-041-Enc-02,Patient-041,Organization-005,Organization-005-Dept-01,emergency,consultation,2025-01-12T03:00:58,2025-01-12T00:10:01,finished
+Patient-042-Enc-01,Patient-042,Organization-010,Organization-010-Dept-04,inpatient,consultation,2024-07-12T01:58:41,2025-05-04T22:49:42,planned
+Patient-043-Enc-01,Patient-043,Organization-009,Organization-009-Dept-02,emergency,emergency visit,2023-11-22T16:05:45,2025-06-04T21:33:25,in-progress
+Patient-043-Enc-02,Patient-043,Organization-009,Organization-009-Dept-01,inpatient,emergency visit,2024-01-06T01:42:42,2024-08-25T02:53:29,finished
+Patient-043-Enc-03,Patient-043,Organization-009,Organization-009-Dept-02,emergency,treatment,2024-08-01T15:14:54,2025-06-11T09:43:36,cancelled
+Patient-044-Enc-01,Patient-044,Organization-008,Organization-008-Dept-01,inpatient,routine check-up,2023-10-12T20:35:31,2024-07-25T15:24:37,cancelled
+Patient-044-Enc-02,Patient-044,Organization-008,Organization-008-Dept-01,inpatient,diagnostic test,2024-01-17T08:44:59,2024-11-17T03:21:43,in-progress
+Patient-044-Enc-03,Patient-044,Organization-008,Organization-008-Dept-01,emergency,rehabilitation,2025-01-20T11:37:27,2024-08-29T15:28:22,in-progress
+Patient-044-Enc-04,Patient-044,Organization-008,Organization-008-Dept-01,outpatient,therapy,2023-10-18T07:14:37,2024-08-14T14:19:55,cancelled
+Patient-045-Enc-01,Patient-045,Organization-003,Organization-003-Dept-01,emergency,vaccination,2024-08-15T05:23:48,2024-12-28T04:54:26,planned
+Patient-045-Enc-02,Patient-045,Organization-003,Organization-003-Dept-01,emergency,follow-up,2024-05-04T21:16:21,2025-03-21T02:07:22,planned
+Patient-045-Enc-03,Patient-045,Organization-003,Organization-003-Dept-01,outpatient,rehabilitation,2024-03-19T00:01:42,2025-01-01T10:10:28,cancelled
+Patient-046-Enc-01,Patient-046,Organization-005,Organization-005-Dept-01,emergency,therapy,2024-06-05T05:53:40,2024-12-14T18:48:54,cancelled
+Patient-046-Enc-02,Patient-046,Organization-005,Organization-005-Dept-01,outpatient,referral,2023-07-02T21:23:50,2024-08-15T05:13:13,finished
+Patient-047-Enc-01,Patient-047,Organization-004,Organization-004-Dept-01,outpatient,diagnostic test,2024-03-29T08:33:20,2025-06-07T05:16:12,in-progress
+Patient-047-Enc-02,Patient-047,Organization-004,Organization-004-Dept-02,inpatient,rehabilitation,2024-03-06T21:50:41,2024-11-07T03:55:03,finished
+Patient-047-Enc-03,Patient-047,Organization-004,Organization-004-Dept-02,inpatient,treatment,2025-06-05T04:36:23,2025-05-05T18:30:13,planned
+Patient-048-Enc-01,Patient-048,Organization-007,Organization-007-Dept-02,inpatient,diagnostic test,2024-04-14T20:57:36,2024-11-01T15:25:14,cancelled
+Patient-048-Enc-02,Patient-048,Organization-007,Organization-007-Dept-01,inpatient,emergency visit,2025-02-16T15:44:36,2024-12-27T12:54:27,finished
+Patient-049-Enc-01,Patient-049,Organization-003,Organization-003-Dept-01,inpatient,therapy,2025-04-17T18:47:04,2025-06-02T09:40:36,in-progress
+Patient-049-Enc-02,Patient-049,Organization-003,Organization-003-Dept-01,emergency,treatment,2023-12-27T04:11:39,2024-12-05T09:17:40,cancelled
+Patient-049-Enc-03,Patient-049,Organization-003,Organization-003-Dept-01,inpatient,referral,2024-11-09T21:47:38,2024-11-25T17:50:19,planned
+Patient-050-Enc-01,Patient-050,Organization-001,Organization-001-Dept-03,emergency,emergency visit,2024-08-12T02:32:51,2025-02-07T06:34:12,cancelled
+Patient-050-Enc-02,Patient-050,Organization-001,Organization-001-Dept-07,inpatient,follow-up,2024-03-31T21:08:27,2024-12-01T05:45:41,in-progress
+Patient-050-Enc-03,Patient-050,Organization-001,Organization-001-Dept-06,outpatient,treatment,2024-03-14T22:29:37,2024-07-20T14:11:20,planned
+Patient-051-Enc-01,Patient-051,Organization-006,Organization-006-Dept-02,outpatient,vaccination,2023-08-29T00:29:04,2024-10-11T03:32:22,cancelled
+Patient-051-Enc-02,Patient-051,Organization-006,Organization-006-Dept-01,inpatient,referral,2024-03-01T08:01:17,2025-05-20T04:01:51,planned
+Patient-051-Enc-03,Patient-051,Organization-006,Organization-006-Dept-01,emergency,rehabilitation,2025-05-20T14:20:41,2024-08-12T10:57:53,finished
+Patient-051-Enc-04,Patient-051,Organization-006,Organization-006-Dept-02,emergency,referral,2025-03-25T22:07:09,2025-06-14T16:50:31,planned
+Patient-051-Enc-05,Patient-051,Organization-006,Organization-006-Dept-02,outpatient,consultation,2024-03-21T16:32:24,2025-02-20T17:21:30,finished
+Patient-052-Enc-01,Patient-052,Organization-005,Organization-005-Dept-01,outpatient,rehabilitation,2024-10-08T00:06:02,2025-01-08T23:55:41,finished
+Patient-052-Enc-02,Patient-052,Organization-005,Organization-005-Dept-01,outpatient,vaccination,2023-09-03T18:40:38,2024-10-17T19:20:55,cancelled
+Patient-052-Enc-03,Patient-052,Organization-005,Organization-005-Dept-01,inpatient,therapy,2024-05-16T14:31:24,2025-03-12T22:09:16,cancelled
+Patient-052-Enc-04,Patient-052,Organization-005,Organization-005-Dept-01,inpatient,follow-up,2023-10-18T12:29:09,2025-05-20T13:51:24,in-progress
+Patient-052-Enc-05,Patient-052,Organization-005,Organization-005-Dept-01,outpatient,therapy,2025-05-02T05:53:36,2025-05-01T02:12:32,planned
+Patient-053-Enc-01,Patient-053,Organization-002,Organization-002-Dept-01,emergency,follow-up,2025-05-12T01:53:09,2025-03-17T15:23:35,finished
+Patient-054-Enc-01,Patient-054,Organization-002,Organization-002-Dept-01,emergency,referral,2024-11-28T04:44:57,2025-06-15T23:07:42,cancelled
+Patient-054-Enc-02,Patient-054,Organization-002,Organization-002-Dept-02,inpatient,treatment,2024-06-05T11:40:16,2025-03-14T03:53:13,cancelled
+Patient-055-Enc-01,Patient-055,Organization-002,Organization-002-Dept-01,emergency,diagnostic test,2024-04-22T14:30:43,2025-05-27T09:54:41,cancelled
+Patient-056-Enc-01,Patient-056,Organization-010,Organization-010-Dept-05,emergency,therapy,2023-11-05T12:26:21,2025-04-18T08:59:22,planned
+Patient-057-Enc-01,Patient-057,Organization-010,Organization-010-Dept-05,outpatient,therapy,2025-04-23T07:26:30,2025-05-11T23:15:35,planned
+Patient-057-Enc-02,Patient-057,Organization-010,Organization-010-Dept-05,inpatient,follow-up,2024-02-15T17:36:57,2025-04-03T14:00:13,cancelled
+Patient-057-Enc-03,Patient-057,Organization-010,Organization-010-Dept-05,inpatient,referral,2024-03-06T10:09:02,2024-10-12T07:24:27,finished
+Patient-058-Enc-01,Patient-058,Organization-003,Organization-003-Dept-01,outpatient,treatment,2023-12-15T13:18:36,2025-01-20T15:51:47,planned
+Patient-058-Enc-02,Patient-058,Organization-003,Organization-003-Dept-01,inpatient,consultation,2024-04-04T01:14:44,2024-11-29T12:09:21,finished
+Patient-059-Enc-01,Patient-059,Organization-001,Organization-001-Dept-02,inpatient,routine check-up,2023-06-29T16:08:35,2025-03-06T03:10:51,finished
+Patient-059-Enc-02,Patient-059,Organization-001,Organization-001-Dept-02,outpatient,consultation,2024-02-21T06:10:52,2024-07-03T11:45:39,planned
+Patient-059-Enc-03,Patient-059,Organization-001,Organization-001-Dept-06,emergency,follow-up,2023-09-16T09:01:48,2024-07-14T02:57:00,in-progress
+Patient-059-Enc-04,Patient-059,Organization-001,Organization-001-Dept-04,emergency,routine check-up,2025-05-05T23:04:58,2025-06-07T03:20:17,planned
+Patient-059-Enc-05,Patient-059,Organization-001,Organization-001-Dept-02,emergency,emergency visit,2024-01-21T08:01:03,2024-10-27T06:45:27,planned
+Patient-060-Enc-01,Patient-060,Organization-009,Organization-009-Dept-03,emergency,emergency visit,2024-11-21T20:23:48,2025-01-23T03:10:09,finished
+Patient-060-Enc-02,Patient-060,Organization-009,Organization-009-Dept-02,inpatient,routine check-up,2025-03-25T00:29:03,2024-07-21T01:31:02,in-progress
+Patient-060-Enc-03,Patient-060,Organization-009,Organization-009-Dept-01,inpatient,rehabilitation,2024-06-03T14:13:10,2024-08-14T13:31:39,finished
+Patient-060-Enc-04,Patient-060,Organization-009,Organization-009-Dept-03,inpatient,consultation,2025-01-01T07:30:15,2025-01-25T21:38:00,planned
+Patient-060-Enc-05,Patient-060,Organization-009,Organization-009-Dept-03,outpatient,diagnostic test,2024-01-22T14:16:49,2025-05-11T08:51:54,finished
+Patient-061-Enc-01,Patient-061,Organization-008,Organization-008-Dept-01,emergency,treatment,2024-07-17T06:23:02,2025-04-09T01:33:53,in-progress
+Patient-061-Enc-02,Patient-061,Organization-008,Organization-008-Dept-01,outpatient,referral,2023-11-22T13:07:16,2025-05-07T15:40:27,cancelled
+Patient-061-Enc-03,Patient-061,Organization-008,Organization-008-Dept-01,outpatient,diagnostic test,2024-11-20T20:24:29,2025-05-25T01:50:57,cancelled
+Patient-061-Enc-04,Patient-061,Organization-008,Organization-008-Dept-01,emergency,referral,2024-05-10T10:51:06,2025-03-22T10:13:47,cancelled
+Patient-061-Enc-05,Patient-061,Organization-008,Organization-008-Dept-01,outpatient,treatment,2025-03-22T12:59:08,2025-03-20T10:08:13,cancelled
+Patient-062-Enc-01,Patient-062,Organization-005,Organization-005-Dept-01,outpatient,referral,2024-11-04T02:34:43,2024-12-28T16:45:16,planned
+Patient-062-Enc-02,Patient-062,Organization-005,Organization-005-Dept-01,emergency,vaccination,2025-01-27T12:02:38,2024-07-22T10:15:06,finished
+Patient-063-Enc-01,Patient-063,Organization-006,Organization-006-Dept-02,inpatient,vaccination,2025-01-10T10:34:41,2024-09-08T01:06:35,planned
+Patient-063-Enc-02,Patient-063,Organization-006,Organization-006-Dept-01,outpatient,follow-up,2024-05-01T00:02:05,2024-07-14T13:03:01,planned
+Patient-063-Enc-03,Patient-063,Organization-006,Organization-006-Dept-01,inpatient,vaccination,2023-10-12T08:52:45,2025-04-21T21:15:04,planned
+Patient-063-Enc-04,Patient-063,Organization-006,Organization-006-Dept-01,inpatient,routine check-up,2024-06-09T20:36:23,2025-02-22T03:37:20,planned
+Patient-064-Enc-01,Patient-064,Organization-006,Organization-006-Dept-02,outpatient,routine check-up,2025-04-07T19:37:46,2024-09-23T18:31:06,finished
+Patient-064-Enc-02,Patient-064,Organization-006,Organization-006-Dept-02,emergency,diagnostic test,2024-04-20T09:48:57,2024-09-06T06:12:52,cancelled
+Patient-064-Enc-03,Patient-064,Organization-006,Organization-006-Dept-01,outpatient,referral,2024-09-07T16:32:15,2024-06-30T08:17:52,in-progress
+Patient-064-Enc-04,Patient-064,Organization-006,Organization-006-Dept-02,emergency,treatment,2025-02-07T23:13:09,2025-01-25T18:11:21,in-progress
+Patient-065-Enc-01,Patient-065,Organization-003,Organization-003-Dept-01,emergency,referral,2025-01-22T04:39:29,2024-09-15T01:52:13,finished
+Patient-066-Enc-01,Patient-066,Organization-001,Organization-001-Dept-07,outpatient,treatment,2023-11-10T17:07:51,2024-10-06T02:33:37,planned
+Patient-067-Enc-01,Patient-067,Organization-005,Organization-005-Dept-01,inpatient,follow-up,2023-08-27T19:31:45,2025-03-04T04:57:47,finished
+Patient-067-Enc-02,Patient-067,Organization-005,Organization-005-Dept-01,outpatient,therapy,2023-07-14T11:43:38,2024-08-05T08:51:25,planned
+Patient-067-Enc-03,Patient-067,Organization-005,Organization-005-Dept-01,emergency,routine check-up,2024-11-18T12:35:33,2024-08-22T06:11:18,cancelled
+Patient-067-Enc-04,Patient-067,Organization-005,Organization-005-Dept-01,emergency,vaccination,2024-10-20T16:08:17,2024-07-27T22:23:56,in-progress
+Patient-068-Enc-01,Patient-068,Organization-007,Organization-007-Dept-01,outpatient,routine check-up,2024-09-18T19:23:32,2024-07-14T20:21:56,finished
+Patient-068-Enc-02,Patient-068,Organization-007,Organization-007-Dept-01,inpatient,treatment,2023-07-27T10:18:26,2024-08-23T17:43:17,in-progress
+Patient-068-Enc-03,Patient-068,Organization-007,Organization-007-Dept-02,inpatient,emergency visit,2024-11-13T10:27:04,2024-09-20T20:18:04,planned
+Patient-069-Enc-01,Patient-069,Organization-002,Organization-002-Dept-02,emergency,therapy,2023-08-19T06:43:05,2025-02-07T07:52:11,planned
+Patient-069-Enc-02,Patient-069,Organization-002,Organization-002-Dept-02,emergency,rehabilitation,2025-04-01T01:03:17,2024-08-11T14:09:06,finished
+Patient-069-Enc-03,Patient-069,Organization-002,Organization-002-Dept-02,emergency,routine check-up,2025-02-16T02:13:58,2025-06-03T00:25:01,in-progress
+Patient-070-Enc-01,Patient-070,Organization-009,Organization-009-Dept-03,inpatient,rehabilitation,2024-06-07T01:55:10,2024-11-11T04:17:24,in-progress
+Patient-070-Enc-02,Patient-070,Organization-009,Organization-009-Dept-02,inpatient,routine check-up,2024-04-19T19:16:03,2024-10-29T22:50:13,planned
+Patient-070-Enc-03,Patient-070,Organization-009,Organization-009-Dept-03,inpatient,treatment,2023-08-30T00:37:42,2025-06-15T10:56:37,cancelled
+Patient-071-Enc-01,Patient-071,Organization-010,Organization-010-Dept-01,emergency,follow-up,2024-07-08T01:14:19,2024-12-26T02:46:14,cancelled
+Patient-071-Enc-02,Patient-071,Organization-010,Organization-010-Dept-04,outpatient,treatment,2024-04-06T22:05:35,2025-04-25T17:05:32,in-progress
+Patient-071-Enc-03,Patient-071,Organization-010,Organization-010-Dept-04,emergency,follow-up,2024-05-18T09:38:05,2025-04-06T18:33:56,finished
+Patient-072-Enc-01,Patient-072,Organization-001,Organization-001-Dept-06,inpatient,consultation,2024-12-18T02:37:53,2024-08-08T01:17:14,in-progress
+Patient-073-Enc-01,Patient-073,Organization-007,Organization-007-Dept-01,emergency,routine check-up,2024-07-14T05:03:34,2025-03-24T22:50:46,in-progress
+Patient-073-Enc-02,Patient-073,Organization-007,Organization-007-Dept-02,emergency,diagnostic test,2024-02-04T22:03:28,2024-09-27T13:06:44,in-progress
+Patient-073-Enc-03,Patient-073,Organization-007,Organization-007-Dept-02,outpatient,follow-up,2024-01-18T02:18:59,2025-05-29T09:23:34,planned
+Patient-074-Enc-01,Patient-074,Organization-007,Organization-007-Dept-02,outpatient,treatment,2024-02-04T02:17:10,2024-10-18T09:03:08,finished
+Patient-074-Enc-02,Patient-074,Organization-007,Organization-007-Dept-02,inpatient,consultation,2024-10-16T01:46:41,2025-04-03T05:29:10,cancelled
+Patient-075-Enc-01,Patient-075,Organization-009,Organization-009-Dept-01,inpatient,vaccination,2025-05-21T06:24:23,2025-01-09T13:58:04,finished
+Patient-075-Enc-02,Patient-075,Organization-009,Organization-009-Dept-02,emergency,follow-up,2023-10-16T04:43:46,2025-02-07T12:24:29,finished
+Patient-075-Enc-03,Patient-075,Organization-009,Organization-009-Dept-01,emergency,routine check-up,2023-09-11T23:02:54,2024-12-13T15:51:17,finished
+Patient-076-Enc-01,Patient-076,Organization-002,Organization-002-Dept-01,inpatient,rehabilitation,2024-12-22T00:18:18,2024-11-24T03:43:49,planned
+Patient-076-Enc-02,Patient-076,Organization-002,Organization-002-Dept-01,emergency,treatment,2023-07-05T08:14:45,2024-07-12T13:41:01,planned
+Patient-076-Enc-03,Patient-076,Organization-002,Organization-002-Dept-01,emergency,consultation,2023-12-03T09:03:18,2024-07-05T02:08:51,planned
+Patient-076-Enc-04,Patient-076,Organization-002,Organization-002-Dept-01,outpatient,emergency visit,2023-08-31T09:28:54,2024-09-02T22:24:06,planned
+Patient-076-Enc-05,Patient-076,Organization-002,Organization-002-Dept-01,emergency,consultation,2023-07-08T04:58:26,2025-05-18T16:46:28,planned
+Patient-077-Enc-01,Patient-077,Organization-004,Organization-004-Dept-01,outpatient,rehabilitation,2024-11-02T10:51:39,2024-10-03T00:05:03,planned
+Patient-077-Enc-02,Patient-077,Organization-004,Organization-004-Dept-02,outpatient,routine check-up,2024-05-28T18:06:58,2024-08-06T12:39:37,finished
+Patient-077-Enc-03,Patient-077,Organization-004,Organization-004-Dept-02,emergency,rehabilitation,2024-04-01T22:21:30,2024-09-27T07:52:13,planned
+Patient-077-Enc-04,Patient-077,Organization-004,Organization-004-Dept-02,inpatient,follow-up,2024-07-20T15:22:58,2024-07-06T16:49:12,in-progress
+Patient-077-Enc-05,Patient-077,Organization-004,Organization-004-Dept-01,inpatient,therapy,2024-09-15T10:12:47,2025-06-20T15:06:09,planned
+Patient-078-Enc-01,Patient-078,Organization-006,Organization-006-Dept-01,emergency,referral,2024-10-29T16:11:21,2025-01-16T03:37:05,in-progress
+Patient-079-Enc-01,Patient-079,Organization-006,Organization-006-Dept-02,emergency,routine check-up,2024-06-04T07:01:08,2025-04-27T18:32:24,in-progress
+Patient-080-Enc-01,Patient-080,Organization-002,Organization-002-Dept-01,emergency,vaccination,2023-08-11T06:04:28,2025-05-14T13:00:25,planned
+Patient-080-Enc-02,Patient-080,Organization-002,Organization-002-Dept-01,outpatient,treatment,2023-09-14T04:10:03,2024-12-14T01:12:58,cancelled
+Patient-080-Enc-03,Patient-080,Organization-002,Organization-002-Dept-01,emergency,diagnostic test,2025-01-10T22:13:53,2024-12-26T15:37:46,cancelled
+Patient-081-Enc-01,Patient-081,Organization-001,Organization-001-Dept-01,inpatient,diagnostic test,2024-05-02T18:47:01,2024-11-06T05:00:03,in-progress
+Patient-081-Enc-02,Patient-081,Organization-001,Organization-001-Dept-03,inpatient,routine check-up,2024-09-05T02:52:47,2025-01-20T06:07:14,in-progress
+Patient-081-Enc-03,Patient-081,Organization-001,Organization-001-Dept-04,emergency,therapy,2023-12-05T03:50:35,2024-12-02T01:27:15,finished
+Patient-081-Enc-04,Patient-081,Organization-001,Organization-001-Dept-02,outpatient,treatment,2023-08-11T14:19:45,2024-09-28T07:34:39,planned
+Patient-082-Enc-01,Patient-082,Organization-010,Organization-010-Dept-02,emergency,rehabilitation,2025-04-08T06:28:45,2025-03-17T20:44:07,finished
+Patient-082-Enc-02,Patient-082,Organization-010,Organization-010-Dept-01,inpatient,referral,2025-03-08T07:14:50,2025-04-07T04:31:02,planned
+Patient-083-Enc-01,Patient-083,Organization-010,Organization-010-Dept-01,inpatient,routine check-up,2025-05-23T10:43:02,2025-02-02T09:27:02,cancelled
+Patient-083-Enc-02,Patient-083,Organization-010,Organization-010-Dept-04,outpatient,therapy,2024-03-13T06:58:55,2025-02-11T00:28:21,planned
+Patient-083-Enc-03,Patient-083,Organization-010,Organization-010-Dept-04,outpatient,follow-up,2025-02-15T18:26:29,2025-04-23T00:31:33,planned
+Patient-083-Enc-04,Patient-083,Organization-010,Organization-010-Dept-03,inpatient,emergency visit,2025-05-26T10:02:59,2024-08-06T19:34:16,in-progress
+Patient-084-Enc-01,Patient-084,Organization-002,Organization-002-Dept-02,inpatient,diagnostic test,2025-04-02T23:40:33,2024-09-24T13:58:58,cancelled
+Patient-084-Enc-02,Patient-084,Organization-002,Organization-002-Dept-02,inpatient,consultation,2024-09-09T09:46:53,2025-01-15T12:13:29,planned
+Patient-084-Enc-03,Patient-084,Organization-002,Organization-002-Dept-02,outpatient,rehabilitation,2024-08-10T04:09:42,2025-05-17T23:30:07,planned
+Patient-084-Enc-04,Patient-084,Organization-002,Organization-002-Dept-02,inpatient,therapy,2023-10-03T05:31:01,2025-05-10T00:48:22,planned
+Patient-085-Enc-01,Patient-085,Organization-002,Organization-002-Dept-01,inpatient,diagnostic test,2025-05-07T12:49:43,2025-04-18T02:32:06,in-progress
+Patient-085-Enc-02,Patient-085,Organization-002,Organization-002-Dept-02,outpatient,diagnostic test,2024-02-08T07:48:17,2024-07-09T01:15:01,planned
+Patient-085-Enc-03,Patient-085,Organization-002,Organization-002-Dept-02,inpatient,emergency visit,2024-08-26T17:26:42,2024-07-07T13:46:02,finished
+Patient-085-Enc-04,Patient-085,Organization-002,Organization-002-Dept-02,emergency,consultation,2025-04-18T06:18:54,2024-11-26T12:03:10,finished
+Patient-086-Enc-01,Patient-086,Organization-010,Organization-010-Dept-01,outpatient,emergency visit,2024-02-17T09:28:43,2025-04-01T17:36:22,finished
+Patient-086-Enc-02,Patient-086,Organization-010,Organization-010-Dept-05,inpatient,rehabilitation,2024-06-19T10:15:14,2025-05-02T05:50:26,in-progress
+Patient-086-Enc-03,Patient-086,Organization-010,Organization-010-Dept-04,emergency,vaccination,2024-10-08T15:47:09,2025-03-04T12:47:23,cancelled
+Patient-087-Enc-01,Patient-087,Organization-010,Organization-010-Dept-03,inpatient,rehabilitation,2024-08-03T18:08:35,2024-09-16T00:44:59,finished
+Patient-087-Enc-02,Patient-087,Organization-010,Organization-010-Dept-02,outpatient,consultation,2023-11-13T04:19:52,2024-12-16T21:50:56,planned
+Patient-087-Enc-03,Patient-087,Organization-010,Organization-010-Dept-02,inpatient,therapy,2025-03-21T18:23:21,2024-08-25T01:58:38,finished
+Patient-087-Enc-04,Patient-087,Organization-010,Organization-010-Dept-02,outpatient,treatment,2024-11-15T03:37:10,2024-11-25T11:04:49,planned
+Patient-087-Enc-05,Patient-087,Organization-010,Organization-010-Dept-02,emergency,treatment,2023-07-10T21:04:17,2025-05-12T11:26:50,in-progress
+Patient-088-Enc-01,Patient-088,Organization-004,Organization-004-Dept-01,emergency,vaccination,2024-02-16T03:24:41,2025-01-02T08:51:17,cancelled
+Patient-089-Enc-01,Patient-089,Organization-009,Organization-009-Dept-02,outpatient,referral,2025-05-11T17:23:32,2025-04-09T00:55:42,planned
+Patient-089-Enc-02,Patient-089,Organization-009,Organization-009-Dept-03,inpatient,diagnostic test,2025-02-21T13:11:44,2024-12-01T23:48:36,cancelled
+Patient-089-Enc-03,Patient-089,Organization-009,Organization-009-Dept-02,emergency,diagnostic test,2025-01-10T05:54:29,2025-05-24T14:42:58,cancelled
+Patient-089-Enc-04,Patient-089,Organization-009,Organization-009-Dept-03,inpatient,rehabilitation,2025-01-08T09:22:40,2024-11-04T11:09:57,planned
+Patient-089-Enc-05,Patient-089,Organization-009,Organization-009-Dept-02,emergency,consultation,2023-09-17T03:46:57,2025-03-14T07:38:38,in-progress
+Patient-090-Enc-01,Patient-090,Organization-010,Organization-010-Dept-05,emergency,treatment,2025-06-04T20:31:53,2024-11-04T18:22:22,cancelled
+Patient-090-Enc-02,Patient-090,Organization-010,Organization-010-Dept-02,emergency,emergency visit,2024-09-13T13:45:41,2025-05-05T00:44:16,planned
+Patient-090-Enc-03,Patient-090,Organization-010,Organization-010-Dept-04,emergency,diagnostic test,2025-02-17T15:38:17,2024-10-17T21:07:31,cancelled
+Patient-090-Enc-04,Patient-090,Organization-010,Organization-010-Dept-02,outpatient,referral,2024-02-05T05:12:12,2024-12-12T21:18:58,planned
+Patient-090-Enc-05,Patient-090,Organization-010,Organization-010-Dept-03,inpatient,rehabilitation,2023-08-30T22:52:51,2024-10-26T11:56:09,finished
+Patient-091-Enc-01,Patient-091,Organization-010,Organization-010-Dept-04,emergency,rehabilitation,2024-03-10T17:27:52,2025-01-23T01:31:43,planned
+Patient-092-Enc-01,Patient-092,Organization-010,Organization-010-Dept-05,inpatient,referral,2024-05-27T18:29:29,2025-03-24T02:21:25,planned
+Patient-092-Enc-02,Patient-092,Organization-010,Organization-010-Dept-04,emergency,diagnostic test,2024-09-05T00:03:55,2024-09-01T12:52:12,finished
+Patient-092-Enc-03,Patient-092,Organization-010,Organization-010-Dept-04,outpatient,follow-up,2024-01-25T04:23:11,2024-07-26T06:26:18,finished
+Patient-092-Enc-04,Patient-092,Organization-010,Organization-010-Dept-02,inpatient,therapy,2024-10-02T19:57:43,2024-08-06T02:00:05,cancelled
+Patient-092-Enc-05,Patient-092,Organization-010,Organization-010-Dept-02,inpatient,vaccination,2024-02-14T09:42:50,2025-03-30T20:32:05,planned
+Patient-093-Enc-01,Patient-093,Organization-001,Organization-001-Dept-03,emergency,rehabilitation,2023-07-22T16:01:26,2024-07-26T04:05:25,cancelled
+Patient-093-Enc-02,Patient-093,Organization-001,Organization-001-Dept-05,inpatient,diagnostic test,2024-09-12T16:53:09,2024-09-28T10:13:25,in-progress
+Patient-093-Enc-03,Patient-093,Organization-001,Organization-001-Dept-01,emergency,routine check-up,2025-04-03T23:13:13,2024-12-06T23:33:23,in-progress
+Patient-093-Enc-04,Patient-093,Organization-001,Organization-001-Dept-01,inpatient,rehabilitation,2025-05-03T23:30:47,2025-01-16T02:55:09,cancelled
+Patient-093-Enc-05,Patient-093,Organization-001,Organization-001-Dept-07,outpatient,emergency visit,2025-04-06T05:02:53,2024-08-18T05:58:16,cancelled
+Patient-094-Enc-01,Patient-094,Organization-006,Organization-006-Dept-01,emergency,routine check-up,2023-09-04T14:24:28,2024-11-05T08:15:37,finished
+Patient-094-Enc-02,Patient-094,Organization-006,Organization-006-Dept-01,outpatient,referral,2025-04-29T19:14:25,2024-12-31T16:41:17,finished
+Patient-094-Enc-03,Patient-094,Organization-006,Organization-006-Dept-02,inpatient,therapy,2024-06-26T11:47:30,2025-05-09T04:55:51,finished
+Patient-094-Enc-04,Patient-094,Organization-006,Organization-006-Dept-02,emergency,vaccination,2023-12-28T01:19:17,2025-03-28T13:52:09,in-progress
+Patient-094-Enc-05,Patient-094,Organization-006,Organization-006-Dept-02,inpatient,consultation,2024-11-25T07:00:40,2025-03-28T15:19:39,in-progress
+Patient-095-Enc-01,Patient-095,Organization-005,Organization-005-Dept-01,inpatient,rehabilitation,2025-04-10T09:53:54,2024-12-09T14:02:58,in-progress
+Patient-095-Enc-02,Patient-095,Organization-005,Organization-005-Dept-01,emergency,vaccination,2025-06-18T21:10:38,2024-08-17T10:24:18,cancelled
+Patient-095-Enc-03,Patient-095,Organization-005,Organization-005-Dept-01,emergency,emergency visit,2025-05-16T22:46:47,2025-01-22T15:46:09,in-progress
+Patient-095-Enc-04,Patient-095,Organization-005,Organization-005-Dept-01,outpatient,follow-up,2025-02-13T23:23:30,2025-04-16T01:10:28,cancelled
+Patient-095-Enc-05,Patient-095,Organization-005,Organization-005-Dept-01,inpatient,therapy,2024-09-25T09:11:27,2025-05-31T19:23:13,in-progress
+Patient-096-Enc-01,Patient-096,Organization-004,Organization-004-Dept-01,outpatient,consultation,2023-07-03T13:29:54,2024-07-17T19:15:15,cancelled
+Patient-096-Enc-02,Patient-096,Organization-004,Organization-004-Dept-02,inpatient,rehabilitation,2023-07-02T00:25:12,2024-10-12T09:31:15,planned
+Patient-096-Enc-03,Patient-096,Organization-004,Organization-004-Dept-01,outpatient,follow-up,2024-09-25T05:22:09,2025-03-17T12:21:09,in-progress
+Patient-096-Enc-04,Patient-096,Organization-004,Organization-004-Dept-02,outpatient,treatment,2024-08-29T21:28:56,2024-12-04T19:38:44,in-progress
+Patient-096-Enc-05,Patient-096,Organization-004,Organization-004-Dept-01,inpatient,follow-up,2023-08-08T09:28:57,2025-02-14T23:46:59,in-progress
+Patient-097-Enc-01,Patient-097,Organization-010,Organization-010-Dept-03,outpatient,referral,2024-12-06T21:50:17,2024-11-08T20:12:01,planned
+Patient-098-Enc-01,Patient-098,Organization-007,Organization-007-Dept-01,outpatient,routine check-up,2024-05-25T22:55:18,2024-10-02T17:12:00,in-progress
+Patient-098-Enc-02,Patient-098,Organization-007,Organization-007-Dept-01,outpatient,follow-up,2024-03-21T10:59:52,2024-11-30T22:02:39,planned
+Patient-098-Enc-03,Patient-098,Organization-007,Organization-007-Dept-02,inpatient,emergency visit,2023-11-22T17:10:31,2024-11-08T20:03:56,planned
+Patient-099-Enc-01,Patient-099,Organization-001,Organization-001-Dept-05,emergency,vaccination,2024-04-24T04:26:15,2025-02-25T06:54:37,finished
+Patient-099-Enc-02,Patient-099,Organization-001,Organization-001-Dept-04,inpatient,rehabilitation,2024-01-17T21:17:19,2024-10-28T17:46:29,planned
+Patient-099-Enc-03,Patient-099,Organization-001,Organization-001-Dept-05,outpatient,referral,2023-10-20T07:23:40,2025-04-21T23:49:36,cancelled
+Patient-100-Enc-01,Patient-100,Organization-010,Organization-010-Dept-04,emergency,rehabilitation,2025-02-26T14:47:28,2025-01-22T20:19:05,in-progress
+Patient-100-Enc-02,Patient-100,Organization-010,Organization-010-Dept-01,emergency,emergency visit,2024-10-19T20:56:47,2024-07-28T07:51:08,cancelled
+Patient-100-Enc-03,Patient-100,Organization-010,Organization-010-Dept-03,emergency,emergency visit,2025-02-27T01:04:48,2025-04-17T10:08:20,planned
+Patient-101-Enc-01,Patient-101,Organization-001,Organization-001-Dept-03,outpatient,treatment,2023-09-28T20:50:38,2024-09-21T12:04:28,finished
+Patient-102-Enc-01,Patient-102,Organization-009,Organization-009-Dept-03,outpatient,diagnostic test,2025-01-02T23:29:03,2025-02-27T12:02:31,finished
+Patient-103-Enc-01,Patient-103,Organization-007,Organization-007-Dept-02,inpatient,routine check-up,2024-07-05T01:23:21,2024-11-12T19:54:22,cancelled
+Patient-103-Enc-02,Patient-103,Organization-007,Organization-007-Dept-01,outpatient,treatment,2024-01-17T16:30:28,2025-03-19T15:41:51,finished
+Patient-104-Enc-01,Patient-104,Organization-007,Organization-007-Dept-01,outpatient,diagnostic test,2025-06-09T16:47:32,2025-03-21T22:21:07,finished
+Patient-104-Enc-02,Patient-104,Organization-007,Organization-007-Dept-01,outpatient,referral,2024-02-09T03:41:14,2024-07-10T19:34:48,finished
+Patient-104-Enc-03,Patient-104,Organization-007,Organization-007-Dept-02,outpatient,routine check-up,2023-09-30T06:32:27,2024-09-30T21:12:34,cancelled
+Patient-104-Enc-04,Patient-104,Organization-007,Organization-007-Dept-01,outpatient,follow-up,2023-12-27T08:40:38,2025-01-31T05:54:27,cancelled
+Patient-104-Enc-05,Patient-104,Organization-007,Organization-007-Dept-02,inpatient,treatment,2023-08-14T22:13:13,2024-12-07T16:39:27,in-progress
+Patient-105-Enc-01,Patient-105,Organization-005,Organization-005-Dept-01,outpatient,treatment,2023-11-29T00:33:36,2025-05-22T02:00:54,finished
+Patient-105-Enc-02,Patient-105,Organization-005,Organization-005-Dept-01,emergency,referral,2024-10-04T18:57:43,2025-01-24T07:28:04,finished
+Patient-106-Enc-01,Patient-106,Organization-010,Organization-010-Dept-01,outpatient,treatment,2023-11-30T00:27:19,2025-05-26T03:22:12,finished
+Patient-106-Enc-02,Patient-106,Organization-010,Organization-010-Dept-02,inpatient,therapy,2023-07-27T01:40:12,2024-10-19T09:56:45,finished
+Patient-106-Enc-03,Patient-106,Organization-010,Organization-010-Dept-03,inpatient,vaccination,2024-06-29T07:49:31,2024-06-29T21:21:54,planned
+Patient-106-Enc-04,Patient-106,Organization-010,Organization-010-Dept-03,outpatient,vaccination,2025-03-07T05:48:25,2024-07-21T02:46:55,planned
+Patient-107-Enc-01,Patient-107,Organization-008,Organization-008-Dept-01,outpatient,routine check-up,2025-02-27T06:57:43,2025-02-23T02:01:20,cancelled
+Patient-108-Enc-01,Patient-108,Organization-009,Organization-009-Dept-01,inpatient,diagnostic test,2024-10-16T17:43:15,2025-03-21T02:07:42,in-progress
+Patient-108-Enc-02,Patient-108,Organization-009,Organization-009-Dept-02,inpatient,vaccination,2024-05-31T07:28:36,2024-10-13T08:05:41,in-progress
+Patient-108-Enc-03,Patient-108,Organization-009,Organization-009-Dept-02,inpatient,consultation,2024-09-01T10:31:38,2024-10-09T15:47:58,cancelled
+Patient-108-Enc-04,Patient-108,Organization-009,Organization-009-Dept-03,inpatient,vaccination,2025-06-07T01:02:13,2024-11-24T18:57:16,cancelled
+Patient-109-Enc-01,Patient-109,Organization-006,Organization-006-Dept-01,emergency,emergency visit,2025-01-27T02:14:20,2025-05-16T14:08:27,finished
+Patient-109-Enc-02,Patient-109,Organization-006,Organization-006-Dept-02,emergency,referral,2024-01-14T09:42:57,2025-01-20T01:08:09,in-progress
+Patient-109-Enc-03,Patient-109,Organization-006,Organization-006-Dept-01,outpatient,routine check-up,2024-08-11T15:15:24,2024-12-11T03:59:27,in-progress
+Patient-110-Enc-01,Patient-110,Organization-006,Organization-006-Dept-02,inpatient,referral,2023-09-25T09:04:31,2025-01-02T17:14:39,planned
+Patient-110-Enc-02,Patient-110,Organization-006,Organization-006-Dept-02,inpatient,follow-up,2024-09-27T02:20:18,2024-11-24T01:25:02,in-progress
+Patient-110-Enc-03,Patient-110,Organization-006,Organization-006-Dept-02,outpatient,vaccination,2025-03-30T14:41:43,2024-10-15T15:09:49,cancelled
+Patient-110-Enc-04,Patient-110,Organization-006,Organization-006-Dept-01,inpatient,diagnostic test,2024-05-21T21:53:13,2024-12-16T02:49:35,planned
+Patient-110-Enc-05,Patient-110,Organization-006,Organization-006-Dept-01,inpatient,treatment,2025-03-09T08:35:48,2025-01-12T14:32:17,in-progress
+Patient-111-Enc-01,Patient-111,Organization-009,Organization-009-Dept-01,outpatient,emergency visit,2023-11-15T18:58:13,2025-06-14T21:58:22,finished
+Patient-111-Enc-02,Patient-111,Organization-009,Organization-009-Dept-03,inpatient,referral,2024-12-03T07:55:58,2024-11-28T22:52:53,finished
+Patient-111-Enc-03,Patient-111,Organization-009,Organization-009-Dept-02,outpatient,diagnostic test,2024-09-24T21:14:41,2024-10-15T21:25:52,cancelled
+Patient-112-Enc-01,Patient-112,Organization-008,Organization-008-Dept-01,emergency,treatment,2025-01-13T23:13:50,2025-06-16T12:51:29,planned
+Patient-112-Enc-02,Patient-112,Organization-008,Organization-008-Dept-01,outpatient,routine check-up,2024-04-26T22:42:33,2024-11-14T05:04:28,cancelled
+Patient-112-Enc-03,Patient-112,Organization-008,Organization-008-Dept-01,inpatient,consultation,2025-02-19T11:33:23,2024-07-22T14:39:14,cancelled
+Patient-113-Enc-01,Patient-113,Organization-003,Organization-003-Dept-01,outpatient,treatment,2023-12-16T22:39:14,2024-10-09T16:08:13,planned
+Patient-113-Enc-02,Patient-113,Organization-003,Organization-003-Dept-01,inpatient,therapy,2024-11-28T15:00:43,2024-07-13T13:13:48,finished
+Patient-114-Enc-01,Patient-114,Organization-007,Organization-007-Dept-02,inpatient,treatment,2023-10-02T06:23:06,2024-06-25T01:35:45,cancelled
+Patient-114-Enc-02,Patient-114,Organization-007,Organization-007-Dept-01,emergency,routine check-up,2025-05-10T09:10:11,2024-12-19T19:32:45,finished
+Patient-114-Enc-03,Patient-114,Organization-007,Organization-007-Dept-01,inpatient,treatment,2024-05-08T19:51:04,2024-12-04T11:46:30,cancelled
+Patient-115-Enc-01,Patient-115,Organization-009,Organization-009-Dept-02,inpatient,diagnostic test,2025-06-19T03:03:58,2024-12-22T19:49:18,finished
+Patient-115-Enc-02,Patient-115,Organization-009,Organization-009-Dept-01,inpatient,emergency visit,2024-01-26T15:28:01,2024-09-16T20:29:50,in-progress
+Patient-115-Enc-03,Patient-115,Organization-009,Organization-009-Dept-03,outpatient,routine check-up,2023-07-10T23:59:25,2025-02-17T02:37:15,planned
+Patient-115-Enc-04,Patient-115,Organization-009,Organization-009-Dept-01,inpatient,treatment,2023-09-05T23:23:57,2024-09-29T04:21:29,finished
+Patient-115-Enc-05,Patient-115,Organization-009,Organization-009-Dept-03,emergency,emergency visit,2023-10-27T18:57:01,2024-12-21T16:37:39,finished
+Patient-116-Enc-01,Patient-116,Organization-008,Organization-008-Dept-01,emergency,therapy,2024-05-11T14:37:29,2025-04-18T22:20:40,in-progress
+Patient-116-Enc-02,Patient-116,Organization-008,Organization-008-Dept-01,emergency,therapy,2025-01-14T18:30:00,2024-12-09T02:50:42,finished
+Patient-116-Enc-03,Patient-116,Organization-008,Organization-008-Dept-01,emergency,follow-up,2024-01-28T04:48:59,2024-10-11T21:02:49,planned
+Patient-116-Enc-04,Patient-116,Organization-008,Organization-008-Dept-01,inpatient,routine check-up,2025-03-02T01:00:51,2024-07-15T18:40:12,finished
+Patient-117-Enc-01,Patient-117,Organization-008,Organization-008-Dept-01,inpatient,emergency visit,2024-03-30T07:48:17,2024-11-30T19:43:39,finished
+Patient-117-Enc-02,Patient-117,Organization-008,Organization-008-Dept-01,inpatient,routine check-up,2025-02-24T09:03:11,2025-01-20T04:37:34,in-progress
+Patient-117-Enc-03,Patient-117,Organization-008,Organization-008-Dept-01,inpatient,vaccination,2024-09-27T03:52:29,2025-02-05T21:06:58,in-progress
+Patient-117-Enc-04,Patient-117,Organization-008,Organization-008-Dept-01,outpatient,rehabilitation,2024-12-21T23:48:35,2024-11-13T09:56:57,cancelled
+Patient-117-Enc-05,Patient-117,Organization-008,Organization-008-Dept-01,inpatient,referral,2024-08-29T08:57:02,2024-12-17T23:57:00,finished
+Patient-118-Enc-01,Patient-118,Organization-010,Organization-010-Dept-02,outpatient,consultation,2025-01-28T22:29:06,2025-03-04T21:51:44,planned
+Patient-118-Enc-02,Patient-118,Organization-010,Organization-010-Dept-03,inpatient,treatment,2023-09-06T08:49:25,2025-02-10T23:09:30,planned
+Patient-119-Enc-01,Patient-119,Organization-002,Organization-002-Dept-02,outpatient,vaccination,2023-08-10T04:54:06,2025-05-27T18:58:22,in-progress
+Patient-119-Enc-02,Patient-119,Organization-002,Organization-002-Dept-02,inpatient,emergency visit,2023-07-10T17:11:33,2025-03-31T00:31:31,finished
+Patient-119-Enc-03,Patient-119,Organization-002,Organization-002-Dept-01,emergency,rehabilitation,2024-01-10T10:35:27,2025-05-20T01:42:34,cancelled
+Patient-119-Enc-04,Patient-119,Organization-002,Organization-002-Dept-02,outpatient,therapy,2024-12-07T17:36:30,2024-07-05T13:53:47,in-progress
+Patient-119-Enc-05,Patient-119,Organization-002,Organization-002-Dept-01,inpatient,routine check-up,2023-08-03T22:58:31,2024-06-22T03:42:17,finished
+Patient-120-Enc-01,Patient-120,Organization-009,Organization-009-Dept-02,outpatient,consultation,2023-09-14T12:47:34,2024-10-03T13:18:02,in-progress
+Patient-120-Enc-02,Patient-120,Organization-009,Organization-009-Dept-01,emergency,rehabilitation,2023-07-23T17:59:55,2025-03-11T21:37:04,cancelled
+Patient-120-Enc-03,Patient-120,Organization-009,Organization-009-Dept-03,inpatient,vaccination,2024-02-11T06:21:00,2024-08-12T21:57:21,in-progress
+Patient-120-Enc-04,Patient-120,Organization-009,Organization-009-Dept-01,inpatient,emergency visit,2024-06-10T09:19:37,2025-02-18T01:03:11,planned
+Patient-121-Enc-01,Patient-121,Organization-005,Organization-005-Dept-01,outpatient,vaccination,2024-08-24T03:26:15,2025-01-08T09:37:49,cancelled
+Patient-121-Enc-02,Patient-121,Organization-005,Organization-005-Dept-01,inpatient,rehabilitation,2024-10-28T09:30:05,2024-10-21T18:18:27,in-progress
+Patient-121-Enc-03,Patient-121,Organization-005,Organization-005-Dept-01,outpatient,routine check-up,2023-12-11T02:57:36,2024-10-24T21:18:17,cancelled
+Patient-121-Enc-04,Patient-121,Organization-005,Organization-005-Dept-01,outpatient,rehabilitation,2023-07-22T19:27:18,2024-10-07T14:40:22,cancelled
+Patient-121-Enc-05,Patient-121,Organization-005,Organization-005-Dept-01,inpatient,diagnostic test,2024-03-17T13:53:59,2024-10-06T04:52:59,planned
+Patient-122-Enc-01,Patient-122,Organization-006,Organization-006-Dept-01,inpatient,consultation,2025-05-17T13:24:47,2024-11-01T03:29:05,cancelled
+Patient-122-Enc-02,Patient-122,Organization-006,Organization-006-Dept-01,inpatient,vaccination,2023-07-13T06:59:50,2024-10-23T08:54:09,finished
+Patient-123-Enc-01,Patient-123,Organization-003,Organization-003-Dept-01,outpatient,vaccination,2023-11-02T11:08:02,2025-02-18T19:42:10,in-progress
+Patient-123-Enc-02,Patient-123,Organization-003,Organization-003-Dept-01,inpatient,emergency visit,2024-11-19T21:23:24,2024-08-13T19:02:04,cancelled
+Patient-123-Enc-03,Patient-123,Organization-003,Organization-003-Dept-01,outpatient,therapy,2024-05-30T04:50:36,2024-10-19T21:43:44,planned
+Patient-124-Enc-01,Patient-124,Organization-007,Organization-007-Dept-02,emergency,consultation,2024-01-20T22:11:03,2024-09-04T06:36:18,finished
+Patient-125-Enc-01,Patient-125,Organization-009,Organization-009-Dept-01,emergency,referral,2025-05-06T23:38:14,2024-12-31T13:22:44,planned
+Patient-125-Enc-02,Patient-125,Organization-009,Organization-009-Dept-01,emergency,referral,2024-04-18T04:00:55,2025-05-28T17:15:18,planned
+Patient-126-Enc-01,Patient-126,Organization-003,Organization-003-Dept-01,outpatient,vaccination,2024-06-14T00:10:46,2024-07-01T03:22:39,planned
+Patient-126-Enc-02,Patient-126,Organization-003,Organization-003-Dept-01,outpatient,consultation,2024-05-21T06:28:20,2025-04-30T11:36:25,planned
+Patient-127-Enc-01,Patient-127,Organization-005,Organization-005-Dept-01,outpatient,consultation,2024-02-28T07:01:15,2025-02-17T09:59:32,in-progress
+Patient-128-Enc-01,Patient-128,Organization-009,Organization-009-Dept-02,outpatient,routine check-up,2024-08-11T15:30:36,2025-05-01T12:45:42,finished
+Patient-129-Enc-01,Patient-129,Organization-003,Organization-003-Dept-01,inpatient,therapy,2023-08-14T16:48:10,2025-05-22T05:38:52,cancelled
+Patient-129-Enc-02,Patient-129,Organization-003,Organization-003-Dept-01,inpatient,follow-up,2025-01-25T19:56:52,2024-06-27T06:46:07,cancelled
+Patient-129-Enc-03,Patient-129,Organization-003,Organization-003-Dept-01,outpatient,treatment,2025-01-24T21:24:08,2024-08-15T13:37:16,cancelled
+Patient-129-Enc-04,Patient-129,Organization-003,Organization-003-Dept-01,outpatient,rehabilitation,2025-05-17T16:26:49,2025-06-03T18:15:57,finished
+Patient-129-Enc-05,Patient-129,Organization-003,Organization-003-Dept-01,inpatient,vaccination,2024-12-25T18:32:09,2025-06-19T13:38:46,in-progress
+Patient-130-Enc-01,Patient-130,Organization-002,Organization-002-Dept-01,emergency,routine check-up,2024-03-02T10:07:29,2024-09-22T14:38:03,planned
+Patient-130-Enc-02,Patient-130,Organization-002,Organization-002-Dept-01,emergency,emergency visit,2023-12-07T07:40:26,2024-08-10T06:53:35,in-progress
+Patient-130-Enc-03,Patient-130,Organization-002,Organization-002-Dept-01,outpatient,referral,2024-07-13T00:02:05,2025-03-30T18:04:22,finished
+Patient-130-Enc-04,Patient-130,Organization-002,Organization-002-Dept-01,inpatient,rehabilitation,2023-10-19T01:54:12,2024-08-01T06:09:47,planned
+Patient-130-Enc-05,Patient-130,Organization-002,Organization-002-Dept-01,emergency,consultation,2023-07-03T06:55:11,2024-09-19T04:55:31,finished
+Patient-131-Enc-01,Patient-131,Organization-006,Organization-006-Dept-02,outpatient,follow-up,2024-08-05T21:00:39,2025-04-04T06:43:34,in-progress
+Patient-131-Enc-02,Patient-131,Organization-006,Organization-006-Dept-02,inpatient,routine check-up,2025-06-01T23:00:12,2024-11-15T05:51:03,cancelled
+Patient-132-Enc-01,Patient-132,Organization-006,Organization-006-Dept-02,inpatient,vaccination,2025-02-12T10:56:43,2024-10-17T01:47:14,planned
+Patient-133-Enc-01,Patient-133,Organization-006,Organization-006-Dept-01,inpatient,follow-up,2023-07-02T07:15:15,2024-09-18T23:12:45,cancelled
+Patient-133-Enc-02,Patient-133,Organization-006,Organization-006-Dept-02,outpatient,follow-up,2023-08-01T08:00:39,2025-01-01T04:47:13,in-progress
+Patient-133-Enc-03,Patient-133,Organization-006,Organization-006-Dept-02,emergency,vaccination,2024-03-08T15:28:29,2024-09-20T18:21:44,finished
+Patient-134-Enc-01,Patient-134,Organization-003,Organization-003-Dept-01,inpatient,rehabilitation,2025-05-19T13:30:58,2025-02-03T02:19:17,in-progress
+Patient-135-Enc-01,Patient-135,Organization-007,Organization-007-Dept-02,inpatient,therapy,2024-01-17T12:02:28,2025-01-14T15:07:38,finished
+Patient-135-Enc-02,Patient-135,Organization-007,Organization-007-Dept-02,emergency,routine check-up,2025-06-12T07:38:21,2025-02-14T03:07:41,finished
+Patient-135-Enc-03,Patient-135,Organization-007,Organization-007-Dept-01,emergency,vaccination,2024-01-07T10:43:29,2025-05-03T03:41:50,planned
+Patient-135-Enc-04,Patient-135,Organization-007,Organization-007-Dept-02,inpatient,referral,2024-11-09T05:02:29,2024-11-06T14:56:20,in-progress
+Patient-135-Enc-05,Patient-135,Organization-007,Organization-007-Dept-01,outpatient,referral,2024-08-09T19:30:01,2025-06-16T10:18:51,in-progress
+Patient-136-Enc-01,Patient-136,Organization-008,Organization-008-Dept-01,emergency,diagnostic test,2023-10-14T04:58:16,2025-04-09T20:52:19,finished
+Patient-136-Enc-02,Patient-136,Organization-008,Organization-008-Dept-01,emergency,rehabilitation,2023-09-06T13:58:54,2025-04-04T13:44:34,cancelled
+Patient-137-Enc-01,Patient-137,Organization-009,Organization-009-Dept-02,inpatient,vaccination,2025-01-12T12:58:36,2025-06-06T08:17:56,finished
+Patient-138-Enc-01,Patient-138,Organization-002,Organization-002-Dept-01,inpatient,consultation,2024-08-28T21:28:16,2024-12-11T04:29:35,cancelled
+Patient-138-Enc-02,Patient-138,Organization-002,Organization-002-Dept-02,emergency,consultation,2024-07-15T17:48:33,2025-01-23T12:32:26,finished
+Patient-139-Enc-01,Patient-139,Organization-001,Organization-001-Dept-04,inpatient,emergency visit,2024-08-17T16:49:37,2024-12-22T00:46:50,finished
+Patient-139-Enc-02,Patient-139,Organization-001,Organization-001-Dept-06,emergency,follow-up,2024-07-23T19:42:20,2024-12-21T15:41:15,planned
+Patient-139-Enc-03,Patient-139,Organization-001,Organization-001-Dept-04,outpatient,routine check-up,2024-07-07T16:37:21,2024-11-15T09:41:22,in-progress
+Patient-139-Enc-04,Patient-139,Organization-001,Organization-001-Dept-01,emergency,follow-up,2024-03-15T00:50:24,2025-04-09T00:33:03,finished
+Patient-140-Enc-01,Patient-140,Organization-005,Organization-005-Dept-01,outpatient,diagnostic test,2024-09-09T14:52:37,2024-06-27T18:30:16,finished
+Patient-141-Enc-01,Patient-141,Organization-006,Organization-006-Dept-02,inpatient,rehabilitation,2024-08-04T23:23:17,2024-07-28T18:32:06,planned
+Patient-142-Enc-01,Patient-142,Organization-006,Organization-006-Dept-02,inpatient,rehabilitation,2025-04-12T20:00:32,2025-05-11T18:24:15,finished
+Patient-143-Enc-01,Patient-143,Organization-004,Organization-004-Dept-01,emergency,consultation,2024-01-27T05:24:39,2024-10-25T14:41:53,finished
+Patient-144-Enc-01,Patient-144,Organization-001,Organization-001-Dept-06,outpatient,emergency visit,2025-02-09T02:35:26,2024-08-14T17:05:01,cancelled
+Patient-144-Enc-02,Patient-144,Organization-001,Organization-001-Dept-06,inpatient,diagnostic test,2023-12-04T09:51:42,2025-01-20T20:46:10,planned
+Patient-144-Enc-03,Patient-144,Organization-001,Organization-001-Dept-05,emergency,follow-up,2023-10-12T06:06:37,2024-12-23T18:41:06,planned
+Patient-144-Enc-04,Patient-144,Organization-001,Organization-001-Dept-03,outpatient,vaccination,2024-11-04T01:56:08,2024-10-30T23:03:13,planned
+Patient-144-Enc-05,Patient-144,Organization-001,Organization-001-Dept-05,outpatient,consultation,2023-08-22T07:44:49,2025-03-16T04:20:25,in-progress
+Patient-145-Enc-01,Patient-145,Organization-007,Organization-007-Dept-02,emergency,routine check-up,2024-04-07T14:46:18,2025-02-27T18:11:18,cancelled
+Patient-145-Enc-02,Patient-145,Organization-007,Organization-007-Dept-01,emergency,vaccination,2023-09-25T03:35:21,2024-11-17T02:11:06,planned
+Patient-145-Enc-03,Patient-145,Organization-007,Organization-007-Dept-01,emergency,treatment,2024-10-13T05:28:59,2025-03-12T22:57:46,planned
+Patient-145-Enc-04,Patient-145,Organization-007,Organization-007-Dept-02,inpatient,vaccination,2025-05-15T07:48:28,2024-11-15T21:30:43,in-progress
+Patient-146-Enc-01,Patient-146,Organization-003,Organization-003-Dept-01,outpatient,diagnostic test,2024-01-07T10:01:22,2024-10-15T04:15:32,planned
+Patient-146-Enc-02,Patient-146,Organization-003,Organization-003-Dept-01,outpatient,therapy,2024-10-21T07:31:19,2024-12-28T03:08:35,cancelled
+Patient-146-Enc-03,Patient-146,Organization-003,Organization-003-Dept-01,inpatient,referral,2025-01-19T23:31:01,2024-07-16T14:05:40,cancelled
+Patient-147-Enc-01,Patient-147,Organization-006,Organization-006-Dept-02,outpatient,therapy,2024-12-22T06:45:16,2025-03-26T07:29:53,in-progress
+Patient-147-Enc-02,Patient-147,Organization-006,Organization-006-Dept-01,emergency,treatment,2023-11-07T15:05:44,2024-11-06T17:31:32,cancelled
+Patient-148-Enc-01,Patient-148,Organization-010,Organization-010-Dept-02,emergency,follow-up,2025-06-13T01:05:41,2025-05-09T20:24:30,planned
+Patient-148-Enc-02,Patient-148,Organization-010,Organization-010-Dept-05,inpatient,referral,2024-09-27T18:46:13,2024-12-17T09:46:21,planned
+Patient-148-Enc-03,Patient-148,Organization-010,Organization-010-Dept-02,inpatient,rehabilitation,2024-05-04T01:10:31,2024-07-02T18:48:01,cancelled
+Patient-148-Enc-04,Patient-148,Organization-010,Organization-010-Dept-05,emergency,vaccination,2023-10-26T01:33:55,2025-05-16T09:19:23,finished
+Patient-149-Enc-01,Patient-149,Organization-002,Organization-002-Dept-01,outpatient,vaccination,2024-12-17T13:35:29,2024-08-02T18:31:53,in-progress
+Patient-150-Enc-01,Patient-150,Organization-009,Organization-009-Dept-01,inpatient,consultation,2025-05-30T11:55:37,2025-04-28T23:12:19,planned
+Patient-150-Enc-02,Patient-150,Organization-009,Organization-009-Dept-01,outpatient,emergency visit,2023-12-26T09:09:37,2025-02-21T12:24:43,cancelled
+Patient-151-Enc-01,Patient-151,Organization-005,Organization-005-Dept-01,outpatient,routine check-up,2024-06-15T14:17:08,2024-10-26T12:04:19,cancelled
+Patient-152-Enc-01,Patient-152,Organization-009,Organization-009-Dept-01,outpatient,treatment,2024-05-02T02:39:52,2024-07-06T12:56:43,planned
+Patient-152-Enc-02,Patient-152,Organization-009,Organization-009-Dept-03,inpatient,treatment,2024-12-05T10:17:12,2024-10-20T07:20:06,planned
+Patient-152-Enc-03,Patient-152,Organization-009,Organization-009-Dept-03,outpatient,diagnostic test,2023-09-27T07:45:22,2025-01-25T03:55:08,cancelled
+Patient-153-Enc-01,Patient-153,Organization-009,Organization-009-Dept-02,inpatient,routine check-up,2024-06-21T11:34:10,2025-01-22T01:28:41,planned
+Patient-153-Enc-02,Patient-153,Organization-009,Organization-009-Dept-02,outpatient,follow-up,2024-08-20T03:18:01,2025-04-16T06:54:44,cancelled
+Patient-154-Enc-01,Patient-154,Organization-001,Organization-001-Dept-01,inpatient,referral,2024-08-20T03:22:04,2024-07-10T03:43:39,in-progress
+Patient-155-Enc-01,Patient-155,Organization-008,Organization-008-Dept-01,inpatient,routine check-up,2025-02-24T15:42:59,2025-04-10T21:04:59,in-progress
+Patient-155-Enc-02,Patient-155,Organization-008,Organization-008-Dept-01,outpatient,treatment,2023-09-12T22:13:01,2024-10-24T23:35:51,finished
+Patient-155-Enc-03,Patient-155,Organization-008,Organization-008-Dept-01,inpatient,vaccination,2023-07-29T05:30:05,2024-09-11T04:09:58,cancelled
+Patient-156-Enc-01,Patient-156,Organization-005,Organization-005-Dept-01,inpatient,referral,2024-09-18T17:56:38,2024-06-29T12:57:34,planned
+Patient-156-Enc-02,Patient-156,Organization-005,Organization-005-Dept-01,inpatient,routine check-up,2025-05-20T08:59:25,2024-12-06T03:59:43,cancelled
+Patient-157-Enc-01,Patient-157,Organization-004,Organization-004-Dept-02,inpatient,routine check-up,2024-07-08T18:44:36,2025-02-06T08:23:11,cancelled
+Patient-157-Enc-02,Patient-157,Organization-004,Organization-004-Dept-02,emergency,diagnostic test,2025-01-17T08:59:00,2025-06-20T12:35:02,planned
+Patient-157-Enc-03,Patient-157,Organization-004,Organization-004-Dept-02,inpatient,referral,2024-05-20T21:43:31,2025-04-25T04:58:59,cancelled
+Patient-157-Enc-04,Patient-157,Organization-004,Organization-004-Dept-01,emergency,follow-up,2023-08-01T22:31:00,2024-12-09T08:43:01,finished
+Patient-157-Enc-05,Patient-157,Organization-004,Organization-004-Dept-02,outpatient,vaccination,2024-02-27T13:11:53,2024-12-13T02:12:40,planned
+Patient-158-Enc-01,Patient-158,Organization-002,Organization-002-Dept-02,outpatient,emergency visit,2025-01-07T10:44:15,2024-10-22T15:17:48,in-progress
+Patient-158-Enc-02,Patient-158,Organization-002,Organization-002-Dept-02,emergency,referral,2023-07-03T18:43:38,2025-05-31T18:42:51,cancelled
+Patient-159-Enc-01,Patient-159,Organization-010,Organization-010-Dept-01,outpatient,emergency visit,2024-09-01T02:56:29,2024-10-08T02:52:35,finished
+Patient-159-Enc-02,Patient-159,Organization-010,Organization-010-Dept-05,outpatient,follow-up,2024-04-09T03:11:49,2024-08-03T04:57:57,finished
+Patient-160-Enc-01,Patient-160,Organization-010,Organization-010-Dept-02,emergency,consultation,2024-12-06T21:03:09,2024-12-09T04:53:39,in-progress
+Patient-160-Enc-02,Patient-160,Organization-010,Organization-010-Dept-01,outpatient,referral,2025-05-09T17:52:10,2025-02-15T06:58:53,in-progress
+Patient-160-Enc-03,Patient-160,Organization-010,Organization-010-Dept-02,emergency,therapy,2024-12-31T10:40:15,2025-04-16T03:24:42,cancelled
+Patient-161-Enc-01,Patient-161,Organization-003,Organization-003-Dept-01,emergency,emergency visit,2024-08-08T08:34:49,2025-05-26T21:44:29,planned
+Patient-161-Enc-02,Patient-161,Organization-003,Organization-003-Dept-01,emergency,referral,2024-05-26T19:07:11,2024-12-28T08:25:19,cancelled
+Patient-161-Enc-03,Patient-161,Organization-003,Organization-003-Dept-01,inpatient,therapy,2023-11-09T11:47:47,2025-06-15T21:21:55,planned
+Patient-161-Enc-04,Patient-161,Organization-003,Organization-003-Dept-01,inpatient,rehabilitation,2023-11-23T15:10:03,2025-05-14T18:16:30,cancelled
+Patient-162-Enc-01,Patient-162,Organization-009,Organization-009-Dept-03,inpatient,treatment,2024-08-07T02:18:24,2025-04-18T06:28:54,finished
+Patient-162-Enc-02,Patient-162,Organization-009,Organization-009-Dept-02,inpatient,referral,2023-09-10T21:39:15,2024-07-25T10:25:07,finished
+Patient-162-Enc-03,Patient-162,Organization-009,Organization-009-Dept-02,outpatient,treatment,2024-08-19T15:04:23,2025-01-28T11:04:05,planned
+Patient-163-Enc-01,Patient-163,Organization-004,Organization-004-Dept-01,outpatient,routine check-up,2024-01-13T11:26:08,2024-09-27T14:42:06,finished
+Patient-163-Enc-02,Patient-163,Organization-004,Organization-004-Dept-02,outpatient,routine check-up,2023-10-31T15:05:26,2024-08-05T00:41:27,in-progress
+Patient-163-Enc-03,Patient-163,Organization-004,Organization-004-Dept-02,inpatient,diagnostic test,2024-12-17T21:16:56,2025-05-22T07:18:57,cancelled
+Patient-163-Enc-04,Patient-163,Organization-004,Organization-004-Dept-01,inpatient,therapy,2025-04-07T09:19:27,2025-04-29T18:59:59,cancelled
+Patient-163-Enc-05,Patient-163,Organization-004,Organization-004-Dept-01,outpatient,treatment,2024-12-12T15:43:07,2025-03-10T01:29:18,cancelled
+Patient-164-Enc-01,Patient-164,Organization-010,Organization-010-Dept-03,outpatient,consultation,2024-05-20T22:08:45,2025-04-01T22:32:41,finished
+Patient-164-Enc-02,Patient-164,Organization-010,Organization-010-Dept-03,outpatient,diagnostic test,2023-12-27T12:42:45,2024-09-29T01:40:39,planned
+Patient-164-Enc-03,Patient-164,Organization-010,Organization-010-Dept-03,inpatient,emergency visit,2024-12-17T20:17:20,2024-07-08T14:16:45,finished
+Patient-164-Enc-04,Patient-164,Organization-010,Organization-010-Dept-01,inpatient,referral,2025-05-24T02:45:19,2025-01-13T12:41:07,cancelled
+Patient-164-Enc-05,Patient-164,Organization-010,Organization-010-Dept-04,inpatient,diagnostic test,2023-10-16T04:57:33,2024-08-13T14:37:53,cancelled
+Patient-165-Enc-01,Patient-165,Organization-009,Organization-009-Dept-02,outpatient,referral,2023-08-01T16:22:38,2024-07-13T11:26:57,cancelled
+Patient-165-Enc-02,Patient-165,Organization-009,Organization-009-Dept-03,outpatient,follow-up,2024-04-24T21:21:11,2024-07-20T14:52:55,cancelled
+Patient-165-Enc-03,Patient-165,Organization-009,Organization-009-Dept-03,emergency,therapy,2023-11-30T23:17:09,2024-08-19T21:55:09,in-progress
+Patient-165-Enc-04,Patient-165,Organization-009,Organization-009-Dept-03,emergency,therapy,2025-03-20T22:55:29,2024-12-19T01:00:28,cancelled
+Patient-165-Enc-05,Patient-165,Organization-009,Organization-009-Dept-02,outpatient,referral,2025-05-29T07:08:27,2024-09-28T09:14:03,cancelled
+Patient-166-Enc-01,Patient-166,Organization-006,Organization-006-Dept-02,inpatient,follow-up,2024-04-19T22:53:29,2024-11-05T09:48:29,planned
+Patient-167-Enc-01,Patient-167,Organization-005,Organization-005-Dept-01,inpatient,therapy,2023-10-27T09:21:27,2024-10-08T05:26:55,in-progress
+Patient-168-Enc-01,Patient-168,Organization-003,Organization-003-Dept-01,outpatient,follow-up,2024-03-17T09:10:22,2025-01-16T01:41:33,cancelled
+Patient-169-Enc-01,Patient-169,Organization-004,Organization-004-Dept-02,emergency,treatment,2025-06-03T13:21:58,2024-09-04T02:42:57,planned
+Patient-169-Enc-02,Patient-169,Organization-004,Organization-004-Dept-02,outpatient,emergency visit,2024-06-06T16:04:35,2025-03-01T11:17:23,cancelled
+Patient-169-Enc-03,Patient-169,Organization-004,Organization-004-Dept-02,inpatient,rehabilitation,2024-08-22T08:38:46,2025-05-02T04:12:51,finished
+Patient-169-Enc-04,Patient-169,Organization-004,Organization-004-Dept-02,outpatient,consultation,2024-03-05T01:21:36,2025-03-18T11:33:30,planned
+Patient-169-Enc-05,Patient-169,Organization-004,Organization-004-Dept-02,inpatient,emergency visit,2024-11-12T01:56:17,2024-12-13T20:36:02,cancelled
+Patient-170-Enc-01,Patient-170,Organization-007,Organization-007-Dept-02,outpatient,rehabilitation,2024-07-26T02:47:25,2024-08-13T11:42:33,cancelled
+Patient-171-Enc-01,Patient-171,Organization-004,Organization-004-Dept-02,outpatient,therapy,2024-08-21T02:14:01,2025-04-14T11:41:18,in-progress
+Patient-171-Enc-02,Patient-171,Organization-004,Organization-004-Dept-01,emergency,follow-up,2024-07-05T06:47:15,2025-05-14T23:10:39,in-progress
+Patient-171-Enc-03,Patient-171,Organization-004,Organization-004-Dept-02,inpatient,consultation,2024-02-28T16:20:52,2025-03-31T05:55:55,cancelled
+Patient-171-Enc-04,Patient-171,Organization-004,Organization-004-Dept-02,emergency,routine check-up,2024-04-25T09:54:19,2024-11-16T12:26:41,cancelled
+Patient-171-Enc-05,Patient-171,Organization-004,Organization-004-Dept-01,outpatient,therapy,2025-05-07T06:01:18,2024-09-06T04:52:49,finished
+Patient-172-Enc-01,Patient-172,Organization-008,Organization-008-Dept-01,emergency,routine check-up,2024-03-08T02:51:38,2025-02-21T21:26:57,in-progress
+Patient-173-Enc-01,Patient-173,Organization-008,Organization-008-Dept-01,outpatient,routine check-up,2025-04-18T02:27:18,2024-10-06T15:22:13,planned
+Patient-174-Enc-01,Patient-174,Organization-009,Organization-009-Dept-02,outpatient,rehabilitation,2024-01-24T19:20:33,2024-10-13T02:36:37,finished
+Patient-174-Enc-02,Patient-174,Organization-009,Organization-009-Dept-03,inpatient,therapy,2023-10-25T07:00:27,2025-03-17T07:00:04,planned
+Patient-174-Enc-03,Patient-174,Organization-009,Organization-009-Dept-03,emergency,diagnostic test,2025-04-05T23:52:35,2025-03-05T02:13:15,cancelled
+Patient-174-Enc-04,Patient-174,Organization-009,Organization-009-Dept-03,inpatient,diagnostic test,2024-12-09T21:31:27,2025-04-29T15:04:36,in-progress
+Patient-174-Enc-05,Patient-174,Organization-009,Organization-009-Dept-01,inpatient,follow-up,2025-03-18T08:17:50,2024-07-01T04:23:01,in-progress
+Patient-175-Enc-01,Patient-175,Organization-003,Organization-003-Dept-01,inpatient,follow-up,2024-12-27T05:34:56,2024-06-20T21:26:49,finished
+Patient-175-Enc-02,Patient-175,Organization-003,Organization-003-Dept-01,outpatient,routine check-up,2025-01-01T19:48:26,2025-02-24T07:33:57,cancelled
+Patient-175-Enc-03,Patient-175,Organization-003,Organization-003-Dept-01,emergency,therapy,2024-11-27T02:15:16,2024-07-20T00:38:00,planned
+Patient-175-Enc-04,Patient-175,Organization-003,Organization-003-Dept-01,outpatient,referral,2024-10-05T20:34:07,2025-06-17T14:05:03,in-progress
+Patient-176-Enc-01,Patient-176,Organization-008,Organization-008-Dept-01,inpatient,follow-up,2024-07-22T08:53:39,2024-11-07T13:45:25,finished
+Patient-176-Enc-02,Patient-176,Organization-008,Organization-008-Dept-01,outpatient,diagnostic test,2023-10-30T00:41:16,2025-02-10T15:05:00,in-progress
+Patient-176-Enc-03,Patient-176,Organization-008,Organization-008-Dept-01,emergency,consultation,2023-12-14T22:08:02,2025-03-14T23:32:00,planned
+Patient-177-Enc-01,Patient-177,Organization-006,Organization-006-Dept-01,emergency,therapy,2024-05-01T18:13:40,2024-10-24T04:10:56,in-progress
+Patient-177-Enc-02,Patient-177,Organization-006,Organization-006-Dept-01,emergency,emergency visit,2025-05-28T14:34:44,2025-04-19T08:29:29,planned
+Patient-177-Enc-03,Patient-177,Organization-006,Organization-006-Dept-01,outpatient,emergency visit,2023-09-15T12:17:51,2024-10-17T02:38:14,finished
+Patient-177-Enc-04,Patient-177,Organization-006,Organization-006-Dept-02,emergency,vaccination,2024-02-12T12:06:51,2024-07-02T15:42:19,in-progress
+Patient-177-Enc-05,Patient-177,Organization-006,Organization-006-Dept-02,emergency,routine check-up,2024-11-09T05:30:44,2025-01-14T18:33:52,in-progress
+Patient-178-Enc-01,Patient-178,Organization-003,Organization-003-Dept-01,inpatient,rehabilitation,2024-09-10T12:13:09,2024-12-28T13:35:36,planned
+Patient-178-Enc-02,Patient-178,Organization-003,Organization-003-Dept-01,outpatient,diagnostic test,2023-12-04T17:00:19,2025-01-01T08:08:24,planned
+Patient-178-Enc-03,Patient-178,Organization-003,Organization-003-Dept-01,outpatient,emergency visit,2023-08-05T03:55:51,2024-11-16T19:47:11,cancelled
+Patient-178-Enc-04,Patient-178,Organization-003,Organization-003-Dept-01,outpatient,treatment,2024-01-26T21:19:26,2024-09-16T15:39:19,cancelled
+Patient-178-Enc-05,Patient-178,Organization-003,Organization-003-Dept-01,emergency,consultation,2024-04-07T17:12:40,2024-07-19T04:03:05,cancelled
+Patient-179-Enc-01,Patient-179,Organization-001,Organization-001-Dept-07,emergency,rehabilitation,2023-07-03T11:04:53,2024-09-13T05:35:13,in-progress
+Patient-179-Enc-02,Patient-179,Organization-001,Organization-001-Dept-03,outpatient,consultation,2024-09-03T22:23:48,2024-08-06T12:10:28,finished
+Patient-180-Enc-01,Patient-180,Organization-002,Organization-002-Dept-02,emergency,emergency visit,2025-01-15T22:02:43,2025-06-06T17:54:58,finished
+Patient-180-Enc-02,Patient-180,Organization-002,Organization-002-Dept-02,emergency,consultation,2024-06-01T09:32:03,2024-08-05T17:47:54,planned
+Patient-180-Enc-03,Patient-180,Organization-002,Organization-002-Dept-02,outpatient,rehabilitation,2024-08-27T07:42:37,2024-10-22T11:00:15,planned
+Patient-180-Enc-04,Patient-180,Organization-002,Organization-002-Dept-02,outpatient,therapy,2024-12-21T10:09:14,2025-05-23T15:09:00,finished
+Patient-180-Enc-05,Patient-180,Organization-002,Organization-002-Dept-02,emergency,referral,2025-02-18T22:16:58,2025-04-05T17:37:24,in-progress
+Patient-181-Enc-01,Patient-181,Organization-009,Organization-009-Dept-03,outpatient,emergency visit,2024-04-04T20:01:58,2024-08-27T08:20:50,finished
+Patient-181-Enc-02,Patient-181,Organization-009,Organization-009-Dept-01,emergency,treatment,2025-05-05T00:12:21,2024-11-20T15:47:14,finished
+Patient-182-Enc-01,Patient-182,Organization-003,Organization-003-Dept-01,inpatient,consultation,2024-12-05T16:40:33,2024-06-23T01:09:59,planned
+Patient-182-Enc-02,Patient-182,Organization-003,Organization-003-Dept-01,emergency,rehabilitation,2024-09-10T02:43:37,2024-10-28T09:23:27,planned
+Patient-183-Enc-01,Patient-183,Organization-001,Organization-001-Dept-07,emergency,rehabilitation,2024-01-12T07:13:27,2024-12-13T12:53:52,planned
+Patient-183-Enc-02,Patient-183,Organization-001,Organization-001-Dept-07,emergency,therapy,2024-06-15T05:40:11,2025-05-08T01:42:09,cancelled
+Patient-183-Enc-03,Patient-183,Organization-001,Organization-001-Dept-03,inpatient,diagnostic test,2025-06-04T16:07:59,2025-06-15T02:13:52,planned
+Patient-183-Enc-04,Patient-183,Organization-001,Organization-001-Dept-07,outpatient,therapy,2024-12-28T07:42:16,2024-07-01T16:20:45,planned
+Patient-184-Enc-01,Patient-184,Organization-010,Organization-010-Dept-05,inpatient,therapy,2025-03-23T07:34:58,2025-02-18T04:41:31,cancelled
+Patient-184-Enc-02,Patient-184,Organization-010,Organization-010-Dept-04,inpatient,diagnostic test,2023-12-25T03:53:21,2024-08-11T09:16:27,in-progress
+Patient-184-Enc-03,Patient-184,Organization-010,Organization-010-Dept-01,inpatient,therapy,2024-02-26T04:02:17,2024-10-07T12:25:13,planned
+Patient-184-Enc-04,Patient-184,Organization-010,Organization-010-Dept-05,emergency,rehabilitation,2025-06-03T20:58:40,2025-03-14T18:07:26,finished
+Patient-185-Enc-01,Patient-185,Organization-003,Organization-003-Dept-01,inpatient,therapy,2024-07-09T04:04:52,2024-10-29T02:14:28,cancelled
+Patient-185-Enc-02,Patient-185,Organization-003,Organization-003-Dept-01,outpatient,vaccination,2024-08-27T07:09:42,2024-09-07T17:21:20,finished
+Patient-185-Enc-03,Patient-185,Organization-003,Organization-003-Dept-01,inpatient,vaccination,2024-11-05T10:10:03,2024-10-20T16:54:39,cancelled
+Patient-185-Enc-04,Patient-185,Organization-003,Organization-003-Dept-01,inpatient,follow-up,2024-05-01T22:03:50,2024-12-07T20:50:37,planned
+Patient-185-Enc-05,Patient-185,Organization-003,Organization-003-Dept-01,inpatient,treatment,2023-11-07T00:19:48,2025-05-27T05:38:54,in-progress
+Patient-186-Enc-01,Patient-186,Organization-005,Organization-005-Dept-01,inpatient,referral,2023-07-08T14:42:03,2025-01-10T23:33:48,cancelled
+Patient-186-Enc-02,Patient-186,Organization-005,Organization-005-Dept-01,inpatient,emergency visit,2024-12-03T04:35:37,2024-12-18T01:53:26,in-progress
+Patient-186-Enc-03,Patient-186,Organization-005,Organization-005-Dept-01,outpatient,rehabilitation,2024-08-04T02:15:14,2025-03-06T16:49:28,cancelled
+Patient-187-Enc-01,Patient-187,Organization-001,Organization-001-Dept-04,inpatient,follow-up,2024-07-30T00:28:45,2025-03-19T00:28:15,in-progress
+Patient-187-Enc-02,Patient-187,Organization-001,Organization-001-Dept-07,outpatient,rehabilitation,2025-01-23T01:21:00,2025-06-07T10:39:45,planned
+Patient-188-Enc-01,Patient-188,Organization-003,Organization-003-Dept-01,emergency,rehabilitation,2025-05-30T03:36:50,2024-09-18T07:07:56,planned
+Patient-188-Enc-02,Patient-188,Organization-003,Organization-003-Dept-01,emergency,therapy,2024-10-18T08:24:43,2024-11-10T09:30:35,in-progress
+Patient-188-Enc-03,Patient-188,Organization-003,Organization-003-Dept-01,inpatient,consultation,2023-11-13T12:03:17,2025-02-01T16:23:32,planned
+Patient-189-Enc-01,Patient-189,Organization-003,Organization-003-Dept-01,emergency,emergency visit,2024-03-31T00:30:14,2025-05-31T23:28:23,finished
+Patient-189-Enc-02,Patient-189,Organization-003,Organization-003-Dept-01,outpatient,rehabilitation,2024-07-15T06:59:57,2025-04-24T02:05:01,finished
+Patient-189-Enc-03,Patient-189,Organization-003,Organization-003-Dept-01,inpatient,therapy,2023-07-02T05:21:40,2025-01-21T23:18:45,planned
+Patient-190-Enc-01,Patient-190,Organization-002,Organization-002-Dept-02,emergency,vaccination,2023-07-09T18:44:34,2025-02-22T23:23:28,cancelled
+Patient-190-Enc-02,Patient-190,Organization-002,Organization-002-Dept-01,inpatient,diagnostic test,2024-03-29T15:56:11,2025-01-15T14:09:36,cancelled
+Patient-190-Enc-03,Patient-190,Organization-002,Organization-002-Dept-01,inpatient,diagnostic test,2024-12-28T05:33:45,2024-07-20T18:30:47,cancelled
+Patient-190-Enc-04,Patient-190,Organization-002,Organization-002-Dept-02,outpatient,routine check-up,2023-09-11T15:14:20,2024-12-19T18:43:55,in-progress
+Patient-190-Enc-05,Patient-190,Organization-002,Organization-002-Dept-02,emergency,diagnostic test,2024-11-29T07:20:46,2025-05-20T21:32:39,planned
+Patient-191-Enc-01,Patient-191,Organization-002,Organization-002-Dept-01,emergency,therapy,2025-03-26T07:03:37,2024-10-19T00:05:48,planned
+Patient-191-Enc-02,Patient-191,Organization-002,Organization-002-Dept-02,outpatient,therapy,2025-02-04T04:02:54,2024-10-01T11:13:05,finished
+Patient-191-Enc-03,Patient-191,Organization-002,Organization-002-Dept-02,outpatient,referral,2023-12-30T18:52:19,2024-10-04T02:34:33,finished
+Patient-191-Enc-04,Patient-191,Organization-002,Organization-002-Dept-02,emergency,therapy,2023-08-22T05:53:23,2024-12-24T23:33:28,finished
+Patient-192-Enc-01,Patient-192,Organization-009,Organization-009-Dept-01,outpatient,emergency visit,2024-08-05T14:24:25,2024-09-22T17:05:41,planned
+Patient-192-Enc-02,Patient-192,Organization-009,Organization-009-Dept-02,emergency,vaccination,2024-05-05T21:23:48,2025-04-12T20:39:43,finished
+Patient-193-Enc-01,Patient-193,Organization-008,Organization-008-Dept-01,outpatient,routine check-up,2025-03-05T22:17:36,2024-10-30T05:44:15,planned
+Patient-193-Enc-02,Patient-193,Organization-008,Organization-008-Dept-01,outpatient,rehabilitation,2024-09-08T13:34:45,2024-08-16T05:04:05,planned
+Patient-193-Enc-03,Patient-193,Organization-008,Organization-008-Dept-01,inpatient,consultation,2024-08-23T15:42:38,2024-08-03T13:05:11,cancelled
+Patient-194-Enc-01,Patient-194,Organization-008,Organization-008-Dept-01,emergency,referral,2024-11-23T02:30:49,2024-06-28T16:45:00,finished
+Patient-194-Enc-02,Patient-194,Organization-008,Organization-008-Dept-01,outpatient,referral,2024-12-03T22:37:31,2025-01-23T15:43:03,planned
+Patient-194-Enc-03,Patient-194,Organization-008,Organization-008-Dept-01,inpatient,vaccination,2024-01-30T18:35:08,2025-05-28T09:12:52,in-progress
+Patient-194-Enc-04,Patient-194,Organization-008,Organization-008-Dept-01,emergency,consultation,2023-09-10T11:23:22,2025-06-20T07:37:50,finished
+Patient-195-Enc-01,Patient-195,Organization-009,Organization-009-Dept-01,emergency,treatment,2024-02-08T22:21:08,2025-06-04T07:01:56,cancelled
+Patient-195-Enc-02,Patient-195,Organization-009,Organization-009-Dept-01,emergency,emergency visit,2023-07-05T17:07:07,2024-09-07T14:04:32,cancelled
+Patient-195-Enc-03,Patient-195,Organization-009,Organization-009-Dept-02,outpatient,diagnostic test,2024-07-06T03:25:52,2024-08-11T03:18:05,in-progress
+Patient-195-Enc-04,Patient-195,Organization-009,Organization-009-Dept-01,emergency,vaccination,2023-11-11T13:23:57,2024-07-10T20:20:36,cancelled
+Patient-195-Enc-05,Patient-195,Organization-009,Organization-009-Dept-01,outpatient,vaccination,2024-04-15T19:15:12,2025-01-06T00:13:15,finished
+Patient-196-Enc-01,Patient-196,Organization-006,Organization-006-Dept-01,outpatient,routine check-up,2025-01-26T21:38:57,2025-04-20T20:36:53,cancelled
+Patient-196-Enc-02,Patient-196,Organization-006,Organization-006-Dept-02,outpatient,rehabilitation,2024-01-18T22:18:06,2025-01-02T20:07:16,in-progress
+Patient-196-Enc-03,Patient-196,Organization-006,Organization-006-Dept-01,inpatient,consultation,2023-12-10T11:19:38,2025-01-15T00:07:39,cancelled
+Patient-196-Enc-04,Patient-196,Organization-006,Organization-006-Dept-01,emergency,follow-up,2024-04-02T19:35:20,2024-06-24T21:29:15,in-progress
+Patient-196-Enc-05,Patient-196,Organization-006,Organization-006-Dept-01,inpatient,follow-up,2023-10-19T21:21:12,2025-01-04T20:59:22,cancelled
+Patient-197-Enc-01,Patient-197,Organization-008,Organization-008-Dept-01,emergency,treatment,2024-03-22T13:12:47,2024-08-30T05:26:02,cancelled
+Patient-197-Enc-02,Patient-197,Organization-008,Organization-008-Dept-01,emergency,rehabilitation,2025-04-08T11:17:12,2024-09-14T02:23:51,cancelled
+Patient-197-Enc-03,Patient-197,Organization-008,Organization-008-Dept-01,inpatient,treatment,2024-05-25T02:34:40,2024-11-05T10:08:33,in-progress
+Patient-197-Enc-04,Patient-197,Organization-008,Organization-008-Dept-01,outpatient,routine check-up,2024-06-13T05:48:31,2025-01-07T08:48:06,finished
+Patient-198-Enc-01,Patient-198,Organization-001,Organization-001-Dept-02,emergency,referral,2024-12-01T08:44:57,2024-12-31T14:15:56,planned
+Patient-198-Enc-02,Patient-198,Organization-001,Organization-001-Dept-02,outpatient,routine check-up,2023-11-10T14:07:23,2025-03-12T21:48:03,cancelled
+Patient-198-Enc-03,Patient-198,Organization-001,Organization-001-Dept-05,outpatient,consultation,2023-08-07T07:24:45,2025-01-30T16:46:24,cancelled
+Patient-198-Enc-04,Patient-198,Organization-001,Organization-001-Dept-02,inpatient,therapy,2024-06-16T23:14:12,2024-07-30T04:26:17,planned
+Patient-199-Enc-01,Patient-199,Organization-001,Organization-001-Dept-06,inpatient,follow-up,2024-10-24T15:52:02,2025-03-31T14:28:52,planned
+Patient-199-Enc-02,Patient-199,Organization-001,Organization-001-Dept-05,outpatient,therapy,2025-01-30T00:24:51,2024-07-28T19:45:12,cancelled
+Patient-199-Enc-03,Patient-199,Organization-001,Organization-001-Dept-04,outpatient,vaccination,2025-04-07T00:43:49,2024-09-07T19:33:27,finished
+Patient-200-Enc-01,Patient-200,Organization-005,Organization-005-Dept-01,outpatient,therapy,2023-10-26T12:29:29,2024-08-08T05:27:42,planned
+Patient-200-Enc-02,Patient-200,Organization-005,Organization-005-Dept-01,emergency,routine check-up,2025-01-29T21:09:39,2024-10-31T20:24:24,in-progress
+Patient-200-Enc-03,Patient-200,Organization-005,Organization-005-Dept-01,emergency,consultation,2024-04-07T09:40:43,2025-04-01T21:15:16,finished
+Patient-200-Enc-04,Patient-200,Organization-005,Organization-005-Dept-01,inpatient,rehabilitation,2023-10-12T16:16:41,2025-04-05T16:38:44,in-progress

@@ -1,0 +1,111 @@
+
+FHIR Synthetic Dataset Metadata
+===============================
+
+1. FHIR_Organizations.csv
+-------------------------
+- Represents healthcare organizations (e.g., hospitals, clinics, insurers).
+- Fields:
+  - id: Unique identifier (e.g., Organization-001)
+  - name: Organization name
+  - type: Type of organization (hospital, clinic, insurance, etc.)
+  - address_line, city, state, postalCode, country: Physical address
+  - phone, email: Contact details
+  - active: Boolean indicating operational status
+
+2. FHIR_Organization_Departments.csv
+------------------------------------
+- Departments (sub-organizations) within each organization.
+- FHIR-aligned with partOf (flattened).
+- Fields:
+  - id: Department ID (e.g., Organization-001-Dept-01)
+  - organization_id: Parent organization
+  - department_name: e.g., Emergency, Radiology
+  - head: Department head name
+  - phone, email: Contact details
+
+3. FHIR_Department_Participants.csv
+-----------------------------------
+- Staff members (doctors, nurses) working in departments.
+- Fields:
+  - id: Unique participant ID
+  - department_id: Linked department
+  - organization_id: Parent organization
+  - name: Full name
+  - role: Doctor or Nurse
+  - phone, email
+  - active: Boolean flag
+
+4. FHIR_Patients.csv
+--------------------
+- Patients registered with an organization.
+- Fields:
+  - id: Patient ID
+  - organization_id: Assigned organization
+  - name, gender, birth_date
+  - phone, email
+  - address
+  - active: Status
+
+5. FHIR_Encounters_With_Department.csv
+--------------------------------------
+- Represents visits or interactions between patient and care team.
+- Fields:
+  - id: Encounter ID
+  - patient_id: Patient involved
+  - organization_id: Owning organization
+  - department_id: Where encounter took place
+  - encounter_class: inpatient, outpatient, emergency
+  - reason: e.g., check-up, emergency visit
+  - start_date, end_date
+  - status: planned, in-progress, finished, cancelled
+
+6. FHIR_Lab_Results.csv
+-----------------------
+- Lab observations from encounters.
+- Fields:
+  - id: Lab result ID
+  - encounter_id, patient_id, organization_id, department_id
+  - test_code: Lab code (e.g., GLU, HGB)
+  - test_display: Description
+  - value, unit
+  - status: final, preliminary, amended
+  - issued: Date/time issued
+
+7. FHIR_Invoices.csv
+--------------------
+- Financial records tied to encounters.
+- Fields:
+  - id: Invoice ID
+  - encounter_id, patient_id, organization_id, department_id
+  - total_amount: Sum of line items
+  - currency: Default "THB"
+  - status: draft, issued, paid, cancelled
+  - issued_date
+
+8. FHIR_Invoice_Items.csv
+-------------------------
+- Line-item details for invoices.
+- Fields:
+  - invoice_id: Linked invoice
+  - item_code: LAB, PROC, CONS, etc.
+  - description
+  - amount
+
+9. FHIR_Appointments.csv
+------------------------
+- Scheduling records for department participants.
+- Fields:
+  - id: Appointment ID
+  - participant_id: Linked doctor/nurse
+  - organization_id, department_id
+  - role: Doctor/Nurse
+  - start_time, end_time: Appointment slot
+  - status: booked, pending, cancelled, fulfilled, noshow
+
+Notes:
+------
+- Data is synthetic and randomly generated using Faker.
+- Structure loosely follows HL7 FHIR normalized to RDBMS-friendly format.
+- Suitable for simulations, data pipeline testing, and mock data training.
+

@@ -1,0 +1,1211 @@
+id,encounter_id,patient_id,organization_id,department_id,test_code,test_display,value,unit,status,issued
+Patient-001-Enc-01-Lab-PLT,Patient-001-Enc-01,Patient-001,Organization-001,Organization-001-Dept-02,PLT,Platelets,248.0,10^3/uL,preliminary,2025-02-14T13:48:20
+Patient-001-Enc-02-Lab-WBC,Patient-001-Enc-02,Patient-001,Organization-001,Organization-001-Dept-02,WBC,White Blood Cell Count,4.97,10^3/uL,amended,2025-06-03T13:51:08
+Patient-001-Enc-02-Lab-PLT,Patient-001-Enc-02,Patient-001,Organization-001,Organization-001-Dept-02,PLT,Platelets,366.44,10^3/uL,final,2024-09-21T15:38:15
+Patient-001-Enc-02-Lab-CR,Patient-001-Enc-02,Patient-001,Organization-001,Organization-001-Dept-02,CR,Creatinine,0.78,mg/dL,amended,2023-12-29T02:30:07
+Patient-002-Enc-01-Lab-PLT,Patient-002-Enc-01,Patient-002,Organization-007,Organization-007-Dept-01,PLT,Platelets,280.96,10^3/uL,preliminary,2025-03-12T12:51:27
+Patient-002-Enc-01-Lab-CR,Patient-002-Enc-01,Patient-002,Organization-007,Organization-007-Dept-01,CR,Creatinine,1.08,mg/dL,amended,2024-04-28T23:31:11
+Patient-002-Enc-02-Lab-WBC,Patient-002-Enc-02,Patient-002,Organization-007,Organization-007-Dept-01,WBC,White Blood Cell Count,7.54,10^3/uL,preliminary,2024-10-09T07:57:41
+Patient-002-Enc-03-Lab-GLU,Patient-002-Enc-03,Patient-002,Organization-007,Organization-007-Dept-01,GLU,Glucose,96.04,mg/dL,amended,2023-08-21T15:29:18
+Patient-002-Enc-03-Lab-PLT,Patient-002-Enc-03,Patient-002,Organization-007,Organization-007-Dept-01,PLT,Platelets,198.18,10^3/uL,final,2023-11-23T05:57:51
+Patient-002-Enc-03-Lab-CR,Patient-002-Enc-03,Patient-002,Organization-007,Organization-007-Dept-01,CR,Creatinine,0.86,mg/dL,final,2025-02-21T17:21:08
+Patient-003-Enc-01-Lab-PLT,Patient-003-Enc-01,Patient-003,Organization-001,Organization-001-Dept-03,PLT,Platelets,219.91,10^3/uL,final,2024-03-01T18:57:33
+Patient-003-Enc-01-Lab-GLU,Patient-003-Enc-01,Patient-003,Organization-001,Organization-001-Dept-03,GLU,Glucose,104.6,mg/dL,preliminary,2024-03-15T04:13:53
+Patient-004-Enc-01-Lab-WBC,Patient-004-Enc-01,Patient-004,Organization-008,Organization-008-Dept-01,WBC,White Blood Cell Count,5.39,10^3/uL,preliminary,2024-03-28T20:44:13
+Patient-004-Enc-01-Lab-HGB,Patient-004-Enc-01,Patient-004,Organization-008,Organization-008-Dept-01,HGB,Hemoglobin,15.57,g/dL,preliminary,2024-02-04T01:33:27
+Patient-004-Enc-01-Lab-GLU,Patient-004-Enc-01,Patient-004,Organization-008,Organization-008-Dept-01,GLU,Glucose,76.08,mg/dL,amended,2024-02-10T03:50:33
+Patient-004-Enc-02-Lab-WBC,Patient-004-Enc-02,Patient-004,Organization-008,Organization-008-Dept-01,WBC,White Blood Cell Count,10.41,10^3/uL,preliminary,2024-11-26T12:06:34
+Patient-004-Enc-02-Lab-PLT,Patient-004-Enc-02,Patient-004,Organization-008,Organization-008-Dept-01,PLT,Platelets,232.43,10^3/uL,preliminary,2025-03-04T07:00:37
+Patient-004-Enc-02-Lab-CR,Patient-004-Enc-02,Patient-004,Organization-008,Organization-008-Dept-01,CR,Creatinine,1.13,mg/dL,preliminary,2025-01-11T21:27:35
+Patient-004-Enc-03-Lab-PLT,Patient-004-Enc-03,Patient-004,Organization-008,Organization-008-Dept-01,PLT,Platelets,350.4,10^3/uL,amended,2025-05-20T22:41:52
+Patient-004-Enc-03-Lab-WBC,Patient-004-Enc-03,Patient-004,Organization-008,Organization-008-Dept-01,WBC,White Blood Cell Count,8.28,10^3/uL,preliminary,2024-02-28T09:18:33
+Patient-004-Enc-03-Lab-GLU,Patient-004-Enc-03,Patient-004,Organization-008,Organization-008-Dept-01,GLU,Glucose,95.1,mg/dL,final,2023-10-16T12:26:55
+Patient-004-Enc-04-Lab-GLU,Patient-004-Enc-04,Patient-004,Organization-008,Organization-008-Dept-01,GLU,Glucose,94.39,mg/dL,preliminary,2023-10-09T09:11:44
+Patient-004-Enc-04-Lab-HGB,Patient-004-Enc-04,Patient-004,Organization-008,Organization-008-Dept-01,HGB,Hemoglobin,14.89,g/dL,preliminary,2024-05-04T21:17:02
+Patient-004-Enc-05-Lab-PLT,Patient-004-Enc-05,Patient-004,Organization-008,Organization-008-Dept-01,PLT,Platelets,325.6,10^3/uL,amended,2025-06-19T23:21:41
+Patient-004-Enc-05-Lab-HGB,Patient-004-Enc-05,Patient-004,Organization-008,Organization-008-Dept-01,HGB,Hemoglobin,12.73,g/dL,amended,2024-09-26T21:21:18
+Patient-005-Enc-01-Lab-HGB,Patient-005-Enc-01,Patient-005,Organization-002,Organization-002-Dept-02,HGB,Hemoglobin,14.74,g/dL,preliminary,2024-11-19T07:33:35
+Patient-005-Enc-01-Lab-CR,Patient-005-Enc-01,Patient-005,Organization-002,Organization-002-Dept-02,CR,Creatinine,0.7,mg/dL,preliminary,2025-03-13T22:40:43
+Patient-005-Enc-02-Lab-CR,Patient-005-Enc-02,Patient-005,Organization-002,Organization-002-Dept-02,CR,Creatinine,1.0,mg/dL,amended,2024-10-18T03:01:14
+Patient-005-Enc-03-Lab-PLT,Patient-005-Enc-03,Patient-005,Organization-002,Organization-002-Dept-01,PLT,Platelets,264.33,10^3/uL,final,2024-04-12T17:49:01
+Patient-006-Enc-01-Lab-PLT,Patient-006-Enc-01,Patient-006,Organization-003,Organization-003-Dept-01,PLT,Platelets,328.55,10^3/uL,final,2025-01-29T16:22:59
+Patient-006-Enc-01-Lab-WBC,Patient-006-Enc-01,Patient-006,Organization-003,Organization-003-Dept-01,WBC,White Blood Cell Count,4.88,10^3/uL,amended,2023-07-10T14:31:12
+Patient-007-Enc-01-Lab-WBC,Patient-007-Enc-01,Patient-007,Organization-004,Organization-004-Dept-01,WBC,White Blood Cell Count,4.97,10^3/uL,amended,2023-07-01T18:51:03
+Patient-007-Enc-01-Lab-PLT,Patient-007-Enc-01,Patient-007,Organization-004,Organization-004-Dept-01,PLT,Platelets,383.55,10^3/uL,amended,2023-08-05T16:22:07
+Patient-007-Enc-01-Lab-CR,Patient-007-Enc-01,Patient-007,Organization-004,Organization-004-Dept-01,CR,Creatinine,1.01,mg/dL,preliminary,2025-03-11T16:56:21
+Patient-007-Enc-02-Lab-HGB,Patient-007-Enc-02,Patient-007,Organization-004,Organization-004-Dept-01,HGB,Hemoglobin,16.64,g/dL,preliminary,2023-12-16T21:08:13
+Patient-007-Enc-02-Lab-PLT,Patient-007-Enc-02,Patient-007,Organization-004,Organization-004-Dept-01,PLT,Platelets,270.82,10^3/uL,preliminary,2024-05-30T10:34:57
+Patient-007-Enc-03-Lab-HGB,Patient-007-Enc-03,Patient-007,Organization-004,Organization-004-Dept-01,HGB,Hemoglobin,16.96,g/dL,preliminary,2025-06-08T23:45:39
+Patient-007-Enc-03-Lab-PLT,Patient-007-Enc-03,Patient-007,Organization-004,Organization-004-Dept-01,PLT,Platelets,233.35,10^3/uL,preliminary,2024-01-11T11:21:12
+Patient-007-Enc-04-Lab-GLU,Patient-007-Enc-04,Patient-007,Organization-004,Organization-004-Dept-01,GLU,Glucose,100.53,mg/dL,preliminary,2023-07-26T04:42:10
+Patient-007-Enc-04-Lab-HGB,Patient-007-Enc-04,Patient-007,Organization-004,Organization-004-Dept-01,HGB,Hemoglobin,16.58,g/dL,amended,2023-10-26T23:05:04
+Patient-007-Enc-05-Lab-CR,Patient-007-Enc-05,Patient-007,Organization-004,Organization-004-Dept-02,CR,Creatinine,0.6,mg/dL,preliminary,2023-08-31T18:46:58
+Patient-007-Enc-05-Lab-HGB,Patient-007-Enc-05,Patient-007,Organization-004,Organization-004-Dept-02,HGB,Hemoglobin,14.22,g/dL,amended,2024-07-05T07:29:23
+Patient-007-Enc-05-Lab-WBC,Patient-007-Enc-05,Patient-007,Organization-004,Organization-004-Dept-02,WBC,White Blood Cell Count,4.59,10^3/uL,preliminary,2024-12-28T21:42:01
+Patient-008-Enc-01-Lab-CR,Patient-008-Enc-01,Patient-008,Organization-002,Organization-002-Dept-01,CR,Creatinine,0.73,mg/dL,preliminary,2025-02-18T19:30:18
+Patient-008-Enc-01-Lab-GLU,Patient-008-Enc-01,Patient-008,Organization-002,Organization-002-Dept-01,GLU,Glucose,73.58,mg/dL,final,2024-11-02T16:10:25
+Patient-008-Enc-01-Lab-WBC,Patient-008-Enc-01,Patient-008,Organization-002,Organization-002-Dept-01,WBC,White Blood Cell Count,5.62,10^3/uL,amended,2023-12-10T05:50:09
+Patient-008-Enc-02-Lab-HGB,Patient-008-Enc-02,Patient-008,Organization-002,Organization-002-Dept-02,HGB,Hemoglobin,12.04,g/dL,preliminary,2024-05-09T05:49:26
+Patient-008-Enc-03-Lab-PLT,Patient-008-Enc-03,Patient-008,Organization-002,Organization-002-Dept-01,PLT,Platelets,310.28,10^3/uL,final,2023-08-16T23:13:01
+Patient-008-Enc-03-Lab-GLU,Patient-008-Enc-03,Patient-008,Organization-002,Organization-002-Dept-01,GLU,Glucose,89.02,mg/dL,preliminary,2024-04-26T16:47:37
+Patient-008-Enc-03-Lab-CR,Patient-008-Enc-03,Patient-008,Organization-002,Organization-002-Dept-01,CR,Creatinine,1.03,mg/dL,final,2025-06-04T11:45:23
+Patient-008-Enc-04-Lab-WBC,Patient-008-Enc-04,Patient-008,Organization-002,Organization-002-Dept-01,WBC,White Blood Cell Count,6.1,10^3/uL,final,2023-10-12T20:13:04
+Patient-008-Enc-04-Lab-GLU,Patient-008-Enc-04,Patient-008,Organization-002,Organization-002-Dept-01,GLU,Glucose,93.02,mg/dL,preliminary,2023-10-28T12:36:37
+Patient-008-Enc-04-Lab-PLT,Patient-008-Enc-04,Patient-008,Organization-002,Organization-002-Dept-01,PLT,Platelets,189.38,10^3/uL,final,2024-08-28T01:36:02
+Patient-009-Enc-01-Lab-HGB,Patient-009-Enc-01,Patient-009,Organization-007,Organization-007-Dept-02,HGB,Hemoglobin,13.64,g/dL,amended,2023-08-12T18:44:05
+Patient-009-Enc-02-Lab-WBC,Patient-009-Enc-02,Patient-009,Organization-007,Organization-007-Dept-02,WBC,White Blood Cell Count,10.65,10^3/uL,amended,2023-07-26T14:00:32
+Patient-009-Enc-02-Lab-HGB,Patient-009-Enc-02,Patient-009,Organization-007,Organization-007-Dept-02,HGB,Hemoglobin,14.21,g/dL,preliminary,2024-01-06T22:22:55
+Patient-009-Enc-03-Lab-GLU,Patient-009-Enc-03,Patient-009,Organization-007,Organization-007-Dept-01,GLU,Glucose,86.54,mg/dL,final,2025-06-19T11:34:20
+Patient-009-Enc-03-Lab-PLT,Patient-009-Enc-03,Patient-009,Organization-007,Organization-007-Dept-01,PLT,Platelets,283.06,10^3/uL,final,2025-01-15T16:05:24
+Patient-009-Enc-03-Lab-CR,Patient-009-Enc-03,Patient-009,Organization-007,Organization-007-Dept-01,CR,Creatinine,0.77,mg/dL,amended,2025-03-09T10:14:12
+Patient-010-Enc-01-Lab-PLT,Patient-010-Enc-01,Patient-010,Organization-008,Organization-008-Dept-01,PLT,Platelets,229.2,10^3/uL,amended,2025-06-13T16:43:45
+Patient-010-Enc-02-Lab-PLT,Patient-010-Enc-02,Patient-010,Organization-008,Organization-008-Dept-01,PLT,Platelets,379.01,10^3/uL,preliminary,2025-03-02T01:08:19
+Patient-010-Enc-03-Lab-GLU,Patient-010-Enc-03,Patient-010,Organization-008,Organization-008-Dept-01,GLU,Glucose,70.54,mg/dL,final,2023-08-17T19:42:26
+Patient-010-Enc-04-Lab-WBC,Patient-010-Enc-04,Patient-010,Organization-008,Organization-008-Dept-01,WBC,White Blood Cell Count,4.59,10^3/uL,preliminary,2024-07-07T14:55:49
+Patient-011-Enc-01-Lab-WBC,Patient-011-Enc-01,Patient-011,Organization-009,Organization-009-Dept-03,WBC,White Blood Cell Count,9.67,10^3/uL,preliminary,2023-09-21T14:14:19
+Patient-011-Enc-02-Lab-PLT,Patient-011-Enc-02,Patient-011,Organization-009,Organization-009-Dept-03,PLT,Platelets,356.62,10^3/uL,preliminary,2025-04-22T04:24:05
+Patient-011-Enc-03-Lab-HGB,Patient-011-Enc-03,Patient-011,Organization-009,Organization-009-Dept-01,HGB,Hemoglobin,16.12,g/dL,amended,2024-03-02T03:53:47
+Patient-011-Enc-04-Lab-HGB,Patient-011-Enc-04,Patient-011,Organization-009,Organization-009-Dept-01,HGB,Hemoglobin,14.91,g/dL,final,2023-11-07T15:22:12
+Patient-011-Enc-05-Lab-GLU,Patient-011-Enc-05,Patient-011,Organization-009,Organization-009-Dept-03,GLU,Glucose,70.19,mg/dL,preliminary,2024-12-12T23:55:32
+Patient-011-Enc-05-Lab-CR,Patient-011-Enc-05,Patient-011,Organization-009,Organization-009-Dept-03,CR,Creatinine,0.98,mg/dL,preliminary,2023-11-21T10:07:29
+Patient-012-Enc-01-Lab-WBC,Patient-012-Enc-01,Patient-012,Organization-001,Organization-001-Dept-03,WBC,White Blood Cell Count,6.18,10^3/uL,amended,2025-01-07T02:22:15
+Patient-012-Enc-01-Lab-CR,Patient-012-Enc-01,Patient-012,Organization-001,Organization-001-Dept-03,CR,Creatinine,0.71,mg/dL,amended,2025-05-24T05:02:18
+Patient-012-Enc-01-Lab-GLU,Patient-012-Enc-01,Patient-012,Organization-001,Organization-001-Dept-03,GLU,Glucose,76.4,mg/dL,amended,2025-01-17T20:48:16
+Patient-012-Enc-02-Lab-PLT,Patient-012-Enc-02,Patient-012,Organization-001,Organization-001-Dept-06,PLT,Platelets,300.5,10^3/uL,final,2024-03-17T02:08:29
+Patient-012-Enc-02-Lab-WBC,Patient-012-Enc-02,Patient-012,Organization-001,Organization-001-Dept-06,WBC,White Blood Cell Count,8.87,10^3/uL,amended,2023-08-25T22:28:37
+Patient-012-Enc-03-Lab-WBC,Patient-012-Enc-03,Patient-012,Organization-001,Organization-001-Dept-01,WBC,White Blood Cell Count,6.29,10^3/uL,amended,2023-11-07T23:16:58
+Patient-012-Enc-03-Lab-PLT,Patient-012-Enc-03,Patient-012,Organization-001,Organization-001-Dept-01,PLT,Platelets,189.94,10^3/uL,preliminary,2024-12-30T04:40:44
+Patient-012-Enc-03-Lab-HGB,Patient-012-Enc-03,Patient-012,Organization-001,Organization-001-Dept-01,HGB,Hemoglobin,12.68,g/dL,preliminary,2024-06-30T06:28:06
+Patient-013-Enc-01-Lab-CR,Patient-013-Enc-01,Patient-013,Organization-008,Organization-008-Dept-01,CR,Creatinine,0.72,mg/dL,final,2025-01-30T08:21:19
+Patient-014-Enc-01-Lab-CR,Patient-014-Enc-01,Patient-014,Organization-006,Organization-006-Dept-02,CR,Creatinine,0.78,mg/dL,amended,2025-05-24T04:08:15
+Patient-014-Enc-01-Lab-HGB,Patient-014-Enc-01,Patient-014,Organization-006,Organization-006-Dept-02,HGB,Hemoglobin,16.09,g/dL,final,2023-09-12T20:41:01
+Patient-014-Enc-02-Lab-CR,Patient-014-Enc-02,Patient-014,Organization-006,Organization-006-Dept-01,CR,Creatinine,1.11,mg/dL,amended,2024-12-30T03:39:30
+Patient-014-Enc-02-Lab-WBC,Patient-014-Enc-02,Patient-014,Organization-006,Organization-006-Dept-01,WBC,White Blood Cell Count,10.05,10^3/uL,final,2024-04-25T17:56:30
+Patient-015-Enc-01-Lab-HGB,Patient-015-Enc-01,Patient-015,Organization-001,Organization-001-Dept-05,HGB,Hemoglobin,13.5,g/dL,amended,2025-06-19T11:48:47
+Patient-015-Enc-02-Lab-WBC,Patient-015-Enc-02,Patient-015,Organization-001,Organization-001-Dept-01,WBC,White Blood Cell Count,10.48,10^3/uL,final,2023-09-11T00:12:35
+Patient-015-Enc-02-Lab-HGB,Patient-015-Enc-02,Patient-015,Organization-001,Organization-001-Dept-01,HGB,Hemoglobin,14.91,g/dL,final,2024-01-10T07:47:16
+Patient-015-Enc-03-Lab-HGB,Patient-015-Enc-03,Patient-015,Organization-001,Organization-001-Dept-04,HGB,Hemoglobin,15.68,g/dL,final,2024-02-14T08:26:05
+Patient-015-Enc-03-Lab-GLU,Patient-015-Enc-03,Patient-015,Organization-001,Organization-001-Dept-04,GLU,Glucose,99.66,mg/dL,amended,2024-03-10T06:11:55
+Patient-015-Enc-03-Lab-WBC,Patient-015-Enc-03,Patient-015,Organization-001,Organization-001-Dept-04,WBC,White Blood Cell Count,9.42,10^3/uL,final,2024-05-22T03:17:40
+Patient-016-Enc-01-Lab-CR,Patient-016-Enc-01,Patient-016,Organization-002,Organization-002-Dept-01,CR,Creatinine,1.24,mg/dL,preliminary,2023-11-28T19:46:11
+Patient-016-Enc-01-Lab-WBC,Patient-016-Enc-01,Patient-016,Organization-002,Organization-002-Dept-01,WBC,White Blood Cell Count,8.33,10^3/uL,amended,2025-02-28T14:29:00
+Patient-016-Enc-02-Lab-WBC,Patient-016-Enc-02,Patient-016,Organization-002,Organization-002-Dept-02,WBC,White Blood Cell Count,4.38,10^3/uL,preliminary,2025-05-16T09:23:07
+Patient-016-Enc-02-Lab-CR,Patient-016-Enc-02,Patient-016,Organization-002,Organization-002-Dept-02,CR,Creatinine,0.95,mg/dL,amended,2024-01-05T01:06:40
+Patient-016-Enc-02-Lab-HGB,Patient-016-Enc-02,Patient-016,Organization-002,Organization-002-Dept-02,HGB,Hemoglobin,13.53,g/dL,final,2023-10-20T14:39:47
+Patient-016-Enc-03-Lab-PLT,Patient-016-Enc-03,Patient-016,Organization-002,Organization-002-Dept-02,PLT,Platelets,185.85,10^3/uL,preliminary,2023-10-02T11:26:02
+Patient-016-Enc-03-Lab-WBC,Patient-016-Enc-03,Patient-016,Organization-002,Organization-002-Dept-02,WBC,White Blood Cell Count,4.89,10^3/uL,preliminary,2023-07-05T06:42:41
+Patient-016-Enc-03-Lab-HGB,Patient-016-Enc-03,Patient-016,Organization-002,Organization-002-Dept-02,HGB,Hemoglobin,13.01,g/dL,final,2024-02-04T22:36:06
+Patient-016-Enc-04-Lab-CR,Patient-016-Enc-04,Patient-016,Organization-002,Organization-002-Dept-01,CR,Creatinine,1.09,mg/dL,preliminary,2025-04-18T00:47:19
+Patient-017-Enc-01-Lab-GLU,Patient-017-Enc-01,Patient-017,Organization-004,Organization-004-Dept-02,GLU,Glucose,91.41,mg/dL,preliminary,2024-12-25T09:51:17
+Patient-017-Enc-02-Lab-HGB,Patient-017-Enc-02,Patient-017,Organization-004,Organization-004-Dept-01,HGB,Hemoglobin,15.37,g/dL,preliminary,2023-07-20T11:10:41
+Patient-018-Enc-01-Lab-GLU,Patient-018-Enc-01,Patient-018,Organization-004,Organization-004-Dept-02,GLU,Glucose,79.71,mg/dL,final,2024-10-16T04:34:10
+Patient-018-Enc-01-Lab-HGB,Patient-018-Enc-01,Patient-018,Organization-004,Organization-004-Dept-02,HGB,Hemoglobin,16.09,g/dL,final,2024-03-21T08:57:12
+Patient-019-Enc-01-Lab-PLT,Patient-019-Enc-01,Patient-019,Organization-008,Organization-008-Dept-01,PLT,Platelets,289.56,10^3/uL,final,2024-12-14T09:25:18
+Patient-019-Enc-01-Lab-CR,Patient-019-Enc-01,Patient-019,Organization-008,Organization-008-Dept-01,CR,Creatinine,1.02,mg/dL,final,2024-07-29T06:55:21
+Patient-019-Enc-02-Lab-PLT,Patient-019-Enc-02,Patient-019,Organization-008,Organization-008-Dept-01,PLT,Platelets,165.92,10^3/uL,final,2024-01-21T08:29:52
+Patient-019-Enc-02-Lab-GLU,Patient-019-Enc-02,Patient-019,Organization-008,Organization-008-Dept-01,GLU,Glucose,104.84,mg/dL,final,2024-07-22T17:50:46
+Patient-019-Enc-03-Lab-WBC,Patient-019-Enc-03,Patient-019,Organization-008,Organization-008-Dept-01,WBC,White Blood Cell Count,6.22,10^3/uL,amended,2024-06-27T08:44:58
+Patient-019-Enc-03-Lab-CR,Patient-019-Enc-03,Patient-019,Organization-008,Organization-008-Dept-01,CR,Creatinine,0.91,mg/dL,final,2024-02-29T00:43:07
+Patient-019-Enc-03-Lab-PLT,Patient-019-Enc-03,Patient-019,Organization-008,Organization-008-Dept-01,PLT,Platelets,253.02,10^3/uL,final,2025-04-12T16:06:11
+Patient-019-Enc-04-Lab-GLU,Patient-019-Enc-04,Patient-019,Organization-008,Organization-008-Dept-01,GLU,Glucose,108.06,mg/dL,preliminary,2023-10-14T02:16:53
+Patient-019-Enc-04-Lab-PLT,Patient-019-Enc-04,Patient-019,Organization-008,Organization-008-Dept-01,PLT,Platelets,278.85,10^3/uL,preliminary,2023-08-27T21:56:34
+Patient-019-Enc-04-Lab-HGB,Patient-019-Enc-04,Patient-019,Organization-008,Organization-008-Dept-01,HGB,Hemoglobin,12.71,g/dL,preliminary,2025-04-21T15:29:06
+Patient-019-Enc-05-Lab-GLU,Patient-019-Enc-05,Patient-019,Organization-008,Organization-008-Dept-01,GLU,Glucose,91.37,mg/dL,final,2024-01-19T16:21:58
+Patient-019-Enc-05-Lab-WBC,Patient-019-Enc-05,Patient-019,Organization-008,Organization-008-Dept-01,WBC,White Blood Cell Count,10.31,10^3/uL,final,2025-01-08T06:23:32
+Patient-019-Enc-05-Lab-PLT,Patient-019-Enc-05,Patient-019,Organization-008,Organization-008-Dept-01,PLT,Platelets,359.16,10^3/uL,final,2024-10-29T21:12:12
+Patient-020-Enc-01-Lab-PLT,Patient-020-Enc-01,Patient-020,Organization-002,Organization-002-Dept-02,PLT,Platelets,155.31,10^3/uL,amended,2024-08-31T05:30:05
+Patient-020-Enc-01-Lab-GLU,Patient-020-Enc-01,Patient-020,Organization-002,Organization-002-Dept-02,GLU,Glucose,72.9,mg/dL,preliminary,2023-07-13T15:40:17
+Patient-020-Enc-01-Lab-WBC,Patient-020-Enc-01,Patient-020,Organization-002,Organization-002-Dept-02,WBC,White Blood Cell Count,8.81,10^3/uL,amended,2024-03-16T19:01:56
+Patient-020-Enc-02-Lab-WBC,Patient-020-Enc-02,Patient-020,Organization-002,Organization-002-Dept-01,WBC,White Blood Cell Count,6.89,10^3/uL,final,2025-03-23T16:45:23
+Patient-020-Enc-02-Lab-CR,Patient-020-Enc-02,Patient-020,Organization-002,Organization-002-Dept-01,CR,Creatinine,0.93,mg/dL,final,2024-05-04T19:36:37
+Patient-020-Enc-02-Lab-HGB,Patient-020-Enc-02,Patient-020,Organization-002,Organization-002-Dept-01,HGB,Hemoglobin,14.41,g/dL,preliminary,2024-02-26T20:46:59
+Patient-020-Enc-03-Lab-PLT,Patient-020-Enc-03,Patient-020,Organization-002,Organization-002-Dept-02,PLT,Platelets,396.59,10^3/uL,preliminary,2024-03-05T02:51:39
+Patient-020-Enc-03-Lab-WBC,Patient-020-Enc-03,Patient-020,Organization-002,Organization-002-Dept-02,WBC,White Blood Cell Count,5.28,10^3/uL,amended,2024-09-03T08:44:52
+Patient-020-Enc-03-Lab-GLU,Patient-020-Enc-03,Patient-020,Organization-002,Organization-002-Dept-02,GLU,Glucose,101.3,mg/dL,amended,2025-05-28T17:31:13
+Patient-021-Enc-01-Lab-HGB,Patient-021-Enc-01,Patient-021,Organization-008,Organization-008-Dept-01,HGB,Hemoglobin,13.98,g/dL,preliminary,2024-07-05T12:34:53
+Patient-021-Enc-01-Lab-PLT,Patient-021-Enc-01,Patient-021,Organization-008,Organization-008-Dept-01,PLT,Platelets,267.88,10^3/uL,final,2023-10-25T03:55:28
+Patient-021-Enc-01-Lab-GLU,Patient-021-Enc-01,Patient-021,Organization-008,Organization-008-Dept-01,GLU,Glucose,83.45,mg/dL,final,2025-05-02T18:46:50
+Patient-021-Enc-02-Lab-CR,Patient-021-Enc-02,Patient-021,Organization-008,Organization-008-Dept-01,CR,Creatinine,0.6,mg/dL,amended,2025-01-27T19:04:09
+Patient-021-Enc-02-Lab-WBC,Patient-021-Enc-02,Patient-021,Organization-008,Organization-008-Dept-01,WBC,White Blood Cell Count,9.59,10^3/uL,final,2024-03-14T12:40:48
+Patient-021-Enc-02-Lab-HGB,Patient-021-Enc-02,Patient-021,Organization-008,Organization-008-Dept-01,HGB,Hemoglobin,15.25,g/dL,amended,2025-02-17T10:11:31
+Patient-022-Enc-01-Lab-WBC,Patient-022-Enc-01,Patient-022,Organization-002,Organization-002-Dept-01,WBC,White Blood Cell Count,9.6,10^3/uL,final,2023-12-26T08:43:40
+Patient-022-Enc-01-Lab-CR,Patient-022-Enc-01,Patient-022,Organization-002,Organization-002-Dept-01,CR,Creatinine,1.2,mg/dL,final,2024-05-01T18:16:00
+Patient-022-Enc-01-Lab-HGB,Patient-022-Enc-01,Patient-022,Organization-002,Organization-002-Dept-01,HGB,Hemoglobin,14.5,g/dL,preliminary,2024-05-27T05:43:11
+Patient-022-Enc-02-Lab-WBC,Patient-022-Enc-02,Patient-022,Organization-002,Organization-002-Dept-01,WBC,White Blood Cell Count,9.8,10^3/uL,preliminary,2024-01-09T21:58:16
+Patient-022-Enc-02-Lab-GLU,Patient-022-Enc-02,Patient-022,Organization-002,Organization-002-Dept-01,GLU,Glucose,88.07,mg/dL,preliminary,2024-04-22T11:42:44
+Patient-022-Enc-02-Lab-HGB,Patient-022-Enc-02,Patient-022,Organization-002,Organization-002-Dept-01,HGB,Hemoglobin,15.63,g/dL,amended,2024-10-18T22:03:31
+Patient-022-Enc-03-Lab-CR,Patient-022-Enc-03,Patient-022,Organization-002,Organization-002-Dept-02,CR,Creatinine,0.96,mg/dL,preliminary,2024-09-17T00:43:10
+Patient-023-Enc-01-Lab-PLT,Patient-023-Enc-01,Patient-023,Organization-005,Organization-005-Dept-01,PLT,Platelets,204.97,10^3/uL,final,2024-01-28T07:32:50
+Patient-023-Enc-01-Lab-GLU,Patient-023-Enc-01,Patient-023,Organization-005,Organization-005-Dept-01,GLU,Glucose,78.83,mg/dL,amended,2024-07-28T22:21:22
+Patient-023-Enc-02-Lab-GLU,Patient-023-Enc-02,Patient-023,Organization-005,Organization-005-Dept-01,GLU,Glucose,71.22,mg/dL,final,2023-08-14T06:35:40
+Patient-023-Enc-02-Lab-CR,Patient-023-Enc-02,Patient-023,Organization-005,Organization-005-Dept-01,CR,Creatinine,0.76,mg/dL,amended,2024-12-08T22:53:09
+Patient-023-Enc-02-Lab-WBC,Patient-023-Enc-02,Patient-023,Organization-005,Organization-005-Dept-01,WBC,White Blood Cell Count,8.08,10^3/uL,amended,2024-11-08T17:00:02
+Patient-023-Enc-03-Lab-GLU,Patient-023-Enc-03,Patient-023,Organization-005,Organization-005-Dept-01,GLU,Glucose,91.88,mg/dL,preliminary,2024-09-07T22:34:15
+Patient-023-Enc-03-Lab-WBC,Patient-023-Enc-03,Patient-023,Organization-005,Organization-005-Dept-01,WBC,White Blood Cell Count,10.42,10^3/uL,amended,2024-04-03T18:09:23
+Patient-023-Enc-04-Lab-WBC,Patient-023-Enc-04,Patient-023,Organization-005,Organization-005-Dept-01,WBC,White Blood Cell Count,10.36,10^3/uL,preliminary,2023-06-29T16:50:56
+Patient-023-Enc-04-Lab-CR,Patient-023-Enc-04,Patient-023,Organization-005,Organization-005-Dept-01,CR,Creatinine,1.12,mg/dL,final,2023-10-06T12:53:00
+Patient-023-Enc-04-Lab-HGB,Patient-023-Enc-04,Patient-023,Organization-005,Organization-005-Dept-01,HGB,Hemoglobin,15.39,g/dL,preliminary,2023-07-22T00:06:59
+Patient-023-Enc-05-Lab-CR,Patient-023-Enc-05,Patient-023,Organization-005,Organization-005-Dept-01,CR,Creatinine,0.62,mg/dL,preliminary,2023-12-18T16:26:21
+Patient-023-Enc-05-Lab-HGB,Patient-023-Enc-05,Patient-023,Organization-005,Organization-005-Dept-01,HGB,Hemoglobin,16.54,g/dL,final,2024-01-05T15:35:20
+Patient-023-Enc-05-Lab-PLT,Patient-023-Enc-05,Patient-023,Organization-005,Organization-005-Dept-01,PLT,Platelets,364.97,10^3/uL,final,2024-02-29T19:18:20
+Patient-024-Enc-01-Lab-WBC,Patient-024-Enc-01,Patient-024,Organization-007,Organization-007-Dept-02,WBC,White Blood Cell Count,7.9,10^3/uL,final,2024-06-22T23:03:22
+Patient-024-Enc-02-Lab-PLT,Patient-024-Enc-02,Patient-024,Organization-007,Organization-007-Dept-02,PLT,Platelets,296.87,10^3/uL,amended,2024-11-28T17:24:20
+Patient-024-Enc-03-Lab-WBC,Patient-024-Enc-03,Patient-024,Organization-007,Organization-007-Dept-02,WBC,White Blood Cell Count,10.45,10^3/uL,amended,2023-12-06T13:30:33
+Patient-024-Enc-03-Lab-PLT,Patient-024-Enc-03,Patient-024,Organization-007,Organization-007-Dept-02,PLT,Platelets,227.95,10^3/uL,amended,2023-09-06T20:36:10
+Patient-025-Enc-01-Lab-PLT,Patient-025-Enc-01,Patient-025,Organization-008,Organization-008-Dept-01,PLT,Platelets,163.34,10^3/uL,final,2023-08-21T09:21:06
+Patient-025-Enc-01-Lab-CR,Patient-025-Enc-01,Patient-025,Organization-008,Organization-008-Dept-01,CR,Creatinine,1.19,mg/dL,preliminary,2024-05-27T16:00:41
+Patient-025-Enc-01-Lab-WBC,Patient-025-Enc-01,Patient-025,Organization-008,Organization-008-Dept-01,WBC,White Blood Cell Count,9.0,10^3/uL,preliminary,2025-01-27T08:19:27
+Patient-026-Enc-01-Lab-GLU,Patient-026-Enc-01,Patient-026,Organization-003,Organization-003-Dept-01,GLU,Glucose,100.95,mg/dL,amended,2023-09-05T19:49:01
+Patient-026-Enc-01-Lab-CR,Patient-026-Enc-01,Patient-026,Organization-003,Organization-003-Dept-01,CR,Creatinine,1.04,mg/dL,preliminary,2025-04-10T03:10:22
+Patient-026-Enc-01-Lab-HGB,Patient-026-Enc-01,Patient-026,Organization-003,Organization-003-Dept-01,HGB,Hemoglobin,16.91,g/dL,amended,2023-10-20T08:46:54
+Patient-026-Enc-02-Lab-WBC,Patient-026-Enc-02,Patient-026,Organization-003,Organization-003-Dept-01,WBC,White Blood Cell Count,9.17,10^3/uL,amended,2025-02-06T12:05:22
+Patient-026-Enc-02-Lab-HGB,Patient-026-Enc-02,Patient-026,Organization-003,Organization-003-Dept-01,HGB,Hemoglobin,13.28,g/dL,final,2024-04-27T10:46:13
+Patient-026-Enc-02-Lab-CR,Patient-026-Enc-02,Patient-026,Organization-003,Organization-003-Dept-01,CR,Creatinine,0.76,mg/dL,amended,2024-04-24T00:50:04
+Patient-026-Enc-03-Lab-GLU,Patient-026-Enc-03,Patient-026,Organization-003,Organization-003-Dept-01,GLU,Glucose,73.14,mg/dL,preliminary,2023-10-16T15:07:37
+Patient-026-Enc-03-Lab-CR,Patient-026-Enc-03,Patient-026,Organization-003,Organization-003-Dept-01,CR,Creatinine,1.24,mg/dL,final,2024-12-11T08:58:39
+Patient-027-Enc-01-Lab-GLU,Patient-027-Enc-01,Patient-027,Organization-009,Organization-009-Dept-03,GLU,Glucose,84.23,mg/dL,preliminary,2024-07-17T16:28:03
+Patient-027-Enc-01-Lab-PLT,Patient-027-Enc-01,Patient-027,Organization-009,Organization-009-Dept-03,PLT,Platelets,179.25,10^3/uL,final,2023-11-07T01:34:28
+Patient-027-Enc-02-Lab-PLT,Patient-027-Enc-02,Patient-027,Organization-009,Organization-009-Dept-01,PLT,Platelets,248.67,10^3/uL,preliminary,2024-04-10T01:02:06
+Patient-027-Enc-02-Lab-CR,Patient-027-Enc-02,Patient-027,Organization-009,Organization-009-Dept-01,CR,Creatinine,1.12,mg/dL,preliminary,2024-04-28T18:20:15
+Patient-027-Enc-03-Lab-CR,Patient-027-Enc-03,Patient-027,Organization-009,Organization-009-Dept-01,CR,Creatinine,0.91,mg/dL,amended,2025-04-26T04:35:08
+Patient-027-Enc-03-Lab-PLT,Patient-027-Enc-03,Patient-027,Organization-009,Organization-009-Dept-01,PLT,Platelets,396.17,10^3/uL,final,2023-08-25T02:28:50
+Patient-027-Enc-04-Lab-HGB,Patient-027-Enc-04,Patient-027,Organization-009,Organization-009-Dept-01,HGB,Hemoglobin,15.75,g/dL,final,2024-01-15T00:17:36
+Patient-027-Enc-04-Lab-WBC,Patient-027-Enc-04,Patient-027,Organization-009,Organization-009-Dept-01,WBC,White Blood Cell Count,6.03,10^3/uL,final,2024-12-27T04:34:56
+Patient-027-Enc-04-Lab-PLT,Patient-027-Enc-04,Patient-027,Organization-009,Organization-009-Dept-01,PLT,Platelets,248.06,10^3/uL,amended,2025-04-03T15:19:51
+Patient-028-Enc-01-Lab-HGB,Patient-028-Enc-01,Patient-028,Organization-001,Organization-001-Dept-04,HGB,Hemoglobin,16.54,g/dL,preliminary,2024-02-27T11:00:53
+Patient-028-Enc-01-Lab-CR,Patient-028-Enc-01,Patient-028,Organization-001,Organization-001-Dept-04,CR,Creatinine,0.88,mg/dL,final,2024-10-05T20:29:33
+Patient-029-Enc-01-Lab-HGB,Patient-029-Enc-01,Patient-029,Organization-004,Organization-004-Dept-02,HGB,Hemoglobin,13.15,g/dL,preliminary,2024-09-04T00:37:26
+Patient-029-Enc-02-Lab-WBC,Patient-029-Enc-02,Patient-029,Organization-004,Organization-004-Dept-02,WBC,White Blood Cell Count,8.92,10^3/uL,final,2023-09-08T21:52:02
+Patient-029-Enc-03-Lab-GLU,Patient-029-Enc-03,Patient-029,Organization-004,Organization-004-Dept-02,GLU,Glucose,79.58,mg/dL,preliminary,2023-12-14T02:03:37
+Patient-029-Enc-03-Lab-WBC,Patient-029-Enc-03,Patient-029,Organization-004,Organization-004-Dept-02,WBC,White Blood Cell Count,8.88,10^3/uL,preliminary,2025-06-06T16:10:55
+Patient-029-Enc-04-Lab-GLU,Patient-029-Enc-04,Patient-029,Organization-004,Organization-004-Dept-01,GLU,Glucose,108.21,mg/dL,preliminary,2025-01-13T12:39:33
+Patient-029-Enc-04-Lab-CR,Patient-029-Enc-04,Patient-029,Organization-004,Organization-004-Dept-01,CR,Creatinine,0.9,mg/dL,final,2025-02-14T16:37:14
+Patient-029-Enc-05-Lab-CR,Patient-029-Enc-05,Patient-029,Organization-004,Organization-004-Dept-02,CR,Creatinine,1.15,mg/dL,preliminary,2024-09-15T01:21:21
+Patient-029-Enc-05-Lab-GLU,Patient-029-Enc-05,Patient-029,Organization-004,Organization-004-Dept-02,GLU,Glucose,104.76,mg/dL,amended,2024-06-19T11:06:53
+Patient-029-Enc-05-Lab-HGB,Patient-029-Enc-05,Patient-029,Organization-004,Organization-004-Dept-02,HGB,Hemoglobin,12.49,g/dL,final,2024-10-06T08:30:19
+Patient-030-Enc-01-Lab-WBC,Patient-030-Enc-01,Patient-030,Organization-005,Organization-005-Dept-01,WBC,White Blood Cell Count,10.38,10^3/uL,final,2023-12-28T00:45:53
+Patient-030-Enc-02-Lab-HGB,Patient-030-Enc-02,Patient-030,Organization-005,Organization-005-Dept-01,HGB,Hemoglobin,15.61,g/dL,final,2024-01-19T12:33:38
+Patient-031-Enc-01-Lab-WBC,Patient-031-Enc-01,Patient-031,Organization-008,Organization-008-Dept-01,WBC,White Blood Cell Count,8.97,10^3/uL,amended,2024-05-05T16:34:24
+Patient-031-Enc-01-Lab-CR,Patient-031-Enc-01,Patient-031,Organization-008,Organization-008-Dept-01,CR,Creatinine,0.69,mg/dL,final,2025-05-30T01:44:39
+Patient-031-Enc-02-Lab-GLU,Patient-031-Enc-02,Patient-031,Organization-008,Organization-008-Dept-01,GLU,Glucose,82.13,mg/dL,amended,2024-08-19T19:06:55
+Patient-031-Enc-02-Lab-CR,Patient-031-Enc-02,Patient-031,Organization-008,Organization-008-Dept-01,CR,Creatinine,1.13,mg/dL,final,2024-12-27T04:43:59
+Patient-031-Enc-02-Lab-WBC,Patient-031-Enc-02,Patient-031,Organization-008,Organization-008-Dept-01,WBC,White Blood Cell Count,7.65,10^3/uL,final,2024-11-10T19:51:45
+Patient-032-Enc-01-Lab-CR,Patient-032-Enc-01,Patient-032,Organization-004,Organization-004-Dept-02,CR,Creatinine,0.64,mg/dL,final,2024-03-07T23:21:37
+Patient-032-Enc-01-Lab-GLU,Patient-032-Enc-01,Patient-032,Organization-004,Organization-004-Dept-02,GLU,Glucose,90.61,mg/dL,amended,2023-08-29T07:23:28
+Patient-032-Enc-01-Lab-WBC,Patient-032-Enc-01,Patient-032,Organization-004,Organization-004-Dept-02,WBC,White Blood Cell Count,8.68,10^3/uL,amended,2024-08-27T23:09:13
+Patient-032-Enc-02-Lab-GLU,Patient-032-Enc-02,Patient-032,Organization-004,Organization-004-Dept-02,GLU,Glucose,85.69,mg/dL,preliminary,2023-10-08T14:16:19
+Patient-032-Enc-03-Lab-WBC,Patient-032-Enc-03,Patient-032,Organization-004,Organization-004-Dept-01,WBC,White Blood Cell Count,8.83,10^3/uL,amended,2024-06-12T01:53:10
+Patient-033-Enc-01-Lab-CR,Patient-033-Enc-01,Patient-033,Organization-006,Organization-006-Dept-02,CR,Creatinine,1.12,mg/dL,preliminary,2024-04-25T12:28:43
+Patient-033-Enc-02-Lab-WBC,Patient-033-Enc-02,Patient-033,Organization-006,Organization-006-Dept-02,WBC,White Blood Cell Count,4.67,10^3/uL,preliminary,2025-05-25T08:32:22
+Patient-033-Enc-02-Lab-PLT,Patient-033-Enc-02,Patient-033,Organization-006,Organization-006-Dept-02,PLT,Platelets,251.23,10^3/uL,preliminary,2024-08-07T21:14:00
+Patient-034-Enc-01-Lab-WBC,Patient-034-Enc-01,Patient-034,Organization-008,Organization-008-Dept-01,WBC,White Blood Cell Count,4.81,10^3/uL,amended,2024-10-18T07:59:46
+Patient-034-Enc-02-Lab-PLT,Patient-034-Enc-02,Patient-034,Organization-008,Organization-008-Dept-01,PLT,Platelets,198.13,10^3/uL,preliminary,2024-10-27T03:34:11
+Patient-034-Enc-02-Lab-CR,Patient-034-Enc-02,Patient-034,Organization-008,Organization-008-Dept-01,CR,Creatinine,1.16,mg/dL,amended,2025-01-11T05:50:53
+Patient-035-Enc-01-Lab-GLU,Patient-035-Enc-01,Patient-035,Organization-002,Organization-002-Dept-02,GLU,Glucose,89.69,mg/dL,final,2023-09-20T03:50:02
+Patient-035-Enc-01-Lab-HGB,Patient-035-Enc-01,Patient-035,Organization-002,Organization-002-Dept-02,HGB,Hemoglobin,15.43,g/dL,final,2024-04-19T07:45:15
+Patient-035-Enc-01-Lab-CR,Patient-035-Enc-01,Patient-035,Organization-002,Organization-002-Dept-02,CR,Creatinine,1.27,mg/dL,amended,2025-02-28T09:54:30
+Patient-035-Enc-02-Lab-GLU,Patient-035-Enc-02,Patient-035,Organization-002,Organization-002-Dept-02,GLU,Glucose,95.01,mg/dL,amended,2025-03-29T08:56:39
+Patient-035-Enc-02-Lab-PLT,Patient-035-Enc-02,Patient-035,Organization-002,Organization-002-Dept-02,PLT,Platelets,357.74,10^3/uL,preliminary,2023-09-24T06:53:43
+Patient-035-Enc-02-Lab-HGB,Patient-035-Enc-02,Patient-035,Organization-002,Organization-002-Dept-02,HGB,Hemoglobin,16.11,g/dL,amended,2025-06-10T13:09:25
+Patient-035-Enc-03-Lab-HGB,Patient-035-Enc-03,Patient-035,Organization-002,Organization-002-Dept-02,HGB,Hemoglobin,16.35,g/dL,final,2025-01-07T01:29:53
+Patient-035-Enc-03-Lab-PLT,Patient-035-Enc-03,Patient-035,Organization-002,Organization-002-Dept-02,PLT,Platelets,244.38,10^3/uL,preliminary,2025-04-28T13:59:07
+Patient-036-Enc-01-Lab-GLU,Patient-036-Enc-01,Patient-036,Organization-006,Organization-006-Dept-02,GLU,Glucose,92.87,mg/dL,final,2024-09-18T00:22:57
+Patient-036-Enc-01-Lab-WBC,Patient-036-Enc-01,Patient-036,Organization-006,Organization-006-Dept-02,WBC,White Blood Cell Count,9.78,10^3/uL,amended,2024-12-07T08:31:17
+Patient-036-Enc-02-Lab-CR,Patient-036-Enc-02,Patient-036,Organization-006,Organization-006-Dept-01,CR,Creatinine,0.85,mg/dL,amended,2023-11-27T00:17:00
+Patient-036-Enc-03-Lab-CR,Patient-036-Enc-03,Patient-036,Organization-006,Organization-006-Dept-02,CR,Creatinine,1.23,mg/dL,final,2024-04-19T13:46:43
+Patient-037-Enc-01-Lab-WBC,Patient-037-Enc-01,Patient-037,Organization-010,Organization-010-Dept-04,WBC,White Blood Cell Count,4.52,10^3/uL,amended,2024-09-01T19:18:49
+Patient-037-Enc-01-Lab-GLU,Patient-037-Enc-01,Patient-037,Organization-010,Organization-010-Dept-04,GLU,Glucose,90.28,mg/dL,final,2025-02-06T16:00:24
+Patient-037-Enc-01-Lab-HGB,Patient-037-Enc-01,Patient-037,Organization-010,Organization-010-Dept-04,HGB,Hemoglobin,12.17,g/dL,amended,2024-10-18T00:49:55
+Patient-037-Enc-02-Lab-HGB,Patient-037-Enc-02,Patient-037,Organization-010,Organization-010-Dept-02,HGB,Hemoglobin,12.77,g/dL,final,2024-09-16T19:15:55
+Patient-037-Enc-02-Lab-GLU,Patient-037-Enc-02,Patient-037,Organization-010,Organization-010-Dept-02,GLU,Glucose,106.14,mg/dL,preliminary,2023-11-26T08:12:39
+Patient-037-Enc-03-Lab-PLT,Patient-037-Enc-03,Patient-037,Organization-010,Organization-010-Dept-05,PLT,Platelets,363.77,10^3/uL,amended,2024-04-19T09:36:07
+Patient-037-Enc-03-Lab-HGB,Patient-037-Enc-03,Patient-037,Organization-010,Organization-010-Dept-05,HGB,Hemoglobin,12.16,g/dL,final,2024-06-19T01:27:13
+Patient-037-Enc-04-Lab-CR,Patient-037-Enc-04,Patient-037,Organization-010,Organization-010-Dept-01,CR,Creatinine,0.85,mg/dL,final,2025-05-20T08:42:50
+Patient-037-Enc-04-Lab-HGB,Patient-037-Enc-04,Patient-037,Organization-010,Organization-010-Dept-01,HGB,Hemoglobin,15.89,g/dL,amended,2025-02-20T11:29:27
+Patient-037-Enc-05-Lab-GLU,Patient-037-Enc-05,Patient-037,Organization-010,Organization-010-Dept-02,GLU,Glucose,89.41,mg/dL,preliminary,2025-01-17T22:54:58
+Patient-037-Enc-05-Lab-PLT,Patient-037-Enc-05,Patient-037,Organization-010,Organization-010-Dept-02,PLT,Platelets,340.37,10^3/uL,preliminary,2025-06-19T19:47:18
+Patient-037-Enc-05-Lab-CR,Patient-037-Enc-05,Patient-037,Organization-010,Organization-010-Dept-02,CR,Creatinine,1.27,mg/dL,preliminary,2023-10-17T16:21:11
+Patient-038-Enc-01-Lab-CR,Patient-038-Enc-01,Patient-038,Organization-007,Organization-007-Dept-01,CR,Creatinine,1.09,mg/dL,amended,2023-12-24T11:41:18
+Patient-038-Enc-02-Lab-WBC,Patient-038-Enc-02,Patient-038,Organization-007,Organization-007-Dept-01,WBC,White Blood Cell Count,9.78,10^3/uL,amended,2024-04-24T11:06:31
+Patient-038-Enc-02-Lab-PLT,Patient-038-Enc-02,Patient-038,Organization-007,Organization-007-Dept-01,PLT,Platelets,234.07,10^3/uL,amended,2024-06-10T14:36:27
+Patient-038-Enc-02-Lab-HGB,Patient-038-Enc-02,Patient-038,Organization-007,Organization-007-Dept-01,HGB,Hemoglobin,13.23,g/dL,preliminary,2024-08-10T06:06:39
+Patient-038-Enc-03-Lab-GLU,Patient-038-Enc-03,Patient-038,Organization-007,Organization-007-Dept-02,GLU,Glucose,106.46,mg/dL,final,2023-09-14T04:18:22
+Patient-038-Enc-03-Lab-HGB,Patient-038-Enc-03,Patient-038,Organization-007,Organization-007-Dept-02,HGB,Hemoglobin,14.65,g/dL,final,2023-10-26T20:35:40
+Patient-038-Enc-04-Lab-GLU,Patient-038-Enc-04,Patient-038,Organization-007,Organization-007-Dept-01,GLU,Glucose,76.13,mg/dL,preliminary,2024-02-13T14:59:14
+Patient-038-Enc-04-Lab-CR,Patient-038-Enc-04,Patient-038,Organization-007,Organization-007-Dept-01,CR,Creatinine,1.11,mg/dL,final,2025-06-19T11:55:03
+Patient-039-Enc-01-Lab-GLU,Patient-039-Enc-01,Patient-039,Organization-007,Organization-007-Dept-02,GLU,Glucose,72.72,mg/dL,amended,2024-12-01T01:34:20
+Patient-039-Enc-02-Lab-HGB,Patient-039-Enc-02,Patient-039,Organization-007,Organization-007-Dept-02,HGB,Hemoglobin,15.4,g/dL,amended,2024-10-18T07:06:46
+Patient-039-Enc-03-Lab-WBC,Patient-039-Enc-03,Patient-039,Organization-007,Organization-007-Dept-01,WBC,White Blood Cell Count,5.04,10^3/uL,final,2024-08-28T08:47:02
+Patient-039-Enc-04-Lab-HGB,Patient-039-Enc-04,Patient-039,Organization-007,Organization-007-Dept-01,HGB,Hemoglobin,12.03,g/dL,preliminary,2024-06-11T04:16:03
+Patient-039-Enc-04-Lab-PLT,Patient-039-Enc-04,Patient-039,Organization-007,Organization-007-Dept-01,PLT,Platelets,364.14,10^3/uL,preliminary,2025-03-30T02:48:52
+Patient-039-Enc-05-Lab-CR,Patient-039-Enc-05,Patient-039,Organization-007,Organization-007-Dept-01,CR,Creatinine,1.0,mg/dL,preliminary,2023-12-26T12:06:03
+Patient-039-Enc-05-Lab-WBC,Patient-039-Enc-05,Patient-039,Organization-007,Organization-007-Dept-01,WBC,White Blood Cell Count,8.53,10^3/uL,preliminary,2025-04-26T21:58:49
+Patient-039-Enc-05-Lab-PLT,Patient-039-Enc-05,Patient-039,Organization-007,Organization-007-Dept-01,PLT,Platelets,229.2,10^3/uL,preliminary,2024-07-29T07:21:07
+Patient-040-Enc-01-Lab-PLT,Patient-040-Enc-01,Patient-040,Organization-006,Organization-006-Dept-02,PLT,Platelets,215.88,10^3/uL,preliminary,2023-11-29T12:45:19
+Patient-040-Enc-01-Lab-GLU,Patient-040-Enc-01,Patient-040,Organization-006,Organization-006-Dept-02,GLU,Glucose,97.44,mg/dL,amended,2024-08-07T19:19:52
+Patient-040-Enc-01-Lab-HGB,Patient-040-Enc-01,Patient-040,Organization-006,Organization-006-Dept-02,HGB,Hemoglobin,12.9,g/dL,preliminary,2025-06-14T02:18:35
+Patient-040-Enc-02-Lab-WBC,Patient-040-Enc-02,Patient-040,Organization-006,Organization-006-Dept-01,WBC,White Blood Cell Count,7.26,10^3/uL,amended,2024-05-14T08:22:15
+Patient-040-Enc-02-Lab-HGB,Patient-040-Enc-02,Patient-040,Organization-006,Organization-006-Dept-01,HGB,Hemoglobin,15.53,g/dL,amended,2024-07-17T02:01:13
+Patient-040-Enc-02-Lab-GLU,Patient-040-Enc-02,Patient-040,Organization-006,Organization-006-Dept-01,GLU,Glucose,74.34,mg/dL,final,2024-07-28T03:38:35
+Patient-040-Enc-03-Lab-PLT,Patient-040-Enc-03,Patient-040,Organization-006,Organization-006-Dept-02,PLT,Platelets,327.92,10^3/uL,final,2023-07-13T08:02:53
+Patient-041-Enc-01-Lab-WBC,Patient-041-Enc-01,Patient-041,Organization-005,Organization-005-Dept-01,WBC,White Blood Cell Count,9.03,10^3/uL,preliminary,2023-07-04T16:10:58
+Patient-041-Enc-01-Lab-PLT,Patient-041-Enc-01,Patient-041,Organization-005,Organization-005-Dept-01,PLT,Platelets,192.89,10^3/uL,preliminary,2023-12-13T03:10:55
+Patient-041-Enc-02-Lab-HGB,Patient-041-Enc-02,Patient-041,Organization-005,Organization-005-Dept-01,HGB,Hemoglobin,12.36,g/dL,amended,2025-04-12T12:36:33
+Patient-041-Enc-02-Lab-PLT,Patient-041-Enc-02,Patient-041,Organization-005,Organization-005-Dept-01,PLT,Platelets,206.3,10^3/uL,amended,2025-01-25T00:37:08
+Patient-041-Enc-02-Lab-GLU,Patient-041-Enc-02,Patient-041,Organization-005,Organization-005-Dept-01,GLU,Glucose,75.26,mg/dL,preliminary,2023-08-21T20:27:28
+Patient-042-Enc-01-Lab-PLT,Patient-042-Enc-01,Patient-042,Organization-010,Organization-010-Dept-04,PLT,Platelets,394.27,10^3/uL,final,2024-02-10T16:20:39
+Patient-043-Enc-01-Lab-GLU,Patient-043-Enc-01,Patient-043,Organization-009,Organization-009-Dept-02,GLU,Glucose,76.61,mg/dL,amended,2023-11-13T15:20:30
+Patient-043-Enc-02-Lab-WBC,Patient-043-Enc-02,Patient-043,Organization-009,Organization-009-Dept-01,WBC,White Blood Cell Count,9.95,10^3/uL,preliminary,2025-02-23T14:30:25
+Patient-043-Enc-02-Lab-GLU,Patient-043-Enc-02,Patient-043,Organization-009,Organization-009-Dept-01,GLU,Glucose,99.74,mg/dL,preliminary,2024-03-21T02:23:21
+Patient-043-Enc-02-Lab-CR,Patient-043-Enc-02,Patient-043,Organization-009,Organization-009-Dept-01,CR,Creatinine,0.79,mg/dL,preliminary,2024-03-22T03:46:37
+Patient-043-Enc-03-Lab-HGB,Patient-043-Enc-03,Patient-043,Organization-009,Organization-009-Dept-02,HGB,Hemoglobin,15.29,g/dL,preliminary,2024-04-30T07:32:40
+Patient-043-Enc-03-Lab-CR,Patient-043-Enc-03,Patient-043,Organization-009,Organization-009-Dept-02,CR,Creatinine,0.75,mg/dL,final,2025-05-01T17:34:28
+Patient-044-Enc-01-Lab-WBC,Patient-044-Enc-01,Patient-044,Organization-008,Organization-008-Dept-01,WBC,White Blood Cell Count,10.44,10^3/uL,preliminary,2025-01-11T23:46:58
+Patient-044-Enc-01-Lab-PLT,Patient-044-Enc-01,Patient-044,Organization-008,Organization-008-Dept-01,PLT,Platelets,313.65,10^3/uL,amended,2025-05-08T04:50:18
+Patient-044-Enc-02-Lab-PLT,Patient-044-Enc-02,Patient-044,Organization-008,Organization-008-Dept-01,PLT,Platelets,272.27,10^3/uL,final,2024-06-12T09:17:58
+Patient-044-Enc-02-Lab-GLU,Patient-044-Enc-02,Patient-044,Organization-008,Organization-008-Dept-01,GLU,Glucose,90.42,mg/dL,final,2025-01-20T18:45:48
+Patient-044-Enc-03-Lab-WBC,Patient-044-Enc-03,Patient-044,Organization-008,Organization-008-Dept-01,WBC,White Blood Cell Count,5.07,10^3/uL,final,2024-01-10T01:58:14
+Patient-044-Enc-04-Lab-PLT,Patient-044-Enc-04,Patient-044,Organization-008,Organization-008-Dept-01,PLT,Platelets,243.74,10^3/uL,preliminary,2023-07-05T20:22:01
+Patient-044-Enc-04-Lab-HGB,Patient-044-Enc-04,Patient-044,Organization-008,Organization-008-Dept-01,HGB,Hemoglobin,15.83,g/dL,final,2024-09-23T06:47:36
+Patient-045-Enc-01-Lab-HGB,Patient-045-Enc-01,Patient-045,Organization-003,Organization-003-Dept-01,HGB,Hemoglobin,14.85,g/dL,final,2024-07-11T17:45:53
+Patient-045-Enc-02-Lab-GLU,Patient-045-Enc-02,Patient-045,Organization-003,Organization-003-Dept-01,GLU,Glucose,81.89,mg/dL,amended,2024-02-12T17:07:09
+Patient-045-Enc-02-Lab-CR,Patient-045-Enc-02,Patient-045,Organization-003,Organization-003-Dept-01,CR,Creatinine,0.94,mg/dL,final,2024-12-18T19:17:46
+Patient-045-Enc-03-Lab-WBC,Patient-045-Enc-03,Patient-045,Organization-003,Organization-003-Dept-01,WBC,White Blood Cell Count,9.53,10^3/uL,final,2024-02-12T17:33:43
+Patient-045-Enc-03-Lab-PLT,Patient-045-Enc-03,Patient-045,Organization-003,Organization-003-Dept-01,PLT,Platelets,265.96,10^3/uL,preliminary,2024-04-05T12:29:25
+Patient-046-Enc-01-Lab-WBC,Patient-046-Enc-01,Patient-046,Organization-005,Organization-005-Dept-01,WBC,White Blood Cell Count,8.38,10^3/uL,preliminary,2023-07-13T16:30:00
+Patient-046-Enc-01-Lab-PLT,Patient-046-Enc-01,Patient-046,Organization-005,Organization-005-Dept-01,PLT,Platelets,209.57,10^3/uL,preliminary,2025-05-28T18:06:36
+Patient-046-Enc-02-Lab-PLT,Patient-046-Enc-02,Patient-046,Organization-005,Organization-005-Dept-01,PLT,Platelets,312.93,10^3/uL,amended,2024-07-19T01:22:24
+Patient-046-Enc-02-Lab-HGB,Patient-046-Enc-02,Patient-046,Organization-005,Organization-005-Dept-01,HGB,Hemoglobin,15.79,g/dL,amended,2024-10-12T07:16:03
+Patient-046-Enc-02-Lab-GLU,Patient-046-Enc-02,Patient-046,Organization-005,Organization-005-Dept-01,GLU,Glucose,82.04,mg/dL,amended,2024-06-08T05:00:05
+Patient-047-Enc-01-Lab-CR,Patient-047-Enc-01,Patient-047,Organization-004,Organization-004-Dept-01,CR,Creatinine,0.92,mg/dL,final,2023-12-18T16:46:16
+Patient-047-Enc-01-Lab-WBC,Patient-047-Enc-01,Patient-047,Organization-004,Organization-004-Dept-01,WBC,White Blood Cell Count,8.62,10^3/uL,amended,2023-07-09T04:12:20
+Patient-047-Enc-02-Lab-PLT,Patient-047-Enc-02,Patient-047,Organization-004,Organization-004-Dept-02,PLT,Platelets,362.66,10^3/uL,amended,2024-05-11T14:36:26
+Patient-047-Enc-03-Lab-WBC,Patient-047-Enc-03,Patient-047,Organization-004,Organization-004-Dept-02,WBC,White Blood Cell Count,8.25,10^3/uL,preliminary,2024-07-13T16:06:27
+Patient-047-Enc-03-Lab-GLU,Patient-047-Enc-03,Patient-047,Organization-004,Organization-004-Dept-02,GLU,Glucose,91.22,mg/dL,preliminary,2023-11-14T22:52:00
+Patient-048-Enc-01-Lab-WBC,Patient-048-Enc-01,Patient-048,Organization-007,Organization-007-Dept-02,WBC,White Blood Cell Count,5.49,10^3/uL,final,2024-05-27T02:38:17
+Patient-048-Enc-01-Lab-PLT,Patient-048-Enc-01,Patient-048,Organization-007,Organization-007-Dept-02,PLT,Platelets,243.09,10^3/uL,preliminary,2024-05-23T12:42:31
+Patient-048-Enc-01-Lab-CR,Patient-048-Enc-01,Patient-048,Organization-007,Organization-007-Dept-02,CR,Creatinine,0.67,mg/dL,preliminary,2025-05-29T02:17:49
+Patient-048-Enc-02-Lab-CR,Patient-048-Enc-02,Patient-048,Organization-007,Organization-007-Dept-01,CR,Creatinine,0.8,mg/dL,final,2023-10-11T01:18:26
+Patient-048-Enc-02-Lab-GLU,Patient-048-Enc-02,Patient-048,Organization-007,Organization-007-Dept-01,GLU,Glucose,72.86,mg/dL,amended,2024-10-25T21:18:09
+Patient-049-Enc-01-Lab-PLT,Patient-049-Enc-01,Patient-049,Organization-003,Organization-003-Dept-01,PLT,Platelets,365.86,10^3/uL,final,2024-06-25T13:21:03
+Patient-049-Enc-01-Lab-GLU,Patient-049-Enc-01,Patient-049,Organization-003,Organization-003-Dept-01,GLU,Glucose,97.03,mg/dL,final,2025-06-06T17:57:40
+Patient-049-Enc-01-Lab-CR,Patient-049-Enc-01,Patient-049,Organization-003,Organization-003-Dept-01,CR,Creatinine,1.28,mg/dL,final,2024-05-23T23:28:07
+Patient-049-Enc-02-Lab-PLT,Patient-049-Enc-02,Patient-049,Organization-003,Organization-003-Dept-01,PLT,Platelets,233.48,10^3/uL,final,2023-11-10T16:09:16
+Patient-049-Enc-02-Lab-GLU,Patient-049-Enc-02,Patient-049,Organization-003,Organization-003-Dept-01,GLU,Glucose,87.94,mg/dL,amended,2025-02-10T02:44:32
+Patient-049-Enc-02-Lab-CR,Patient-049-Enc-02,Patient-049,Organization-003,Organization-003-Dept-01,CR,Creatinine,1.25,mg/dL,final,2024-11-12T06:33:45
+Patient-049-Enc-03-Lab-HGB,Patient-049-Enc-03,Patient-049,Organization-003,Organization-003-Dept-01,HGB,Hemoglobin,14.7,g/dL,final,2025-03-17T21:12:29
+Patient-049-Enc-03-Lab-PLT,Patient-049-Enc-03,Patient-049,Organization-003,Organization-003-Dept-01,PLT,Platelets,213.13,10^3/uL,amended,2023-09-15T11:50:16
+Patient-050-Enc-01-Lab-GLU,Patient-050-Enc-01,Patient-050,Organization-001,Organization-001-Dept-03,GLU,Glucose,108.98,mg/dL,preliminary,2024-06-19T17:40:55
+Patient-050-Enc-01-Lab-CR,Patient-050-Enc-01,Patient-050,Organization-001,Organization-001-Dept-03,CR,Creatinine,1.28,mg/dL,preliminary,2023-12-23T04:52:26
+Patient-050-Enc-02-Lab-WBC,Patient-050-Enc-02,Patient-050,Organization-001,Organization-001-Dept-07,WBC,White Blood Cell Count,7.34,10^3/uL,amended,2024-07-15T15:31:43
+Patient-050-Enc-02-Lab-CR,Patient-050-Enc-02,Patient-050,Organization-001,Organization-001-Dept-07,CR,Creatinine,0.76,mg/dL,preliminary,2024-06-17T13:51:01
+Patient-050-Enc-02-Lab-GLU,Patient-050-Enc-02,Patient-050,Organization-001,Organization-001-Dept-07,GLU,Glucose,90.75,mg/dL,amended,2025-03-07T16:01:31
+Patient-050-Enc-03-Lab-HGB,Patient-050-Enc-03,Patient-050,Organization-001,Organization-001-Dept-06,HGB,Hemoglobin,14.19,g/dL,preliminary,2024-11-04T13:45:51
+Patient-051-Enc-01-Lab-CR,Patient-051-Enc-01,Patient-051,Organization-006,Organization-006-Dept-02,CR,Creatinine,0.67,mg/dL,final,2024-08-03T07:46:53
+Patient-051-Enc-01-Lab-PLT,Patient-051-Enc-01,Patient-051,Organization-006,Organization-006-Dept-02,PLT,Platelets,221.01,10^3/uL,final,2024-05-23T02:50:15
+Patient-051-Enc-02-Lab-GLU,Patient-051-Enc-02,Patient-051,Organization-006,Organization-006-Dept-01,GLU,Glucose,83.1,mg/dL,final,2025-04-04T04:41:46
+Patient-051-Enc-02-Lab-CR,Patient-051-Enc-02,Patient-051,Organization-006,Organization-006-Dept-01,CR,Creatinine,1.19,mg/dL,preliminary,2024-04-29T18:03:28
+Patient-051-Enc-02-Lab-WBC,Patient-051-Enc-02,Patient-051,Organization-006,Organization-006-Dept-01,WBC,White Blood Cell Count,6.15,10^3/uL,final,2023-09-24T21:41:31
+Patient-051-Enc-03-Lab-WBC,Patient-051-Enc-03,Patient-051,Organization-006,Organization-006-Dept-01,WBC,White Blood Cell Count,5.81,10^3/uL,preliminary,2023-09-11T12:45:56
+Patient-051-Enc-03-Lab-GLU,Patient-051-Enc-03,Patient-051,Organization-006,Organization-006-Dept-01,GLU,Glucose,77.04,mg/dL,preliminary,2023-09-11T10:21:56
+Patient-051-Enc-04-Lab-WBC,Patient-051-Enc-04,Patient-051,Organization-006,Organization-006-Dept-02,WBC,White Blood Cell Count,10.64,10^3/uL,preliminary,2024-03-19T12:48:01
+Patient-051-Enc-05-Lab-GLU,Patient-051-Enc-05,Patient-051,Organization-006,Organization-006-Dept-02,GLU,Glucose,85.49,mg/dL,final,2023-07-15T12:38:33
+Patient-051-Enc-05-Lab-CR,Patient-051-Enc-05,Patient-051,Organization-006,Organization-006-Dept-02,CR,Creatinine,1.18,mg/dL,preliminary,2024-10-25T23:35:06
+Patient-051-Enc-05-Lab-HGB,Patient-051-Enc-05,Patient-051,Organization-006,Organization-006-Dept-02,HGB,Hemoglobin,14.69,g/dL,preliminary,2025-04-25T18:52:04
+Patient-052-Enc-01-Lab-GLU,Patient-052-Enc-01,Patient-052,Organization-005,Organization-005-Dept-01,GLU,Glucose,78.8,mg/dL,preliminary,2024-08-01T08:41:52
+Patient-052-Enc-01-Lab-HGB,Patient-052-Enc-01,Patient-052,Organization-005,Organization-005-Dept-01,HGB,Hemoglobin,15.9,g/dL,preliminary,2023-10-25T18:57:39
+Patient-052-Enc-02-Lab-HGB,Patient-052-Enc-02,Patient-052,Organization-005,Organization-005-Dept-01,HGB,Hemoglobin,14.87,g/dL,final,2025-06-17T21:08:50
+Patient-052-Enc-03-Lab-PLT,Patient-052-Enc-03,Patient-052,Organization-005,Organization-005-Dept-01,PLT,Platelets,356.39,10^3/uL,amended,2025-01-20T11:46:06
+Patient-052-Enc-03-Lab-WBC,Patient-052-Enc-03,Patient-052,Organization-005,Organization-005-Dept-01,WBC,White Blood Cell Count,7.66,10^3/uL,final,2024-08-08T09:11:59
+Patient-052-Enc-03-Lab-CR,Patient-052-Enc-03,Patient-052,Organization-005,Organization-005-Dept-01,CR,Creatinine,1.24,mg/dL,amended,2025-01-16T09:08:07
+Patient-052-Enc-04-Lab-PLT,Patient-052-Enc-04,Patient-052,Organization-005,Organization-005-Dept-01,PLT,Platelets,293.68,10^3/uL,final,2023-11-10T19:05:42
+Patient-052-Enc-05-Lab-GLU,Patient-052-Enc-05,Patient-052,Organization-005,Organization-005-Dept-01,GLU,Glucose,89.03,mg/dL,final,2024-02-02T12:15:23
+Patient-052-Enc-05-Lab-HGB,Patient-052-Enc-05,Patient-052,Organization-005,Organization-005-Dept-01,HGB,Hemoglobin,15.64,g/dL,preliminary,2023-08-21T04:55:25
+Patient-052-Enc-05-Lab-PLT,Patient-052-Enc-05,Patient-052,Organization-005,Organization-005-Dept-01,PLT,Platelets,370.56,10^3/uL,final,2024-03-23T07:46:13
+Patient-053-Enc-01-Lab-HGB,Patient-053-Enc-01,Patient-053,Organization-002,Organization-002-Dept-01,HGB,Hemoglobin,14.73,g/dL,final,2023-11-03T11:31:39
+Patient-053-Enc-01-Lab-WBC,Patient-053-Enc-01,Patient-053,Organization-002,Organization-002-Dept-01,WBC,White Blood Cell Count,9.0,10^3/uL,preliminary,2025-06-09T22:47:52
+Patient-054-Enc-01-Lab-CR,Patient-054-Enc-01,Patient-054,Organization-002,Organization-002-Dept-01,CR,Creatinine,1.16,mg/dL,final,2024-12-23T21:52:38
+Patient-054-Enc-01-Lab-GLU,Patient-054-Enc-01,Patient-054,Organization-002,Organization-002-Dept-01,GLU,Glucose,109.48,mg/dL,final,2025-03-18T14:18:35
+Patient-054-Enc-01-Lab-PLT,Patient-054-Enc-01,Patient-054,Organization-002,Organization-002-Dept-01,PLT,Platelets,389.47,10^3/uL,final,2023-07-28T18:49:49
+Patient-054-Enc-02-Lab-GLU,Patient-054-Enc-02,Patient-054,Organization-002,Organization-002-Dept-02,GLU,Glucose,91.01,mg/dL,final,2024-02-27T23:10:33
+Patient-054-Enc-02-Lab-HGB,Patient-054-Enc-02,Patient-054,Organization-002,Organization-002-Dept-02,HGB,Hemoglobin,13.26,g/dL,preliminary,2024-02-07T05:36:58
+Patient-055-Enc-01-Lab-PLT,Patient-055-Enc-01,Patient-055,Organization-002,Organization-002-Dept-01,PLT,Platelets,288.44,10^3/uL,final,2024-01-21T13:31:04
+Patient-055-Enc-01-Lab-HGB,Patient-055-Enc-01,Patient-055,Organization-002,Organization-002-Dept-01,HGB,Hemoglobin,16.53,g/dL,amended,2024-04-20T22:21:12
+Patient-055-Enc-01-Lab-WBC,Patient-055-Enc-01,Patient-055,Organization-002,Organization-002-Dept-01,WBC,White Blood Cell Count,9.51,10^3/uL,final,2023-11-12T21:14:21
+Patient-056-Enc-01-Lab-CR,Patient-056-Enc-01,Patient-056,Organization-010,Organization-010-Dept-05,CR,Creatinine,0.7,mg/dL,preliminary,2023-08-16T13:47:06
+Patient-056-Enc-01-Lab-HGB,Patient-056-Enc-01,Patient-056,Organization-010,Organization-010-Dept-05,HGB,Hemoglobin,13.92,g/dL,preliminary,2024-12-02T00:59:42
+Patient-056-Enc-01-Lab-GLU,Patient-056-Enc-01,Patient-056,Organization-010,Organization-010-Dept-05,GLU,Glucose,74.08,mg/dL,final,2025-02-06T07:36:58
+Patient-057-Enc-01-Lab-HGB,Patient-057-Enc-01,Patient-057,Organization-010,Organization-010-Dept-05,HGB,Hemoglobin,12.84,g/dL,final,2024-10-18T22:02:09
+Patient-057-Enc-02-Lab-PLT,Patient-057-Enc-02,Patient-057,Organization-010,Organization-010-Dept-05,PLT,Platelets,396.86,10^3/uL,amended,2024-03-23T03:49:22
+Patient-057-Enc-03-Lab-CR,Patient-057-Enc-03,Patient-057,Organization-010,Organization-010-Dept-05,CR,Creatinine,0.65,mg/dL,preliminary,2025-06-17T19:42:49
+Patient-058-Enc-01-Lab-CR,Patient-058-Enc-01,Patient-058,Organization-003,Organization-003-Dept-01,CR,Creatinine,0.64,mg/dL,preliminary,2025-04-30T18:41:47
+Patient-058-Enc-02-Lab-CR,Patient-058-Enc-02,Patient-058,Organization-003,Organization-003-Dept-01,CR,Creatinine,0.76,mg/dL,final,2024-09-11T11:37:43
+Patient-059-Enc-01-Lab-PLT,Patient-059-Enc-01,Patient-059,Organization-001,Organization-001-Dept-02,PLT,Platelets,153.92,10^3/uL,amended,2025-05-22T23:23:54
+Patient-059-Enc-01-Lab-CR,Patient-059-Enc-01,Patient-059,Organization-001,Organization-001-Dept-02,CR,Creatinine,0.66,mg/dL,preliminary,2025-06-05T01:10:43
+Patient-059-Enc-02-Lab-PLT,Patient-059-Enc-02,Patient-059,Organization-001,Organization-001-Dept-02,PLT,Platelets,389.46,10^3/uL,preliminary,2024-07-23T07:41:15
+Patient-059-Enc-03-Lab-PLT,Patient-059-Enc-03,Patient-059,Organization-001,Organization-001-Dept-06,PLT,Platelets,365.78,10^3/uL,amended,2025-03-05T16:32:27
+Patient-059-Enc-04-Lab-CR,Patient-059-Enc-04,Patient-059,Organization-001,Organization-001-Dept-04,CR,Creatinine,1.18,mg/dL,amended,2025-06-16T08:12:00
+Patient-059-Enc-05-Lab-GLU,Patient-059-Enc-05,Patient-059,Organization-001,Organization-001-Dept-02,GLU,Glucose,101.91,mg/dL,amended,2024-07-05T17:48:25
+Patient-060-Enc-01-Lab-WBC,Patient-060-Enc-01,Patient-060,Organization-009,Organization-009-Dept-03,WBC,White Blood Cell Count,4.97,10^3/uL,amended,2024-12-28T04:19:59
+Patient-060-Enc-01-Lab-HGB,Patient-060-Enc-01,Patient-060,Organization-009,Organization-009-Dept-03,HGB,Hemoglobin,14.13,g/dL,amended,2024-04-07T14:34:23
+Patient-060-Enc-02-Lab-GLU,Patient-060-Enc-02,Patient-060,Organization-009,Organization-009-Dept-02,GLU,Glucose,99.82,mg/dL,final,2024-02-21T08:24:53
+Patient-060-Enc-02-Lab-CR,Patient-060-Enc-02,Patient-060,Organization-009,Organization-009-Dept-02,CR,Creatinine,0.86,mg/dL,final,2024-04-10T15:42:25
+Patient-060-Enc-02-Lab-HGB,Patient-060-Enc-02,Patient-060,Organization-009,Organization-009-Dept-02,HGB,Hemoglobin,12.52,g/dL,preliminary,2025-01-29T04:24:54
+Patient-060-Enc-03-Lab-HGB,Patient-060-Enc-03,Patient-060,Organization-009,Organization-009-Dept-01,HGB,Hemoglobin,14.68,g/dL,preliminary,2025-03-14T07:30:07
+Patient-060-Enc-03-Lab-PLT,Patient-060-Enc-03,Patient-060,Organization-009,Organization-009-Dept-01,PLT,Platelets,335.88,10^3/uL,final,2024-05-29T11:22:51
+Patient-060-Enc-04-Lab-HGB,Patient-060-Enc-04,Patient-060,Organization-009,Organization-009-Dept-03,HGB,Hemoglobin,13.59,g/dL,amended,2025-05-31T21:04:22
+Patient-060-Enc-05-Lab-PLT,Patient-060-Enc-05,Patient-060,Organization-009,Organization-009-Dept-03,PLT,Platelets,228.96,10^3/uL,preliminary,2023-08-08T13:44:07
+Patient-060-Enc-05-Lab-HGB,Patient-060-Enc-05,Patient-060,Organization-009,Organization-009-Dept-03,HGB,Hemoglobin,16.4,g/dL,amended,2024-02-02T22:41:13
+Patient-060-Enc-05-Lab-WBC,Patient-060-Enc-05,Patient-060,Organization-009,Organization-009-Dept-03,WBC,White Blood Cell Count,9.96,10^3/uL,final,2024-03-21T05:20:41
+Patient-061-Enc-01-Lab-GLU,Patient-061-Enc-01,Patient-061,Organization-008,Organization-008-Dept-01,GLU,Glucose,75.37,mg/dL,preliminary,2025-01-04T23:44:37
+Patient-061-Enc-01-Lab-PLT,Patient-061-Enc-01,Patient-061,Organization-008,Organization-008-Dept-01,PLT,Platelets,182.06,10^3/uL,preliminary,2024-05-04T11:11:18
+Patient-061-Enc-02-Lab-WBC,Patient-061-Enc-02,Patient-061,Organization-008,Organization-008-Dept-01,WBC,White Blood Cell Count,5.51,10^3/uL,amended,2025-04-29T07:44:49
+Patient-061-Enc-03-Lab-GLU,Patient-061-Enc-03,Patient-061,Organization-008,Organization-008-Dept-01,GLU,Glucose,88.27,mg/dL,preliminary,2025-05-06T03:37:03
+Patient-061-Enc-03-Lab-PLT,Patient-061-Enc-03,Patient-061,Organization-008,Organization-008-Dept-01,PLT,Platelets,262.12,10^3/uL,amended,2024-01-03T23:16:59
+Patient-061-Enc-04-Lab-PLT,Patient-061-Enc-04,Patient-061,Organization-008,Organization-008-Dept-01,PLT,Platelets,200.69,10^3/uL,preliminary,2025-05-13T18:35:36
+Patient-061-Enc-04-Lab-CR,Patient-061-Enc-04,Patient-061,Organization-008,Organization-008-Dept-01,CR,Creatinine,0.68,mg/dL,amended,2025-03-22T01:17:27
+Patient-061-Enc-04-Lab-HGB,Patient-061-Enc-04,Patient-061,Organization-008,Organization-008-Dept-01,HGB,Hemoglobin,12.87,g/dL,amended,2025-02-09T00:20:52
+Patient-061-Enc-05-Lab-GLU,Patient-061-Enc-05,Patient-061,Organization-008,Organization-008-Dept-01,GLU,Glucose,78.22,mg/dL,amended,2025-04-29T23:47:40
+Patient-061-Enc-05-Lab-PLT,Patient-061-Enc-05,Patient-061,Organization-008,Organization-008-Dept-01,PLT,Platelets,157.26,10^3/uL,preliminary,2023-12-15T13:21:32
+Patient-061-Enc-05-Lab-WBC,Patient-061-Enc-05,Patient-061,Organization-008,Organization-008-Dept-01,WBC,White Blood Cell Count,4.82,10^3/uL,final,2024-04-14T01:39:54
+Patient-062-Enc-01-Lab-PLT,Patient-062-Enc-01,Patient-062,Organization-005,Organization-005-Dept-01,PLT,Platelets,329.02,10^3/uL,preliminary,2023-08-09T08:34:37
+Patient-062-Enc-01-Lab-GLU,Patient-062-Enc-01,Patient-062,Organization-005,Organization-005-Dept-01,GLU,Glucose,81.11,mg/dL,final,2024-07-10T21:24:16
+Patient-062-Enc-02-Lab-CR,Patient-062-Enc-02,Patient-062,Organization-005,Organization-005-Dept-01,CR,Creatinine,0.65,mg/dL,amended,2023-07-03T22:00:47
+Patient-063-Enc-01-Lab-HGB,Patient-063-Enc-01,Patient-063,Organization-006,Organization-006-Dept-02,HGB,Hemoglobin,15.62,g/dL,preliminary,2025-04-02T08:57:10
+Patient-063-Enc-01-Lab-CR,Patient-063-Enc-01,Patient-063,Organization-006,Organization-006-Dept-02,CR,Creatinine,0.94,mg/dL,amended,2023-12-06T20:34:13
+Patient-063-Enc-01-Lab-WBC,Patient-063-Enc-01,Patient-063,Organization-006,Organization-006-Dept-02,WBC,White Blood Cell Count,9.59,10^3/uL,amended,2024-11-07T14:24:43
+Patient-063-Enc-02-Lab-CR,Patient-063-Enc-02,Patient-063,Organization-006,Organization-006-Dept-01,CR,Creatinine,0.93,mg/dL,amended,2025-02-07T04:03:23
+Patient-063-Enc-02-Lab-PLT,Patient-063-Enc-02,Patient-063,Organization-006,Organization-006-Dept-01,PLT,Platelets,154.92,10^3/uL,amended,2023-11-17T00:25:22
+Patient-063-Enc-02-Lab-GLU,Patient-063-Enc-02,Patient-063,Organization-006,Organization-006-Dept-01,GLU,Glucose,100.24,mg/dL,preliminary,2024-11-02T19:14:04
+Patient-063-Enc-03-Lab-WBC,Patient-063-Enc-03,Patient-063,Organization-006,Organization-006-Dept-01,WBC,White Blood Cell Count,4.69,10^3/uL,preliminary,2024-09-02T02:18:27
+Patient-063-Enc-03-Lab-CR,Patient-063-Enc-03,Patient-063,Organization-006,Organization-006-Dept-01,CR,Creatinine,0.95,mg/dL,final,2024-12-16T11:20:38
+Patient-063-Enc-03-Lab-PLT,Patient-063-Enc-03,Patient-063,Organization-006,Organization-006-Dept-01,PLT,Platelets,157.98,10^3/uL,final,2024-06-17T12:45:36
+Patient-063-Enc-04-Lab-PLT,Patient-063-Enc-04,Patient-063,Organization-006,Organization-006-Dept-01,PLT,Platelets,359.1,10^3/uL,final,2024-08-22T03:05:00
+Patient-063-Enc-04-Lab-WBC,Patient-063-Enc-04,Patient-063,Organization-006,Organization-006-Dept-01,WBC,White Blood Cell Count,10.66,10^3/uL,preliminary,2025-03-09T04:24:16
+Patient-064-Enc-01-Lab-HGB,Patient-064-Enc-01,Patient-064,Organization-006,Organization-006-Dept-02,HGB,Hemoglobin,14.52,g/dL,final,2023-10-04T06:02:57
+Patient-064-Enc-02-Lab-WBC,Patient-064-Enc-02,Patient-064,Organization-006,Organization-006-Dept-02,WBC,White Blood Cell Count,10.98,10^3/uL,amended,2024-09-02T13:36:34
+Patient-064-Enc-02-Lab-HGB,Patient-064-Enc-02,Patient-064,Organization-006,Organization-006-Dept-02,HGB,Hemoglobin,16.82,g/dL,amended,2025-05-16T05:52:35
+Patient-064-Enc-02-Lab-PLT,Patient-064-Enc-02,Patient-064,Organization-006,Organization-006-Dept-02,PLT,Platelets,312.78,10^3/uL,amended,2024-11-20T06:00:21
+Patient-064-Enc-03-Lab-PLT,Patient-064-Enc-03,Patient-064,Organization-006,Organization-006-Dept-01,PLT,Platelets,274.36,10^3/uL,preliminary,2023-07-19T09:09:05
+Patient-064-Enc-03-Lab-WBC,Patient-064-Enc-03,Patient-064,Organization-006,Organization-006-Dept-01,WBC,White Blood Cell Count,4.46,10^3/uL,amended,2025-04-22T18:44:09
+Patient-064-Enc-04-Lab-GLU,Patient-064-Enc-04,Patient-064,Organization-006,Organization-006-Dept-02,GLU,Glucose,74.77,mg/dL,final,2023-11-17T04:12:46
+Patient-064-Enc-04-Lab-WBC,Patient-064-Enc-04,Patient-064,Organization-006,Organization-006-Dept-02,WBC,White Blood Cell Count,6.38,10^3/uL,preliminary,2024-03-21T14:05:56
+Patient-065-Enc-01-Lab-PLT,Patient-065-Enc-01,Patient-065,Organization-003,Organization-003-Dept-01,PLT,Platelets,213.98,10^3/uL,amended,2024-12-26T14:13:36
+Patient-066-Enc-01-Lab-PLT,Patient-066-Enc-01,Patient-066,Organization-001,Organization-001-Dept-07,PLT,Platelets,191.42,10^3/uL,amended,2025-06-09T00:39:28
+Patient-067-Enc-01-Lab-GLU,Patient-067-Enc-01,Patient-067,Organization-005,Organization-005-Dept-01,GLU,Glucose,84.55,mg/dL,final,2024-08-06T12:08:43
+Patient-067-Enc-01-Lab-CR,Patient-067-Enc-01,Patient-067,Organization-005,Organization-005-Dept-01,CR,Creatinine,0.73,mg/dL,amended,2023-09-21T16:12:34
+Patient-067-Enc-02-Lab-PLT,Patient-067-Enc-02,Patient-067,Organization-005,Organization-005-Dept-01,PLT,Platelets,322.86,10^3/uL,final,2025-06-09T22:27:10
+Patient-067-Enc-03-Lab-GLU,Patient-067-Enc-03,Patient-067,Organization-005,Organization-005-Dept-01,GLU,Glucose,100.07,mg/dL,amended,2024-08-16T03:11:35
+Patient-067-Enc-03-Lab-CR,Patient-067-Enc-03,Patient-067,Organization-005,Organization-005-Dept-01,CR,Creatinine,0.87,mg/dL,final,2023-07-18T22:09:29
+Patient-067-Enc-03-Lab-HGB,Patient-067-Enc-03,Patient-067,Organization-005,Organization-005-Dept-01,HGB,Hemoglobin,16.77,g/dL,final,2023-08-27T20:40:14
+Patient-067-Enc-04-Lab-PLT,Patient-067-Enc-04,Patient-067,Organization-005,Organization-005-Dept-01,PLT,Platelets,279.1,10^3/uL,amended,2024-01-26T04:22:19
+Patient-067-Enc-04-Lab-CR,Patient-067-Enc-04,Patient-067,Organization-005,Organization-005-Dept-01,CR,Creatinine,1.05,mg/dL,final,2023-08-04T19:20:18
+Patient-068-Enc-01-Lab-CR,Patient-068-Enc-01,Patient-068,Organization-007,Organization-007-Dept-01,CR,Creatinine,0.83,mg/dL,final,2024-03-27T11:45:25
+Patient-068-Enc-02-Lab-WBC,Patient-068-Enc-02,Patient-068,Organization-007,Organization-007-Dept-01,WBC,White Blood Cell Count,9.11,10^3/uL,preliminary,2025-03-14T00:18:51
+Patient-068-Enc-02-Lab-PLT,Patient-068-Enc-02,Patient-068,Organization-007,Organization-007-Dept-01,PLT,Platelets,361.56,10^3/uL,final,2024-06-03T10:52:39
+Patient-068-Enc-03-Lab-WBC,Patient-068-Enc-03,Patient-068,Organization-007,Organization-007-Dept-02,WBC,White Blood Cell Count,5.18,10^3/uL,final,2024-02-09T15:39:13
+Patient-068-Enc-03-Lab-PLT,Patient-068-Enc-03,Patient-068,Organization-007,Organization-007-Dept-02,PLT,Platelets,256.99,10^3/uL,final,2024-08-17T06:02:16
+Patient-068-Enc-03-Lab-HGB,Patient-068-Enc-03,Patient-068,Organization-007,Organization-007-Dept-02,HGB,Hemoglobin,12.05,g/dL,preliminary,2023-10-24T20:31:11
+Patient-069-Enc-01-Lab-PLT,Patient-069-Enc-01,Patient-069,Organization-002,Organization-002-Dept-02,PLT,Platelets,288.95,10^3/uL,final,2025-05-30T19:00:08
+Patient-069-Enc-01-Lab-HGB,Patient-069-Enc-01,Patient-069,Organization-002,Organization-002-Dept-02,HGB,Hemoglobin,14.37,g/dL,amended,2024-10-09T07:48:58
+Patient-069-Enc-02-Lab-CR,Patient-069-Enc-02,Patient-069,Organization-002,Organization-002-Dept-02,CR,Creatinine,1.05,mg/dL,amended,2024-01-11T23:48:05
+Patient-069-Enc-03-Lab-GLU,Patient-069-Enc-03,Patient-069,Organization-002,Organization-002-Dept-02,GLU,Glucose,90.35,mg/dL,amended,2025-01-29T15:33:41
+Patient-070-Enc-01-Lab-GLU,Patient-070-Enc-01,Patient-070,Organization-009,Organization-009-Dept-03,GLU,Glucose,95.34,mg/dL,preliminary,2023-10-28T22:23:56
+Patient-070-Enc-02-Lab-CR,Patient-070-Enc-02,Patient-070,Organization-009,Organization-009-Dept-02,CR,Creatinine,1.06,mg/dL,amended,2024-09-25T12:01:58
+Patient-070-Enc-02-Lab-WBC,Patient-070-Enc-02,Patient-070,Organization-009,Organization-009-Dept-02,WBC,White Blood Cell Count,6.97,10^3/uL,preliminary,2025-04-10T21:49:23
+Patient-070-Enc-02-Lab-PLT,Patient-070-Enc-02,Patient-070,Organization-009,Organization-009-Dept-02,PLT,Platelets,174.23,10^3/uL,preliminary,2024-08-21T03:19:49
+Patient-070-Enc-03-Lab-HGB,Patient-070-Enc-03,Patient-070,Organization-009,Organization-009-Dept-03,HGB,Hemoglobin,15.86,g/dL,amended,2025-02-26T17:34:22
+Patient-071-Enc-01-Lab-HGB,Patient-071-Enc-01,Patient-071,Organization-010,Organization-010-Dept-01,HGB,Hemoglobin,16.9,g/dL,final,2024-05-04T20:58:13
+Patient-071-Enc-01-Lab-GLU,Patient-071-Enc-01,Patient-071,Organization-010,Organization-010-Dept-01,GLU,Glucose,103.78,mg/dL,amended,2024-07-12T16:46:35
+Patient-071-Enc-02-Lab-WBC,Patient-071-Enc-02,Patient-071,Organization-010,Organization-010-Dept-04,WBC,White Blood Cell Count,5.44,10^3/uL,final,2023-09-08T20:39:52
+Patient-071-Enc-03-Lab-WBC,Patient-071-Enc-03,Patient-071,Organization-010,Organization-010-Dept-04,WBC,White Blood Cell Count,7.76,10^3/uL,preliminary,2024-12-04T14:30:51
+Patient-071-Enc-03-Lab-GLU,Patient-071-Enc-03,Patient-071,Organization-010,Organization-010-Dept-04,GLU,Glucose,97.95,mg/dL,final,2023-10-21T02:12:04
+Patient-071-Enc-03-Lab-PLT,Patient-071-Enc-03,Patient-071,Organization-010,Organization-010-Dept-04,PLT,Platelets,361.03,10^3/uL,amended,2023-07-09T15:16:30
+Patient-072-Enc-01-Lab-GLU,Patient-072-Enc-01,Patient-072,Organization-001,Organization-001-Dept-06,GLU,Glucose,79.28,mg/dL,preliminary,2025-05-10T12:03:31
+Patient-073-Enc-01-Lab-GLU,Patient-073-Enc-01,Patient-073,Organization-007,Organization-007-Dept-01,GLU,Glucose,109.02,mg/dL,amended,2024-04-23T14:04:01
+Patient-073-Enc-01-Lab-PLT,Patient-073-Enc-01,Patient-073,Organization-007,Organization-007-Dept-01,PLT,Platelets,294.02,10^3/uL,final,2025-03-12T09:58:59
+Patient-073-Enc-02-Lab-CR,Patient-073-Enc-02,Patient-073,Organization-007,Organization-007-Dept-02,CR,Creatinine,0.75,mg/dL,final,2023-07-21T11:44:53
+Patient-073-Enc-03-Lab-GLU,Patient-073-Enc-03,Patient-073,Organization-007,Organization-007-Dept-02,GLU,Glucose,104.41,mg/dL,amended,2025-01-06T21:13:08
+Patient-073-Enc-03-Lab-WBC,Patient-073-Enc-03,Patient-073,Organization-007,Organization-007-Dept-02,WBC,White Blood Cell Count,7.97,10^3/uL,preliminary,2023-09-15T07:15:20
+Patient-073-Enc-03-Lab-HGB,Patient-073-Enc-03,Patient-073,Organization-007,Organization-007-Dept-02,HGB,Hemoglobin,14.21,g/dL,amended,2024-08-04T08:22:59
+Patient-074-Enc-01-Lab-GLU,Patient-074-Enc-01,Patient-074,Organization-007,Organization-007-Dept-02,GLU,Glucose,79.75,mg/dL,preliminary,2023-11-15T03:26:58
+Patient-074-Enc-01-Lab-HGB,Patient-074-Enc-01,Patient-074,Organization-007,Organization-007-Dept-02,HGB,Hemoglobin,15.63,g/dL,preliminary,2023-09-25T10:58:10
+Patient-074-Enc-01-Lab-WBC,Patient-074-Enc-01,Patient-074,Organization-007,Organization-007-Dept-02,WBC,White Blood Cell Count,7.07,10^3/uL,preliminary,2024-09-08T04:30:46
+Patient-074-Enc-02-Lab-WBC,Patient-074-Enc-02,Patient-074,Organization-007,Organization-007-Dept-02,WBC,White Blood Cell Count,5.68,10^3/uL,final,2024-07-25T13:45:26
+Patient-075-Enc-01-Lab-HGB,Patient-075-Enc-01,Patient-075,Organization-009,Organization-009-Dept-01,HGB,Hemoglobin,14.14,g/dL,preliminary,2023-08-25T01:46:12
+Patient-075-Enc-01-Lab-CR,Patient-075-Enc-01,Patient-075,Organization-009,Organization-009-Dept-01,CR,Creatinine,0.84,mg/dL,preliminary,2025-03-04T17:36:42
+Patient-075-Enc-01-Lab-GLU,Patient-075-Enc-01,Patient-075,Organization-009,Organization-009-Dept-01,GLU,Glucose,78.74,mg/dL,final,2024-04-04T06:25:33
+Patient-075-Enc-02-Lab-WBC,Patient-075-Enc-02,Patient-075,Organization-009,Organization-009-Dept-02,WBC,White Blood Cell Count,7.43,10^3/uL,preliminary,2023-07-31T00:00:59
+Patient-075-Enc-02-Lab-HGB,Patient-075-Enc-02,Patient-075,Organization-009,Organization-009-Dept-02,HGB,Hemoglobin,13.21,g/dL,final,2024-10-19T02:46:42
+Patient-075-Enc-03-Lab-WBC,Patient-075-Enc-03,Patient-075,Organization-009,Organization-009-Dept-01,WBC,White Blood Cell Count,7.19,10^3/uL,amended,2024-11-23T20:51:38
+Patient-075-Enc-03-Lab-GLU,Patient-075-Enc-03,Patient-075,Organization-009,Organization-009-Dept-01,GLU,Glucose,80.39,mg/dL,amended,2024-03-17T01:42:59
+Patient-076-Enc-01-Lab-HGB,Patient-076-Enc-01,Patient-076,Organization-002,Organization-002-Dept-01,HGB,Hemoglobin,16.65,g/dL,preliminary,2024-12-02T05:12:19
+Patient-076-Enc-02-Lab-HGB,Patient-076-Enc-02,Patient-076,Organization-002,Organization-002-Dept-01,HGB,Hemoglobin,15.18,g/dL,final,2024-02-12T04:59:51
+Patient-076-Enc-02-Lab-CR,Patient-076-Enc-02,Patient-076,Organization-002,Organization-002-Dept-01,CR,Creatinine,1.18,mg/dL,final,2023-10-04T00:41:30
+Patient-076-Enc-02-Lab-GLU,Patient-076-Enc-02,Patient-076,Organization-002,Organization-002-Dept-01,GLU,Glucose,76.34,mg/dL,final,2024-10-07T00:51:59
+Patient-076-Enc-03-Lab-PLT,Patient-076-Enc-03,Patient-076,Organization-002,Organization-002-Dept-01,PLT,Platelets,305.46,10^3/uL,amended,2025-03-31T07:15:53
+Patient-076-Enc-04-Lab-PLT,Patient-076-Enc-04,Patient-076,Organization-002,Organization-002-Dept-01,PLT,Platelets,228.1,10^3/uL,amended,2025-06-14T05:24:09
+Patient-076-Enc-05-Lab-CR,Patient-076-Enc-05,Patient-076,Organization-002,Organization-002-Dept-01,CR,Creatinine,0.65,mg/dL,preliminary,2023-10-21T09:58:00
+Patient-076-Enc-05-Lab-PLT,Patient-076-Enc-05,Patient-076,Organization-002,Organization-002-Dept-01,PLT,Platelets,391.35,10^3/uL,final,2024-05-09T23:59:06
+Patient-076-Enc-05-Lab-WBC,Patient-076-Enc-05,Patient-076,Organization-002,Organization-002-Dept-01,WBC,White Blood Cell Count,7.84,10^3/uL,final,2024-05-29T09:12:34
+Patient-077-Enc-01-Lab-PLT,Patient-077-Enc-01,Patient-077,Organization-004,Organization-004-Dept-01,PLT,Platelets,165.51,10^3/uL,amended,2025-02-06T10:26:06
+Patient-077-Enc-01-Lab-HGB,Patient-077-Enc-01,Patient-077,Organization-004,Organization-004-Dept-01,HGB,Hemoglobin,14.33,g/dL,amended,2024-05-16T22:10:07
+Patient-077-Enc-02-Lab-CR,Patient-077-Enc-02,Patient-077,Organization-004,Organization-004-Dept-02,CR,Creatinine,0.83,mg/dL,amended,2025-03-22T21:54:59
+Patient-077-Enc-02-Lab-WBC,Patient-077-Enc-02,Patient-077,Organization-004,Organization-004-Dept-02,WBC,White Blood Cell Count,8.08,10^3/uL,final,2024-11-13T18:50:38
+Patient-077-Enc-03-Lab-GLU,Patient-077-Enc-03,Patient-077,Organization-004,Organization-004-Dept-02,GLU,Glucose,97.91,mg/dL,preliminary,2024-11-26T17:28:40
+Patient-077-Enc-03-Lab-WBC,Patient-077-Enc-03,Patient-077,Organization-004,Organization-004-Dept-02,WBC,White Blood Cell Count,8.02,10^3/uL,amended,2024-02-21T15:23:56
+Patient-077-Enc-03-Lab-PLT,Patient-077-Enc-03,Patient-077,Organization-004,Organization-004-Dept-02,PLT,Platelets,329.23,10^3/uL,final,2024-05-01T02:26:21
+Patient-077-Enc-04-Lab-GLU,Patient-077-Enc-04,Patient-077,Organization-004,Organization-004-Dept-02,GLU,Glucose,105.0,mg/dL,amended,2025-05-02T17:11:24
+Patient-077-Enc-04-Lab-CR,Patient-077-Enc-04,Patient-077,Organization-004,Organization-004-Dept-02,CR,Creatinine,1.25,mg/dL,amended,2023-12-19T11:05:55
+Patient-077-Enc-04-Lab-PLT,Patient-077-Enc-04,Patient-077,Organization-004,Organization-004-Dept-02,PLT,Platelets,227.19,10^3/uL,preliminary,2025-03-20T17:21:18
+Patient-077-Enc-05-Lab-WBC,Patient-077-Enc-05,Patient-077,Organization-004,Organization-004-Dept-01,WBC,White Blood Cell Count,9.48,10^3/uL,preliminary,2023-08-30T22:08:23
+Patient-078-Enc-01-Lab-PLT,Patient-078-Enc-01,Patient-078,Organization-006,Organization-006-Dept-01,PLT,Platelets,163.53,10^3/uL,final,2024-03-24T23:59:39
+Patient-078-Enc-01-Lab-WBC,Patient-078-Enc-01,Patient-078,Organization-006,Organization-006-Dept-01,WBC,White Blood Cell Count,10.16,10^3/uL,amended,2024-11-29T13:29:25
+Patient-079-Enc-01-Lab-WBC,Patient-079-Enc-01,Patient-079,Organization-006,Organization-006-Dept-02,WBC,White Blood Cell Count,6.11,10^3/uL,final,2025-04-25T20:18:25
+Patient-080-Enc-01-Lab-GLU,Patient-080-Enc-01,Patient-080,Organization-002,Organization-002-Dept-01,GLU,Glucose,108.5,mg/dL,preliminary,2025-02-15T10:46:48
+Patient-080-Enc-01-Lab-HGB,Patient-080-Enc-01,Patient-080,Organization-002,Organization-002-Dept-01,HGB,Hemoglobin,13.02,g/dL,amended,2024-07-02T21:20:31
+Patient-080-Enc-01-Lab-WBC,Patient-080-Enc-01,Patient-080,Organization-002,Organization-002-Dept-01,WBC,White Blood Cell Count,7.46,10^3/uL,preliminary,2024-02-02T05:48:14
+Patient-080-Enc-02-Lab-GLU,Patient-080-Enc-02,Patient-080,Organization-002,Organization-002-Dept-01,GLU,Glucose,91.99,mg/dL,preliminary,2024-01-15T06:45:03
+Patient-080-Enc-02-Lab-CR,Patient-080-Enc-02,Patient-080,Organization-002,Organization-002-Dept-01,CR,Creatinine,1.15,mg/dL,final,2024-06-08T05:59:48
+Patient-080-Enc-03-Lab-HGB,Patient-080-Enc-03,Patient-080,Organization-002,Organization-002-Dept-01,HGB,Hemoglobin,12.49,g/dL,preliminary,2025-06-18T08:45:27
+Patient-080-Enc-03-Lab-GLU,Patient-080-Enc-03,Patient-080,Organization-002,Organization-002-Dept-01,GLU,Glucose,77.68,mg/dL,preliminary,2025-01-23T10:22:44
+Patient-081-Enc-01-Lab-HGB,Patient-081-Enc-01,Patient-081,Organization-001,Organization-001-Dept-01,HGB,Hemoglobin,12.0,g/dL,final,2024-12-05T01:13:27
+Patient-081-Enc-01-Lab-CR,Patient-081-Enc-01,Patient-081,Organization-001,Organization-001-Dept-01,CR,Creatinine,1.03,mg/dL,final,2024-07-27T10:57:16
+Patient-081-Enc-02-Lab-HGB,Patient-081-Enc-02,Patient-081,Organization-001,Organization-001-Dept-03,HGB,Hemoglobin,15.25,g/dL,amended,2025-02-23T06:57:31
+Patient-081-Enc-03-Lab-CR,Patient-081-Enc-03,Patient-081,Organization-001,Organization-001-Dept-04,CR,Creatinine,0.92,mg/dL,amended,2025-03-30T19:46:53
+Patient-081-Enc-03-Lab-HGB,Patient-081-Enc-03,Patient-081,Organization-001,Organization-001-Dept-04,HGB,Hemoglobin,16.29,g/dL,preliminary,2024-12-31T06:36:29
+Patient-081-Enc-03-Lab-PLT,Patient-081-Enc-03,Patient-081,Organization-001,Organization-001-Dept-04,PLT,Platelets,331.05,10^3/uL,final,2024-12-16T09:49:51
+Patient-081-Enc-04-Lab-CR,Patient-081-Enc-04,Patient-081,Organization-001,Organization-001-Dept-02,CR,Creatinine,1.11,mg/dL,amended,2025-02-08T17:53:17
+Patient-082-Enc-01-Lab-WBC,Patient-082-Enc-01,Patient-082,Organization-010,Organization-010-Dept-02,WBC,White Blood Cell Count,6.2,10^3/uL,final,2024-07-22T08:22:37
+Patient-082-Enc-01-Lab-PLT,Patient-082-Enc-01,Patient-082,Organization-010,Organization-010-Dept-02,PLT,Platelets,329.01,10^3/uL,final,2023-06-22T17:21:09
+Patient-082-Enc-01-Lab-GLU,Patient-082-Enc-01,Patient-082,Organization-010,Organization-010-Dept-02,GLU,Glucose,75.69,mg/dL,preliminary,2023-11-08T04:27:17
+Patient-082-Enc-02-Lab-HGB,Patient-082-Enc-02,Patient-082,Organization-010,Organization-010-Dept-01,HGB,Hemoglobin,14.25,g/dL,final,2025-05-11T07:34:02
+Patient-082-Enc-02-Lab-WBC,Patient-082-Enc-02,Patient-082,Organization-010,Organization-010-Dept-01,WBC,White Blood Cell Count,8.81,10^3/uL,preliminary,2024-01-23T11:50:21
+Patient-083-Enc-01-Lab-CR,Patient-083-Enc-01,Patient-083,Organization-010,Organization-010-Dept-01,CR,Creatinine,0.7,mg/dL,preliminary,2024-07-04T22:17:25
+Patient-083-Enc-02-Lab-WBC,Patient-083-Enc-02,Patient-083,Organization-010,Organization-010-Dept-04,WBC,White Blood Cell Count,7.23,10^3/uL,final,2024-08-31T10:40:44
+Patient-083-Enc-03-Lab-GLU,Patient-083-Enc-03,Patient-083,Organization-010,Organization-010-Dept-04,GLU,Glucose,99.0,mg/dL,preliminary,2024-12-23T17:48:22
+Patient-083-Enc-03-Lab-HGB,Patient-083-Enc-03,Patient-083,Organization-010,Organization-010-Dept-04,HGB,Hemoglobin,12.42,g/dL,final,2023-08-02T09:17:03
+Patient-083-Enc-04-Lab-CR,Patient-083-Enc-04,Patient-083,Organization-010,Organization-010-Dept-03,CR,Creatinine,0.89,mg/dL,preliminary,2024-08-19T16:14:57
+Patient-084-Enc-01-Lab-CR,Patient-084-Enc-01,Patient-084,Organization-002,Organization-002-Dept-02,CR,Creatinine,0.63,mg/dL,final,2024-04-18T15:51:39
+Patient-084-Enc-02-Lab-CR,Patient-084-Enc-02,Patient-084,Organization-002,Organization-002-Dept-02,CR,Creatinine,0.66,mg/dL,preliminary,2024-11-11T12:36:35
+Patient-084-Enc-02-Lab-PLT,Patient-084-Enc-02,Patient-084,Organization-002,Organization-002-Dept-02,PLT,Platelets,317.32,10^3/uL,final,2023-07-14T11:50:53
+Patient-084-Enc-02-Lab-HGB,Patient-084-Enc-02,Patient-084,Organization-002,Organization-002-Dept-02,HGB,Hemoglobin,12.17,g/dL,final,2023-07-20T04:43:54
+Patient-084-Enc-03-Lab-HGB,Patient-084-Enc-03,Patient-084,Organization-002,Organization-002-Dept-02,HGB,Hemoglobin,12.83,g/dL,final,2025-05-02T00:29:05
+Patient-084-Enc-03-Lab-GLU,Patient-084-Enc-03,Patient-084,Organization-002,Organization-002-Dept-02,GLU,Glucose,82.85,mg/dL,preliminary,2025-03-07T04:04:56
+Patient-084-Enc-03-Lab-CR,Patient-084-Enc-03,Patient-084,Organization-002,Organization-002-Dept-02,CR,Creatinine,0.7,mg/dL,preliminary,2023-08-17T02:13:40
+Patient-084-Enc-04-Lab-CR,Patient-084-Enc-04,Patient-084,Organization-002,Organization-002-Dept-02,CR,Creatinine,1.22,mg/dL,amended,2023-11-27T08:52:20
+Patient-084-Enc-04-Lab-WBC,Patient-084-Enc-04,Patient-084,Organization-002,Organization-002-Dept-02,WBC,White Blood Cell Count,7.92,10^3/uL,final,2025-02-27T00:24:51
+Patient-084-Enc-04-Lab-GLU,Patient-084-Enc-04,Patient-084,Organization-002,Organization-002-Dept-02,GLU,Glucose,88.45,mg/dL,preliminary,2023-09-18T02:11:09
+Patient-085-Enc-01-Lab-GLU,Patient-085-Enc-01,Patient-085,Organization-002,Organization-002-Dept-01,GLU,Glucose,106.22,mg/dL,amended,2023-12-09T17:56:50
+Patient-085-Enc-02-Lab-GLU,Patient-085-Enc-02,Patient-085,Organization-002,Organization-002-Dept-02,GLU,Glucose,86.16,mg/dL,amended,2023-06-27T09:19:24
+Patient-085-Enc-03-Lab-PLT,Patient-085-Enc-03,Patient-085,Organization-002,Organization-002-Dept-02,PLT,Platelets,215.77,10^3/uL,amended,2025-01-12T05:40:57
+Patient-085-Enc-03-Lab-GLU,Patient-085-Enc-03,Patient-085,Organization-002,Organization-002-Dept-02,GLU,Glucose,73.42,mg/dL,amended,2025-02-18T15:35:53
+Patient-085-Enc-04-Lab-GLU,Patient-085-Enc-04,Patient-085,Organization-002,Organization-002-Dept-02,GLU,Glucose,92.88,mg/dL,final,2024-05-05T21:23:05
+Patient-086-Enc-01-Lab-HGB,Patient-086-Enc-01,Patient-086,Organization-010,Organization-010-Dept-01,HGB,Hemoglobin,12.57,g/dL,final,2025-04-10T18:41:05
+Patient-086-Enc-02-Lab-HGB,Patient-086-Enc-02,Patient-086,Organization-010,Organization-010-Dept-05,HGB,Hemoglobin,16.66,g/dL,preliminary,2024-12-05T14:58:32
+Patient-086-Enc-02-Lab-CR,Patient-086-Enc-02,Patient-086,Organization-010,Organization-010-Dept-05,CR,Creatinine,0.91,mg/dL,preliminary,2023-09-13T17:36:24
+Patient-086-Enc-03-Lab-HGB,Patient-086-Enc-03,Patient-086,Organization-010,Organization-010-Dept-04,HGB,Hemoglobin,14.42,g/dL,final,2024-03-12T12:09:44
+Patient-087-Enc-01-Lab-PLT,Patient-087-Enc-01,Patient-087,Organization-010,Organization-010-Dept-03,PLT,Platelets,203.8,10^3/uL,final,2024-11-09T13:30:42
+Patient-087-Enc-01-Lab-WBC,Patient-087-Enc-01,Patient-087,Organization-010,Organization-010-Dept-03,WBC,White Blood Cell Count,8.71,10^3/uL,preliminary,2025-03-14T23:27:49
+Patient-087-Enc-02-Lab-WBC,Patient-087-Enc-02,Patient-087,Organization-010,Organization-010-Dept-02,WBC,White Blood Cell Count,5.81,10^3/uL,preliminary,2024-06-29T17:34:44
+Patient-087-Enc-02-Lab-PLT,Patient-087-Enc-02,Patient-087,Organization-010,Organization-010-Dept-02,PLT,Platelets,180.88,10^3/uL,preliminary,2023-10-19T22:58:24
+Patient-087-Enc-03-Lab-GLU,Patient-087-Enc-03,Patient-087,Organization-010,Organization-010-Dept-02,GLU,Glucose,109.21,mg/dL,preliminary,2025-06-08T15:53:30
+Patient-087-Enc-04-Lab-WBC,Patient-087-Enc-04,Patient-087,Organization-010,Organization-010-Dept-02,WBC,White Blood Cell Count,9.33,10^3/uL,amended,2023-10-28T15:55:45
+Patient-087-Enc-05-Lab-PLT,Patient-087-Enc-05,Patient-087,Organization-010,Organization-010-Dept-02,PLT,Platelets,161.65,10^3/uL,preliminary,2024-02-07T23:02:19
+Patient-087-Enc-05-Lab-HGB,Patient-087-Enc-05,Patient-087,Organization-010,Organization-010-Dept-02,HGB,Hemoglobin,16.65,g/dL,preliminary,2024-09-11T02:59:44
+Patient-088-Enc-01-Lab-CR,Patient-088-Enc-01,Patient-088,Organization-004,Organization-004-Dept-01,CR,Creatinine,1.07,mg/dL,amended,2023-11-18T01:08:36
+Patient-089-Enc-01-Lab-HGB,Patient-089-Enc-01,Patient-089,Organization-009,Organization-009-Dept-02,HGB,Hemoglobin,13.81,g/dL,amended,2025-05-24T17:37:03
+Patient-089-Enc-01-Lab-WBC,Patient-089-Enc-01,Patient-089,Organization-009,Organization-009-Dept-02,WBC,White Blood Cell Count,5.25,10^3/uL,final,2024-05-16T18:54:25
+Patient-089-Enc-02-Lab-GLU,Patient-089-Enc-02,Patient-089,Organization-009,Organization-009-Dept-03,GLU,Glucose,109.59,mg/dL,final,2023-08-05T12:50:04
+Patient-089-Enc-02-Lab-PLT,Patient-089-Enc-02,Patient-089,Organization-009,Organization-009-Dept-03,PLT,Platelets,288.25,10^3/uL,preliminary,2024-10-28T04:00:25
+Patient-089-Enc-02-Lab-HGB,Patient-089-Enc-02,Patient-089,Organization-009,Organization-009-Dept-03,HGB,Hemoglobin,14.73,g/dL,final,2023-12-04T08:45:57
+Patient-089-Enc-03-Lab-GLU,Patient-089-Enc-03,Patient-089,Organization-009,Organization-009-Dept-02,GLU,Glucose,74.13,mg/dL,preliminary,2024-08-07T18:46:50
+Patient-089-Enc-03-Lab-HGB,Patient-089-Enc-03,Patient-089,Organization-009,Organization-009-Dept-02,HGB,Hemoglobin,13.38,g/dL,amended,2025-04-15T02:12:56
+Patient-089-Enc-03-Lab-WBC,Patient-089-Enc-03,Patient-089,Organization-009,Organization-009-Dept-02,WBC,White Blood Cell Count,9.0,10^3/uL,amended,2025-04-27T10:12:10
+Patient-089-Enc-04-Lab-CR,Patient-089-Enc-04,Patient-089,Organization-009,Organization-009-Dept-03,CR,Creatinine,0.99,mg/dL,amended,2025-05-04T00:21:37
+Patient-089-Enc-04-Lab-GLU,Patient-089-Enc-04,Patient-089,Organization-009,Organization-009-Dept-03,GLU,Glucose,91.56,mg/dL,amended,2023-07-17T15:45:19
+Patient-089-Enc-05-Lab-CR,Patient-089-Enc-05,Patient-089,Organization-009,Organization-009-Dept-02,CR,Creatinine,0.61,mg/dL,preliminary,2023-10-23T01:19:50
+Patient-090-Enc-01-Lab-WBC,Patient-090-Enc-01,Patient-090,Organization-010,Organization-010-Dept-05,WBC,White Blood Cell Count,8.74,10^3/uL,preliminary,2023-07-08T22:31:27
+Patient-090-Enc-01-Lab-HGB,Patient-090-Enc-01,Patient-090,Organization-010,Organization-010-Dept-05,HGB,Hemoglobin,13.41,g/dL,final,2024-08-14T02:28:58
+Patient-090-Enc-02-Lab-PLT,Patient-090-Enc-02,Patient-090,Organization-010,Organization-010-Dept-02,PLT,Platelets,160.26,10^3/uL,final,2024-10-01T15:59:57
+Patient-090-Enc-03-Lab-CR,Patient-090-Enc-03,Patient-090,Organization-010,Organization-010-Dept-04,CR,Creatinine,1.0,mg/dL,final,2024-12-30T12:06:23
+Patient-090-Enc-03-Lab-PLT,Patient-090-Enc-03,Patient-090,Organization-010,Organization-010-Dept-04,PLT,Platelets,255.44,10^3/uL,final,2024-09-20T13:29:50
+Patient-090-Enc-04-Lab-GLU,Patient-090-Enc-04,Patient-090,Organization-010,Organization-010-Dept-02,GLU,Glucose,78.14,mg/dL,amended,2023-10-20T16:11:04
+Patient-090-Enc-05-Lab-CR,Patient-090-Enc-05,Patient-090,Organization-010,Organization-010-Dept-03,CR,Creatinine,0.99,mg/dL,preliminary,2025-05-19T16:21:25
+Patient-090-Enc-05-Lab-GLU,Patient-090-Enc-05,Patient-090,Organization-010,Organization-010-Dept-03,GLU,Glucose,101.47,mg/dL,preliminary,2023-12-11T20:44:58
+Patient-091-Enc-01-Lab-CR,Patient-091-Enc-01,Patient-091,Organization-010,Organization-010-Dept-04,CR,Creatinine,1.23,mg/dL,amended,2023-10-29T13:47:11
+Patient-092-Enc-01-Lab-HGB,Patient-092-Enc-01,Patient-092,Organization-010,Organization-010-Dept-05,HGB,Hemoglobin,13.53,g/dL,final,2024-07-26T00:51:55
+Patient-092-Enc-02-Lab-PLT,Patient-092-Enc-02,Patient-092,Organization-010,Organization-010-Dept-04,PLT,Platelets,190.44,10^3/uL,final,2024-11-07T04:45:32
+Patient-092-Enc-03-Lab-HGB,Patient-092-Enc-03,Patient-092,Organization-010,Organization-010-Dept-04,HGB,Hemoglobin,14.5,g/dL,preliminary,2024-01-31T18:26:30
+Patient-092-Enc-03-Lab-CR,Patient-092-Enc-03,Patient-092,Organization-010,Organization-010-Dept-04,CR,Creatinine,0.77,mg/dL,amended,2025-02-13T14:43:29
+Patient-092-Enc-04-Lab-CR,Patient-092-Enc-04,Patient-092,Organization-010,Organization-010-Dept-02,CR,Creatinine,1.05,mg/dL,final,2025-05-18T12:35:40
+Patient-092-Enc-05-Lab-PLT,Patient-092-Enc-05,Patient-092,Organization-010,Organization-010-Dept-02,PLT,Platelets,236.08,10^3/uL,preliminary,2023-12-25T16:37:56
+Patient-092-Enc-05-Lab-GLU,Patient-092-Enc-05,Patient-092,Organization-010,Organization-010-Dept-02,GLU,Glucose,81.37,mg/dL,preliminary,2024-08-19T07:18:56
+Patient-093-Enc-01-Lab-PLT,Patient-093-Enc-01,Patient-093,Organization-001,Organization-001-Dept-03,PLT,Platelets,390.44,10^3/uL,amended,2024-05-27T22:39:07
+Patient-093-Enc-01-Lab-HGB,Patient-093-Enc-01,Patient-093,Organization-001,Organization-001-Dept-03,HGB,Hemoglobin,13.4,g/dL,amended,2023-09-11T04:07:42
+Patient-093-Enc-01-Lab-WBC,Patient-093-Enc-01,Patient-093,Organization-001,Organization-001-Dept-03,WBC,White Blood Cell Count,6.91,10^3/uL,amended,2024-08-17T19:08:35
+Patient-093-Enc-02-Lab-WBC,Patient-093-Enc-02,Patient-093,Organization-001,Organization-001-Dept-05,WBC,White Blood Cell Count,7.71,10^3/uL,preliminary,2024-07-05T10:21:00
+Patient-093-Enc-02-Lab-CR,Patient-093-Enc-02,Patient-093,Organization-001,Organization-001-Dept-05,CR,Creatinine,1.08,mg/dL,preliminary,2024-01-20T07:23:42
+Patient-093-Enc-02-Lab-PLT,Patient-093-Enc-02,Patient-093,Organization-001,Organization-001-Dept-05,PLT,Platelets,280.78,10^3/uL,preliminary,2023-11-02T22:33:01
+Patient-093-Enc-03-Lab-WBC,Patient-093-Enc-03,Patient-093,Organization-001,Organization-001-Dept-01,WBC,White Blood Cell Count,9.46,10^3/uL,preliminary,2024-11-28T22:19:24
+Patient-093-Enc-03-Lab-PLT,Patient-093-Enc-03,Patient-093,Organization-001,Organization-001-Dept-01,PLT,Platelets,381.09,10^3/uL,preliminary,2024-03-04T08:30:23
+Patient-093-Enc-03-Lab-HGB,Patient-093-Enc-03,Patient-093,Organization-001,Organization-001-Dept-01,HGB,Hemoglobin,15.13,g/dL,preliminary,2025-05-13T01:41:52
+Patient-093-Enc-04-Lab-WBC,Patient-093-Enc-04,Patient-093,Organization-001,Organization-001-Dept-01,WBC,White Blood Cell Count,9.33,10^3/uL,preliminary,2024-05-09T01:55:28
+Patient-093-Enc-04-Lab-CR,Patient-093-Enc-04,Patient-093,Organization-001,Organization-001-Dept-01,CR,Creatinine,1.17,mg/dL,amended,2023-10-14T07:03:50
+Patient-093-Enc-04-Lab-GLU,Patient-093-Enc-04,Patient-093,Organization-001,Organization-001-Dept-01,GLU,Glucose,94.7,mg/dL,final,2023-09-07T00:43:39
+Patient-093-Enc-05-Lab-GLU,Patient-093-Enc-05,Patient-093,Organization-001,Organization-001-Dept-07,GLU,Glucose,76.31,mg/dL,final,2023-10-16T03:47:26
+Patient-093-Enc-05-Lab-CR,Patient-093-Enc-05,Patient-093,Organization-001,Organization-001-Dept-07,CR,Creatinine,1.06,mg/dL,preliminary,2025-05-25T03:30:33
+Patient-093-Enc-05-Lab-HGB,Patient-093-Enc-05,Patient-093,Organization-001,Organization-001-Dept-07,HGB,Hemoglobin,15.62,g/dL,amended,2025-06-16T10:45:37
+Patient-094-Enc-01-Lab-GLU,Patient-094-Enc-01,Patient-094,Organization-006,Organization-006-Dept-01,GLU,Glucose,74.92,mg/dL,preliminary,2024-10-13T17:33:37
+Patient-094-Enc-02-Lab-CR,Patient-094-Enc-02,Patient-094,Organization-006,Organization-006-Dept-01,CR,Creatinine,0.77,mg/dL,final,2023-10-02T01:05:45
+Patient-094-Enc-03-Lab-CR,Patient-094-Enc-03,Patient-094,Organization-006,Organization-006-Dept-02,CR,Creatinine,0.9,mg/dL,final,2023-07-08T02:34:20
+Patient-094-Enc-04-Lab-WBC,Patient-094-Enc-04,Patient-094,Organization-006,Organization-006-Dept-02,WBC,White Blood Cell Count,4.59,10^3/uL,amended,2023-07-30T23:43:33
+Patient-094-Enc-04-Lab-GLU,Patient-094-Enc-04,Patient-094,Organization-006,Organization-006-Dept-02,GLU,Glucose,73.67,mg/dL,amended,2024-02-06T12:55:23
+Patient-094-Enc-05-Lab-HGB,Patient-094-Enc-05,Patient-094,Organization-006,Organization-006-Dept-02,HGB,Hemoglobin,13.95,g/dL,preliminary,2024-04-26T15:02:11
+Patient-094-Enc-05-Lab-GLU,Patient-094-Enc-05,Patient-094,Organization-006,Organization-006-Dept-02,GLU,Glucose,104.05,mg/dL,amended,2023-07-26T12:21:57
+Patient-095-Enc-01-Lab-HGB,Patient-095-Enc-01,Patient-095,Organization-005,Organization-005-Dept-01,HGB,Hemoglobin,13.62,g/dL,preliminary,2024-08-23T13:27:21
+Patient-095-Enc-01-Lab-PLT,Patient-095-Enc-01,Patient-095,Organization-005,Organization-005-Dept-01,PLT,Platelets,381.42,10^3/uL,preliminary,2024-02-04T23:33:05
+Patient-095-Enc-01-Lab-CR,Patient-095-Enc-01,Patient-095,Organization-005,Organization-005-Dept-01,CR,Creatinine,0.97,mg/dL,amended,2023-12-15T15:59:46
+Patient-095-Enc-02-Lab-WBC,Patient-095-Enc-02,Patient-095,Organization-005,Organization-005-Dept-01,WBC,White Blood Cell Count,8.96,10^3/uL,final,2024-12-23T07:52:37
+Patient-095-Enc-03-Lab-PLT,Patient-095-Enc-03,Patient-095,Organization-005,Organization-005-Dept-01,PLT,Platelets,183.82,10^3/uL,preliminary,2025-04-03T19:22:21
+Patient-095-Enc-03-Lab-WBC,Patient-095-Enc-03,Patient-095,Organization-005,Organization-005-Dept-01,WBC,White Blood Cell Count,4.29,10^3/uL,final,2024-10-18T06:14:35
+Patient-095-Enc-03-Lab-GLU,Patient-095-Enc-03,Patient-095,Organization-005,Organization-005-Dept-01,GLU,Glucose,83.4,mg/dL,final,2025-05-27T17:18:47
+Patient-095-Enc-04-Lab-PLT,Patient-095-Enc-04,Patient-095,Organization-005,Organization-005-Dept-01,PLT,Platelets,390.15,10^3/uL,preliminary,2023-07-01T13:13:42
+Patient-095-Enc-04-Lab-HGB,Patient-095-Enc-04,Patient-095,Organization-005,Organization-005-Dept-01,HGB,Hemoglobin,13.34,g/dL,amended,2024-10-07T16:13:41
+Patient-095-Enc-04-Lab-GLU,Patient-095-Enc-04,Patient-095,Organization-005,Organization-005-Dept-01,GLU,Glucose,71.77,mg/dL,preliminary,2023-12-20T04:17:07
+Patient-095-Enc-05-Lab-PLT,Patient-095-Enc-05,Patient-095,Organization-005,Organization-005-Dept-01,PLT,Platelets,306.71,10^3/uL,preliminary,2023-08-18T00:04:05
+Patient-095-Enc-05-Lab-WBC,Patient-095-Enc-05,Patient-095,Organization-005,Organization-005-Dept-01,WBC,White Blood Cell Count,9.83,10^3/uL,final,2023-10-05T06:02:56
+Patient-095-Enc-05-Lab-CR,Patient-095-Enc-05,Patient-095,Organization-005,Organization-005-Dept-01,CR,Creatinine,1.13,mg/dL,amended,2025-05-01T16:43:59
+Patient-096-Enc-01-Lab-GLU,Patient-096-Enc-01,Patient-096,Organization-004,Organization-004-Dept-01,GLU,Glucose,96.56,mg/dL,amended,2024-07-26T04:42:44
+Patient-096-Enc-02-Lab-CR,Patient-096-Enc-02,Patient-096,Organization-004,Organization-004-Dept-02,CR,Creatinine,0.6,mg/dL,final,2024-02-17T17:50:24
+Patient-096-Enc-02-Lab-WBC,Patient-096-Enc-02,Patient-096,Organization-004,Organization-004-Dept-02,WBC,White Blood Cell Count,10.6,10^3/uL,amended,2024-05-01T04:33:24
+Patient-096-Enc-03-Lab-CR,Patient-096-Enc-03,Patient-096,Organization-004,Organization-004-Dept-01,CR,Creatinine,1.01,mg/dL,preliminary,2025-06-07T09:28:41
+Patient-096-Enc-03-Lab-WBC,Patient-096-Enc-03,Patient-096,Organization-004,Organization-004-Dept-01,WBC,White Blood Cell Count,5.42,10^3/uL,preliminary,2024-03-29T11:51:12
+Patient-096-Enc-03-Lab-PLT,Patient-096-Enc-03,Patient-096,Organization-004,Organization-004-Dept-01,PLT,Platelets,365.71,10^3/uL,amended,2024-09-14T15:24:56
+Patient-096-Enc-04-Lab-CR,Patient-096-Enc-04,Patient-096,Organization-004,Organization-004-Dept-02,CR,Creatinine,0.72,mg/dL,final,2023-09-18T06:30:26
+Patient-096-Enc-04-Lab-HGB,Patient-096-Enc-04,Patient-096,Organization-004,Organization-004-Dept-02,HGB,Hemoglobin,13.6,g/dL,preliminary,2024-02-04T12:42:03
+Patient-096-Enc-04-Lab-WBC,Patient-096-Enc-04,Patient-096,Organization-004,Organization-004-Dept-02,WBC,White Blood Cell Count,4.89,10^3/uL,amended,2024-03-30T05:58:07
+Patient-096-Enc-05-Lab-WBC,Patient-096-Enc-05,Patient-096,Organization-004,Organization-004-Dept-01,WBC,White Blood Cell Count,10.47,10^3/uL,preliminary,2024-12-13T01:50:13
+Patient-097-Enc-01-Lab-PLT,Patient-097-Enc-01,Patient-097,Organization-010,Organization-010-Dept-03,PLT,Platelets,181.78,10^3/uL,amended,2024-07-19T05:16:43
+Patient-098-Enc-01-Lab-PLT,Patient-098-Enc-01,Patient-098,Organization-007,Organization-007-Dept-01,PLT,Platelets,365.67,10^3/uL,final,2023-09-08T05:24:05
+Patient-098-Enc-01-Lab-HGB,Patient-098-Enc-01,Patient-098,Organization-007,Organization-007-Dept-01,HGB,Hemoglobin,15.7,g/dL,final,2024-05-12T17:38:45
+Patient-098-Enc-02-Lab-CR,Patient-098-Enc-02,Patient-098,Organization-007,Organization-007-Dept-01,CR,Creatinine,1.09,mg/dL,preliminary,2023-12-18T01:46:15
+Patient-098-Enc-02-Lab-PLT,Patient-098-Enc-02,Patient-098,Organization-007,Organization-007-Dept-01,PLT,Platelets,347.89,10^3/uL,final,2024-08-02T00:25:11
+Patient-098-Enc-02-Lab-GLU,Patient-098-Enc-02,Patient-098,Organization-007,Organization-007-Dept-01,GLU,Glucose,85.43,mg/dL,amended,2025-04-06T00:58:50
+Patient-098-Enc-03-Lab-WBC,Patient-098-Enc-03,Patient-098,Organization-007,Organization-007-Dept-02,WBC,White Blood Cell Count,5.18,10^3/uL,preliminary,2025-05-09T17:18:59
+Patient-098-Enc-03-Lab-CR,Patient-098-Enc-03,Patient-098,Organization-007,Organization-007-Dept-02,CR,Creatinine,0.66,mg/dL,preliminary,2023-10-18T03:54:38
+Patient-099-Enc-01-Lab-GLU,Patient-099-Enc-01,Patient-099,Organization-001,Organization-001-Dept-05,GLU,Glucose,89.16,mg/dL,preliminary,2023-09-23T21:08:36
+Patient-099-Enc-02-Lab-PLT,Patient-099-Enc-02,Patient-099,Organization-001,Organization-001-Dept-04,PLT,Platelets,162.85,10^3/uL,final,2023-08-02T21:45:56
+Patient-099-Enc-02-Lab-GLU,Patient-099-Enc-02,Patient-099,Organization-001,Organization-001-Dept-04,GLU,Glucose,109.62,mg/dL,final,2024-08-30T01:19:23
+Patient-099-Enc-02-Lab-HGB,Patient-099-Enc-02,Patient-099,Organization-001,Organization-001-Dept-04,HGB,Hemoglobin,13.22,g/dL,amended,2024-12-18T12:06:57
+Patient-099-Enc-03-Lab-WBC,Patient-099-Enc-03,Patient-099,Organization-001,Organization-001-Dept-05,WBC,White Blood Cell Count,9.79,10^3/uL,amended,2024-07-07T11:55:15
+Patient-099-Enc-03-Lab-CR,Patient-099-Enc-03,Patient-099,Organization-001,Organization-001-Dept-05,CR,Creatinine,0.96,mg/dL,final,2024-08-01T23:41:26
+Patient-100-Enc-01-Lab-CR,Patient-100-Enc-01,Patient-100,Organization-010,Organization-010-Dept-04,CR,Creatinine,0.65,mg/dL,final,2024-08-04T13:24:43
+Patient-100-Enc-02-Lab-GLU,Patient-100-Enc-02,Patient-100,Organization-010,Organization-010-Dept-01,GLU,Glucose,101.47,mg/dL,final,2024-07-09T04:34:56
+Patient-100-Enc-02-Lab-WBC,Patient-100-Enc-02,Patient-100,Organization-010,Organization-010-Dept-01,WBC,White Blood Cell Count,8.73,10^3/uL,amended,2025-01-31T08:03:30
+Patient-100-Enc-02-Lab-HGB,Patient-100-Enc-02,Patient-100,Organization-010,Organization-010-Dept-01,HGB,Hemoglobin,15.4,g/dL,amended,2024-01-08T09:50:03
+Patient-100-Enc-03-Lab-HGB,Patient-100-Enc-03,Patient-100,Organization-010,Organization-010-Dept-03,HGB,Hemoglobin,14.21,g/dL,amended,2024-01-07T11:31:03
+Patient-100-Enc-03-Lab-PLT,Patient-100-Enc-03,Patient-100,Organization-010,Organization-010-Dept-03,PLT,Platelets,313.28,10^3/uL,preliminary,2024-10-02T01:33:40
+Patient-101-Enc-01-Lab-PLT,Patient-101-Enc-01,Patient-101,Organization-001,Organization-001-Dept-03,PLT,Platelets,254.41,10^3/uL,preliminary,2025-01-02T08:25:42
+Patient-101-Enc-01-Lab-WBC,Patient-101-Enc-01,Patient-101,Organization-001,Organization-001-Dept-03,WBC,White Blood Cell Count,6.24,10^3/uL,preliminary,2024-02-15T19:13:13
+Patient-101-Enc-01-Lab-CR,Patient-101-Enc-01,Patient-101,Organization-001,Organization-001-Dept-03,CR,Creatinine,0.75,mg/dL,amended,2023-09-27T18:43:54
+Patient-102-Enc-01-Lab-CR,Patient-102-Enc-01,Patient-102,Organization-009,Organization-009-Dept-03,CR,Creatinine,0.88,mg/dL,preliminary,2024-01-17T07:11:15
+Patient-102-Enc-01-Lab-GLU,Patient-102-Enc-01,Patient-102,Organization-009,Organization-009-Dept-03,GLU,Glucose,76.26,mg/dL,preliminary,2023-07-08T05:14:11
+Patient-103-Enc-01-Lab-HGB,Patient-103-Enc-01,Patient-103,Organization-007,Organization-007-Dept-02,HGB,Hemoglobin,13.13,g/dL,preliminary,2023-11-16T09:03:02
+Patient-103-Enc-02-Lab-WBC,Patient-103-Enc-02,Patient-103,Organization-007,Organization-007-Dept-01,WBC,White Blood Cell Count,9.85,10^3/uL,final,2023-09-09T00:55:34
+Patient-103-Enc-02-Lab-PLT,Patient-103-Enc-02,Patient-103,Organization-007,Organization-007-Dept-01,PLT,Platelets,173.95,10^3/uL,amended,2023-11-27T01:14:42
+Patient-104-Enc-01-Lab-CR,Patient-104-Enc-01,Patient-104,Organization-007,Organization-007-Dept-01,CR,Creatinine,1.07,mg/dL,final,2024-04-25T19:24:46
+Patient-104-Enc-01-Lab-WBC,Patient-104-Enc-01,Patient-104,Organization-007,Organization-007-Dept-01,WBC,White Blood Cell Count,9.17,10^3/uL,final,2023-07-12T12:53:34
+Patient-104-Enc-01-Lab-PLT,Patient-104-Enc-01,Patient-104,Organization-007,Organization-007-Dept-01,PLT,Platelets,337.29,10^3/uL,amended,2024-06-02T09:42:37
+Patient-104-Enc-02-Lab-GLU,Patient-104-Enc-02,Patient-104,Organization-007,Organization-007-Dept-01,GLU,Glucose,96.95,mg/dL,final,2025-04-19T14:30:31
+Patient-104-Enc-02-Lab-PLT,Patient-104-Enc-02,Patient-104,Organization-007,Organization-007-Dept-01,PLT,Platelets,377.97,10^3/uL,final,2025-04-24T20:35:51
+Patient-104-Enc-02-Lab-WBC,Patient-104-Enc-02,Patient-104,Organization-007,Organization-007-Dept-01,WBC,White Blood Cell Count,5.63,10^3/uL,amended,2025-04-12T20:52:44
+Patient-104-Enc-03-Lab-PLT,Patient-104-Enc-03,Patient-104,Organization-007,Organization-007-Dept-02,PLT,Platelets,369.03,10^3/uL,final,2025-06-14T01:38:58
+Patient-104-Enc-03-Lab-WBC,Patient-104-Enc-03,Patient-104,Organization-007,Organization-007-Dept-02,WBC,White Blood Cell Count,10.46,10^3/uL,final,2025-03-29T23:17:14
+Patient-104-Enc-04-Lab-CR,Patient-104-Enc-04,Patient-104,Organization-007,Organization-007-Dept-01,CR,Creatinine,1.15,mg/dL,amended,2024-04-20T23:44:40
+Patient-104-Enc-04-Lab-PLT,Patient-104-Enc-04,Patient-104,Organization-007,Organization-007-Dept-01,PLT,Platelets,230.12,10^3/uL,amended,2024-10-26T04:29:22
+Patient-104-Enc-04-Lab-WBC,Patient-104-Enc-04,Patient-104,Organization-007,Organization-007-Dept-01,WBC,White Blood Cell Count,10.86,10^3/uL,amended,2025-01-18T17:16:11
+Patient-104-Enc-05-Lab-HGB,Patient-104-Enc-05,Patient-104,Organization-007,Organization-007-Dept-02,HGB,Hemoglobin,12.08,g/dL,preliminary,2024-05-06T23:36:28
+Patient-104-Enc-05-Lab-CR,Patient-104-Enc-05,Patient-104,Organization-007,Organization-007-Dept-02,CR,Creatinine,0.96,mg/dL,preliminary,2023-10-07T02:59:55
+Patient-105-Enc-01-Lab-HGB,Patient-105-Enc-01,Patient-105,Organization-005,Organization-005-Dept-01,HGB,Hemoglobin,15.44,g/dL,final,2023-09-11T05:42:20
+Patient-105-Enc-01-Lab-GLU,Patient-105-Enc-01,Patient-105,Organization-005,Organization-005-Dept-01,GLU,Glucose,86.78,mg/dL,preliminary,2025-04-01T22:56:40
+Patient-105-Enc-01-Lab-PLT,Patient-105-Enc-01,Patient-105,Organization-005,Organization-005-Dept-01,PLT,Platelets,319.89,10^3/uL,final,2024-02-21T16:32:12
+Patient-105-Enc-02-Lab-GLU,Patient-105-Enc-02,Patient-105,Organization-005,Organization-005-Dept-01,GLU,Glucose,85.23,mg/dL,final,2024-05-06T22:12:58
+Patient-105-Enc-02-Lab-HGB,Patient-105-Enc-02,Patient-105,Organization-005,Organization-005-Dept-01,HGB,Hemoglobin,13.61,g/dL,amended,2023-07-05T17:15:55
+Patient-105-Enc-02-Lab-CR,Patient-105-Enc-02,Patient-105,Organization-005,Organization-005-Dept-01,CR,Creatinine,1.25,mg/dL,preliminary,2023-12-27T04:19:33
+Patient-106-Enc-01-Lab-HGB,Patient-106-Enc-01,Patient-106,Organization-010,Organization-010-Dept-01,HGB,Hemoglobin,12.2,g/dL,final,2024-06-15T17:10:06
+Patient-106-Enc-02-Lab-PLT,Patient-106-Enc-02,Patient-106,Organization-010,Organization-010-Dept-02,PLT,Platelets,215.55,10^3/uL,preliminary,2024-04-05T13:06:58
+Patient-106-Enc-03-Lab-HGB,Patient-106-Enc-03,Patient-106,Organization-010,Organization-010-Dept-03,HGB,Hemoglobin,14.34,g/dL,amended,2023-09-02T08:14:26
+Patient-106-Enc-03-Lab-GLU,Patient-106-Enc-03,Patient-106,Organization-010,Organization-010-Dept-03,GLU,Glucose,81.98,mg/dL,final,2025-04-29T03:46:13
+Patient-106-Enc-03-Lab-WBC,Patient-106-Enc-03,Patient-106,Organization-010,Organization-010-Dept-03,WBC,White Blood Cell Count,9.25,10^3/uL,preliminary,2024-04-16T00:18:48
+Patient-106-Enc-04-Lab-GLU,Patient-106-Enc-04,Patient-106,Organization-010,Organization-010-Dept-03,GLU,Glucose,97.1,mg/dL,preliminary,2025-05-26T15:18:07
+Patient-107-Enc-01-Lab-PLT,Patient-107-Enc-01,Patient-107,Organization-008,Organization-008-Dept-01,PLT,Platelets,356.37,10^3/uL,preliminary,2024-02-15T20:19:36
+Patient-107-Enc-01-Lab-GLU,Patient-107-Enc-01,Patient-107,Organization-008,Organization-008-Dept-01,GLU,Glucose,73.41,mg/dL,final,2025-03-19T03:12:22
+Patient-108-Enc-01-Lab-CR,Patient-108-Enc-01,Patient-108,Organization-009,Organization-009-Dept-01,CR,Creatinine,0.77,mg/dL,preliminary,2025-01-13T22:30:27
+Patient-108-Enc-01-Lab-GLU,Patient-108-Enc-01,Patient-108,Organization-009,Organization-009-Dept-01,GLU,Glucose,87.88,mg/dL,preliminary,2024-09-10T22:43:58
+Patient-108-Enc-01-Lab-WBC,Patient-108-Enc-01,Patient-108,Organization-009,Organization-009-Dept-01,WBC,White Blood Cell Count,7.59,10^3/uL,amended,2025-03-15T23:09:48
+Patient-108-Enc-02-Lab-HGB,Patient-108-Enc-02,Patient-108,Organization-009,Organization-009-Dept-02,HGB,Hemoglobin,12.78,g/dL,final,2024-10-12T16:02:22
+Patient-108-Enc-02-Lab-CR,Patient-108-Enc-02,Patient-108,Organization-009,Organization-009-Dept-02,CR,Creatinine,0.76,mg/dL,preliminary,2024-09-20T02:37:14
+Patient-108-Enc-02-Lab-WBC,Patient-108-Enc-02,Patient-108,Organization-009,Organization-009-Dept-02,WBC,White Blood Cell Count,7.15,10^3/uL,preliminary,2024-06-08T12:23:36
+Patient-108-Enc-03-Lab-GLU,Patient-108-Enc-03,Patient-108,Organization-009,Organization-009-Dept-02,GLU,Glucose,97.49,mg/dL,preliminary,2023-08-03T08:10:44
+Patient-108-Enc-04-Lab-PLT,Patient-108-Enc-04,Patient-108,Organization-009,Organization-009-Dept-03,PLT,Platelets,238.88,10^3/uL,preliminary,2025-06-20T15:21:18
+Patient-109-Enc-01-Lab-CR,Patient-109-Enc-01,Patient-109,Organization-006,Organization-006-Dept-01,CR,Creatinine,1.01,mg/dL,amended,2023-10-16T22:00:24
+Patient-109-Enc-02-Lab-CR,Patient-109-Enc-02,Patient-109,Organization-006,Organization-006-Dept-02,CR,Creatinine,0.68,mg/dL,final,2023-07-07T08:44:45
+Patient-109-Enc-02-Lab-WBC,Patient-109-Enc-02,Patient-109,Organization-006,Organization-006-Dept-02,WBC,White Blood Cell Count,9.58,10^3/uL,amended,2024-07-23T19:55:18
+Patient-109-Enc-03-Lab-HGB,Patient-109-Enc-03,Patient-109,Organization-006,Organization-006-Dept-01,HGB,Hemoglobin,13.63,g/dL,preliminary,2023-11-11T08:03:14
+Patient-109-Enc-03-Lab-PLT,Patient-109-Enc-03,Patient-109,Organization-006,Organization-006-Dept-01,PLT,Platelets,151.33,10^3/uL,preliminary,2024-10-09T15:26:32
+Patient-110-Enc-01-Lab-WBC,Patient-110-Enc-01,Patient-110,Organization-006,Organization-006-Dept-02,WBC,White Blood Cell Count,10.7,10^3/uL,final,2024-02-11T09:37:22
+Patient-110-Enc-02-Lab-WBC,Patient-110-Enc-02,Patient-110,Organization-006,Organization-006-Dept-02,WBC,White Blood Cell Count,9.1,10^3/uL,amended,2024-07-12T17:20:38
+Patient-110-Enc-02-Lab-HGB,Patient-110-Enc-02,Patient-110,Organization-006,Organization-006-Dept-02,HGB,Hemoglobin,14.3,g/dL,final,2024-05-19T08:26:47
+Patient-110-Enc-02-Lab-GLU,Patient-110-Enc-02,Patient-110,Organization-006,Organization-006-Dept-02,GLU,Glucose,78.62,mg/dL,final,2023-12-21T22:02:19
+Patient-110-Enc-03-Lab-HGB,Patient-110-Enc-03,Patient-110,Organization-006,Organization-006-Dept-02,HGB,Hemoglobin,12.57,g/dL,preliminary,2025-03-12T00:15:39
+Patient-110-Enc-03-Lab-PLT,Patient-110-Enc-03,Patient-110,Organization-006,Organization-006-Dept-02,PLT,Platelets,255.98,10^3/uL,final,2023-10-21T09:36:55
+Patient-110-Enc-04-Lab-PLT,Patient-110-Enc-04,Patient-110,Organization-006,Organization-006-Dept-01,PLT,Platelets,231.94,10^3/uL,final,2024-12-27T21:02:59
+Patient-110-Enc-05-Lab-GLU,Patient-110-Enc-05,Patient-110,Organization-006,Organization-006-Dept-01,GLU,Glucose,83.76,mg/dL,amended,2024-06-28T19:22:27
+Patient-111-Enc-01-Lab-GLU,Patient-111-Enc-01,Patient-111,Organization-009,Organization-009-Dept-01,GLU,Glucose,108.22,mg/dL,preliminary,2024-10-25T06:23:06
+Patient-111-Enc-01-Lab-HGB,Patient-111-Enc-01,Patient-111,Organization-009,Organization-009-Dept-01,HGB,Hemoglobin,13.35,g/dL,amended,2024-09-19T08:35:08
+Patient-111-Enc-01-Lab-WBC,Patient-111-Enc-01,Patient-111,Organization-009,Organization-009-Dept-01,WBC,White Blood Cell Count,10.02,10^3/uL,final,2024-02-04T13:23:02
+Patient-111-Enc-02-Lab-GLU,Patient-111-Enc-02,Patient-111,Organization-009,Organization-009-Dept-03,GLU,Glucose,103.53,mg/dL,preliminary,2023-08-16T14:09:06
+Patient-111-Enc-03-Lab-PLT,Patient-111-Enc-03,Patient-111,Organization-009,Organization-009-Dept-02,PLT,Platelets,220.43,10^3/uL,amended,2025-05-30T16:37:16
+Patient-111-Enc-03-Lab-CR,Patient-111-Enc-03,Patient-111,Organization-009,Organization-009-Dept-02,CR,Creatinine,0.79,mg/dL,amended,2023-12-03T17:47:04
+Patient-112-Enc-01-Lab-HGB,Patient-112-Enc-01,Patient-112,Organization-008,Organization-008-Dept-01,HGB,Hemoglobin,15.79,g/dL,final,2024-12-19T09:41:36
+Patient-112-Enc-01-Lab-GLU,Patient-112-Enc-01,Patient-112,Organization-008,Organization-008-Dept-01,GLU,Glucose,92.86,mg/dL,final,2024-10-12T21:44:52
+Patient-112-Enc-01-Lab-WBC,Patient-112-Enc-01,Patient-112,Organization-008,Organization-008-Dept-01,WBC,White Blood Cell Count,8.38,10^3/uL,final,2025-04-11T06:47:27
+Patient-112-Enc-02-Lab-CR,Patient-112-Enc-02,Patient-112,Organization-008,Organization-008-Dept-01,CR,Creatinine,0.61,mg/dL,amended,2024-01-18T20:07:08
+Patient-112-Enc-03-Lab-WBC,Patient-112-Enc-03,Patient-112,Organization-008,Organization-008-Dept-01,WBC,White Blood Cell Count,7.46,10^3/uL,amended,2023-09-11T23:08:01
+Patient-113-Enc-01-Lab-WBC,Patient-113-Enc-01,Patient-113,Organization-003,Organization-003-Dept-01,WBC,White Blood Cell Count,10.67,10^3/uL,amended,2025-04-26T06:39:10
+Patient-113-Enc-01-Lab-CR,Patient-113-Enc-01,Patient-113,Organization-003,Organization-003-Dept-01,CR,Creatinine,0.67,mg/dL,final,2023-08-14T23:00:20
+Patient-113-Enc-01-Lab-GLU,Patient-113-Enc-01,Patient-113,Organization-003,Organization-003-Dept-01,GLU,Glucose,83.56,mg/dL,amended,2023-09-15T01:23:42
+Patient-113-Enc-02-Lab-WBC,Patient-113-Enc-02,Patient-113,Organization-003,Organization-003-Dept-01,WBC,White Blood Cell Count,4.93,10^3/uL,amended,2025-01-29T16:06:53
+Patient-113-Enc-02-Lab-PLT,Patient-113-Enc-02,Patient-113,Organization-003,Organization-003-Dept-01,PLT,Platelets,322.68,10^3/uL,amended,2025-03-02T14:37:11
+Patient-113-Enc-02-Lab-CR,Patient-113-Enc-02,Patient-113,Organization-003,Organization-003-Dept-01,CR,Creatinine,0.83,mg/dL,final,2025-02-19T00:39:03
+Patient-114-Enc-01-Lab-HGB,Patient-114-Enc-01,Patient-114,Organization-007,Organization-007-Dept-02,HGB,Hemoglobin,12.6,g/dL,preliminary,2024-04-09T18:07:48
+Patient-114-Enc-02-Lab-PLT,Patient-114-Enc-02,Patient-114,Organization-007,Organization-007-Dept-01,PLT,Platelets,234.44,10^3/uL,final,2025-04-28T09:07:27
+Patient-114-Enc-02-Lab-HGB,Patient-114-Enc-02,Patient-114,Organization-007,Organization-007-Dept-01,HGB,Hemoglobin,16.84,g/dL,final,2024-06-23T04:24:52
+Patient-114-Enc-03-Lab-WBC,Patient-114-Enc-03,Patient-114,Organization-007,Organization-007-Dept-01,WBC,White Blood Cell Count,8.43,10^3/uL,final,2023-12-26T10:33:29
+Patient-114-Enc-03-Lab-PLT,Patient-114-Enc-03,Patient-114,Organization-007,Organization-007-Dept-01,PLT,Platelets,168.56,10^3/uL,final,2024-07-18T12:13:16
+Patient-115-Enc-01-Lab-PLT,Patient-115-Enc-01,Patient-115,Organization-009,Organization-009-Dept-02,PLT,Platelets,251.37,10^3/uL,final,2025-04-25T06:27:01
+Patient-115-Enc-01-Lab-GLU,Patient-115-Enc-01,Patient-115,Organization-009,Organization-009-Dept-02,GLU,Glucose,70.8,mg/dL,preliminary,2024-02-05T03:09:20
+Patient-115-Enc-01-Lab-HGB,Patient-115-Enc-01,Patient-115,Organization-009,Organization-009-Dept-02,HGB,Hemoglobin,15.98,g/dL,final,2024-11-19T16:50:06
+Patient-115-Enc-02-Lab-HGB,Patient-115-Enc-02,Patient-115,Organization-009,Organization-009-Dept-01,HGB,Hemoglobin,14.67,g/dL,preliminary,2024-07-12T18:55:33
+Patient-115-Enc-02-Lab-GLU,Patient-115-Enc-02,Patient-115,Organization-009,Organization-009-Dept-01,GLU,Glucose,82.24,mg/dL,preliminary,2025-03-22T22:08:45
+Patient-115-Enc-03-Lab-GLU,Patient-115-Enc-03,Patient-115,Organization-009,Organization-009-Dept-03,GLU,Glucose,103.1,mg/dL,amended,2024-11-11T03:11:33
+Patient-115-Enc-03-Lab-PLT,Patient-115-Enc-03,Patient-115,Organization-009,Organization-009-Dept-03,PLT,Platelets,185.57,10^3/uL,amended,2025-02-22T12:08:20
+Patient-115-Enc-03-Lab-WBC,Patient-115-Enc-03,Patient-115,Organization-009,Organization-009-Dept-03,WBC,White Blood Cell Count,10.53,10^3/uL,final,2023-12-04T11:28:32
+Patient-115-Enc-04-Lab-GLU,Patient-115-Enc-04,Patient-115,Organization-009,Organization-009-Dept-01,GLU,Glucose,85.01,mg/dL,amended,2024-05-15T16:49:13
+Patient-115-Enc-04-Lab-PLT,Patient-115-Enc-04,Patient-115,Organization-009,Organization-009-Dept-01,PLT,Platelets,344.93,10^3/uL,preliminary,2024-08-03T00:10:26
+Patient-115-Enc-04-Lab-HGB,Patient-115-Enc-04,Patient-115,Organization-009,Organization-009-Dept-01,HGB,Hemoglobin,13.89,g/dL,preliminary,2024-08-07T14:48:04
+Patient-115-Enc-05-Lab-HGB,Patient-115-Enc-05,Patient-115,Organization-009,Organization-009-Dept-03,HGB,Hemoglobin,14.5,g/dL,preliminary,2023-11-20T00:53:53
+Patient-115-Enc-05-Lab-CR,Patient-115-Enc-05,Patient-115,Organization-009,Organization-009-Dept-03,CR,Creatinine,1.17,mg/dL,final,2023-10-05T03:39:12
+Patient-116-Enc-01-Lab-WBC,Patient-116-Enc-01,Patient-116,Organization-008,Organization-008-Dept-01,WBC,White Blood Cell Count,10.6,10^3/uL,preliminary,2025-05-07T19:37:55
+Patient-116-Enc-01-Lab-HGB,Patient-116-Enc-01,Patient-116,Organization-008,Organization-008-Dept-01,HGB,Hemoglobin,14.52,g/dL,amended,2024-12-01T18:10:56
+Patient-116-Enc-01-Lab-PLT,Patient-116-Enc-01,Patient-116,Organization-008,Organization-008-Dept-01,PLT,Platelets,155.67,10^3/uL,amended,2025-03-05T11:08:18
+Patient-116-Enc-02-Lab-GLU,Patient-116-Enc-02,Patient-116,Organization-008,Organization-008-Dept-01,GLU,Glucose,83.63,mg/dL,preliminary,2023-12-04T08:10:11
+Patient-116-Enc-02-Lab-PLT,Patient-116-Enc-02,Patient-116,Organization-008,Organization-008-Dept-01,PLT,Platelets,277.65,10^3/uL,amended,2025-06-18T23:55:15
+Patient-116-Enc-03-Lab-HGB,Patient-116-Enc-03,Patient-116,Organization-008,Organization-008-Dept-01,HGB,Hemoglobin,12.8,g/dL,preliminary,2024-08-09T09:32:54
+Patient-116-Enc-03-Lab-GLU,Patient-116-Enc-03,Patient-116,Organization-008,Organization-008-Dept-01,GLU,Glucose,88.23,mg/dL,amended,2024-12-15T23:07:39
+Patient-116-Enc-04-Lab-GLU,Patient-116-Enc-04,Patient-116,Organization-008,Organization-008-Dept-01,GLU,Glucose,92.53,mg/dL,preliminary,2025-02-04T14:59:05
+Patient-117-Enc-01-Lab-HGB,Patient-117-Enc-01,Patient-117,Organization-008,Organization-008-Dept-01,HGB,Hemoglobin,16.24,g/dL,preliminary,2025-06-10T05:52:40
+Patient-117-Enc-01-Lab-PLT,Patient-117-Enc-01,Patient-117,Organization-008,Organization-008-Dept-01,PLT,Platelets,390.36,10^3/uL,final,2024-02-22T20:51:27
+Patient-117-Enc-01-Lab-CR,Patient-117-Enc-01,Patient-117,Organization-008,Organization-008-Dept-01,CR,Creatinine,1.22,mg/dL,preliminary,2025-01-30T14:52:53
+Patient-117-Enc-02-Lab-CR,Patient-117-Enc-02,Patient-117,Organization-008,Organization-008-Dept-01,CR,Creatinine,1.16,mg/dL,amended,2023-12-18T12:18:56
+Patient-117-Enc-03-Lab-GLU,Patient-117-Enc-03,Patient-117,Organization-008,Organization-008-Dept-01,GLU,Glucose,95.0,mg/dL,preliminary,2023-07-26T04:42:43
+Patient-117-Enc-03-Lab-PLT,Patient-117-Enc-03,Patient-117,Organization-008,Organization-008-Dept-01,PLT,Platelets,157.71,10^3/uL,preliminary,2024-01-18T04:43:37
+Patient-117-Enc-04-Lab-PLT,Patient-117-Enc-04,Patient-117,Organization-008,Organization-008-Dept-01,PLT,Platelets,339.2,10^3/uL,amended,2025-02-10T11:32:51
+Patient-117-Enc-04-Lab-CR,Patient-117-Enc-04,Patient-117,Organization-008,Organization-008-Dept-01,CR,Creatinine,0.97,mg/dL,preliminary,2023-08-28T01:22:30
+Patient-117-Enc-05-Lab-PLT,Patient-117-Enc-05,Patient-117,Organization-008,Organization-008-Dept-01,PLT,Platelets,386.97,10^3/uL,final,2024-08-01T21:22:21
+Patient-117-Enc-05-Lab-GLU,Patient-117-Enc-05,Patient-117,Organization-008,Organization-008-Dept-01,GLU,Glucose,95.27,mg/dL,preliminary,2024-03-08T12:27:13
+Patient-117-Enc-05-Lab-HGB,Patient-117-Enc-05,Patient-117,Organization-008,Organization-008-Dept-01,HGB,Hemoglobin,16.97,g/dL,final,2023-10-15T09:55:31
+Patient-118-Enc-01-Lab-CR,Patient-118-Enc-01,Patient-118,Organization-010,Organization-010-Dept-02,CR,Creatinine,0.81,mg/dL,preliminary,2023-09-28T04:52:35
+Patient-118-Enc-02-Lab-HGB,Patient-118-Enc-02,Patient-118,Organization-010,Organization-010-Dept-03,HGB,Hemoglobin,13.77,g/dL,final,2025-01-03T06:12:52
+Patient-119-Enc-01-Lab-WBC,Patient-119-Enc-01,Patient-119,Organization-002,Organization-002-Dept-02,WBC,White Blood Cell Count,7.02,10^3/uL,preliminary,2024-07-05T12:38:42
+Patient-119-Enc-01-Lab-GLU,Patient-119-Enc-01,Patient-119,Organization-002,Organization-002-Dept-02,GLU,Glucose,99.04,mg/dL,amended,2025-06-08T09:43:48
+Patient-119-Enc-01-Lab-HGB,Patient-119-Enc-01,Patient-119,Organization-002,Organization-002-Dept-02,HGB,Hemoglobin,12.39,g/dL,amended,2023-07-02T13:39:41
+Patient-119-Enc-02-Lab-WBC,Patient-119-Enc-02,Patient-119,Organization-002,Organization-002-Dept-02,WBC,White Blood Cell Count,10.42,10^3/uL,final,2023-12-29T03:13:01
+Patient-119-Enc-02-Lab-CR,Patient-119-Enc-02,Patient-119,Organization-002,Organization-002-Dept-02,CR,Creatinine,0.66,mg/dL,amended,2024-07-12T21:20:42
+Patient-119-Enc-03-Lab-HGB,Patient-119-Enc-03,Patient-119,Organization-002,Organization-002-Dept-01,HGB,Hemoglobin,15.27,g/dL,amended,2024-06-07T23:54:55
+Patient-119-Enc-03-Lab-GLU,Patient-119-Enc-03,Patient-119,Organization-002,Organization-002-Dept-01,GLU,Glucose,82.41,mg/dL,amended,2023-12-08T07:25:35
+Patient-119-Enc-04-Lab-WBC,Patient-119-Enc-04,Patient-119,Organization-002,Organization-002-Dept-02,WBC,White Blood Cell Count,4.72,10^3/uL,amended,2025-03-07T08:09:59
+Patient-119-Enc-04-Lab-HGB,Patient-119-Enc-04,Patient-119,Organization-002,Organization-002-Dept-02,HGB,Hemoglobin,13.3,g/dL,final,2024-09-04T13:09:56
+Patient-119-Enc-04-Lab-CR,Patient-119-Enc-04,Patient-119,Organization-002,Organization-002-Dept-02,CR,Creatinine,0.89,mg/dL,preliminary,2023-11-23T11:17:15
+Patient-119-Enc-05-Lab-CR,Patient-119-Enc-05,Patient-119,Organization-002,Organization-002-Dept-01,CR,Creatinine,0.78,mg/dL,amended,2024-02-12T19:43:26
+Patient-120-Enc-01-Lab-CR,Patient-120-Enc-01,Patient-120,Organization-009,Organization-009-Dept-02,CR,Creatinine,0.68,mg/dL,amended,2024-04-28T13:52:00
+Patient-120-Enc-02-Lab-WBC,Patient-120-Enc-02,Patient-120,Organization-009,Organization-009-Dept-01,WBC,White Blood Cell Count,8.66,10^3/uL,final,2023-11-27T05:52:12
+Patient-120-Enc-03-Lab-HGB,Patient-120-Enc-03,Patient-120,Organization-009,Organization-009-Dept-03,HGB,Hemoglobin,14.46,g/dL,preliminary,2023-09-29T03:57:50
+Patient-120-Enc-04-Lab-GLU,Patient-120-Enc-04,Patient-120,Organization-009,Organization-009-Dept-01,GLU,Glucose,96.42,mg/dL,final,2025-04-15T17:02:08
+Patient-120-Enc-04-Lab-PLT,Patient-120-Enc-04,Patient-120,Organization-009,Organization-009-Dept-01,PLT,Platelets,164.32,10^3/uL,preliminary,2024-09-02T23:47:21
+Patient-120-Enc-04-Lab-HGB,Patient-120-Enc-04,Patient-120,Organization-009,Organization-009-Dept-01,HGB,Hemoglobin,15.2,g/dL,amended,2025-01-13T06:26:50
+Patient-121-Enc-01-Lab-WBC,Patient-121-Enc-01,Patient-121,Organization-005,Organization-005-Dept-01,WBC,White Blood Cell Count,7.79,10^3/uL,final,2024-09-14T04:26:19
+Patient-121-Enc-02-Lab-HGB,Patient-121-Enc-02,Patient-121,Organization-005,Organization-005-Dept-01,HGB,Hemoglobin,13.76,g/dL,final,2023-10-17T16:16:11
+Patient-121-Enc-03-Lab-PLT,Patient-121-Enc-03,Patient-121,Organization-005,Organization-005-Dept-01,PLT,Platelets,382.53,10^3/uL,amended,2024-04-15T15:37:45
+Patient-121-Enc-03-Lab-HGB,Patient-121-Enc-03,Patient-121,Organization-005,Organization-005-Dept-01,HGB,Hemoglobin,16.2,g/dL,amended,2023-09-13T19:41:16
+Patient-121-Enc-03-Lab-WBC,Patient-121-Enc-03,Patient-121,Organization-005,Organization-005-Dept-01,WBC,White Blood Cell Count,9.97,10^3/uL,final,2023-08-17T15:06:51
+Patient-121-Enc-04-Lab-PLT,Patient-121-Enc-04,Patient-121,Organization-005,Organization-005-Dept-01,PLT,Platelets,361.19,10^3/uL,amended,2024-03-13T16:15:21
+Patient-121-Enc-04-Lab-HGB,Patient-121-Enc-04,Patient-121,Organization-005,Organization-005-Dept-01,HGB,Hemoglobin,16.1,g/dL,amended,2024-10-08T12:37:23
+Patient-121-Enc-04-Lab-GLU,Patient-121-Enc-04,Patient-121,Organization-005,Organization-005-Dept-01,GLU,Glucose,76.06,mg/dL,amended,2023-12-13T01:04:37
+Patient-121-Enc-05-Lab-HGB,Patient-121-Enc-05,Patient-121,Organization-005,Organization-005-Dept-01,HGB,Hemoglobin,14.37,g/dL,final,2023-08-17T17:11:32
+Patient-122-Enc-01-Lab-WBC,Patient-122-Enc-01,Patient-122,Organization-006,Organization-006-Dept-01,WBC,White Blood Cell Count,6.41,10^3/uL,amended,2024-10-04T14:52:18
+Patient-122-Enc-02-Lab-GLU,Patient-122-Enc-02,Patient-122,Organization-006,Organization-006-Dept-01,GLU,Glucose,77.85,mg/dL,final,2024-11-23T17:12:59
+Patient-122-Enc-02-Lab-HGB,Patient-122-Enc-02,Patient-122,Organization-006,Organization-006-Dept-01,HGB,Hemoglobin,16.33,g/dL,amended,2024-07-11T04:18:55
+Patient-123-Enc-01-Lab-PLT,Patient-123-Enc-01,Patient-123,Organization-003,Organization-003-Dept-01,PLT,Platelets,295.63,10^3/uL,preliminary,2024-10-13T03:07:09
+Patient-123-Enc-01-Lab-CR,Patient-123-Enc-01,Patient-123,Organization-003,Organization-003-Dept-01,CR,Creatinine,1.03,mg/dL,final,2023-09-15T01:21:57
+Patient-123-Enc-01-Lab-GLU,Patient-123-Enc-01,Patient-123,Organization-003,Organization-003-Dept-01,GLU,Glucose,75.0,mg/dL,amended,2024-09-08T08:45:56
+Patient-123-Enc-02-Lab-PLT,Patient-123-Enc-02,Patient-123,Organization-003,Organization-003-Dept-01,PLT,Platelets,331.59,10^3/uL,preliminary,2024-05-21T18:12:49
+Patient-123-Enc-03-Lab-HGB,Patient-123-Enc-03,Patient-123,Organization-003,Organization-003-Dept-01,HGB,Hemoglobin,16.88,g/dL,final,2024-10-07T06:36:47
+Patient-123-Enc-03-Lab-PLT,Patient-123-Enc-03,Patient-123,Organization-003,Organization-003-Dept-01,PLT,Platelets,388.93,10^3/uL,amended,2023-10-22T12:30:07
+Patient-123-Enc-03-Lab-CR,Patient-123-Enc-03,Patient-123,Organization-003,Organization-003-Dept-01,CR,Creatinine,0.8,mg/dL,amended,2025-01-28T23:23:33
+Patient-124-Enc-01-Lab-WBC,Patient-124-Enc-01,Patient-124,Organization-007,Organization-007-Dept-02,WBC,White Blood Cell Count,5.56,10^3/uL,amended,2024-02-18T13:39:58
+Patient-124-Enc-01-Lab-GLU,Patient-124-Enc-01,Patient-124,Organization-007,Organization-007-Dept-02,GLU,Glucose,88.92,mg/dL,preliminary,2024-01-14T19:10:22
+Patient-125-Enc-01-Lab-WBC,Patient-125-Enc-01,Patient-125,Organization-009,Organization-009-Dept-01,WBC,White Blood Cell Count,10.4,10^3/uL,preliminary,2024-05-22T10:23:09
+Patient-125-Enc-02-Lab-HGB,Patient-125-Enc-02,Patient-125,Organization-009,Organization-009-Dept-01,HGB,Hemoglobin,15.89,g/dL,final,2024-09-04T07:54:34
+Patient-125-Enc-02-Lab-PLT,Patient-125-Enc-02,Patient-125,Organization-009,Organization-009-Dept-01,PLT,Platelets,184.47,10^3/uL,amended,2024-07-10T21:39:59
+Patient-126-Enc-01-Lab-HGB,Patient-126-Enc-01,Patient-126,Organization-003,Organization-003-Dept-01,HGB,Hemoglobin,13.62,g/dL,amended,2025-03-23T14:10:25
+Patient-126-Enc-01-Lab-PLT,Patient-126-Enc-01,Patient-126,Organization-003,Organization-003-Dept-01,PLT,Platelets,290.48,10^3/uL,preliminary,2025-03-01T07:18:16
+Patient-126-Enc-01-Lab-WBC,Patient-126-Enc-01,Patient-126,Organization-003,Organization-003-Dept-01,WBC,White Blood Cell Count,10.51,10^3/uL,final,2024-05-11T22:53:33
+Patient-126-Enc-02-Lab-GLU,Patient-126-Enc-02,Patient-126,Organization-003,Organization-003-Dept-01,GLU,Glucose,80.84,mg/dL,preliminary,2024-08-15T04:29:46
+Patient-126-Enc-02-Lab-PLT,Patient-126-Enc-02,Patient-126,Organization-003,Organization-003-Dept-01,PLT,Platelets,335.4,10^3/uL,final,2023-07-27T08:19:43
+Patient-127-Enc-01-Lab-WBC,Patient-127-Enc-01,Patient-127,Organization-005,Organization-005-Dept-01,WBC,White Blood Cell Count,6.2,10^3/uL,final,2024-07-13T18:46:33
+Patient-127-Enc-01-Lab-GLU,Patient-127-Enc-01,Patient-127,Organization-005,Organization-005-Dept-01,GLU,Glucose,102.43,mg/dL,preliminary,2024-03-10T14:08:47
+Patient-127-Enc-01-Lab-PLT,Patient-127-Enc-01,Patient-127,Organization-005,Organization-005-Dept-01,PLT,Platelets,286.16,10^3/uL,preliminary,2023-11-16T22:49:30
+Patient-128-Enc-01-Lab-GLU,Patient-128-Enc-01,Patient-128,Organization-009,Organization-009-Dept-02,GLU,Glucose,84.93,mg/dL,amended,2023-06-25T22:42:42
+Patient-128-Enc-01-Lab-PLT,Patient-128-Enc-01,Patient-128,Organization-009,Organization-009-Dept-02,PLT,Platelets,199.32,10^3/uL,final,2024-05-29T01:46:31
+Patient-129-Enc-01-Lab-HGB,Patient-129-Enc-01,Patient-129,Organization-003,Organization-003-Dept-01,HGB,Hemoglobin,15.44,g/dL,amended,2025-05-09T12:05:25
+Patient-129-Enc-01-Lab-GLU,Patient-129-Enc-01,Patient-129,Organization-003,Organization-003-Dept-01,GLU,Glucose,102.15,mg/dL,final,2023-07-06T11:57:09
+Patient-129-Enc-02-Lab-CR,Patient-129-Enc-02,Patient-129,Organization-003,Organization-003-Dept-01,CR,Creatinine,0.62,mg/dL,preliminary,2024-04-16T13:57:51
+Patient-129-Enc-02-Lab-WBC,Patient-129-Enc-02,Patient-129,Organization-003,Organization-003-Dept-01,WBC,White Blood Cell Count,9.03,10^3/uL,final,2025-02-11T19:28:50
+Patient-129-Enc-02-Lab-HGB,Patient-129-Enc-02,Patient-129,Organization-003,Organization-003-Dept-01,HGB,Hemoglobin,13.84,g/dL,final,2023-09-16T00:41:59
+Patient-129-Enc-03-Lab-CR,Patient-129-Enc-03,Patient-129,Organization-003,Organization-003-Dept-01,CR,Creatinine,0.83,mg/dL,preliminary,2024-01-20T12:35:37
+Patient-129-Enc-03-Lab-HGB,Patient-129-Enc-03,Patient-129,Organization-003,Organization-003-Dept-01,HGB,Hemoglobin,14.14,g/dL,amended,2024-06-14T04:30:15
+Patient-129-Enc-03-Lab-WBC,Patient-129-Enc-03,Patient-129,Organization-003,Organization-003-Dept-01,WBC,White Blood Cell Count,4.56,10^3/uL,preliminary,2023-07-18T18:22:22
+Patient-129-Enc-04-Lab-WBC,Patient-129-Enc-04,Patient-129,Organization-003,Organization-003-Dept-01,WBC,White Blood Cell Count,5.41,10^3/uL,amended,2025-03-03T04:12:06
+Patient-129-Enc-04-Lab-CR,Patient-129-Enc-04,Patient-129,Organization-003,Organization-003-Dept-01,CR,Creatinine,0.73,mg/dL,preliminary,2024-03-23T08:12:54
+Patient-129-Enc-04-Lab-PLT,Patient-129-Enc-04,Patient-129,Organization-003,Organization-003-Dept-01,PLT,Platelets,250.18,10^3/uL,final,2024-01-19T08:56:37
+Patient-129-Enc-05-Lab-CR,Patient-129-Enc-05,Patient-129,Organization-003,Organization-003-Dept-01,CR,Creatinine,1.03,mg/dL,amended,2023-08-08T14:35:33
+Patient-129-Enc-05-Lab-HGB,Patient-129-Enc-05,Patient-129,Organization-003,Organization-003-Dept-01,HGB,Hemoglobin,12.08,g/dL,amended,2024-02-14T23:14:27
+Patient-130-Enc-01-Lab-CR,Patient-130-Enc-01,Patient-130,Organization-002,Organization-002-Dept-01,CR,Creatinine,0.81,mg/dL,amended,2024-02-14T12:33:08
+Patient-130-Enc-01-Lab-WBC,Patient-130-Enc-01,Patient-130,Organization-002,Organization-002-Dept-01,WBC,White Blood Cell Count,8.67,10^3/uL,amended,2024-02-12T19:25:48
+Patient-130-Enc-01-Lab-PLT,Patient-130-Enc-01,Patient-130,Organization-002,Organization-002-Dept-01,PLT,Platelets,371.89,10^3/uL,amended,2023-07-05T03:47:26
+Patient-130-Enc-02-Lab-WBC,Patient-130-Enc-02,Patient-130,Organization-002,Organization-002-Dept-01,WBC,White Blood Cell Count,8.45,10^3/uL,preliminary,2024-12-23T08:41:52
+Patient-130-Enc-03-Lab-PLT,Patient-130-Enc-03,Patient-130,Organization-002,Organization-002-Dept-01,PLT,Platelets,202.69,10^3/uL,amended,2023-07-23T07:56:47
+Patient-130-Enc-03-Lab-HGB,Patient-130-Enc-03,Patient-130,Organization-002,Organization-002-Dept-01,HGB,Hemoglobin,13.38,g/dL,preliminary,2024-04-28T22:25:04
+Patient-130-Enc-03-Lab-WBC,Patient-130-Enc-03,Patient-130,Organization-002,Organization-002-Dept-01,WBC,White Blood Cell Count,7.95,10^3/uL,amended,2023-08-11T02:34:25
+Patient-130-Enc-04-Lab-GLU,Patient-130-Enc-04,Patient-130,Organization-002,Organization-002-Dept-01,GLU,Glucose,99.12,mg/dL,amended,2024-04-03T16:36:50
+Patient-130-Enc-05-Lab-GLU,Patient-130-Enc-05,Patient-130,Organization-002,Organization-002-Dept-01,GLU,Glucose,107.06,mg/dL,preliminary,2025-03-06T19:52:33
+Patient-130-Enc-05-Lab-WBC,Patient-130-Enc-05,Patient-130,Organization-002,Organization-002-Dept-01,WBC,White Blood Cell Count,5.46,10^3/uL,preliminary,2024-04-10T22:41:31
+Patient-131-Enc-01-Lab-GLU,Patient-131-Enc-01,Patient-131,Organization-006,Organization-006-Dept-02,GLU,Glucose,108.99,mg/dL,amended,2025-05-17T17:35:15
+Patient-131-Enc-01-Lab-CR,Patient-131-Enc-01,Patient-131,Organization-006,Organization-006-Dept-02,CR,Creatinine,1.2,mg/dL,preliminary,2024-04-09T03:08:04
+Patient-131-Enc-02-Lab-GLU,Patient-131-Enc-02,Patient-131,Organization-006,Organization-006-Dept-02,GLU,Glucose,108.32,mg/dL,final,2024-02-25T12:07:09
+Patient-131-Enc-02-Lab-WBC,Patient-131-Enc-02,Patient-131,Organization-006,Organization-006-Dept-02,WBC,White Blood Cell Count,6.4,10^3/uL,final,2024-04-29T08:37:56
+Patient-132-Enc-01-Lab-CR,Patient-132-Enc-01,Patient-132,Organization-006,Organization-006-Dept-02,CR,Creatinine,1.29,mg/dL,amended,2024-10-09T11:01:39
+Patient-132-Enc-01-Lab-WBC,Patient-132-Enc-01,Patient-132,Organization-006,Organization-006-Dept-02,WBC,White Blood Cell Count,9.92,10^3/uL,final,2023-12-05T12:24:35
+Patient-132-Enc-01-Lab-PLT,Patient-132-Enc-01,Patient-132,Organization-006,Organization-006-Dept-02,PLT,Platelets,385.97,10^3/uL,final,2023-07-22T02:05:47
+Patient-133-Enc-01-Lab-HGB,Patient-133-Enc-01,Patient-133,Organization-006,Organization-006-Dept-01,HGB,Hemoglobin,13.83,g/dL,final,2024-01-20T12:21:05
+Patient-133-Enc-02-Lab-PLT,Patient-133-Enc-02,Patient-133,Organization-006,Organization-006-Dept-02,PLT,Platelets,335.28,10^3/uL,amended,2024-04-27T11:08:17
+Patient-133-Enc-03-Lab-WBC,Patient-133-Enc-03,Patient-133,Organization-006,Organization-006-Dept-02,WBC,White Blood Cell Count,7.13,10^3/uL,amended,2023-12-26T05:41:30
+Patient-133-Enc-03-Lab-CR,Patient-133-Enc-03,Patient-133,Organization-006,Organization-006-Dept-02,CR,Creatinine,0.95,mg/dL,amended,2024-09-12T11:08:08
+Patient-133-Enc-03-Lab-PLT,Patient-133-Enc-03,Patient-133,Organization-006,Organization-006-Dept-02,PLT,Platelets,372.01,10^3/uL,final,2025-02-27T11:08:15
+Patient-134-Enc-01-Lab-WBC,Patient-134-Enc-01,Patient-134,Organization-003,Organization-003-Dept-01,WBC,White Blood Cell Count,6.81,10^3/uL,final,2025-01-30T07:46:07
+Patient-135-Enc-01-Lab-PLT,Patient-135-Enc-01,Patient-135,Organization-007,Organization-007-Dept-02,PLT,Platelets,212.96,10^3/uL,final,2023-09-04T19:53:01
+Patient-135-Enc-01-Lab-HGB,Patient-135-Enc-01,Patient-135,Organization-007,Organization-007-Dept-02,HGB,Hemoglobin,15.3,g/dL,final,2024-06-04T13:42:56
+Patient-135-Enc-02-Lab-GLU,Patient-135-Enc-02,Patient-135,Organization-007,Organization-007-Dept-02,GLU,Glucose,107.21,mg/dL,final,2023-12-15T03:53:42
+Patient-135-Enc-02-Lab-HGB,Patient-135-Enc-02,Patient-135,Organization-007,Organization-007-Dept-02,HGB,Hemoglobin,15.28,g/dL,final,2024-05-29T16:47:02
+Patient-135-Enc-02-Lab-WBC,Patient-135-Enc-02,Patient-135,Organization-007,Organization-007-Dept-02,WBC,White Blood Cell Count,6.59,10^3/uL,amended,2024-05-17T01:45:53
+Patient-135-Enc-03-Lab-HGB,Patient-135-Enc-03,Patient-135,Organization-007,Organization-007-Dept-01,HGB,Hemoglobin,15.18,g/dL,preliminary,2024-06-07T05:49:20
+Patient-135-Enc-03-Lab-WBC,Patient-135-Enc-03,Patient-135,Organization-007,Organization-007-Dept-01,WBC,White Blood Cell Count,5.44,10^3/uL,final,2024-07-25T01:08:53
+Patient-135-Enc-04-Lab-HGB,Patient-135-Enc-04,Patient-135,Organization-007,Organization-007-Dept-02,HGB,Hemoglobin,16.86,g/dL,amended,2024-05-24T12:51:54
+Patient-135-Enc-04-Lab-WBC,Patient-135-Enc-04,Patient-135,Organization-007,Organization-007-Dept-02,WBC,White Blood Cell Count,7.3,10^3/uL,preliminary,2023-11-30T01:43:53
+Patient-135-Enc-05-Lab-GLU,Patient-135-Enc-05,Patient-135,Organization-007,Organization-007-Dept-01,GLU,Glucose,95.4,mg/dL,final,2025-01-06T06:11:38
+Patient-136-Enc-01-Lab-PLT,Patient-136-Enc-01,Patient-136,Organization-008,Organization-008-Dept-01,PLT,Platelets,350.77,10^3/uL,amended,2025-05-25T16:03:00
+Patient-136-Enc-02-Lab-PLT,Patient-136-Enc-02,Patient-136,Organization-008,Organization-008-Dept-01,PLT,Platelets,388.23,10^3/uL,final,2025-03-07T18:48:42
+Patient-137-Enc-01-Lab-PLT,Patient-137-Enc-01,Patient-137,Organization-009,Organization-009-Dept-02,PLT,Platelets,233.77,10^3/uL,final,2025-02-22T08:00:47
+Patient-137-Enc-01-Lab-HGB,Patient-137-Enc-01,Patient-137,Organization-009,Organization-009-Dept-02,HGB,Hemoglobin,15.03,g/dL,final,2024-08-07T14:14:49
+Patient-138-Enc-01-Lab-PLT,Patient-138-Enc-01,Patient-138,Organization-002,Organization-002-Dept-01,PLT,Platelets,176.25,10^3/uL,final,2025-01-24T02:00:10
+Patient-138-Enc-01-Lab-CR,Patient-138-Enc-01,Patient-138,Organization-002,Organization-002-Dept-01,CR,Creatinine,0.63,mg/dL,amended,2024-06-21T14:23:39
+Patient-138-Enc-01-Lab-GLU,Patient-138-Enc-01,Patient-138,Organization-002,Organization-002-Dept-01,GLU,Glucose,77.22,mg/dL,final,2025-02-10T19:19:13
+Patient-138-Enc-02-Lab-PLT,Patient-138-Enc-02,Patient-138,Organization-002,Organization-002-Dept-02,PLT,Platelets,305.17,10^3/uL,final,2024-08-18T04:56:21
+Patient-138-Enc-02-Lab-HGB,Patient-138-Enc-02,Patient-138,Organization-002,Organization-002-Dept-02,HGB,Hemoglobin,14.05,g/dL,amended,2024-04-17T06:43:16
+Patient-139-Enc-01-Lab-PLT,Patient-139-Enc-01,Patient-139,Organization-001,Organization-001-Dept-04,PLT,Platelets,326.36,10^3/uL,final,2024-05-04T08:09:09
+Patient-139-Enc-01-Lab-CR,Patient-139-Enc-01,Patient-139,Organization-001,Organization-001-Dept-04,CR,Creatinine,0.95,mg/dL,amended,2023-11-03T12:54:19
+Patient-139-Enc-01-Lab-HGB,Patient-139-Enc-01,Patient-139,Organization-001,Organization-001-Dept-04,HGB,Hemoglobin,16.23,g/dL,preliminary,2024-08-16T06:32:24
+Patient-139-Enc-02-Lab-HGB,Patient-139-Enc-02,Patient-139,Organization-001,Organization-001-Dept-06,HGB,Hemoglobin,12.03,g/dL,preliminary,2024-09-16T15:01:44
+Patient-139-Enc-02-Lab-GLU,Patient-139-Enc-02,Patient-139,Organization-001,Organization-001-Dept-06,GLU,Glucose,85.58,mg/dL,preliminary,2025-03-16T03:46:05
+Patient-139-Enc-02-Lab-WBC,Patient-139-Enc-02,Patient-139,Organization-001,Organization-001-Dept-06,WBC,White Blood Cell Count,8.52,10^3/uL,amended,2025-06-12T15:09:47
+Patient-139-Enc-03-Lab-PLT,Patient-139-Enc-03,Patient-139,Organization-001,Organization-001-Dept-04,PLT,Platelets,186.26,10^3/uL,preliminary,2024-03-02T14:49:32
+Patient-139-Enc-03-Lab-HGB,Patient-139-Enc-03,Patient-139,Organization-001,Organization-001-Dept-04,HGB,Hemoglobin,16.83,g/dL,final,2025-05-18T02:21:54
+Patient-139-Enc-03-Lab-CR,Patient-139-Enc-03,Patient-139,Organization-001,Organization-001-Dept-04,CR,Creatinine,1.2,mg/dL,amended,2025-06-10T16:37:53
+Patient-139-Enc-04-Lab-CR,Patient-139-Enc-04,Patient-139,Organization-001,Organization-001-Dept-01,CR,Creatinine,0.68,mg/dL,final,2024-07-02T22:48:20
+Patient-140-Enc-01-Lab-HGB,Patient-140-Enc-01,Patient-140,Organization-005,Organization-005-Dept-01,HGB,Hemoglobin,12.47,g/dL,amended,2025-05-03T22:20:19
+Patient-140-Enc-01-Lab-CR,Patient-140-Enc-01,Patient-140,Organization-005,Organization-005-Dept-01,CR,Creatinine,1.22,mg/dL,amended,2025-06-03T18:18:21
+Patient-141-Enc-01-Lab-WBC,Patient-141-Enc-01,Patient-141,Organization-006,Organization-006-Dept-02,WBC,White Blood Cell Count,5.03,10^3/uL,preliminary,2024-05-30T07:40:26
+Patient-141-Enc-01-Lab-HGB,Patient-141-Enc-01,Patient-141,Organization-006,Organization-006-Dept-02,HGB,Hemoglobin,12.17,g/dL,amended,2025-01-18T15:01:16
+Patient-142-Enc-01-Lab-PLT,Patient-142-Enc-01,Patient-142,Organization-006,Organization-006-Dept-02,PLT,Platelets,291.68,10^3/uL,amended,2023-12-01T13:48:32
+Patient-143-Enc-01-Lab-PLT,Patient-143-Enc-01,Patient-143,Organization-004,Organization-004-Dept-01,PLT,Platelets,341.0,10^3/uL,final,2025-03-15T18:02:14
+Patient-144-Enc-01-Lab-PLT,Patient-144-Enc-01,Patient-144,Organization-001,Organization-001-Dept-06,PLT,Platelets,217.04,10^3/uL,final,2024-01-24T06:35:27
+Patient-144-Enc-01-Lab-CR,Patient-144-Enc-01,Patient-144,Organization-001,Organization-001-Dept-06,CR,Creatinine,1.23,mg/dL,final,2025-03-27T02:50:05
+Patient-144-Enc-02-Lab-CR,Patient-144-Enc-02,Patient-144,Organization-001,Organization-001-Dept-06,CR,Creatinine,0.79,mg/dL,amended,2023-08-08T16:19:49
+Patient-144-Enc-03-Lab-WBC,Patient-144-Enc-03,Patient-144,Organization-001,Organization-001-Dept-05,WBC,White Blood Cell Count,8.67,10^3/uL,preliminary,2024-11-08T20:16:41
+Patient-144-Enc-03-Lab-GLU,Patient-144-Enc-03,Patient-144,Organization-001,Organization-001-Dept-05,GLU,Glucose,96.82,mg/dL,preliminary,2024-02-09T02:43:31
+Patient-144-Enc-04-Lab-CR,Patient-144-Enc-04,Patient-144,Organization-001,Organization-001-Dept-03,CR,Creatinine,1.26,mg/dL,preliminary,2025-05-27T16:12:07
+Patient-144-Enc-05-Lab-GLU,Patient-144-Enc-05,Patient-144,Organization-001,Organization-001-Dept-05,GLU,Glucose,99.68,mg/dL,amended,2025-01-18T08:41:12
+Patient-144-Enc-05-Lab-PLT,Patient-144-Enc-05,Patient-144,Organization-001,Organization-001-Dept-05,PLT,Platelets,151.1,10^3/uL,final,2023-12-05T09:43:40
+Patient-144-Enc-05-Lab-CR,Patient-144-Enc-05,Patient-144,Organization-001,Organization-001-Dept-05,CR,Creatinine,1.11,mg/dL,final,2025-01-31T13:33:56
+Patient-145-Enc-01-Lab-PLT,Patient-145-Enc-01,Patient-145,Organization-007,Organization-007-Dept-02,PLT,Platelets,372.22,10^3/uL,amended,2025-06-13T03:45:13
+Patient-145-Enc-02-Lab-WBC,Patient-145-Enc-02,Patient-145,Organization-007,Organization-007-Dept-01,WBC,White Blood Cell Count,9.32,10^3/uL,final,2023-09-04T12:01:51
+Patient-145-Enc-02-Lab-CR,Patient-145-Enc-02,Patient-145,Organization-007,Organization-007-Dept-01,CR,Creatinine,0.78,mg/dL,preliminary,2024-03-31T12:11:49
+Patient-145-Enc-03-Lab-GLU,Patient-145-Enc-03,Patient-145,Organization-007,Organization-007-Dept-01,GLU,Glucose,97.97,mg/dL,final,2024-05-25T12:55:20
+Patient-145-Enc-03-Lab-WBC,Patient-145-Enc-03,Patient-145,Organization-007,Organization-007-Dept-01,WBC,White Blood Cell Count,9.15,10^3/uL,amended,2024-04-06T02:13:14
+Patient-145-Enc-03-Lab-PLT,Patient-145-Enc-03,Patient-145,Organization-007,Organization-007-Dept-01,PLT,Platelets,369.87,10^3/uL,amended,2024-05-17T06:26:49
+Patient-145-Enc-04-Lab-PLT,Patient-145-Enc-04,Patient-145,Organization-007,Organization-007-Dept-02,PLT,Platelets,207.66,10^3/uL,final,2025-05-19T00:34:58
+Patient-145-Enc-04-Lab-GLU,Patient-145-Enc-04,Patient-145,Organization-007,Organization-007-Dept-02,GLU,Glucose,100.69,mg/dL,amended,2025-05-30T19:52:21
+Patient-145-Enc-04-Lab-WBC,Patient-145-Enc-04,Patient-145,Organization-007,Organization-007-Dept-02,WBC,White Blood Cell Count,6.45,10^3/uL,preliminary,2023-08-30T02:57:22
+Patient-146-Enc-01-Lab-PLT,Patient-146-Enc-01,Patient-146,Organization-003,Organization-003-Dept-01,PLT,Platelets,272.77,10^3/uL,final,2025-04-03T01:15:26
+Patient-146-Enc-02-Lab-PLT,Patient-146-Enc-02,Patient-146,Organization-003,Organization-003-Dept-01,PLT,Platelets,215.81,10^3/uL,preliminary,2025-06-06T11:48:31
+Patient-146-Enc-03-Lab-WBC,Patient-146-Enc-03,Patient-146,Organization-003,Organization-003-Dept-01,WBC,White Blood Cell Count,10.75,10^3/uL,amended,2023-12-09T16:14:34
+Patient-146-Enc-03-Lab-GLU,Patient-146-Enc-03,Patient-146,Organization-003,Organization-003-Dept-01,GLU,Glucose,105.57,mg/dL,amended,2024-11-29T09:48:40
+Patient-147-Enc-01-Lab-GLU,Patient-147-Enc-01,Patient-147,Organization-006,Organization-006-Dept-02,GLU,Glucose,71.59,mg/dL,preliminary,2024-02-19T12:07:10
+Patient-147-Enc-02-Lab-GLU,Patient-147-Enc-02,Patient-147,Organization-006,Organization-006-Dept-01,GLU,Glucose,109.45,mg/dL,amended,2024-02-11T04:19:49
+Patient-148-Enc-01-Lab-GLU,Patient-148-Enc-01,Patient-148,Organization-010,Organization-010-Dept-02,GLU,Glucose,75.06,mg/dL,final,2023-07-26T05:48:53
+Patient-148-Enc-01-Lab-HGB,Patient-148-Enc-01,Patient-148,Organization-010,Organization-010-Dept-02,HGB,Hemoglobin,15.75,g/dL,final,2023-12-15T17:56:34
+Patient-148-Enc-01-Lab-CR,Patient-148-Enc-01,Patient-148,Organization-010,Organization-010-Dept-02,CR,Creatinine,0.9,mg/dL,amended,2025-04-14T15:41:49
+Patient-148-Enc-02-Lab-PLT,Patient-148-Enc-02,Patient-148,Organization-010,Organization-010-Dept-05,PLT,Platelets,199.32,10^3/uL,amended,2025-04-02T13:43:12
+Patient-148-Enc-03-Lab-CR,Patient-148-Enc-03,Patient-148,Organization-010,Organization-010-Dept-02,CR,Creatinine,0.82,mg/dL,amended,2023-12-27T08:12:58
+Patient-148-Enc-03-Lab-HGB,Patient-148-Enc-03,Patient-148,Organization-010,Organization-010-Dept-02,HGB,Hemoglobin,14.98,g/dL,amended,2025-01-15T21:25:47
+Patient-148-Enc-04-Lab-GLU,Patient-148-Enc-04,Patient-148,Organization-010,Organization-010-Dept-05,GLU,Glucose,92.15,mg/dL,amended,2023-08-31T21:08:34
+Patient-148-Enc-04-Lab-PLT,Patient-148-Enc-04,Patient-148,Organization-010,Organization-010-Dept-05,PLT,Platelets,161.39,10^3/uL,final,2025-04-19T09:32:16
+Patient-148-Enc-04-Lab-CR,Patient-148-Enc-04,Patient-148,Organization-010,Organization-010-Dept-05,CR,Creatinine,0.64,mg/dL,preliminary,2024-07-29T15:38:00
+Patient-149-Enc-01-Lab-CR,Patient-149-Enc-01,Patient-149,Organization-002,Organization-002-Dept-01,CR,Creatinine,0.81,mg/dL,preliminary,2024-05-06T17:14:12
+Patient-149-Enc-01-Lab-HGB,Patient-149-Enc-01,Patient-149,Organization-002,Organization-002-Dept-01,HGB,Hemoglobin,14.78,g/dL,amended,2024-09-24T14:06:27
+Patient-150-Enc-01-Lab-PLT,Patient-150-Enc-01,Patient-150,Organization-009,Organization-009-Dept-01,PLT,Platelets,220.66,10^3/uL,preliminary,2023-11-11T03:41:22
+Patient-150-Enc-01-Lab-WBC,Patient-150-Enc-01,Patient-150,Organization-009,Organization-009-Dept-01,WBC,White Blood Cell Count,4.25,10^3/uL,preliminary,2024-05-19T23:59:57
+Patient-150-Enc-02-Lab-HGB,Patient-150-Enc-02,Patient-150,Organization-009,Organization-009-Dept-01,HGB,Hemoglobin,16.08,g/dL,preliminary,2025-01-27T22:05:10
+Patient-150-Enc-02-Lab-WBC,Patient-150-Enc-02,Patient-150,Organization-009,Organization-009-Dept-01,WBC,White Blood Cell Count,8.69,10^3/uL,final,2023-07-05T15:47:31
+Patient-150-Enc-02-Lab-PLT,Patient-150-Enc-02,Patient-150,Organization-009,Organization-009-Dept-01,PLT,Platelets,370.02,10^3/uL,amended,2025-04-18T22:57:58
+Patient-151-Enc-01-Lab-PLT,Patient-151-Enc-01,Patient-151,Organization-005,Organization-005-Dept-01,PLT,Platelets,154.03,10^3/uL,amended,2024-07-29T20:16:11
+Patient-151-Enc-01-Lab-HGB,Patient-151-Enc-01,Patient-151,Organization-005,Organization-005-Dept-01,HGB,Hemoglobin,13.53,g/dL,amended,2024-04-04T03:39:35
+Patient-151-Enc-01-Lab-GLU,Patient-151-Enc-01,Patient-151,Organization-005,Organization-005-Dept-01,GLU,Glucose,71.11,mg/dL,preliminary,2025-06-10T10:40:30
+Patient-152-Enc-01-Lab-GLU,Patient-152-Enc-01,Patient-152,Organization-009,Organization-009-Dept-01,GLU,Glucose,75.85,mg/dL,preliminary,2025-05-29T10:29:54
+Patient-152-Enc-01-Lab-WBC,Patient-152-Enc-01,Patient-152,Organization-009,Organization-009-Dept-01,WBC,White Blood Cell Count,6.91,10^3/uL,final,2023-10-30T10:10:49
+Patient-152-Enc-01-Lab-HGB,Patient-152-Enc-01,Patient-152,Organization-009,Organization-009-Dept-01,HGB,Hemoglobin,15.83,g/dL,amended,2024-07-05T06:11:09
+Patient-152-Enc-02-Lab-WBC,Patient-152-Enc-02,Patient-152,Organization-009,Organization-009-Dept-03,WBC,White Blood Cell Count,10.62,10^3/uL,amended,2025-04-05T05:12:01
+Patient-152-Enc-03-Lab-GLU,Patient-152-Enc-03,Patient-152,Organization-009,Organization-009-Dept-03,GLU,Glucose,80.28,mg/dL,amended,2024-08-28T20:12:04
+Patient-152-Enc-03-Lab-WBC,Patient-152-Enc-03,Patient-152,Organization-009,Organization-009-Dept-03,WBC,White Blood Cell Count,9.96,10^3/uL,amended,2024-06-27T21:30:03
+Patient-152-Enc-03-Lab-CR,Patient-152-Enc-03,Patient-152,Organization-009,Organization-009-Dept-03,CR,Creatinine,0.72,mg/dL,preliminary,2025-05-02T03:35:29
+Patient-153-Enc-01-Lab-WBC,Patient-153-Enc-01,Patient-153,Organization-009,Organization-009-Dept-02,WBC,White Blood Cell Count,7.2,10^3/uL,amended,2023-08-04T10:47:38
+Patient-153-Enc-02-Lab-PLT,Patient-153-Enc-02,Patient-153,Organization-009,Organization-009-Dept-02,PLT,Platelets,268.15,10^3/uL,amended,2023-08-28T03:12:05
+Patient-153-Enc-02-Lab-WBC,Patient-153-Enc-02,Patient-153,Organization-009,Organization-009-Dept-02,WBC,White Blood Cell Count,7.64,10^3/uL,amended,2025-06-10T12:09:02
+Patient-153-Enc-02-Lab-HGB,Patient-153-Enc-02,Patient-153,Organization-009,Organization-009-Dept-02,HGB,Hemoglobin,12.11,g/dL,final,2024-04-16T13:14:02
+Patient-154-Enc-01-Lab-CR,Patient-154-Enc-01,Patient-154,Organization-001,Organization-001-Dept-01,CR,Creatinine,1.11,mg/dL,final,2025-04-28T04:25:19
+Patient-154-Enc-01-Lab-PLT,Patient-154-Enc-01,Patient-154,Organization-001,Organization-001-Dept-01,PLT,Platelets,308.6,10^3/uL,final,2025-05-08T05:59:07
+Patient-154-Enc-01-Lab-GLU,Patient-154-Enc-01,Patient-154,Organization-001,Organization-001-Dept-01,GLU,Glucose,85.19,mg/dL,final,2025-05-24T04:00:03
+Patient-155-Enc-01-Lab-PLT,Patient-155-Enc-01,Patient-155,Organization-008,Organization-008-Dept-01,PLT,Platelets,239.9,10^3/uL,preliminary,2023-09-28T10:36:42
+Patient-155-Enc-01-Lab-WBC,Patient-155-Enc-01,Patient-155,Organization-008,Organization-008-Dept-01,WBC,White Blood Cell Count,5.89,10^3/uL,preliminary,2024-03-20T18:09:38
+Patient-155-Enc-01-Lab-CR,Patient-155-Enc-01,Patient-155,Organization-008,Organization-008-Dept-01,CR,Creatinine,1.13,mg/dL,amended,2023-08-08T13:53:36
+Patient-155-Enc-02-Lab-HGB,Patient-155-Enc-02,Patient-155,Organization-008,Organization-008-Dept-01,HGB,Hemoglobin,15.5,g/dL,amended,2025-02-02T05:02:36
+Patient-155-Enc-02-Lab-PLT,Patient-155-Enc-02,Patient-155,Organization-008,Organization-008-Dept-01,PLT,Platelets,156.36,10^3/uL,final,2025-03-12T20:30:52
+Patient-155-Enc-02-Lab-WBC,Patient-155-Enc-02,Patient-155,Organization-008,Organization-008-Dept-01,WBC,White Blood Cell Count,10.93,10^3/uL,amended,2023-10-18T06:51:53
+Patient-155-Enc-03-Lab-HGB,Patient-155-Enc-03,Patient-155,Organization-008,Organization-008-Dept-01,HGB,Hemoglobin,13.33,g/dL,amended,2024-07-09T05:19:09
+Patient-155-Enc-03-Lab-CR,Patient-155-Enc-03,Patient-155,Organization-008,Organization-008-Dept-01,CR,Creatinine,1.26,mg/dL,amended,2024-10-11T10:32:03
+Patient-155-Enc-03-Lab-PLT,Patient-155-Enc-03,Patient-155,Organization-008,Organization-008-Dept-01,PLT,Platelets,192.98,10^3/uL,final,2024-01-27T14:27:56
+Patient-156-Enc-01-Lab-WBC,Patient-156-Enc-01,Patient-156,Organization-005,Organization-005-Dept-01,WBC,White Blood Cell Count,7.77,10^3/uL,preliminary,2025-03-15T11:46:26
+Patient-156-Enc-01-Lab-HGB,Patient-156-Enc-01,Patient-156,Organization-005,Organization-005-Dept-01,HGB,Hemoglobin,13.88,g/dL,amended,2023-12-22T19:17:08
+Patient-156-Enc-01-Lab-CR,Patient-156-Enc-01,Patient-156,Organization-005,Organization-005-Dept-01,CR,Creatinine,0.66,mg/dL,preliminary,2023-11-27T03:09:23
+Patient-156-Enc-02-Lab-WBC,Patient-156-Enc-02,Patient-156,Organization-005,Organization-005-Dept-01,WBC,White Blood Cell Count,9.32,10^3/uL,preliminary,2024-03-29T04:25:46
+Patient-157-Enc-01-Lab-WBC,Patient-157-Enc-01,Patient-157,Organization-004,Organization-004-Dept-02,WBC,White Blood Cell Count,10.65,10^3/uL,amended,2025-05-19T23:52:10
+Patient-157-Enc-01-Lab-HGB,Patient-157-Enc-01,Patient-157,Organization-004,Organization-004-Dept-02,HGB,Hemoglobin,12.18,g/dL,amended,2023-12-08T00:36:23
+Patient-157-Enc-02-Lab-CR,Patient-157-Enc-02,Patient-157,Organization-004,Organization-004-Dept-02,CR,Creatinine,1.22,mg/dL,amended,2023-09-26T20:58:01
+Patient-157-Enc-02-Lab-HGB,Patient-157-Enc-02,Patient-157,Organization-004,Organization-004-Dept-02,HGB,Hemoglobin,15.72,g/dL,final,2025-03-12T01:37:20
+Patient-157-Enc-03-Lab-WBC,Patient-157-Enc-03,Patient-157,Organization-004,Organization-004-Dept-02,WBC,White Blood Cell Count,8.0,10^3/uL,preliminary,2023-11-30T08:59:18
+Patient-157-Enc-03-Lab-PLT,Patient-157-Enc-03,Patient-157,Organization-004,Organization-004-Dept-02,PLT,Platelets,382.86,10^3/uL,amended,2024-02-12T10:16:23
+Patient-157-Enc-03-Lab-HGB,Patient-157-Enc-03,Patient-157,Organization-004,Organization-004-Dept-02,HGB,Hemoglobin,16.74,g/dL,final,2025-02-04T18:30:56
+Patient-157-Enc-04-Lab-PLT,Patient-157-Enc-04,Patient-157,Organization-004,Organization-004-Dept-01,PLT,Platelets,390.83,10^3/uL,preliminary,2025-06-11T09:50:02
+Patient-157-Enc-05-Lab-GLU,Patient-157-Enc-05,Patient-157,Organization-004,Organization-004-Dept-02,GLU,Glucose,99.51,mg/dL,amended,2024-08-15T12:37:32
+Patient-158-Enc-01-Lab-PLT,Patient-158-Enc-01,Patient-158,Organization-002,Organization-002-Dept-02,PLT,Platelets,177.52,10^3/uL,final,2025-06-09T08:30:07
+Patient-158-Enc-02-Lab-CR,Patient-158-Enc-02,Patient-158,Organization-002,Organization-002-Dept-02,CR,Creatinine,1.25,mg/dL,preliminary,2025-03-27T08:52:36
+Patient-158-Enc-02-Lab-HGB,Patient-158-Enc-02,Patient-158,Organization-002,Organization-002-Dept-02,HGB,Hemoglobin,14.77,g/dL,preliminary,2024-12-31T03:21:23
+Patient-158-Enc-02-Lab-PLT,Patient-158-Enc-02,Patient-158,Organization-002,Organization-002-Dept-02,PLT,Platelets,322.92,10^3/uL,preliminary,2024-09-06T18:31:18
+Patient-159-Enc-01-Lab-GLU,Patient-159-Enc-01,Patient-159,Organization-010,Organization-010-Dept-01,GLU,Glucose,71.52,mg/dL,final,2023-07-27T04:44:18
+Patient-159-Enc-01-Lab-PLT,Patient-159-Enc-01,Patient-159,Organization-010,Organization-010-Dept-01,PLT,Platelets,218.71,10^3/uL,preliminary,2024-02-25T08:30:58
+Patient-159-Enc-02-Lab-WBC,Patient-159-Enc-02,Patient-159,Organization-010,Organization-010-Dept-05,WBC,White Blood Cell Count,8.54,10^3/uL,final,2025-02-25T01:17:41
+Patient-159-Enc-02-Lab-HGB,Patient-159-Enc-02,Patient-159,Organization-010,Organization-010-Dept-05,HGB,Hemoglobin,12.0,g/dL,amended,2024-03-10T09:56:59
+Patient-160-Enc-01-Lab-WBC,Patient-160-Enc-01,Patient-160,Organization-010,Organization-010-Dept-02,WBC,White Blood Cell Count,4.3,10^3/uL,preliminary,2023-12-04T06:10:24
+Patient-160-Enc-02-Lab-GLU,Patient-160-Enc-02,Patient-160,Organization-010,Organization-010-Dept-01,GLU,Glucose,97.2,mg/dL,amended,2024-11-21T09:43:25
+Patient-160-Enc-03-Lab-WBC,Patient-160-Enc-03,Patient-160,Organization-010,Organization-010-Dept-02,WBC,White Blood Cell Count,10.58,10^3/uL,preliminary,2024-06-22T11:14:26
+Patient-161-Enc-01-Lab-GLU,Patient-161-Enc-01,Patient-161,Organization-003,Organization-003-Dept-01,GLU,Glucose,77.75,mg/dL,preliminary,2024-08-12T07:31:02
+Patient-161-Enc-02-Lab-HGB,Patient-161-Enc-02,Patient-161,Organization-003,Organization-003-Dept-01,HGB,Hemoglobin,15.52,g/dL,amended,2024-02-29T01:16:49
+Patient-161-Enc-03-Lab-HGB,Patient-161-Enc-03,Patient-161,Organization-003,Organization-003-Dept-01,HGB,Hemoglobin,16.5,g/dL,preliminary,2025-05-24T05:10:59
+Patient-161-Enc-04-Lab-WBC,Patient-161-Enc-04,Patient-161,Organization-003,Organization-003-Dept-01,WBC,White Blood Cell Count,8.58,10^3/uL,final,2023-10-03T02:10:54
+Patient-162-Enc-01-Lab-WBC,Patient-162-Enc-01,Patient-162,Organization-009,Organization-009-Dept-03,WBC,White Blood Cell Count,10.73,10^3/uL,amended,2025-05-14T19:41:00
+Patient-162-Enc-01-Lab-CR,Patient-162-Enc-01,Patient-162,Organization-009,Organization-009-Dept-03,CR,Creatinine,0.78,mg/dL,preliminary,2024-04-29T07:05:27
+Patient-162-Enc-01-Lab-GLU,Patient-162-Enc-01,Patient-162,Organization-009,Organization-009-Dept-03,GLU,Glucose,108.05,mg/dL,preliminary,2024-06-11T19:25:23
+Patient-162-Enc-02-Lab-GLU,Patient-162-Enc-02,Patient-162,Organization-009,Organization-009-Dept-02,GLU,Glucose,94.91,mg/dL,amended,2023-08-09T13:39:55
+Patient-162-Enc-02-Lab-CR,Patient-162-Enc-02,Patient-162,Organization-009,Organization-009-Dept-02,CR,Creatinine,1.26,mg/dL,amended,2024-01-29T20:28:55
+Patient-162-Enc-02-Lab-WBC,Patient-162-Enc-02,Patient-162,Organization-009,Organization-009-Dept-02,WBC,White Blood Cell Count,7.63,10^3/uL,final,2025-04-17T11:41:53
+Patient-162-Enc-03-Lab-HGB,Patient-162-Enc-03,Patient-162,Organization-009,Organization-009-Dept-02,HGB,Hemoglobin,14.45,g/dL,final,2025-01-22T04:25:01
+Patient-163-Enc-01-Lab-PLT,Patient-163-Enc-01,Patient-163,Organization-004,Organization-004-Dept-01,PLT,Platelets,203.81,10^3/uL,final,2023-10-26T06:17:06
+Patient-163-Enc-01-Lab-HGB,Patient-163-Enc-01,Patient-163,Organization-004,Organization-004-Dept-01,HGB,Hemoglobin,13.83,g/dL,amended,2024-07-03T08:53:19
+Patient-163-Enc-01-Lab-WBC,Patient-163-Enc-01,Patient-163,Organization-004,Organization-004-Dept-01,WBC,White Blood Cell Count,5.82,10^3/uL,amended,2024-12-14T23:24:03
+Patient-163-Enc-02-Lab-HGB,Patient-163-Enc-02,Patient-163,Organization-004,Organization-004-Dept-02,HGB,Hemoglobin,15.01,g/dL,amended,2023-12-15T00:27:41
+Patient-163-Enc-03-Lab-WBC,Patient-163-Enc-03,Patient-163,Organization-004,Organization-004-Dept-02,WBC,White Blood Cell Count,9.25,10^3/uL,amended,2024-02-13T04:14:23
+Patient-163-Enc-04-Lab-CR,Patient-163-Enc-04,Patient-163,Organization-004,Organization-004-Dept-01,CR,Creatinine,1.23,mg/dL,preliminary,2023-09-01T09:51:13
+Patient-163-Enc-04-Lab-PLT,Patient-163-Enc-04,Patient-163,Organization-004,Organization-004-Dept-01,PLT,Platelets,205.5,10^3/uL,amended,2025-05-16T03:43:51
+Patient-163-Enc-05-Lab-WBC,Patient-163-Enc-05,Patient-163,Organization-004,Organization-004-Dept-01,WBC,White Blood Cell Count,10.09,10^3/uL,final,2023-10-20T02:02:56
+Patient-163-Enc-05-Lab-PLT,Patient-163-Enc-05,Patient-163,Organization-004,Organization-004-Dept-01,PLT,Platelets,171.66,10^3/uL,preliminary,2023-10-22T09:24:15
+Patient-164-Enc-01-Lab-CR,Patient-164-Enc-01,Patient-164,Organization-010,Organization-010-Dept-03,CR,Creatinine,0.82,mg/dL,final,2024-01-13T04:07:57
+Patient-164-Enc-01-Lab-HGB,Patient-164-Enc-01,Patient-164,Organization-010,Organization-010-Dept-03,HGB,Hemoglobin,14.85,g/dL,final,2024-04-26T15:08:38
+Patient-164-Enc-01-Lab-GLU,Patient-164-Enc-01,Patient-164,Organization-010,Organization-010-Dept-03,GLU,Glucose,80.9,mg/dL,amended,2025-03-01T22:16:52
+Patient-164-Enc-02-Lab-WBC,Patient-164-Enc-02,Patient-164,Organization-010,Organization-010-Dept-03,WBC,White Blood Cell Count,9.38,10^3/uL,preliminary,2023-12-16T01:38:14
+Patient-164-Enc-02-Lab-GLU,Patient-164-Enc-02,Patient-164,Organization-010,Organization-010-Dept-03,GLU,Glucose,91.18,mg/dL,preliminary,2024-02-06T16:19:22
+Patient-164-Enc-02-Lab-CR,Patient-164-Enc-02,Patient-164,Organization-010,Organization-010-Dept-03,CR,Creatinine,0.87,mg/dL,final,2023-06-25T15:36:19
+Patient-164-Enc-03-Lab-CR,Patient-164-Enc-03,Patient-164,Organization-010,Organization-010-Dept-03,CR,Creatinine,0.86,mg/dL,preliminary,2023-09-26T02:35:02
+Patient-164-Enc-04-Lab-GLU,Patient-164-Enc-04,Patient-164,Organization-010,Organization-010-Dept-01,GLU,Glucose,73.79,mg/dL,final,2025-03-23T00:13:07
+Patient-164-Enc-05-Lab-WBC,Patient-164-Enc-05,Patient-164,Organization-010,Organization-010-Dept-04,WBC,White Blood Cell Count,5.36,10^3/uL,final,2024-07-05T21:05:20
+Patient-165-Enc-01-Lab-PLT,Patient-165-Enc-01,Patient-165,Organization-009,Organization-009-Dept-02,PLT,Platelets,365.29,10^3/uL,final,2025-03-12T08:37:28
+Patient-165-Enc-01-Lab-WBC,Patient-165-Enc-01,Patient-165,Organization-009,Organization-009-Dept-02,WBC,White Blood Cell Count,9.24,10^3/uL,final,2023-08-27T07:09:55
+Patient-165-Enc-01-Lab-HGB,Patient-165-Enc-01,Patient-165,Organization-009,Organization-009-Dept-02,HGB,Hemoglobin,14.41,g/dL,amended,2023-12-14T06:31:54
+Patient-165-Enc-02-Lab-CR,Patient-165-Enc-02,Patient-165,Organization-009,Organization-009-Dept-03,CR,Creatinine,0.99,mg/dL,amended,2024-08-09T23:01:33
+Patient-165-Enc-02-Lab-PLT,Patient-165-Enc-02,Patient-165,Organization-009,Organization-009-Dept-03,PLT,Platelets,311.81,10^3/uL,final,2024-04-23T07:02:47
+Patient-165-Enc-02-Lab-GLU,Patient-165-Enc-02,Patient-165,Organization-009,Organization-009-Dept-03,GLU,Glucose,100.89,mg/dL,amended,2025-02-10T19:12:59
+Patient-165-Enc-03-Lab-GLU,Patient-165-Enc-03,Patient-165,Organization-009,Organization-009-Dept-03,GLU,Glucose,86.61,mg/dL,final,2024-12-21T12:39:23
+Patient-165-Enc-03-Lab-PLT,Patient-165-Enc-03,Patient-165,Organization-009,Organization-009-Dept-03,PLT,Platelets,343.01,10^3/uL,amended,2025-04-14T07:43:23
+Patient-165-Enc-04-Lab-PLT,Patient-165-Enc-04,Patient-165,Organization-009,Organization-009-Dept-03,PLT,Platelets,253.9,10^3/uL,amended,2024-09-20T07:59:40
+Patient-165-Enc-04-Lab-HGB,Patient-165-Enc-04,Patient-165,Organization-009,Organization-009-Dept-03,HGB,Hemoglobin,14.95,g/dL,amended,2024-08-15T14:49:59
+Patient-165-Enc-05-Lab-WBC,Patient-165-Enc-05,Patient-165,Organization-009,Organization-009-Dept-02,WBC,White Blood Cell Count,10.47,10^3/uL,final,2024-11-05T14:41:34
+Patient-166-Enc-01-Lab-GLU,Patient-166-Enc-01,Patient-166,Organization-006,Organization-006-Dept-02,GLU,Glucose,77.13,mg/dL,final,2024-07-02T05:34:03
+Patient-166-Enc-01-Lab-PLT,Patient-166-Enc-01,Patient-166,Organization-006,Organization-006-Dept-02,PLT,Platelets,336.8,10^3/uL,amended,2024-03-07T20:47:38
+Patient-166-Enc-01-Lab-CR,Patient-166-Enc-01,Patient-166,Organization-006,Organization-006-Dept-02,CR,Creatinine,0.69,mg/dL,amended,2024-10-15T05:14:34
+Patient-167-Enc-01-Lab-WBC,Patient-167-Enc-01,Patient-167,Organization-005,Organization-005-Dept-01,WBC,White Blood Cell Count,6.1,10^3/uL,preliminary,2023-10-21T07:31:43
+Patient-167-Enc-01-Lab-PLT,Patient-167-Enc-01,Patient-167,Organization-005,Organization-005-Dept-01,PLT,Platelets,251.83,10^3/uL,preliminary,2025-05-17T07:55:19
+Patient-168-Enc-01-Lab-CR,Patient-168-Enc-01,Patient-168,Organization-003,Organization-003-Dept-01,CR,Creatinine,0.74,mg/dL,amended,2024-10-05T13:23:09
+Patient-168-Enc-01-Lab-HGB,Patient-168-Enc-01,Patient-168,Organization-003,Organization-003-Dept-01,HGB,Hemoglobin,16.57,g/dL,amended,2024-10-10T14:52:07
+Patient-169-Enc-01-Lab-CR,Patient-169-Enc-01,Patient-169,Organization-004,Organization-004-Dept-02,CR,Creatinine,0.76,mg/dL,amended,2024-05-05T15:56:45
+Patient-169-Enc-01-Lab-HGB,Patient-169-Enc-01,Patient-169,Organization-004,Organization-004-Dept-02,HGB,Hemoglobin,15.61,g/dL,final,2024-09-23T11:50:24
+Patient-169-Enc-02-Lab-HGB,Patient-169-Enc-02,Patient-169,Organization-004,Organization-004-Dept-02,HGB,Hemoglobin,16.46,g/dL,amended,2024-12-12T10:07:13
+Patient-169-Enc-02-Lab-CR,Patient-169-Enc-02,Patient-169,Organization-004,Organization-004-Dept-02,CR,Creatinine,1.03,mg/dL,final,2025-01-20T08:21:03
+Patient-169-Enc-03-Lab-WBC,Patient-169-Enc-03,Patient-169,Organization-004,Organization-004-Dept-02,WBC,White Blood Cell Count,8.81,10^3/uL,final,2024-05-07T14:17:04
+Patient-169-Enc-03-Lab-HGB,Patient-169-Enc-03,Patient-169,Organization-004,Organization-004-Dept-02,HGB,Hemoglobin,12.17,g/dL,amended,2024-06-12T02:03:06
+Patient-169-Enc-04-Lab-HGB,Patient-169-Enc-04,Patient-169,Organization-004,Organization-004-Dept-02,HGB,Hemoglobin,13.78,g/dL,amended,2023-12-16T19:11:36
+Patient-169-Enc-04-Lab-GLU,Patient-169-Enc-04,Patient-169,Organization-004,Organization-004-Dept-02,GLU,Glucose,76.15,mg/dL,amended,2024-12-18T16:36:47
+Patient-169-Enc-04-Lab-WBC,Patient-169-Enc-04,Patient-169,Organization-004,Organization-004-Dept-02,WBC,White Blood Cell Count,7.52,10^3/uL,amended,2023-09-14T19:01:59
+Patient-169-Enc-05-Lab-WBC,Patient-169-Enc-05,Patient-169,Organization-004,Organization-004-Dept-02,WBC,White Blood Cell Count,4.98,10^3/uL,final,2023-10-16T16:23:15
+Patient-169-Enc-05-Lab-CR,Patient-169-Enc-05,Patient-169,Organization-004,Organization-004-Dept-02,CR,Creatinine,1.04,mg/dL,preliminary,2023-09-06T03:23:42
+Patient-170-Enc-01-Lab-GLU,Patient-170-Enc-01,Patient-170,Organization-007,Organization-007-Dept-02,GLU,Glucose,99.31,mg/dL,amended,2025-04-01T21:02:40
+Patient-171-Enc-01-Lab-GLU,Patient-171-Enc-01,Patient-171,Organization-004,Organization-004-Dept-02,GLU,Glucose,107.53,mg/dL,amended,2025-03-18T09:02:59
+Patient-171-Enc-01-Lab-WBC,Patient-171-Enc-01,Patient-171,Organization-004,Organization-004-Dept-02,WBC,White Blood Cell Count,4.15,10^3/uL,preliminary,2023-07-28T06:44:58
+Patient-171-Enc-02-Lab-GLU,Patient-171-Enc-02,Patient-171,Organization-004,Organization-004-Dept-01,GLU,Glucose,71.37,mg/dL,preliminary,2024-11-23T08:04:17
+Patient-171-Enc-02-Lab-WBC,Patient-171-Enc-02,Patient-171,Organization-004,Organization-004-Dept-01,WBC,White Blood Cell Count,10.12,10^3/uL,preliminary,2024-04-06T06:40:22
+Patient-171-Enc-02-Lab-CR,Patient-171-Enc-02,Patient-171,Organization-004,Organization-004-Dept-01,CR,Creatinine,0.98,mg/dL,final,2025-04-25T19:19:50
+Patient-171-Enc-03-Lab-PLT,Patient-171-Enc-03,Patient-171,Organization-004,Organization-004-Dept-02,PLT,Platelets,279.72,10^3/uL,amended,2024-07-06T02:48:32
+Patient-171-Enc-03-Lab-HGB,Patient-171-Enc-03,Patient-171,Organization-004,Organization-004-Dept-02,HGB,Hemoglobin,12.22,g/dL,final,2025-03-28T11:53:48
+Patient-171-Enc-03-Lab-WBC,Patient-171-Enc-03,Patient-171,Organization-004,Organization-004-Dept-02,WBC,White Blood Cell Count,9.65,10^3/uL,amended,2024-10-07T23:39:07
+Patient-171-Enc-04-Lab-GLU,Patient-171-Enc-04,Patient-171,Organization-004,Organization-004-Dept-02,GLU,Glucose,76.72,mg/dL,final,2025-01-06T01:10:23
+Patient-171-Enc-04-Lab-PLT,Patient-171-Enc-04,Patient-171,Organization-004,Organization-004-Dept-02,PLT,Platelets,258.67,10^3/uL,preliminary,2024-03-18T23:03:14
+Patient-171-Enc-04-Lab-CR,Patient-171-Enc-04,Patient-171,Organization-004,Organization-004-Dept-02,CR,Creatinine,1.29,mg/dL,final,2025-04-26T00:24:10
+Patient-171-Enc-05-Lab-GLU,Patient-171-Enc-05,Patient-171,Organization-004,Organization-004-Dept-01,GLU,Glucose,92.3,mg/dL,final,2025-03-30T00:39:49
+Patient-171-Enc-05-Lab-HGB,Patient-171-Enc-05,Patient-171,Organization-004,Organization-004-Dept-01,HGB,Hemoglobin,12.98,g/dL,preliminary,2024-12-02T02:04:00
+Patient-172-Enc-01-Lab-GLU,Patient-172-Enc-01,Patient-172,Organization-008,Organization-008-Dept-01,GLU,Glucose,81.07,mg/dL,preliminary,2025-05-06T01:05:56
+Patient-173-Enc-01-Lab-WBC,Patient-173-Enc-01,Patient-173,Organization-008,Organization-008-Dept-01,WBC,White Blood Cell Count,7.63,10^3/uL,amended,2024-12-14T07:33:17
+Patient-174-Enc-01-Lab-WBC,Patient-174-Enc-01,Patient-174,Organization-009,Organization-009-Dept-02,WBC,White Blood Cell Count,7.99,10^3/uL,final,2025-05-08T09:52:36
+Patient-174-Enc-02-Lab-PLT,Patient-174-Enc-02,Patient-174,Organization-009,Organization-009-Dept-03,PLT,Platelets,163.84,10^3/uL,final,2023-09-04T12:08:27
+Patient-174-Enc-02-Lab-CR,Patient-174-Enc-02,Patient-174,Organization-009,Organization-009-Dept-03,CR,Creatinine,1.06,mg/dL,final,2025-01-02T18:16:53
+Patient-174-Enc-03-Lab-GLU,Patient-174-Enc-03,Patient-174,Organization-009,Organization-009-Dept-03,GLU,Glucose,107.1,mg/dL,preliminary,2024-03-07T03:40:10
+Patient-174-Enc-04-Lab-GLU,Patient-174-Enc-04,Patient-174,Organization-009,Organization-009-Dept-03,GLU,Glucose,85.31,mg/dL,final,2024-08-02T14:43:00
+Patient-174-Enc-04-Lab-WBC,Patient-174-Enc-04,Patient-174,Organization-009,Organization-009-Dept-03,WBC,White Blood Cell Count,10.06,10^3/uL,amended,2025-06-16T22:22:14
+Patient-174-Enc-04-Lab-PLT,Patient-174-Enc-04,Patient-174,Organization-009,Organization-009-Dept-03,PLT,Platelets,197.04,10^3/uL,amended,2024-10-03T08:30:55
+Patient-174-Enc-05-Lab-PLT,Patient-174-Enc-05,Patient-174,Organization-009,Organization-009-Dept-01,PLT,Platelets,356.25,10^3/uL,amended,2024-07-21T18:28:59
+Patient-174-Enc-05-Lab-HGB,Patient-174-Enc-05,Patient-174,Organization-009,Organization-009-Dept-01,HGB,Hemoglobin,15.98,g/dL,final,2024-06-29T19:37:29
+Patient-174-Enc-05-Lab-CR,Patient-174-Enc-05,Patient-174,Organization-009,Organization-009-Dept-01,CR,Creatinine,0.91,mg/dL,final,2024-01-26T03:48:14
+Patient-175-Enc-01-Lab-GLU,Patient-175-Enc-01,Patient-175,Organization-003,Organization-003-Dept-01,GLU,Glucose,105.58,mg/dL,preliminary,2023-11-05T00:38:11
+Patient-175-Enc-01-Lab-WBC,Patient-175-Enc-01,Patient-175,Organization-003,Organization-003-Dept-01,WBC,White Blood Cell Count,4.09,10^3/uL,preliminary,2023-09-24T00:36:03
+Patient-175-Enc-02-Lab-WBC,Patient-175-Enc-02,Patient-175,Organization-003,Organization-003-Dept-01,WBC,White Blood Cell Count,8.92,10^3/uL,preliminary,2023-10-08T12:16:31
+Patient-175-Enc-02-Lab-GLU,Patient-175-Enc-02,Patient-175,Organization-003,Organization-003-Dept-01,GLU,Glucose,101.34,mg/dL,final,2024-05-06T12:33:26
+Patient-175-Enc-03-Lab-PLT,Patient-175-Enc-03,Patient-175,Organization-003,Organization-003-Dept-01,PLT,Platelets,342.38,10^3/uL,final,2024-07-06T23:00:55
+Patient-175-Enc-04-Lab-HGB,Patient-175-Enc-04,Patient-175,Organization-003,Organization-003-Dept-01,HGB,Hemoglobin,15.41,g/dL,preliminary,2024-09-19T01:37:53
+Patient-175-Enc-04-Lab-GLU,Patient-175-Enc-04,Patient-175,Organization-003,Organization-003-Dept-01,GLU,Glucose,87.04,mg/dL,preliminary,2024-12-30T23:32:56
+Patient-175-Enc-04-Lab-WBC,Patient-175-Enc-04,Patient-175,Organization-003,Organization-003-Dept-01,WBC,White Blood Cell Count,5.15,10^3/uL,amended,2023-10-03T15:57:37
+Patient-176-Enc-01-Lab-GLU,Patient-176-Enc-01,Patient-176,Organization-008,Organization-008-Dept-01,GLU,Glucose,89.95,mg/dL,final,2023-11-13T16:52:58
+Patient-176-Enc-01-Lab-PLT,Patient-176-Enc-01,Patient-176,Organization-008,Organization-008-Dept-01,PLT,Platelets,372.51,10^3/uL,preliminary,2025-01-17T01:38:20
+Patient-176-Enc-01-Lab-WBC,Patient-176-Enc-01,Patient-176,Organization-008,Organization-008-Dept-01,WBC,White Blood Cell Count,4.46,10^3/uL,preliminary,2023-12-03T18:12:46
+Patient-176-Enc-02-Lab-PLT,Patient-176-Enc-02,Patient-176,Organization-008,Organization-008-Dept-01,PLT,Platelets,385.88,10^3/uL,preliminary,2023-07-04T21:22:58
+Patient-176-Enc-03-Lab-GLU,Patient-176-Enc-03,Patient-176,Organization-008,Organization-008-Dept-01,GLU,Glucose,74.46,mg/dL,final,2025-02-27T09:22:58
+Patient-176-Enc-03-Lab-HGB,Patient-176-Enc-03,Patient-176,Organization-008,Organization-008-Dept-01,HGB,Hemoglobin,15.99,g/dL,amended,2024-02-06T07:02:35
+Patient-177-Enc-01-Lab-WBC,Patient-177-Enc-01,Patient-177,Organization-006,Organization-006-Dept-01,WBC,White Blood Cell Count,4.85,10^3/uL,preliminary,2024-03-14T07:32:21
+Patient-177-Enc-01-Lab-GLU,Patient-177-Enc-01,Patient-177,Organization-006,Organization-006-Dept-01,GLU,Glucose,93.72,mg/dL,final,2024-12-04T06:43:53
+Patient-177-Enc-01-Lab-HGB,Patient-177-Enc-01,Patient-177,Organization-006,Organization-006-Dept-01,HGB,Hemoglobin,14.55,g/dL,preliminary,2025-05-16T14:26:33
+Patient-177-Enc-02-Lab-WBC,Patient-177-Enc-02,Patient-177,Organization-006,Organization-006-Dept-01,WBC,White Blood Cell Count,8.15,10^3/uL,final,2023-06-27T07:28:05
+Patient-177-Enc-02-Lab-HGB,Patient-177-Enc-02,Patient-177,Organization-006,Organization-006-Dept-01,HGB,Hemoglobin,13.95,g/dL,final,2023-09-27T02:35:28
+Patient-177-Enc-02-Lab-PLT,Patient-177-Enc-02,Patient-177,Organization-006,Organization-006-Dept-01,PLT,Platelets,216.77,10^3/uL,preliminary,2023-11-24T07:01:30
+Patient-177-Enc-03-Lab-WBC,Patient-177-Enc-03,Patient-177,Organization-006,Organization-006-Dept-01,WBC,White Blood Cell Count,5.28,10^3/uL,final,2025-04-25T21:51:23
+Patient-177-Enc-04-Lab-GLU,Patient-177-Enc-04,Patient-177,Organization-006,Organization-006-Dept-02,GLU,Glucose,70.38,mg/dL,preliminary,2023-07-03T17:34:00
+Patient-177-Enc-04-Lab-HGB,Patient-177-Enc-04,Patient-177,Organization-006,Organization-006-Dept-02,HGB,Hemoglobin,16.29,g/dL,preliminary,2023-06-22T11:22:18
+Patient-177-Enc-04-Lab-WBC,Patient-177-Enc-04,Patient-177,Organization-006,Organization-006-Dept-02,WBC,White Blood Cell Count,7.41,10^3/uL,preliminary,2023-08-13T00:58:23
+Patient-177-Enc-05-Lab-PLT,Patient-177-Enc-05,Patient-177,Organization-006,Organization-006-Dept-02,PLT,Platelets,223.33,10^3/uL,amended,2024-04-06T05:33:54
+Patient-177-Enc-05-Lab-CR,Patient-177-Enc-05,Patient-177,Organization-006,Organization-006-Dept-02,CR,Creatinine,0.72,mg/dL,preliminary,2025-05-21T20:23:15
+Patient-177-Enc-05-Lab-HGB,Patient-177-Enc-05,Patient-177,Organization-006,Organization-006-Dept-02,HGB,Hemoglobin,14.65,g/dL,preliminary,2024-04-24T18:02:38
+Patient-178-Enc-01-Lab-HGB,Patient-178-Enc-01,Patient-178,Organization-003,Organization-003-Dept-01,HGB,Hemoglobin,12.41,g/dL,amended,2025-06-10T07:45:07
+Patient-178-Enc-01-Lab-WBC,Patient-178-Enc-01,Patient-178,Organization-003,Organization-003-Dept-01,WBC,White Blood Cell Count,7.97,10^3/uL,amended,2024-10-10T17:48:44
+Patient-178-Enc-01-Lab-PLT,Patient-178-Enc-01,Patient-178,Organization-003,Organization-003-Dept-01,PLT,Platelets,262.52,10^3/uL,preliminary,2024-03-03T06:45:16
+Patient-178-Enc-02-Lab-CR,Patient-178-Enc-02,Patient-178,Organization-003,Organization-003-Dept-01,CR,Creatinine,1.18,mg/dL,amended,2024-03-26T00:52:56
+Patient-178-Enc-03-Lab-GLU,Patient-178-Enc-03,Patient-178,Organization-003,Organization-003-Dept-01,GLU,Glucose,100.23,mg/dL,preliminary,2025-03-24T11:04:42
+Patient-178-Enc-03-Lab-PLT,Patient-178-Enc-03,Patient-178,Organization-003,Organization-003-Dept-01,PLT,Platelets,317.79,10^3/uL,amended,2024-01-09T03:28:16
+Patient-178-Enc-03-Lab-CR,Patient-178-Enc-03,Patient-178,Organization-003,Organization-003-Dept-01,CR,Creatinine,1.14,mg/dL,amended,2023-08-22T22:37:51
+Patient-178-Enc-04-Lab-CR,Patient-178-Enc-04,Patient-178,Organization-003,Organization-003-Dept-01,CR,Creatinine,0.65,mg/dL,final,2023-06-23T17:08:20
+Patient-178-Enc-04-Lab-GLU,Patient-178-Enc-04,Patient-178,Organization-003,Organization-003-Dept-01,GLU,Glucose,91.24,mg/dL,amended,2024-08-30T14:59:49
+Patient-178-Enc-04-Lab-HGB,Patient-178-Enc-04,Patient-178,Organization-003,Organization-003-Dept-01,HGB,Hemoglobin,15.5,g/dL,preliminary,2024-07-05T05:33:56
+Patient-178-Enc-05-Lab-WBC,Patient-178-Enc-05,Patient-178,Organization-003,Organization-003-Dept-01,WBC,White Blood Cell Count,7.89,10^3/uL,preliminary,2023-10-09T08:18:15
+Patient-178-Enc-05-Lab-HGB,Patient-178-Enc-05,Patient-178,Organization-003,Organization-003-Dept-01,HGB,Hemoglobin,13.15,g/dL,amended,2025-03-08T16:02:10
+Patient-178-Enc-05-Lab-PLT,Patient-178-Enc-05,Patient-178,Organization-003,Organization-003-Dept-01,PLT,Platelets,235.61,10^3/uL,amended,2024-02-04T11:41:35
+Patient-179-Enc-01-Lab-HGB,Patient-179-Enc-01,Patient-179,Organization-001,Organization-001-Dept-07,HGB,Hemoglobin,15.17,g/dL,amended,2024-05-12T16:49:22
+Patient-179-Enc-02-Lab-WBC,Patient-179-Enc-02,Patient-179,Organization-001,Organization-001-Dept-03,WBC,White Blood Cell Count,9.56,10^3/uL,preliminary,2024-06-11T07:36:57
+Patient-179-Enc-02-Lab-HGB,Patient-179-Enc-02,Patient-179,Organization-001,Organization-001-Dept-03,HGB,Hemoglobin,14.39,g/dL,preliminary,2025-05-15T15:56:26
+Patient-179-Enc-02-Lab-PLT,Patient-179-Enc-02,Patient-179,Organization-001,Organization-001-Dept-03,PLT,Platelets,163.37,10^3/uL,final,2023-09-03T02:30:24
+Patient-180-Enc-01-Lab-PLT,Patient-180-Enc-01,Patient-180,Organization-002,Organization-002-Dept-02,PLT,Platelets,182.35,10^3/uL,amended,2023-12-20T23:21:52
+Patient-180-Enc-01-Lab-CR,Patient-180-Enc-01,Patient-180,Organization-002,Organization-002-Dept-02,CR,Creatinine,0.82,mg/dL,preliminary,2025-02-15T07:45:45
+Patient-180-Enc-01-Lab-HGB,Patient-180-Enc-01,Patient-180,Organization-002,Organization-002-Dept-02,HGB,Hemoglobin,12.03,g/dL,amended,2024-08-30T10:22:52
+Patient-180-Enc-02-Lab-HGB,Patient-180-Enc-02,Patient-180,Organization-002,Organization-002-Dept-02,HGB,Hemoglobin,16.6,g/dL,preliminary,2023-08-14T18:20:13
+Patient-180-Enc-02-Lab-CR,Patient-180-Enc-02,Patient-180,Organization-002,Organization-002-Dept-02,CR,Creatinine,1.17,mg/dL,final,2023-09-26T11:50:50
+Patient-180-Enc-03-Lab-HGB,Patient-180-Enc-03,Patient-180,Organization-002,Organization-002-Dept-02,HGB,Hemoglobin,16.75,g/dL,amended,2025-04-04T04:10:20
+Patient-180-Enc-04-Lab-GLU,Patient-180-Enc-04,Patient-180,Organization-002,Organization-002-Dept-02,GLU,Glucose,98.05,mg/dL,final,2024-01-08T16:58:10
+Patient-180-Enc-04-Lab-PLT,Patient-180-Enc-04,Patient-180,Organization-002,Organization-002-Dept-02,PLT,Platelets,203.62,10^3/uL,final,2024-10-24T08:08:20
+Patient-180-Enc-05-Lab-HGB,Patient-180-Enc-05,Patient-180,Organization-002,Organization-002-Dept-02,HGB,Hemoglobin,16.57,g/dL,amended,2024-09-20T00:03:47
+Patient-181-Enc-01-Lab-WBC,Patient-181-Enc-01,Patient-181,Organization-009,Organization-009-Dept-03,WBC,White Blood Cell Count,4.66,10^3/uL,amended,2023-08-28T20:53:54
+Patient-181-Enc-02-Lab-GLU,Patient-181-Enc-02,Patient-181,Organization-009,Organization-009-Dept-01,GLU,Glucose,105.67,mg/dL,preliminary,2023-07-26T12:40:34
+Patient-182-Enc-01-Lab-CR,Patient-182-Enc-01,Patient-182,Organization-003,Organization-003-Dept-01,CR,Creatinine,1.11,mg/dL,preliminary,2023-12-30T04:40:10
+Patient-182-Enc-01-Lab-GLU,Patient-182-Enc-01,Patient-182,Organization-003,Organization-003-Dept-01,GLU,Glucose,72.53,mg/dL,preliminary,2024-05-04T12:16:19
+Patient-182-Enc-02-Lab-WBC,Patient-182-Enc-02,Patient-182,Organization-003,Organization-003-Dept-01,WBC,White Blood Cell Count,5.66,10^3/uL,amended,2025-02-08T04:40:08
+Patient-182-Enc-02-Lab-PLT,Patient-182-Enc-02,Patient-182,Organization-003,Organization-003-Dept-01,PLT,Platelets,236.5,10^3/uL,preliminary,2024-08-27T06:32:41
+Patient-182-Enc-02-Lab-CR,Patient-182-Enc-02,Patient-182,Organization-003,Organization-003-Dept-01,CR,Creatinine,0.74,mg/dL,final,2024-01-26T07:05:14
+Patient-183-Enc-01-Lab-GLU,Patient-183-Enc-01,Patient-183,Organization-001,Organization-001-Dept-07,GLU,Glucose,93.27,mg/dL,preliminary,2024-07-30T13:22:29
+Patient-183-Enc-02-Lab-HGB,Patient-183-Enc-02,Patient-183,Organization-001,Organization-001-Dept-07,HGB,Hemoglobin,16.41,g/dL,amended,2024-01-13T06:32:40
+Patient-183-Enc-02-Lab-CR,Patient-183-Enc-02,Patient-183,Organization-001,Organization-001-Dept-07,CR,Creatinine,1.14,mg/dL,preliminary,2024-01-07T06:05:10
+Patient-183-Enc-03-Lab-CR,Patient-183-Enc-03,Patient-183,Organization-001,Organization-001-Dept-03,CR,Creatinine,1.06,mg/dL,amended,2025-06-04T15:40:01
+Patient-183-Enc-03-Lab-PLT,Patient-183-Enc-03,Patient-183,Organization-001,Organization-001-Dept-03,PLT,Platelets,208.63,10^3/uL,final,2025-03-18T19:26:44
+Patient-183-Enc-04-Lab-PLT,Patient-183-Enc-04,Patient-183,Organization-001,Organization-001-Dept-07,PLT,Platelets,299.51,10^3/uL,final,2023-06-30T02:34:21
+Patient-183-Enc-04-Lab-WBC,Patient-183-Enc-04,Patient-183,Organization-001,Organization-001-Dept-07,WBC,White Blood Cell Count,9.94,10^3/uL,amended,2024-01-05T20:34:03
+Patient-184-Enc-01-Lab-PLT,Patient-184-Enc-01,Patient-184,Organization-010,Organization-010-Dept-05,PLT,Platelets,389.48,10^3/uL,final,2025-05-27T17:06:13
+Patient-184-Enc-01-Lab-WBC,Patient-184-Enc-01,Patient-184,Organization-010,Organization-010-Dept-05,WBC,White Blood Cell Count,6.37,10^3/uL,amended,2023-12-08T10:07:01
+Patient-184-Enc-02-Lab-CR,Patient-184-Enc-02,Patient-184,Organization-010,Organization-010-Dept-04,CR,Creatinine,0.64,mg/dL,amended,2023-09-10T09:05:31
+Patient-184-Enc-02-Lab-WBC,Patient-184-Enc-02,Patient-184,Organization-010,Organization-010-Dept-04,WBC,White Blood Cell Count,6.71,10^3/uL,preliminary,2024-10-22T22:18:32
+Patient-184-Enc-02-Lab-GLU,Patient-184-Enc-02,Patient-184,Organization-010,Organization-010-Dept-04,GLU,Glucose,72.26,mg/dL,preliminary,2024-06-19T20:52:53
+Patient-184-Enc-03-Lab-WBC,Patient-184-Enc-03,Patient-184,Organization-010,Organization-010-Dept-01,WBC,White Blood Cell Count,8.81,10^3/uL,final,2024-07-13T03:02:26
+Patient-184-Enc-04-Lab-GLU,Patient-184-Enc-04,Patient-184,Organization-010,Organization-010-Dept-05,GLU,Glucose,90.58,mg/dL,preliminary,2023-10-16T08:40:55
+Patient-184-Enc-04-Lab-PLT,Patient-184-Enc-04,Patient-184,Organization-010,Organization-010-Dept-05,PLT,Platelets,306.09,10^3/uL,final,2025-02-09T15:01:21
+Patient-184-Enc-04-Lab-WBC,Patient-184-Enc-04,Patient-184,Organization-010,Organization-010-Dept-05,WBC,White Blood Cell Count,4.29,10^3/uL,preliminary,2024-05-21T07:44:19
+Patient-185-Enc-01-Lab-CR,Patient-185-Enc-01,Patient-185,Organization-003,Organization-003-Dept-01,CR,Creatinine,0.9,mg/dL,final,2024-08-14T19:00:31
+Patient-185-Enc-01-Lab-HGB,Patient-185-Enc-01,Patient-185,Organization-003,Organization-003-Dept-01,HGB,Hemoglobin,15.17,g/dL,final,2023-12-24T15:56:03
+Patient-185-Enc-02-Lab-HGB,Patient-185-Enc-02,Patient-185,Organization-003,Organization-003-Dept-01,HGB,Hemoglobin,13.75,g/dL,amended,2024-08-02T01:30:03
+Patient-185-Enc-03-Lab-GLU,Patient-185-Enc-03,Patient-185,Organization-003,Organization-003-Dept-01,GLU,Glucose,93.01,mg/dL,amended,2024-06-05T12:52:07
+Patient-185-Enc-04-Lab-CR,Patient-185-Enc-04,Patient-185,Organization-003,Organization-003-Dept-01,CR,Creatinine,1.26,mg/dL,amended,2024-02-11T15:03:28
+Patient-185-Enc-04-Lab-GLU,Patient-185-Enc-04,Patient-185,Organization-003,Organization-003-Dept-01,GLU,Glucose,102.26,mg/dL,final,2023-09-29T18:31:15
+Patient-185-Enc-04-Lab-PLT,Patient-185-Enc-04,Patient-185,Organization-003,Organization-003-Dept-01,PLT,Platelets,280.15,10^3/uL,preliminary,2025-06-13T05:46:44
+Patient-185-Enc-05-Lab-CR,Patient-185-Enc-05,Patient-185,Organization-003,Organization-003-Dept-01,CR,Creatinine,1.24,mg/dL,preliminary,2024-09-18T04:06:01
+Patient-185-Enc-05-Lab-GLU,Patient-185-Enc-05,Patient-185,Organization-003,Organization-003-Dept-01,GLU,Glucose,80.73,mg/dL,final,2023-11-08T00:13:44
+Patient-186-Enc-01-Lab-WBC,Patient-186-Enc-01,Patient-186,Organization-005,Organization-005-Dept-01,WBC,White Blood Cell Count,9.37,10^3/uL,preliminary,2025-06-12T17:57:15
+Patient-186-Enc-01-Lab-HGB,Patient-186-Enc-01,Patient-186,Organization-005,Organization-005-Dept-01,HGB,Hemoglobin,13.72,g/dL,amended,2024-09-15T12:25:06
+Patient-186-Enc-01-Lab-GLU,Patient-186-Enc-01,Patient-186,Organization-005,Organization-005-Dept-01,GLU,Glucose,87.98,mg/dL,preliminary,2025-06-02T16:29:06
+Patient-186-Enc-02-Lab-GLU,Patient-186-Enc-02,Patient-186,Organization-005,Organization-005-Dept-01,GLU,Glucose,93.08,mg/dL,preliminary,2024-07-27T13:35:56
+Patient-186-Enc-03-Lab-WBC,Patient-186-Enc-03,Patient-186,Organization-005,Organization-005-Dept-01,WBC,White Blood Cell Count,5.7,10^3/uL,amended,2024-08-23T04:55:29
+Patient-186-Enc-03-Lab-PLT,Patient-186-Enc-03,Patient-186,Organization-005,Organization-005-Dept-01,PLT,Platelets,292.25,10^3/uL,preliminary,2025-05-27T16:41:34
+Patient-187-Enc-01-Lab-PLT,Patient-187-Enc-01,Patient-187,Organization-001,Organization-001-Dept-04,PLT,Platelets,210.63,10^3/uL,final,2023-10-09T14:33:54
+Patient-187-Enc-01-Lab-HGB,Patient-187-Enc-01,Patient-187,Organization-001,Organization-001-Dept-04,HGB,Hemoglobin,14.26,g/dL,preliminary,2024-08-14T16:14:48
+Patient-187-Enc-01-Lab-GLU,Patient-187-Enc-01,Patient-187,Organization-001,Organization-001-Dept-04,GLU,Glucose,90.24,mg/dL,preliminary,2025-04-28T11:16:23
+Patient-187-Enc-02-Lab-PLT,Patient-187-Enc-02,Patient-187,Organization-001,Organization-001-Dept-07,PLT,Platelets,315.71,10^3/uL,preliminary,2024-05-25T09:34:02
+Patient-188-Enc-01-Lab-PLT,Patient-188-Enc-01,Patient-188,Organization-003,Organization-003-Dept-01,PLT,Platelets,264.23,10^3/uL,final,2024-11-13T21:38:58
+Patient-188-Enc-01-Lab-HGB,Patient-188-Enc-01,Patient-188,Organization-003,Organization-003-Dept-01,HGB,Hemoglobin,12.57,g/dL,preliminary,2025-04-20T06:57:43
+Patient-188-Enc-01-Lab-WBC,Patient-188-Enc-01,Patient-188,Organization-003,Organization-003-Dept-01,WBC,White Blood Cell Count,5.97,10^3/uL,final,2023-12-28T22:28:53
+Patient-188-Enc-02-Lab-CR,Patient-188-Enc-02,Patient-188,Organization-003,Organization-003-Dept-01,CR,Creatinine,1.09,mg/dL,final,2024-04-26T01:52:04
+Patient-188-Enc-02-Lab-WBC,Patient-188-Enc-02,Patient-188,Organization-003,Organization-003-Dept-01,WBC,White Blood Cell Count,10.86,10^3/uL,preliminary,2025-03-14T01:53:12
+Patient-188-Enc-03-Lab-CR,Patient-188-Enc-03,Patient-188,Organization-003,Organization-003-Dept-01,CR,Creatinine,1.17,mg/dL,final,2023-08-30T12:03:02
+Patient-188-Enc-03-Lab-WBC,Patient-188-Enc-03,Patient-188,Organization-003,Organization-003-Dept-01,WBC,White Blood Cell Count,4.5,10^3/uL,amended,2023-07-11T16:22:11
+Patient-189-Enc-01-Lab-CR,Patient-189-Enc-01,Patient-189,Organization-003,Organization-003-Dept-01,CR,Creatinine,0.69,mg/dL,amended,2023-12-12T01:44:47
+Patient-189-Enc-01-Lab-HGB,Patient-189-Enc-01,Patient-189,Organization-003,Organization-003-Dept-01,HGB,Hemoglobin,14.44,g/dL,amended,2024-06-22T15:44:35
+Patient-189-Enc-02-Lab-GLU,Patient-189-Enc-02,Patient-189,Organization-003,Organization-003-Dept-01,GLU,Glucose,98.08,mg/dL,preliminary,2024-02-09T08:58:20
+Patient-189-Enc-02-Lab-PLT,Patient-189-Enc-02,Patient-189,Organization-003,Organization-003-Dept-01,PLT,Platelets,321.59,10^3/uL,final,2025-04-14T20:14:10
+Patient-189-Enc-02-Lab-HGB,Patient-189-Enc-02,Patient-189,Organization-003,Organization-003-Dept-01,HGB,Hemoglobin,12.31,g/dL,amended,2023-09-02T07:58:03
+Patient-189-Enc-03-Lab-WBC,Patient-189-Enc-03,Patient-189,Organization-003,Organization-003-Dept-01,WBC,White Blood Cell Count,5.29,10^3/uL,final,2023-07-13T05:59:30
+Patient-189-Enc-03-Lab-GLU,Patient-189-Enc-03,Patient-189,Organization-003,Organization-003-Dept-01,GLU,Glucose,70.9,mg/dL,amended,2024-01-26T22:46:46
+Patient-189-Enc-03-Lab-CR,Patient-189-Enc-03,Patient-189,Organization-003,Organization-003-Dept-01,CR,Creatinine,1.12,mg/dL,amended,2024-09-20T19:01:10
+Patient-190-Enc-01-Lab-PLT,Patient-190-Enc-01,Patient-190,Organization-002,Organization-002-Dept-02,PLT,Platelets,221.74,10^3/uL,final,2024-04-24T12:40:52
+Patient-190-Enc-01-Lab-WBC,Patient-190-Enc-01,Patient-190,Organization-002,Organization-002-Dept-02,WBC,White Blood Cell Count,4.3,10^3/uL,preliminary,2023-09-06T06:45:00
+Patient-190-Enc-01-Lab-HGB,Patient-190-Enc-01,Patient-190,Organization-002,Organization-002-Dept-02,HGB,Hemoglobin,12.56,g/dL,amended,2023-09-15T05:52:03
+Patient-190-Enc-02-Lab-GLU,Patient-190-Enc-02,Patient-190,Organization-002,Organization-002-Dept-01,GLU,Glucose,79.14,mg/dL,amended,2024-06-02T17:33:51
+Patient-190-Enc-03-Lab-WBC,Patient-190-Enc-03,Patient-190,Organization-002,Organization-002-Dept-01,WBC,White Blood Cell Count,5.02,10^3/uL,final,2024-11-03T03:25:40
+Patient-190-Enc-03-Lab-CR,Patient-190-Enc-03,Patient-190,Organization-002,Organization-002-Dept-01,CR,Creatinine,1.23,mg/dL,final,2024-11-04T05:07:31
+Patient-190-Enc-03-Lab-HGB,Patient-190-Enc-03,Patient-190,Organization-002,Organization-002-Dept-01,HGB,Hemoglobin,13.12,g/dL,amended,2023-06-26T09:47:54
+Patient-190-Enc-04-Lab-WBC,Patient-190-Enc-04,Patient-190,Organization-002,Organization-002-Dept-02,WBC,White Blood Cell Count,10.72,10^3/uL,preliminary,2024-07-31T00:25:22
+Patient-190-Enc-04-Lab-HGB,Patient-190-Enc-04,Patient-190,Organization-002,Organization-002-Dept-02,HGB,Hemoglobin,14.04,g/dL,preliminary,2023-10-14T11:00:48
+Patient-190-Enc-04-Lab-GLU,Patient-190-Enc-04,Patient-190,Organization-002,Organization-002-Dept-02,GLU,Glucose,80.68,mg/dL,final,2024-01-10T07:26:20
+Patient-190-Enc-05-Lab-CR,Patient-190-Enc-05,Patient-190,Organization-002,Organization-002-Dept-02,CR,Creatinine,1.15,mg/dL,preliminary,2023-08-22T07:40:04
+Patient-190-Enc-05-Lab-GLU,Patient-190-Enc-05,Patient-190,Organization-002,Organization-002-Dept-02,GLU,Glucose,98.07,mg/dL,final,2025-02-25T12:08:59
+Patient-191-Enc-01-Lab-GLU,Patient-191-Enc-01,Patient-191,Organization-002,Organization-002-Dept-01,GLU,Glucose,98.84,mg/dL,amended,2023-10-11T08:31:53
+Patient-191-Enc-01-Lab-HGB,Patient-191-Enc-01,Patient-191,Organization-002,Organization-002-Dept-01,HGB,Hemoglobin,14.04,g/dL,amended,2024-02-21T12:49:59
+Patient-191-Enc-01-Lab-CR,Patient-191-Enc-01,Patient-191,Organization-002,Organization-002-Dept-01,CR,Creatinine,1.11,mg/dL,final,2023-10-06T11:14:50
+Patient-191-Enc-02-Lab-WBC,Patient-191-Enc-02,Patient-191,Organization-002,Organization-002-Dept-02,WBC,White Blood Cell Count,7.73,10^3/uL,final,2024-04-15T15:37:57
+Patient-191-Enc-03-Lab-HGB,Patient-191-Enc-03,Patient-191,Organization-002,Organization-002-Dept-02,HGB,Hemoglobin,13.13,g/dL,amended,2025-05-23T20:13:40
+Patient-191-Enc-03-Lab-WBC,Patient-191-Enc-03,Patient-191,Organization-002,Organization-002-Dept-02,WBC,White Blood Cell Count,4.87,10^3/uL,amended,2025-04-21T10:14:53
+Patient-191-Enc-03-Lab-PLT,Patient-191-Enc-03,Patient-191,Organization-002,Organization-002-Dept-02,PLT,Platelets,171.08,10^3/uL,final,2024-02-14T20:28:57
+Patient-191-Enc-04-Lab-GLU,Patient-191-Enc-04,Patient-191,Organization-002,Organization-002-Dept-02,GLU,Glucose,81.31,mg/dL,preliminary,2024-05-07T06:55:26
+Patient-191-Enc-04-Lab-PLT,Patient-191-Enc-04,Patient-191,Organization-002,Organization-002-Dept-02,PLT,Platelets,205.51,10^3/uL,final,2025-05-15T02:01:46
+Patient-192-Enc-01-Lab-CR,Patient-192-Enc-01,Patient-192,Organization-009,Organization-009-Dept-01,CR,Creatinine,1.11,mg/dL,amended,2024-09-18T16:26:38
+Patient-192-Enc-01-Lab-PLT,Patient-192-Enc-01,Patient-192,Organization-009,Organization-009-Dept-01,PLT,Platelets,211.51,10^3/uL,final,2025-04-02T13:34:14
+Patient-192-Enc-02-Lab-CR,Patient-192-Enc-02,Patient-192,Organization-009,Organization-009-Dept-02,CR,Creatinine,0.67,mg/dL,amended,2023-06-30T21:25:44
+Patient-192-Enc-02-Lab-WBC,Patient-192-Enc-02,Patient-192,Organization-009,Organization-009-Dept-02,WBC,White Blood Cell Count,7.66,10^3/uL,amended,2025-04-21T23:40:21
+Patient-193-Enc-01-Lab-WBC,Patient-193-Enc-01,Patient-193,Organization-008,Organization-008-Dept-01,WBC,White Blood Cell Count,4.09,10^3/uL,final,2024-11-10T03:16:14
+Patient-193-Enc-01-Lab-CR,Patient-193-Enc-01,Patient-193,Organization-008,Organization-008-Dept-01,CR,Creatinine,0.74,mg/dL,preliminary,2024-06-03T02:31:08
+Patient-193-Enc-01-Lab-GLU,Patient-193-Enc-01,Patient-193,Organization-008,Organization-008-Dept-01,GLU,Glucose,98.63,mg/dL,amended,2024-07-30T07:59:35
+Patient-193-Enc-02-Lab-WBC,Patient-193-Enc-02,Patient-193,Organization-008,Organization-008-Dept-01,WBC,White Blood Cell Count,7.5,10^3/uL,preliminary,2025-05-15T15:18:35
+Patient-193-Enc-02-Lab-CR,Patient-193-Enc-02,Patient-193,Organization-008,Organization-008-Dept-01,CR,Creatinine,1.27,mg/dL,preliminary,2024-08-01T06:40:16
+Patient-193-Enc-03-Lab-GLU,Patient-193-Enc-03,Patient-193,Organization-008,Organization-008-Dept-01,GLU,Glucose,93.57,mg/dL,amended,2024-12-27T19:40:43
+Patient-194-Enc-01-Lab-HGB,Patient-194-Enc-01,Patient-194,Organization-008,Organization-008-Dept-01,HGB,Hemoglobin,16.95,g/dL,preliminary,2025-04-01T06:09:29
+Patient-194-Enc-01-Lab-PLT,Patient-194-Enc-01,Patient-194,Organization-008,Organization-008-Dept-01,PLT,Platelets,270.54,10^3/uL,final,2023-12-23T16:03:32
+Patient-194-Enc-02-Lab-HGB,Patient-194-Enc-02,Patient-194,Organization-008,Organization-008-Dept-01,HGB,Hemoglobin,14.64,g/dL,preliminary,2024-10-27T19:34:13
+Patient-194-Enc-02-Lab-CR,Patient-194-Enc-02,Patient-194,Organization-008,Organization-008-Dept-01,CR,Creatinine,1.24,mg/dL,amended,2025-03-05T03:05:43
+Patient-194-Enc-03-Lab-CR,Patient-194-Enc-03,Patient-194,Organization-008,Organization-008-Dept-01,CR,Creatinine,1.13,mg/dL,preliminary,2024-09-16T14:33:23
+Patient-194-Enc-04-Lab-HGB,Patient-194-Enc-04,Patient-194,Organization-008,Organization-008-Dept-01,HGB,Hemoglobin,12.88,g/dL,final,2024-03-30T00:16:48
+Patient-194-Enc-04-Lab-CR,Patient-194-Enc-04,Patient-194,Organization-008,Organization-008-Dept-01,CR,Creatinine,0.74,mg/dL,preliminary,2024-08-01T05:03:47
+Patient-195-Enc-01-Lab-HGB,Patient-195-Enc-01,Patient-195,Organization-009,Organization-009-Dept-01,HGB,Hemoglobin,12.27,g/dL,amended,2025-04-05T07:25:58
+Patient-195-Enc-01-Lab-CR,Patient-195-Enc-01,Patient-195,Organization-009,Organization-009-Dept-01,CR,Creatinine,0.62,mg/dL,preliminary,2024-01-19T07:39:18
+Patient-195-Enc-01-Lab-PLT,Patient-195-Enc-01,Patient-195,Organization-009,Organization-009-Dept-01,PLT,Platelets,340.0,10^3/uL,preliminary,2023-08-22T22:46:47
+Patient-195-Enc-02-Lab-CR,Patient-195-Enc-02,Patient-195,Organization-009,Organization-009-Dept-01,CR,Creatinine,0.97,mg/dL,amended,2023-12-19T00:53:50
+Patient-195-Enc-02-Lab-WBC,Patient-195-Enc-02,Patient-195,Organization-009,Organization-009-Dept-01,WBC,White Blood Cell Count,6.14,10^3/uL,amended,2024-08-25T05:25:00
+Patient-195-Enc-02-Lab-HGB,Patient-195-Enc-02,Patient-195,Organization-009,Organization-009-Dept-01,HGB,Hemoglobin,16.03,g/dL,amended,2023-09-29T16:35:15
+Patient-195-Enc-03-Lab-HGB,Patient-195-Enc-03,Patient-195,Organization-009,Organization-009-Dept-02,HGB,Hemoglobin,16.27,g/dL,preliminary,2024-01-10T19:43:03
+Patient-195-Enc-03-Lab-WBC,Patient-195-Enc-03,Patient-195,Organization-009,Organization-009-Dept-02,WBC,White Blood Cell Count,4.97,10^3/uL,final,2024-02-22T08:37:20
+Patient-195-Enc-03-Lab-PLT,Patient-195-Enc-03,Patient-195,Organization-009,Organization-009-Dept-02,PLT,Platelets,299.67,10^3/uL,final,2025-05-13T11:13:56
+Patient-195-Enc-04-Lab-PLT,Patient-195-Enc-04,Patient-195,Organization-009,Organization-009-Dept-01,PLT,Platelets,392.63,10^3/uL,preliminary,2024-09-19T16:35:20
+Patient-195-Enc-04-Lab-WBC,Patient-195-Enc-04,Patient-195,Organization-009,Organization-009-Dept-01,WBC,White Blood Cell Count,7.15,10^3/uL,final,2024-06-01T10:15:26
+Patient-195-Enc-05-Lab-PLT,Patient-195-Enc-05,Patient-195,Organization-009,Organization-009-Dept-01,PLT,Platelets,335.63,10^3/uL,amended,2023-12-22T06:53:12
+Patient-195-Enc-05-Lab-WBC,Patient-195-Enc-05,Patient-195,Organization-009,Organization-009-Dept-01,WBC,White Blood Cell Count,4.56,10^3/uL,amended,2025-02-07T11:14:32
+Patient-195-Enc-05-Lab-HGB,Patient-195-Enc-05,Patient-195,Organization-009,Organization-009-Dept-01,HGB,Hemoglobin,14.16,g/dL,preliminary,2024-03-14T08:46:28
+Patient-196-Enc-01-Lab-CR,Patient-196-Enc-01,Patient-196,Organization-006,Organization-006-Dept-01,CR,Creatinine,0.87,mg/dL,preliminary,2024-07-20T04:52:13
+Patient-196-Enc-01-Lab-PLT,Patient-196-Enc-01,Patient-196,Organization-006,Organization-006-Dept-01,PLT,Platelets,210.86,10^3/uL,final,2025-02-28T03:51:13
+Patient-196-Enc-01-Lab-GLU,Patient-196-Enc-01,Patient-196,Organization-006,Organization-006-Dept-01,GLU,Glucose,96.0,mg/dL,preliminary,2024-02-29T04:42:59
+Patient-196-Enc-02-Lab-GLU,Patient-196-Enc-02,Patient-196,Organization-006,Organization-006-Dept-02,GLU,Glucose,85.8,mg/dL,preliminary,2024-06-15T06:51:21
+Patient-196-Enc-02-Lab-HGB,Patient-196-Enc-02,Patient-196,Organization-006,Organization-006-Dept-02,HGB,Hemoglobin,13.01,g/dL,final,2024-05-20T17:54:37
+Patient-196-Enc-03-Lab-GLU,Patient-196-Enc-03,Patient-196,Organization-006,Organization-006-Dept-01,GLU,Glucose,86.35,mg/dL,preliminary,2025-03-10T04:01:06
+Patient-196-Enc-03-Lab-PLT,Patient-196-Enc-03,Patient-196,Organization-006,Organization-006-Dept-01,PLT,Platelets,280.39,10^3/uL,preliminary,2024-10-19T23:30:58
+Patient-196-Enc-04-Lab-CR,Patient-196-Enc-04,Patient-196,Organization-006,Organization-006-Dept-01,CR,Creatinine,0.89,mg/dL,final,2024-09-08T05:07:41
+Patient-196-Enc-04-Lab-PLT,Patient-196-Enc-04,Patient-196,Organization-006,Organization-006-Dept-01,PLT,Platelets,333.14,10^3/uL,preliminary,2024-07-10T15:16:55
+Patient-196-Enc-04-Lab-HGB,Patient-196-Enc-04,Patient-196,Organization-006,Organization-006-Dept-01,HGB,Hemoglobin,15.81,g/dL,amended,2024-04-19T14:43:19
+Patient-196-Enc-05-Lab-HGB,Patient-196-Enc-05,Patient-196,Organization-006,Organization-006-Dept-01,HGB,Hemoglobin,13.9,g/dL,amended,2024-07-10T15:55:28
+Patient-197-Enc-01-Lab-HGB,Patient-197-Enc-01,Patient-197,Organization-008,Organization-008-Dept-01,HGB,Hemoglobin,16.22,g/dL,amended,2023-07-23T20:41:06
+Patient-197-Enc-02-Lab-GLU,Patient-197-Enc-02,Patient-197,Organization-008,Organization-008-Dept-01,GLU,Glucose,107.07,mg/dL,preliminary,2024-12-01T04:02:37
+Patient-197-Enc-03-Lab-HGB,Patient-197-Enc-03,Patient-197,Organization-008,Organization-008-Dept-01,HGB,Hemoglobin,15.31,g/dL,preliminary,2024-11-19T03:58:13
+Patient-197-Enc-03-Lab-WBC,Patient-197-Enc-03,Patient-197,Organization-008,Organization-008-Dept-01,WBC,White Blood Cell Count,5.51,10^3/uL,preliminary,2024-10-14T08:23:07
+Patient-197-Enc-03-Lab-GLU,Patient-197-Enc-03,Patient-197,Organization-008,Organization-008-Dept-01,GLU,Glucose,85.88,mg/dL,preliminary,2023-10-28T16:07:26
+Patient-197-Enc-04-Lab-PLT,Patient-197-Enc-04,Patient-197,Organization-008,Organization-008-Dept-01,PLT,Platelets,334.91,10^3/uL,preliminary,2024-06-27T09:02:41
+Patient-197-Enc-04-Lab-GLU,Patient-197-Enc-04,Patient-197,Organization-008,Organization-008-Dept-01,GLU,Glucose,89.42,mg/dL,final,2024-09-01T16:10:03
+Patient-197-Enc-04-Lab-HGB,Patient-197-Enc-04,Patient-197,Organization-008,Organization-008-Dept-01,HGB,Hemoglobin,12.86,g/dL,final,2025-05-11T00:09:08
+Patient-198-Enc-01-Lab-PLT,Patient-198-Enc-01,Patient-198,Organization-001,Organization-001-Dept-02,PLT,Platelets,246.46,10^3/uL,final,2025-04-28T00:43:46
+Patient-198-Enc-02-Lab-GLU,Patient-198-Enc-02,Patient-198,Organization-001,Organization-001-Dept-02,GLU,Glucose,88.55,mg/dL,preliminary,2025-05-10T19:16:15
+Patient-198-Enc-03-Lab-WBC,Patient-198-Enc-03,Patient-198,Organization-001,Organization-001-Dept-05,WBC,White Blood Cell Count,7.87,10^3/uL,amended,2025-01-10T14:20:46
+Patient-198-Enc-03-Lab-GLU,Patient-198-Enc-03,Patient-198,Organization-001,Organization-001-Dept-05,GLU,Glucose,75.84,mg/dL,preliminary,2024-05-23T01:53:19
+Patient-198-Enc-04-Lab-PLT,Patient-198-Enc-04,Patient-198,Organization-001,Organization-001-Dept-02,PLT,Platelets,217.41,10^3/uL,final,2024-04-30T13:17:58
+Patient-198-Enc-04-Lab-CR,Patient-198-Enc-04,Patient-198,Organization-001,Organization-001-Dept-02,CR,Creatinine,1.21,mg/dL,amended,2023-08-01T18:56:00
+Patient-198-Enc-04-Lab-WBC,Patient-198-Enc-04,Patient-198,Organization-001,Organization-001-Dept-02,WBC,White Blood Cell Count,8.43,10^3/uL,preliminary,2025-02-28T08:07:15
+Patient-199-Enc-01-Lab-WBC,Patient-199-Enc-01,Patient-199,Organization-001,Organization-001-Dept-06,WBC,White Blood Cell Count,4.86,10^3/uL,preliminary,2024-06-28T07:24:44
+Patient-199-Enc-02-Lab-WBC,Patient-199-Enc-02,Patient-199,Organization-001,Organization-001-Dept-05,WBC,White Blood Cell Count,6.94,10^3/uL,final,2024-11-20T05:40:56
+Patient-199-Enc-03-Lab-WBC,Patient-199-Enc-03,Patient-199,Organization-001,Organization-001-Dept-04,WBC,White Blood Cell Count,5.62,10^3/uL,preliminary,2025-01-13T14:09:15
+Patient-200-Enc-01-Lab-PLT,Patient-200-Enc-01,Patient-200,Organization-005,Organization-005-Dept-01,PLT,Platelets,154.16,10^3/uL,final,2024-09-23T15:54:32
+Patient-200-Enc-02-Lab-WBC,Patient-200-Enc-02,Patient-200,Organization-005,Organization-005-Dept-01,WBC,White Blood Cell Count,8.51,10^3/uL,preliminary,2024-04-06T05:36:47
+Patient-200-Enc-03-Lab-PLT,Patient-200-Enc-03,Patient-200,Organization-005,Organization-005-Dept-01,PLT,Platelets,312.34,10^3/uL,amended,2023-11-07T15:41:54
+Patient-200-Enc-04-Lab-PLT,Patient-200-Enc-04,Patient-200,Organization-005,Organization-005-Dept-01,PLT,Platelets,278.02,10^3/uL,amended,2023-07-17T17:15:10
