@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  db:
+    image: pgvector/pgvector:0.7.4-pg16    # Postgres 16 with pgvector 0.7.4 built-in
+    container_name: pgvector-db
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: madt               # change to your desired username
+      POSTGRES_PASSWORD: asdfasdf       # change to your desired password
+      POSTGRES_DB: madt-db             # change to your desired database name
+      POSTGRES_HOST_AUTH_METHOD: trust    # for quick local setup; remove in production
+    volumes:
+      - ./pgvector_data:/var/lib/postgresql/data
+      - ./postgresql/init.sql:/docker-entrypoint-initdb.d/init.sql
+    networks:
+      - web
+
+networks:
+  web:
+    driver: bridge
