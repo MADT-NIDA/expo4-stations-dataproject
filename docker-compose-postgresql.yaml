@@ -17,6 +17,18 @@ services:
     networks:
       - web
 
+  graphile:
+    image: graphile/postgraphile
+    ports:
+      - "5000:5000"
+    command:
+      - "--connection"
+      - postgres://guardrails_usr:asdfasdf@db:5432/guardrails_gql_db
+      - "--watch"
+      - "--enhance-graphiql"
+      - "--append-plugins"
+      - "@graphile/plugin-connection-filter"
+
 networks:
   web:
     driver: bridge
