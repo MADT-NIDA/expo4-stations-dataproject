@@ -4,7 +4,7 @@
 
 
 {% block content %}
-  <section id="" class="light-background">
+  <!-- <section id="" class="light-background">
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
       <ol class="carousel-indicators">
         <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
@@ -41,7 +41,7 @@
     </div>
   </section>
 
-  
+   -->
 
 
   <section id="projects" class="services section">
@@ -75,7 +75,7 @@
               <i class="bi bi-thermometer-snow"></i>
             </div>
             <a href="/projects/freshx" class="stretched-link">
-              <h3>freshX</h3>
+              <h3>FreshX</h3>
             </a>
             <p>
               AI-powered air purifier rental platform that offers affordable, high-quality air solutions for healthier living
@@ -137,19 +137,6 @@
         </div>
         <!-- End Service Item -->
 
-        <!-- <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
-          <div class="service-item position-relative">
-            <div class="icon">
-              <i class="bi bi-chat-square-text"></i>
-            </div>
-            <a href="#" class="stretched-link">
-              <h3>Dolori Architecto</h3>
-            </a>
-            <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>
-            <a href="#" class="stretched-link"></a>
-          </div>
-        </div>End Service Item -->
-
       </div>
 
     </div>
@@ -176,14 +163,53 @@
 {% block footer %}
 <script>
   document.addEventListener('DOMContentLoaded', function () {
-    const el = document.querySelector('#carouselExampleIndicators');
+
+    function getsessionId() {
+        let sessionId = sessionStorage.getItem("sessionId");
+        if (!sessionId) {
+            const sessionId = crypto.randomUUID();
+            sessionStorage.setItem("sessionId", sessionId);
+        }
+        return sessionId;
+    }
+    var sessionId = getsessionId(); 
+
+
+    var el = document.querySelector('#carouselExampleIndicators');
     if (el) {
       new bootstrap.Carousel(el, {
         interval: 5000, // 0.1 วินาที
         ride: 'carousel'
       });
-    }
+    };
+
+    fetch("/records/scan", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        session_id: sessionId,
+        project: ""
+      })
+    })
+    .then(response => {
+      if (!response.ok) {
+        throw new Error("Request failed with status " + response.status);
+      }
+      return response.json();
+    })
+    .then(data => {
+      console.log("Server response:", data);
+    })
+    .catch(error => {
+      console.error("Error posting to /records/chat:", error);
+    });
+
   });
+
+
+
 </script>
 
     <script>
@@ -202,15 +228,7 @@
         };
 
         // Function to generate or retrieve a unique chat ID
-        function getsessionId() {
-            let sessionId = sessionStorage.getItem("sessionId");
-            if (!sessionId) {
-                sessionId = "chat_" + Math.random().toString(36).substr(2, 9); // Unique ID
-                sessionStorage.setItem("sessionId", sessionId);
-            }
-            return sessionId;
-        }
-
+        
         // Show chat widget and hide bubble
         document.getElementById("chat-widget-button").addEventListener("click", function() {
             document.getElementById("chat-widget-container").style.display = "flex";
@@ -235,7 +253,7 @@
             newMessage.style.background = "#f1f1f1";
             chatBody.appendChild(newMessage);
 
-            let sessionId = getsessionId(); // Retrieve the session chat ID
+            // Retrieve the session chat ID
 
             fetch(window.ChatWidgetConfig.webhook.url, {
                 method: "POST",
@@ -265,14 +283,3 @@
     </script>
 
 {% endblock %}
-1 Carbonix : The Carbon Credit Exchange serves as a comprehensive digital marketplace, specializing in carbon credit trading, environmental, social, and governance (ESG) consulting, and sustainability management solutions. 
-
-2 Fresh X : AI-powered air purifier rental platform that offers affordable, high-quality air solutions for healthier living
-
-3 Lift : Eco-friendly ride-sharing platform matching passengers and splitting fares in real-time
-
-4 FinSure : A microinsurance platform that protects workers’ income during PM2.5 using real-time AQI and AI pricing.
-
-5 Green Bridge : Green Bridge is a digital platform that connects Big Firms and SMEs to accelerate carbon reduction toward Net-Zero.
-
-6 AirSniff : A smart sensor system that detects heat and smoke early to prevent fires and reduce air pollution in urban communities.

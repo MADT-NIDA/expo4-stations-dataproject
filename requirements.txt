@@ -12,3 +12,6 @@ uv==0.8.0
 gunicorn
 uvicorn
 jinja2
+
+pycopg2-binary
+SQLAlchemy

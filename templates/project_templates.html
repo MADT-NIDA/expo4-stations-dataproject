@@ -37,10 +37,54 @@
             <button id="chat-widget-send">Send</button>
         </div>
     </div>
+    <input id="idProject" type="text" value="{{ project }}" style="display: none;">
+
 
 {% endblock %}
 {% block footer %}
     <script>
+
+        var project = document.getElementById("idProject").value;
+        function getsessionId() {
+            let sessionId = sessionStorage.getItem("sessionId");
+            if (!sessionId) {
+                const sessionId = crypto.randomUUID();
+                sessionStorage.setItem("sessionId", sessionId);
+            }
+            return sessionId;
+        }
+        var sessionId = getsessionId(); 
+
+
+    document.addEventListener('DOMContentLoaded', function () {
+        const project = document.getElementById("idProject").value;
+
+        fetch("/records/views", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+            session_id: sessionId,
+            project: project
+        })
+        })
+        .then(response => {
+        if (!response.ok) {
+            throw new Error("Request failed with status " + response.status);
+        }
+        return response.json();
+        })
+        .then(data => {
+        console.log("Server response:", data);
+        })
+        .catch(error => {
+        console.error("Error posting to /records/chat:", error);
+        });
+
+    });
+
+
         window.ChatWidgetConfig = {
             webhook: {
                 url: 'https://n8n.madt.pro/webhook/{{ chat_id }}/chat',
@@ -55,15 +99,7 @@
             }
         };
 
-        // Function to generate or retrieve a unique chat ID
-        function getsessionId() {
-            let sessionId = sessionStorage.getItem("sessionId");
-            if (!sessionId) {
-                sessionId = "chat_" + Math.random().toString(36).substr(2, 9); // Unique ID
-                sessionStorage.setItem("sessionId", sessionId);
-            }
-            return sessionId;
-        }
+
 
         // Show chat widget and hide bubble
         document.getElementById("chat-widget-button").addEventListener("click", function() {
@@ -88,9 +124,8 @@
             newMessage.style.color = "#333";
             newMessage.style.background = "#f1f1f1";
             chatBody.appendChild(newMessage);
-
-            let sessionId = getsessionId(); // Retrieve the session chat ID
-
+            
+            var sessionId = getsessionId(); 
             fetch(window.ChatWidgetConfig.webhook.url, {
                 method: "POST",
                   headers: {
@@ -100,6 +135,7 @@
                 body: JSON.stringify({
                     sessionId: sessionId,  // Attach chat ID for memory tracking
                     chatInput: message,
+                    project: project,
                     route: window.ChatWidgetConfig.webhook.route
                 })
             })
@@ -111,6 +147,30 @@
                 botMessage.style.background = "#854fff";
                 botMessage.style.marginTop = "10px";
                 chatBody.appendChild(botMessage);
+
+                fetch("/records/chats", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify({
+                        session_id: sessionId,
+                        project: project
+                    })
+                    })
+                    .then(response => {
+                    if (!response.ok) {
+                        throw new Error("Request failed with status " + response.status);
+                    }
+                    return response.json();
+                    })
+                    .then(data => {
+                    console.log("Server response:", data);
+                    })
+                    .catch(error => {
+                    console.error("Error posting to /records/chat:", error);
+                    });
+
             })
             .catch(error => console.error("Error:", error));
 

@@ -1,0 +1,18 @@
+services:
+  fastapi-app:
+    build: .
+    container_name: fastapi-app
+    restart: always
+    ports:
+      - "8000:8000"
+    environment:
+      - VIRTUAL_HOST=expo4.madt.pro
+      - LETSENCRYPT_HOST=expo4.madt.pro
+      - LETSENCRYPT_EMAIL=your@email.com
+    networks:
+      - web
+    
+
+networks:
+  web:
+    driver: bridge

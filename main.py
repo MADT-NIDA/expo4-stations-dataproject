@@ -1,14 +1,38 @@
-from fastapi import FastAPI, Request, Body
+from fastapi import FastAPI, Request, Body, Response, status, HTTPException
 from fastapi.templating import Jinja2Templates
+from pydantic import BaseModel
 from fastapi.responses import HTMLResponse
 from fastapi.staticfiles import StaticFiles
 from pathlib import Path
 from model.chart_project import ChatRequest
 
+from sqlalchemy import Column, Integer, String, DateTime, func
+from sqlalchemy import create_engine, Column, Integer, String
+from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy.orm import sessionmaker
+
+DATABASE_URL = "postgresql://madt_expo_usr:asdfasdf@34.143.247.40:5432/madt_expo_db"
+engine = create_engine(DATABASE_URL)  # SQLite-specific
+SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
+Base = declarative_base()
 
 app = FastAPI()
 templates = Jinja2Templates(directory=str(Path(__file__).parent / "templates"))
 
+
+class StampTable(Base):
+    __tablename__ = "StampTable"
+    id = Column(Integer, primary_key=True, index=True)
+    session_id = Column(String)
+    action = Column(String)
+    projects = Column(String)
+    created_at = Column(DateTime(timezone=True), server_default=func.now())
+
+class StampIn(BaseModel):
+    session_id: str
+    project: str
+
+Base.metadata.create_all(bind=engine)
 
 BASE_DIR = Path(__file__).resolve().parent
 app.mount("/static", StaticFiles(directory=str(BASE_DIR / "static")), name="static")
@@ -21,19 +45,76 @@ async def read_home(request: Request):
     })
 
 
+@app.get("/display", response_class=HTMLResponse)
+async def read_display(request: Request):
+    return templates.TemplateResponse("display.html", {
+        "request": request,
+    })
 
-# @app.get("/projects/carbonix", response_class=HTMLResponse)
-# async def read_home(request: Request):
-#     return templates.TemplateResponse("project_carbonix.html", {
-#         "request": request,
-#     })
 
-# @app.get("/projects/lift", response_class=HTMLResponse)
-# async def read_home(request: Request):
-#     return templates.TemplateResponse("project_lift.html", {
-#         "request": request,
-#     })
 
+@app.post("/records/scan", status_code=202)
+async def create_record_scans(item: StampIn):
+    db = SessionLocal()
+    try:
+        record = StampTable(session_id=item.session_id, projects=item.project, action='scan')
+        db.add(record)
+        db.commit()
+        db.refresh(record)
+        return {"message": "Accepted", "id": record.id}
+    except Exception as e:
+        db.rollback()
+        raise HTTPException(status_code=500, detail=str(e))
+    finally:
+        db.close()
+
+
+
+
+@app.post("/records/views", status_code=202)
+async def create_record_view(item: StampIn):
+    db = SessionLocal()
+    try:
+        record = StampTable(session_id=item.session_id, projects=item.project, action='view')
+        db.add(record)
+        db.commit()
+        db.refresh(record)
+        return {"message": "Accepted", "id": record.id}
+    except Exception as e:
+        db.rollback()
+        raise HTTPException(status_code=500, detail=str(e))
+    finally:
+        db.close()
+
+@app.post("/records/chat", status_code=202)
+async def create_record_chat(item: StampIn):
+    db = SessionLocal()
+    try:
+        record = StampTable(session_id=item.session_id, projects=item.project, action='chat')
+        db.add(record)
+        db.commit()
+        db.refresh(record)
+        return {"message": "Accepted", "id": record.id}
+    except Exception as e:
+        db.rollback()
+        raise HTTPException(status_code=500, detail=str(e))
+    finally:
+        db.close()
+
+@app.post("/records/love", status_code=202)
+async def create_record_love(item: StampIn):
+    db = SessionLocal()
+    try:
+        record = StampTable(session_id=item.session_id, projects=item.project, action='love')
+        db.add(record)
+        db.commit()
+        db.refresh(record)
+        return {"message": "Accepted", "id": record.id}
+    except Exception as e:
+        db.rollback()
+        raise HTTPException(status_code=500, detail=str(e))
+    finally:
+        db.close()
 
 @app.get("/projects/{project_slug}", response_class=HTMLResponse)
 async def read_projects(request: Request, project_slug: str):
@@ -44,31 +125,37 @@ async def read_projects(request: Request, project_slug: str):
     if project_slug == 'lift':
         payload['yt_link'] = "https://www.youtube.com/embed/-WlWMp6UCQY?si=CcaBHcnieLbG4GAV"
         payload['slide_path'] = "/static/project/lift/MADT7204_Lift.pdf"
-        payload['chat_id'] = '41677df2-3871-4e65-bc7d-935f12dc121a'
+        payload['chat_id'] = "5b281a85-57b5-4cc8-9102-d86176166264"
+        payload['project'] = 'lift'
 
     if project_slug == 'carbonix':
         payload['yt_link'] = "https://www.youtube.com/embed/UgJ3B7ADTQQ?si=Pzog1MykCi6eiUMR"
         payload['slide_path'] = "/static/project/carbonix/Carbon Xchange Pitch Deck Presentation.pdf"
-        payload['chat_id'] = '324dde45-e851-47c1-b9f1-3ef5f9f77ab0'
+        payload['chat_id'] = "5b281a85-57b5-4cc8-9102-d86176166264"
+        payload['project'] = 'carbonix'
 
     if project_slug == 'finsure':
         payload['yt_link'] = "https://www.youtube.com/embed/PSU_pTzm08g?si=JdZJL0yPjOucQ5MH"
         payload['slide_path'] = "/static/project/carbonix/Carbon Xchange Pitch Deck Presentation.pdf"
-        payload['chat_id'] = "3a65bd43-2760-4335-8a2d-5fa8526e51e2"
+        payload['chat_id'] = "5b281a85-57b5-4cc8-9102-d86176166264"
+        payload['project'] = 'finsure'
 
     if project_slug == 'freshx':
         payload['yt_link'] = "https://www.youtube.com/embed/WeMnV-XJOQ8?si=jwxEgPWCG69kTA3V"
         payload['slide_path'] = "/static/project/carbonix/Carbon Xchange Pitch Deck Presentation.pdf"
-        payload['chat_id'] = 'eabe90ce-b681-4bf7-a3da-0758d4515ed6'
+        payload['chat_id'] = "5b281a85-57b5-4cc8-9102-d86176166264"
+        payload['project'] = 'freshx'
 
     if project_slug == 'greenbridge':
         payload['yt_link'] = "https://www.youtube.com/embed/Kl6C-xaRCqo?si=LIBeQPDxvY_yfDOg"
         payload['slide_path'] = "/static/project/carbonix/Carbon Xchange Pitch Deck Presentation.pdf"
-        payload['chat_id'] = chat_id
+        payload['chat_id'] = "5b281a85-57b5-4cc8-9102-d86176166264"
+        payload['project'] = 'greenbridge'
 
     if project_slug == 'airsniff':
         payload['yt_link'] = "https://www.youtube.com/embed/ZVnXIAjEXYU?si=j1lIljm_vRT69Ck0"
         payload['slide_path'] = "/static/project/carbonix/Carbon Xchange Pitch Deck Presentation.pdf"
-        payload['chat_id'] = "2e4f9549-0f8c-43d9-bf37-ec1427086cb2"
+        payload['chat_id'] = "5b281a85-57b5-4cc8-9102-d86176166264"
+        payload['project'] = 'airsniff'
 
     return templates.TemplateResponse("project_templates.html", payload)
