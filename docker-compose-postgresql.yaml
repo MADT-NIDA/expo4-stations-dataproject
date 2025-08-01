@@ -17,27 +17,18 @@ services:
     networks:
       - web
 
-  graphile:
-    image: graphile/postgraphile
+  neo4j:
+    image: neo4j:5.8
+    container_name: neo4j
     ports:
-      - "5000:5000"
+      - "7474:7474"    # HTTP Browser
+      - "7687:7687"    # Bolt protocol
+    volumes:
+      - ./neo4j/data:/data
+      - ./neo4j/import:/import
+      - ./neo4j/logs:/logs
     environment:
-      # must match the secret you use to sign your JWTs
-      JWT_SECRET: "asdfasdf"
-      # PostGraphile will look for a Postgres composite type that defines your JWT claims
-      JWT_PG_TYPE_IDENTIFIER: "public.jwt_claims"
-    command:
-      - "--connection"
-      - postgres://guardrails_usr:asdfasdf@db:5432/guardrails_gql_db
-      - "--watch"
-      - "--enhance-graphiql"
-      - "--append-plugins"
-      - "@graphile/plugin-connection-filter"
-      # enable & expose your RLS via the built-in plugin
-      - "--jwt-secret"
-      - "${JWT_SECRET}"
-      - "--jwt-pg-type-identifier"
-      - "${JWT_PG_TYPE_IDENTIFIER}"
+      NEO4J_AUTH: "neo4j/letmein"  # username/password
 
 networks:
   web:
