@@ -2,3 +2,5 @@
 FHIR
 nginx
 postgresql
+neo4j
+pgvector_data
