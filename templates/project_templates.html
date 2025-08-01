@@ -44,7 +44,7 @@
 {% block footer %}
     <script>
 
-        var project = document.getElementById("idProject").value;
+    
         function getsessionId() {
             let sessionId = sessionStorage.getItem("sessionId");
             if (!sessionId) {
@@ -85,97 +85,95 @@
     });
 
 
-        window.ChatWidgetConfig = {
-            webhook: {
-                url: 'https://n8n.madt.pro/webhook/{{ chat_id }}/chat',
-                route: 'general'
-            },
-            style: {
-                primaryColor: '#854fff',
-                secondaryColor: '#6b3fd4',
-                position: 'right',
-                backgroundColor: '#ffffff',
-                fontColor: '#333333'
-            }
-        };
-
-
-
-        // Show chat widget and hide bubble
-        document.getElementById("chat-widget-button").addEventListener("click", function() {
-            document.getElementById("chat-widget-container").style.display = "flex";
-            document.getElementById("chat-widget-button").style.display = "none";
-        });
-
-        // Close chat widget and show bubble
-        function closeChatWidget() {
-            document.getElementById("chat-widget-container").style.display = "none";
-            document.getElementById("chat-widget-button").style.display = "flex";
+    window.ChatWidgetConfig = {
+        webhook: {
+            url: 'https://n8n.madt.pro/webhook/{{ chat_id }}/chat',
+            route: 'general'
+        },
+        style: {
+            primaryColor: '#854fff',
+            secondaryColor: '#6b3fd4',
+            position: 'right',
+            backgroundColor: '#ffffff',
+            fontColor: '#333333'
         }
+    };
 
-        // Send message to n8n webhook
-        document.getElementById("chat-widget-send").addEventListener("click", function() {
-            let message = document.getElementById("chat-widget-input").value;
-            if (message.trim() === "") return;
+    // Show chat widget and hide bubble
+    document.getElementById("chat-widget-button").addEventListener("click", function() {
+        document.getElementById("chat-widget-container").style.display = "flex";
+        document.getElementById("chat-widget-button").style.display = "none";
+    });
 
-            let chatBody = document.getElementById("chat-widget-body");
-            let newMessage = document.createElement("p");
-            newMessage.textContent = message;
-            newMessage.style.color = "#333";
-            newMessage.style.background = "#f1f1f1";
-            chatBody.appendChild(newMessage);
-            
-            var sessionId = getsessionId(); 
-            fetch(window.ChatWidgetConfig.webhook.url, {
+    // Close chat widget and show bubble
+    function closeChatWidget() {
+        document.getElementById("chat-widget-container").style.display = "none";
+        document.getElementById("chat-widget-button").style.display = "flex";
+    }
+
+    // Send message to n8n webhook
+    document.getElementById("chat-widget-send").addEventListener("click", function() {
+        let message = document.getElementById("chat-widget-input").value;
+        if (message.trim() === "") return;
+
+        let chatBody = document.getElementById("chat-widget-body");
+        let newMessage = document.createElement("p");
+        newMessage.textContent = message;
+        newMessage.style.color = "#333";
+        newMessage.style.background = "#f1f1f1";
+        chatBody.appendChild(newMessage);
+        var sessionId = getsessionId(); 
+        fetch(window.ChatWidgetConfig.webhook.url, {
+            method: "POST",
+                headers: {
+                "Content-Type": "application/json",
+                "Authorization": "Basic " + btoa("admin:asdf"),
+                'Access-Control-Allow-Credentials': 'true'
+            },
+            body: JSON.stringify({
+                sessionId: sessionId,  // Attach chat ID for memory tracking
+                chatInput: message,
+                project: document.getElementById("idProject").value,
+                route: window.ChatWidgetConfig.webhook.route
+            })
+        })
+        .then(response => response.json())
+        .then(data => {
+            let botMessage = document.createElement("p");
+            botMessage.innerHTML = data.output || "Sorry, I couldn't understand that.";
+            botMessage.style.color = "#fff";
+            botMessage.style.background = "#854fff";
+            botMessage.style.marginTop = "10px";
+            chatBody.appendChild(botMessage);
+
+            fetch("/records/chats", {
                 method: "POST",
-                  headers: {
-                    "Content-Type": "application/json",
-                    "Authorization": "Basic " + btoa("admin:asdf")
+                headers: {
+                    "Content-Type": "application/json"
                 },
                 body: JSON.stringify({
-                    sessionId: sessionId,  // Attach chat ID for memory tracking
-                    chatInput: message,
-                    project: project,
-                    route: window.ChatWidgetConfig.webhook.route
+                    session_id: sessionId,
+                    project: project
                 })
-            })
-            .then(response => response.json())
-            .then(data => {
-                let botMessage = document.createElement("p");
-                botMessage.innerHTML = data.output || "Sorry, I couldn't understand that.";
-                botMessage.style.color = "#fff";
-                botMessage.style.background = "#854fff";
-                botMessage.style.marginTop = "10px";
-                chatBody.appendChild(botMessage);
+                })
+                .then(response => {
+                if (!response.ok) {
+                    throw new Error("Request failed with status " + response.status);
+                }
+                return response.json();
+                })
+                .then(data => {
+                console.log("Server response:", data);
+                })
+                .catch(error => {
+                console.error("Error posting to /records/chat:", error);
+                });
 
-                fetch("/records/chats", {
-                    method: "POST",
-                    headers: {
-                        "Content-Type": "application/json"
-                    },
-                    body: JSON.stringify({
-                        session_id: sessionId,
-                        project: project
-                    })
-                    })
-                    .then(response => {
-                    if (!response.ok) {
-                        throw new Error("Request failed with status " + response.status);
-                    }
-                    return response.json();
-                    })
-                    .then(data => {
-                    console.log("Server response:", data);
-                    })
-                    .catch(error => {
-                    console.error("Error posting to /records/chat:", error);
-                    });
+        })
+        .catch(error => console.error("Error:", error));
 
-            })
-            .catch(error => console.error("Error:", error));
-
-            document.getElementById("chat-widget-input").value = "";
-        });
+        document.getElementById("chat-widget-input").value = "";
+    });
     </script>
 
 

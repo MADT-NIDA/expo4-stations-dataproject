@@ -30,8 +30,7 @@ services:
       - N8N_PORT=5678
       - TZ=Asia/Bangkok
       - N8N_SECURE_COOKIE=false
-      - N8N_ALLOW_ORIGIN=https://expo4.madt.pro
-
+      - N8N_ALLOW_ORIGIN=*
     volumes:
       - n8ndata:/home/node/.n8n
 
