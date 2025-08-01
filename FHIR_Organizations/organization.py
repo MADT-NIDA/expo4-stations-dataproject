@@ -1,55 +1,57 @@
-# insert_via_graphile.py
+#!/usr/bin/env python3
+# organization.py
+
 import os
 import csv
-import requests
+from neo4j import GraphDatabase, basic_auth
 
 # --- CONFIG ---
-GRAPHILE_URL = os.getenv("GRAPHILE_URL", "http://expo4.madt.pro:5000/graphql")
-TOKEN        = os.getenv("JWT_TOKEN", "asdfasdf")  # from issue_token.py
-CSV_FILE     = "FHIR_Organizations.csv"
+URI      = os.getenv("NEO4J_URI", "bolt://34.143.247.40:7687")
+AUTH     = basic_auth("neo4j", "letmein123")
+CSV_PATH = "FHIR_Organizations.csv"
 
-headers = {
-    "Content-Type": "application/json",
-    "Authorization": f"Bearer {TOKEN}",
-}
+driver = GraphDatabase.driver(URI, auth=AUTH)
 
-mutation = """
-mutation CreateOrg($input: CreatePublicOrganizationInput!) {
-  createPublicOrganization(input: $input) {
-    organization {
-      id
-    }
-  }
-}
-"""
+def create_constraint(tx):
+    tx.run(
+        """
+        CREATE CONSTRAINT organization_id IF NOT EXISTS
+          FOR (o:Organization)
+          REQUIRE o.id IS UNIQUE;
+        """
+    )
 
-def row_to_input(row):
-    return {
-        "organization": {
-            "id":           row["id"],
-            "name":         row["name"],
-            "type":         row["type"],
-            "addressLine":  row["address_line"],
-            "city":         row["city"],
-            "state":        row["state"],
-            "postalCode":   row["postalCode"],
-            "country":      row["country"],
-            "phone":        row["phone"],
-            "email":        row["email"],
-            "active":       row["active"].lower() in ("true", "1", "t"),
-        }
-    }
+def import_orgs(tx, row):
+    tx.run(
+        """
+        MERGE (o:Organization {id: $id})
+        SET
+          o.name         = $name,
+          o.type         = $type,
+          o.addressLine  = $address_line,
+          o.city         = $city,
+          o.state        = $state,
+          o.postalCode   = $postalCode,
+          o.country      = $country,
+          o.phone        = $phone,
+          o.email        = $email,
+          o.active       = toBoolean($active)
+        """,
+        **row
+    )
 
-with open(CSV_FILE, newline="", encoding="utf-8") as f:
-    reader = csv.DictReader(f)
-    for row in reader:
-        payload = {
-            "query": mutation,
-            "variables": {"input": row_to_input(row)}
-        }
-        resp = requests.post(GRAPHILE_URL, json=payload, headers=headers)
-        data = resp.json()
-        if resp.status_code != 200 or data.get("errors"):
-            print("❌ Error inserting", row["id"], data.get("errors"))
-        else:
-            print("✅ Inserted", data["data"]["createPublicOrganization"]["organization"]["id"])
+with driver.session() as session:
+    # 1) Create uniqueness constraint in its own transaction
+    session.execute_write(create_constraint)
+    print("✔ Constraint ensured")
+
+    # 2) Load CSV and import rows in a separate transaction per batch
+    with open(CSV_PATH, newline="", encoding="utf-8") as f:
+        reader = csv.DictReader(f)
+        count = 0
+        for row in reader:
+            session.execute_write(import_orgs, row)
+            count += 1
+    print(f"✔ Imported {count} organizations")
+
+driver.close()
