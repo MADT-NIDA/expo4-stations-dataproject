@@ -28,7 +28,7 @@ services:
       - ./neo4j/import:/import
       - ./neo4j/logs:/logs
     environment:
-      NEO4J_AUTH: "neo4j/letmein"  # username/password
+      NEO4J_AUTH: "neo4j/letmein123"
 
 networks:
   web:
