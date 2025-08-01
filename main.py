@@ -10,6 +10,11 @@ from sqlalchemy import Column, Integer, String, DateTime, func
 from sqlalchemy import create_engine, Column, Integer, String
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
+from fastapi import APIRouter, Depends
+from sqlalchemy.orm import Session
+from typing import List
+from pydantic import BaseModel
+
 
 DATABASE_URL = "postgresql://madt_expo_usr:asdfasdf@34.143.247.40:5432/madt_expo_db"
 engine = create_engine(DATABASE_URL)  # SQLite-specific
@@ -31,6 +36,21 @@ class StampTable(Base):
 class StampIn(BaseModel):
     session_id: str
     project: str
+class ActionSummary(BaseModel):
+    action: str
+    projects: str
+    session_count: int
+
+    class Config:
+        orm_mode = True
+class ActionView(Base):
+    __tablename__ = "view_unique_action_per_session"
+    __table_args__ = {"extend_existing": True}  # เผื่อซ้ำกับ model อื่น
+
+    action = Column(String, primary_key=True)
+    projects = Column(String, primary_key=True)
+    session_count = Column(Integer)
+
 
 Base.metadata.create_all(bind=engine)
 
@@ -115,6 +135,44 @@ async def create_record_love(item: StampIn):
         raise HTTPException(status_code=500, detail=str(e))
     finally:
         db.close()
+
+from collections import defaultdict
+@app.get("/records/summary")
+def get_summary():
+    db = SessionLocal()
+    try:
+        data = db.query(ActionView).all()
+        # fixed order of projects
+        # fixed order of projects (lower case to match)
+        project_order = ['carbonix', 'freshx', 'finsure', 'lift', 'green bridge', 'airsniff']
+        actions = ['view', 'chat', 'love']
+
+        # prepare summary dictionary
+        # print(data)
+        scan = 0 
+        summary = defaultdict(lambda: defaultdict(int))
+        for row in data:
+            action = row.action.lower()
+            project = row.projects.strip().lower()
+
+            if action == 'scan':
+                scan += 1
+
+            if project and action in actions:
+                summary[action][project] += row.session_count
+        # build output
+        output = {
+            # "labels": [p.title() for p in project_order]
+        }
+        for action in actions:
+            output[action] = [summary[action].get(p, 0) for p in project_order]
+
+
+        output['scan'] = scan
+        return output
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+    
 
 @app.get("/projects/{project_slug}", response_class=HTMLResponse)
 async def read_projects(request: Request, project_slug: str):

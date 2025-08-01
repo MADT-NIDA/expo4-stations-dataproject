@@ -9,7 +9,7 @@
       <div class="col-3">
         <div class="container">
           <h2 class="mb-4">Engagement</h2>
-          <h3 class="mb-4">Total Scans: 1000</h2>
+          <h3 class="mb-4" id="total_scan">Total Scans: 1000</h2>
           <canvas id="OCL" height="350px"></canvas>
         </div>
         
@@ -81,19 +81,19 @@
         datasets: [
           {
             label: 'View Projects',
-            data: [30, 50, 40,30, 50, 40],
+            data: [0,0,0,0,0,0],
             backgroundColor: '#f2eb61',
             stack: 'Stack 0'
           },
           {
             label: 'Chat',
-            data: [40, 30, 35,30, 50, 40],
+            data: [0,0,0,0,0,0],
             backgroundColor: '#68f261',
             stack: 'Stack 0'
           },
           {
             label: 'Love',
-            data: [40, 30, 35,30, 50, 40],
+            data: [0,0,0,0,0,0],
             backgroundColor: '#f261d0',
             stack: 'Stack 0'
           }
@@ -124,11 +124,29 @@
 
     // Simulate data update every 10 seconds
     setInterval(() => {
+      fetch("/records/summary")
+        .then(response => {
+            if (!response.ok) {
+                throw new Error("Request failed with status " + response.status);
+            }
+            return response.json();
+        })
+        .then(data => {
+            
+            chart.data.datasets[0].data = data.view
+            chart.data.datasets[1].data = data.chat
+            chart.data.datasets[2].data = data.love
+            document.getElementById("total_scan").textContent = 'Total Scans: ' + data.scan;
+
+            chart.update();
+        })
+        .catch(error => {
+            console.error("Error posting to /records/summary:", error);
+        });
+
       // Replace this with your real data-fetching logic
-      // chart.data.datasets[0].data = [Math.random() * 100, Math.random() * 100, Math.random() * 100];
-      // chart.data.datasets[1].data = [Math.random() * 100, Math.random() * 100, Math.random() * 100];
-      chart.update();
-    }, 10000);
+
+    }, 3000);
 </script>
 
 {% endblock %}
