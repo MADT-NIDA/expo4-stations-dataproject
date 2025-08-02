@@ -8,8 +8,8 @@
     <div class="row">
       <div class="col-3">
         <div class="container">
-          <h2 class="mb-4">Engagement</h2>
-          <h3 class="mb-4" id="total_scan">Total Scans: 1000</h2>
+          <h2 class="mb-4">เสียงตอบรับสดๆ จากหน้างาน!</h2>
+          <h3 class="mb-4" id="total_scan">มีคนแวะมาทั้งหมด: 0</h2>
           <canvas id="OCL" height="350px"></canvas>
         </div>
         
@@ -70,9 +70,7 @@
         ride: 'carousel'
       });
     }
-  });
-</script>
-<script>
+
     const ctx = document.getElementById('OCL');
     const chart = new Chart(ctx, {
       type: 'bar',
@@ -80,19 +78,19 @@
         labels: ['Carbonix', 'FreshX', 'FinSure',"Lift", "Green Bridge", "AirSniff"],
         datasets: [
           {
-            label: 'View Projects',
+            label: 'ดูโปรเจกต์',
             data: [0,0,0,0,0,0],
             backgroundColor: '#f2eb61',
             stack: 'Stack 0'
           },
           {
-            label: 'Chat',
+            label: 'แชท',
             data: [0,0,0,0,0,0],
             backgroundColor: '#68f261',
             stack: 'Stack 0'
           },
           {
-            label: 'Love',
+            label: 'บอกว่าชอบ',
             data: [0,0,0,0,0,0],
             backgroundColor: '#f261d0',
             stack: 'Stack 0'
@@ -104,7 +102,7 @@
         responsive: true,
         plugins: {
           legend: {
-            position: 'top',
+            position: 'bottom',
           },
         },
         scales: {
@@ -136,7 +134,7 @@
             chart.data.datasets[0].data = data.view
             chart.data.datasets[1].data = data.chat
             chart.data.datasets[2].data = data.love
-            document.getElementById("total_scan").textContent = 'Total Scans: ' + data.scan;
+            document.getElementById("total_scan").textContent = 'มีคนแวะมาทั้งหมด: ' + data.scan;
 
             chart.update();
         })
@@ -147,6 +145,8 @@
       // Replace this with your real data-fetching logic
 
     }, 10000);
+
+    });
 </script>
 
 {% endblock %}
