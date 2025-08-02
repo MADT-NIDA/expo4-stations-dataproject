@@ -154,9 +154,9 @@ def get_summary():
         for row in data:
             action = row.action.lower()
             project = row.projects.strip().lower()
-
+            
             if action == 'scan':
-                scan += 1
+                scan += row.session_count
 
             if project and action in actions:
                 summary[action][project] += row.session_count
