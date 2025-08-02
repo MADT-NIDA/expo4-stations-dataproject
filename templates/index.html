@@ -282,7 +282,8 @@
             .then(response => response.json())
             .then(data => {
                 let botMessage = document.createElement("p");
-                botMessage.innerHTML = data.output || "Sorry, I couldn't understand that.";
+                // botMessage.innerHTML = data.output || "Sorry, I couldn't understand that.";
+                botMessage.innerHTML = (data.output || "Sorry, I couldn't understand that.").replace(/\n/g, "<br>");
                 botMessage.style.color = "#fff";
                 botMessage.style.background = "#854fff";
                 botMessage.style.marginTop = "10px";
