@@ -162,6 +162,7 @@
 
 {% block footer %}
 <script>
+  
   document.addEventListener('DOMContentLoaded', function () {
 
     function getsessionId() {
@@ -254,6 +255,16 @@
             chatBody.appendChild(newMessage);
 
             // Retrieve the session chat ID
+
+            function getsessionId() {
+                let sessionId = sessionStorage.getItem("sessionId");
+                if (!sessionId) {
+                    const sessionId = crypto.randomUUID();
+                    sessionStorage.setItem("sessionId", sessionId);
+                }
+                return sessionId;
+            }
+            
 
             fetch(window.ChatWidgetConfig.webhook.url, {
                 method: "POST",
