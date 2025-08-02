@@ -144,7 +144,7 @@ def get_summary():
         data = db.query(ActionView).all()
         # fixed order of projects
         # fixed order of projects (lower case to match)
-        project_order = ['carbonix', 'freshx', 'finsure', 'lift', 'green bridge', 'airsniff']
+        project_order = ['carbonix', 'freshx', 'finsure', 'lift', 'greenbridge', 'airsniff']
         actions = ['view', 'chat', 'love']
 
         # prepare summary dictionary
