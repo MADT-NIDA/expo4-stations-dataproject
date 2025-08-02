@@ -262,7 +262,7 @@
                     "Authorization": "Basic " + btoa("chat:asdf")
                 },
                 body: JSON.stringify({
-                    sessionId: sessionId,  // Attach chat ID for memory tracking
+                    sessionId: getsessionId(),  // Attach chat ID for memory tracking
                     chatInput: message,
                     route: window.ChatWidgetConfig.webhook.route
                 })
