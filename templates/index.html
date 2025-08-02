@@ -270,11 +270,12 @@
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
-                    "Authorization": "Basic " + btoa("chat:asdf")
+                    "Authorization": "Basic " + btoa("admin:asdf")
                 },
                 body: JSON.stringify({
                     sessionId: getsessionId(),  // Attach chat ID for memory tracking
                     chatInput: message,
+                    project: '',
                     route: window.ChatWidgetConfig.webhook.route
                 })
             })
