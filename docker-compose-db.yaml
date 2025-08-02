@@ -6,7 +6,7 @@ services:
       POSTGRES_USER: n8n
       POSTGRES_PASSWORD: n8npass
       POSTGRES_DB: n8ndb
-    command: postgres -c config_file=//var/lib/postgresql/data/postgresql.conf
+    command: postgres -c 'max_connections=250'
     volumes:
       - pgdata:/var/lib/postgresql/data
     networks:
