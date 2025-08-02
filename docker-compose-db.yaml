@@ -1,0 +1,25 @@
+services:
+  postgres:
+    image: postgres:15
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: n8n
+      POSTGRES_PASSWORD: n8npass
+      POSTGRES_DB: n8ndb
+    command: ["postgres", "-c", "max_connections=250", "-c", "shared_buffers=512MB"]
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    networks:
+      - web
+
+      
+volumes:
+  nginx_certs:
+  nginx_vhost:
+  nginx_html:
+  nginx_acme:
+  pgdata:
+
+networks:
+  web:
+    driver: bridge
